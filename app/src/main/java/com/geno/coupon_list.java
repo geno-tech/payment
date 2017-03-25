@@ -76,6 +76,7 @@ public class coupon_list extends Activity {
 		list = new DataListView(this);
 		linear1 = (LinearLayout) findViewById(R.id.linear1);
 		// 어댑터 객체 생성
+		//
 		adapter_use = new IconTextListAdapter(this);
 		adapter_used = new IconTextListAdapter(this);
 		// 아이템 데이터 만들기
