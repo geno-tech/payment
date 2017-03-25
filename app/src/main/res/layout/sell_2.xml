@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="정산 비밀번호를 입력해주세요."
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/pw_et"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:hint="정산 비밀번호를 입력해주세요."
+        android:maxLength="12"
+        android:password="true"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/imagebutton5"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/confirm"
+        android:onClick="mOnClick" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabsLayout"
+    android:layout_width="380dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:background="@drawable/itemsearch_btn"
+    android:orientation="vertical" >
+
+</LinearLayout>

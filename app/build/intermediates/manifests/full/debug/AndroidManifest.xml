@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geno.bill_folder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_ttt"
+        android:label="2 factor 전자결제시스템"
+        android:theme="@style/Yellow" >
+        <activity
+            android:name="com.geno.MainActivity"
+            android:label="@string/app_name2" >
+        </activity>
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.Start"
+            android:label="@string/app_name2"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.Title"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.GeneralConditions"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.Main"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plane" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.PwKeypad"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.PwCommon"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.AddRegister"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.ModifyInformation"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.NFCPaymentClient"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plane" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.NFCPaymentRetailer"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plane" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.RetailSearchMain"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.RetailSearchDate"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.ui.RetailSearchProduct"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.ajantech.nfc_network.service.NetworkService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.ajantech.nfc_network.heh" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.ajantech.nfcpaymentsystem.LodingActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.geno.coupon_list"
+            android:label="@string/app_name2" >
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/com.geno.bill_folder" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.geno.IssueCoupon"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.geno.CouponDetailCal"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.geno.CouponDetailPaid"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.geno.Agreement"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.geno.Join"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.geno.DbConnect"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

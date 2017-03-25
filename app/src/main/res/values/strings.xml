@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name"></string>
+    <string name="app_name2"></string>
+    <string name="action_settings">Settings</string>
+    <string name="general_conditions_title">Please agree to the Terms and Conditions.</string>
+    <string name="general_conditions_msg">Terms and Conditions\nTerms and Conditions\nTerms and Conditions\nTerms and Conditions</string>
+    <string name="reg_title">Sign In Registration</string>
+    <string name="reg_id_str">ID</string>
+    <string name="reg_password_str">Password : </string>
+    <string name="reg_name_str">Name</string>
+    <string name="reg_identification_str">Social Security Number</string>
+    <string name="reg_phone_str">Phone</string>
+    <string name="reg_account_str">Payment Account</string>
+    <string name="reg_account_password_str">Account password</string>
+    <string name="ok_str">OK</string>
+    <string name="cancel_str">Cancel</string>
+    <string name="gc_ok_str">Agree</string>
+    <string name="gc_cancel_str">Refuse</string>
+    <string name="reg_ok_str">Registration</string>
+    <string name="pc_ok_str">Payment</string>
+    <string name="search_str">Search</string>
+    <string name="signup_str">Sign Up</string>
+    <string name="login_str">Login</string>
+    <string name="mod_id_str">ID</string>
+
+    <!--  -->
+    <string name="pwk_title">Application password</string>
+    <string name="main_title">Main menu</string>
+
+    <!--  -->
+    <string name="pw_title">Member password</string>
+    <string name="nfc_payment_title">NFC Payment</string>
+    <string name="pc_product_name">Goods name</string>
+    <string name="pc_product_price">Goods price</string>
+    <string name="pc_product_count">Goods count</string>
+    <string name="pc_product_total_price">Total price</string>
+    <string name="pc_product_won">USD</string>
+    <string name="sp_title">Search by goods to sold</string>
+    <string name="sd_title">Search by date to sold</string>
+    <string name="sd_start_day_title">Start date of search</string>
+    <string name="sd_end_day_title">End date of search</string>
+    <string name="sd_touch_hint">Please touch</string>
+
+    <!-- Dialog text title & message -->
+    <string name="exit_title">Exit</string>
+    <string name="exit_message">Exit the program?</string>
+    <string name="general_condition_info">Please agree and OK button.</string>
+    <string name="register_title">Sign In Registration</string>
+    <string name="register_empty_id_msg">Please check ID.</string>
+    <string name="register_wrong_id_msg">Wrong Id or duplicate ID.</string>
+    <string name="register_empty_password_msg">Please enter the password.</string>
+    <string name="register_wrong_password_msg">Please check the password.</string>
+    <string name="register_empty_identification_msg">Please enter social security number.</string>
+    <string name="register_wrong_identification_msg">Please check password.</string>
+    <string name="register_empty_phone_msg">Please enter phone number.</string>
+    <string name="register_wrong_phone_msg">Please check phone number.</string>
+    <string name="register_empty_account_number_msg">Please enter account.</string>
+    <string name="register_wrong_account_number_msg">Please check account.</string>
+    <string name="register_empty_account_password_msg">Please enter account password.</string>
+    <string name="register_wrong_account_password_msg">Please check account password.</string>
+    <string name="register_connecting_server_msg">Register information as a member of a server.</string>
+    <string name="register_connecting_fail_server_msg">Failed to connect to server.</string>
+    <string name="register_add_complete_msg">Sign Up to completion.</string>
+    <string name="register_add_fail_msg">Sign Up to failed.</string>
+    <string name="register_mod_complete_msg">Sign In fixed.</string>
+    <string name="login_title">Login</string>
+    <string name="login_wait_msg">Please wait...</string>
+    <string name="pw_register_title">Password registration</string>
+    <string name="pw_check_title">Confirmation password</string>
+    <string name="pw_again_msg">Please enter the password again.</string>
+    <string name="pw_defferent_msg">Password is different.\n Please enter from scratch.</string>
+    <string name="pw_save_msg">Saved a password.</string>
+    <string name="pw_check_fail_msg">Password is incorrect.\n Please check once again.</string>
+    <string name="payment_title">NFC payment confirmation</string>
+    <string name="payment_nfc_info_msg">The mobile phone in close proximity to the seller.</string>
+    <string name="payment_connection_server_msg">Connection Server..</string>
+    <string name="payment_confirm_clitent_msg">Would you like to pay?</string>
+    <string name="payment_confirm_retailer_msg">Are you sure you want to payment authorization?\n</string>
+    <string name="payment_product_msg">Goods name : <xliff:g id="payment_product_name">%s</xliff:g>\nGoods price : <xliff:g id="payment_product_price">%s</xliff:g>USD</string>
+    <string name="payment_wait_msg">Payment is in progress.</string>
+    <string name="payment_complete_msg">Payment has been completed.</string>
+    <string name="payment_complete_client_detail_msg">Bank Name : <xliff:g id="payment_product_name">%s</xliff:g>\nPrice : <xliff:g id="payment_product_price">%s</xliff:g>USD</string>
+    <string name="payment_complete_retailer_detail_msg">Bank Name : <xliff:g id="payment_product_name">%s</xliff:g>\nPrice : <xliff:g id="payment_product_price">%s</xliff:g>USD</string>
+    <string name="payment_fail_msg">Payment has been unsuccessful. \n Do you want to try again?</string>
+    <string name="search_wait_title">PG Sever connection</string>
+    <string name="search_wait_msg">Data receiving from PG Sever...</string>
+    <string name="pw_common_msg">This page is password is lost or changed when the phone is using a page.</string>
+    <string name="payment_product_name">Name : </string>
+    <string name="payment_product_price">Price : </string>
+    <string name="rs_error_date_title">Date error</string>
+    <string name="rs_error_date_msg">Please check the date again.</string>
+    <string name="dial_size">30dp</string>
+    <!--
+       The similar strings app_name is added in the Application/template directory, but depending
+       on the template directory makes it hard for the sample buildable with Android.mk.
+       Thus defining the application_name with different name from the template.
+     -->
+    <string name="application_name">FingerprintDialog</string>
+    <string name="cancel">Cancel</string>
+    <string name="use_password">Use password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="ok">Ok</string>
+    <string name="password">Password</string>
+    <string name="fingerprint_description">Confirm fingerprint to continue</string>
+    <string name="fingerprint_hint">Touch sensor</string>
+    <string name="password_description">Enter your store password to continue</string>
+    <string name="purchase">Purchase</string>
+    <string name="purchase_not_invalidated">Purchase not invalidated</string>
+    <string name="purchase_button_not_invalidated_description">
+        You can proceed to purchase with this button \n even if a new fingerprint is enrolled
+    </string>
+    <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
+    <string name="fingerprint_success">Fingerprint recognized</string>
+    <string name="item_title">White Mesh Pluto Backpack</string>
+    <string name="item_price">$62.68</string>
+    <string name="item_description">Mesh backpack in white. Black textile trim throughout.</string>
+    <string name="purchase_done">Purchase successful</string>
+    <string name="new_fingerprint_enrolled_description">A new fingerprint was added to this device, so your password is required.</string>
+    <string name="use_fingerprint_in_future">Use fingerprint in the future</string>
+    <string name="use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
+    <string name="use_fingerprint_to_authenticate_key">use_fingerprint_to_authenticate_key</string>
+
+</resources>

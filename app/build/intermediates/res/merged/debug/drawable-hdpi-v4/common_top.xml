@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+
+            <solid android:color="#10000000" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+
+            <solid android:color="#20000000" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+
+            <solid android:color="#30000000" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+
+            <solid android:color="#40000000" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+
+            <solid android:color="#50000000" />
+        </shape>
+    </item>
+    <item
+        android:bottom="0dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp">
+        <shape>
+            <gradient
+                android:angle="270"
+                android:endColor="#FFd1cab6"
+                android:startColor="#FFf1eee9" />
+
+            <stroke
+                android:width="0dp"
+                android:color="#517a24" />
+
+            <corners
+                android:bottomLeftRadius="5dip"
+                android:bottomRightRadius="5dip"
+                android:topLeftRadius="5dip"
+                android:topRightRadius="5dip" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="0px"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/titlebutton"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bluebackgroud"
+        android:orientation="vertical"
+        android:onClick="mOnClick">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text=" 쿠폰상세"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="10dip"
+        android:layout_weight="4.92"
+        android:background="@drawable/general_round_box"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="금액"
+            android:textColor="#AAAAAA"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/textinput2"
+            android:padding="5dp"
+            android:text="금액"
+            android:textColor="#AAAAAA"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="가맹점"
+            android:textColor="#AAAAAA"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/textinput2"
+            android:padding="5dp"
+            android:text="금액"
+            android:textColor="#AAAAAA"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="정산일자"
+            android:textColor="#AAAAAA"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/textinput2"
+            android:padding="5dp"
+            android:text="금액"
+            android:textColor="#AAAAAA"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:background="@drawable/coupon_mm_2"
+        android:layout_width="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/prevbutton"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_xml"
+            android:onClick="mOnClick"
+            android:text="이전"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

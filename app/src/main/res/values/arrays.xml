@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bank_list">
+        <item>국민</item>
+        <item>기업</item>
+        <item>농협</item>
+        <item>신한(구조흥포함)</item>
+        <item>외환</item>
+        <item>우체국</item>
+        <item>SC(스탠다드차타드)</item>
+        <item>하나</item>
+        <item>한국씨티(구한미)</item>
+        <item>우리</item>
+        <item>경남</item>
+        <item>광주</item>
+        <item>대구</item>
+        <item>도이치</item>
+        <item>부산</item>
+        <item>산업</item>
+        <item>수협</item>
+        <item>전북</item>
+        <item>제주</item>
+        <item>새마을금고</item>
+        <item>신용협동조합</item>
+        <item>홍콩상하이(HSBC)</item>
+        <item>상호저축은행중앙회</item>
+        <item>뱅크오브아메리카</item>
+        <item>제이피모간체이스</item>
+        <item>피엔피파리바</item>
+    </string-array>
+    <string-array name="item_count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="seller_list">
+        <item>롯데백화점</item>
+        <item>신세계백화점</item>
+        <item>NC</item>
+        <item>현대백화점</item>
+        <item>온누리</item>
+    </string-array>
+
+</resources>

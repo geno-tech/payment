@@ -1,0 +1,299 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-permission#android.permission.READ_CALENDAR
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.NFC
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-sdk
+ADDED from AndroidManifest.xml:14:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:16:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:15:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-feature#android.hardware.nfc
+ADDED from AndroidManifest.xml:18:5
+	android:required
+		ADDED from AndroidManifest.xml:20:9
+	android:name
+		ADDED from AndroidManifest.xml:19:9
+application
+ADDED from AndroidManifest.xml:22:5
+MERGED from com.android.support:support-v4:20.0.0:17:5
+	android:label
+		ADDED from AndroidManifest.xml:25:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:23:9
+	android:icon
+		ADDED from AndroidManifest.xml:24:9
+	android:theme
+		ADDED from AndroidManifest.xml:26:9
+activity#com.ajantech.nfcpaymentsystem.ui.Start
+ADDED from AndroidManifest.xml:27:9
+	android:label
+		ADDED from AndroidManifest.xml:29:13
+	android:theme
+		ADDED from AndroidManifest.xml:30:13
+	android:name
+		ADDED from AndroidManifest.xml:28:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:31:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:32:17
+	android:name
+		ADDED from AndroidManifest.xml:32:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:34:17
+	android:name
+		ADDED from AndroidManifest.xml:34:27
+activity#com.geno.bill_folder.coupon_list
+ADDED from AndroidManifest.xml:37:9
+	android:label
+		ADDED from AndroidManifest.xml:39:13
+	android:theme
+		ADDED from AndroidManifest.xml:40:13
+	android:name
+		ADDED from AndroidManifest.xml:38:13
+intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
+ADDED from AndroidManifest.xml:41:13
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from AndroidManifest.xml:42:17
+	android:name
+		ADDED from AndroidManifest.xml:42:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:44:17
+	android:name
+		ADDED from AndroidManifest.xml:44:27
+data
+ADDED from AndroidManifest.xml:46:17
+	android:mimeType
+		ADDED from AndroidManifest.xml:46:23
+activity#com.ajantech.nfcpaymentsystem.ui.Title
+ADDED from AndroidManifest.xml:49:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:52:13
+	android:label
+		ADDED from AndroidManifest.xml:51:13
+	android:name
+		ADDED from AndroidManifest.xml:50:13
+activity#com.geno.bill_folder.MainActivity
+ADDED from AndroidManifest.xml:54:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:58:13
+	android:label
+		ADDED from AndroidManifest.xml:57:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:56:13
+	android:name
+		ADDED from AndroidManifest.xml:55:13
+activity#com.ajantech.nfcpaymentsystem.ui.GeneralConditions
+ADDED from AndroidManifest.xml:59:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:63:13
+	android:label
+		ADDED from AndroidManifest.xml:62:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:61:13
+	android:name
+		ADDED from AndroidManifest.xml:60:13
+activity#com.ajantech.nfcpaymentsystem.ui.Main
+ADDED from AndroidManifest.xml:64:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:68:13
+	android:label
+		ADDED from AndroidManifest.xml:67:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:66:13
+	android:name
+		ADDED from AndroidManifest.xml:65:13
+activity#com.ajantech.nfcpaymentsystem.ui.PwKeypad
+ADDED from AndroidManifest.xml:77:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:81:13
+	android:label
+		ADDED from AndroidManifest.xml:80:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:79:13
+	android:name
+		ADDED from AndroidManifest.xml:78:13
+activity#com.ajantech.nfcpaymentsystem.ui.PwCommon
+ADDED from AndroidManifest.xml:82:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:86:13
+	android:label
+		ADDED from AndroidManifest.xml:85:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:84:13
+	android:name
+		ADDED from AndroidManifest.xml:83:13
+activity#com.ajantech.nfcpaymentsystem.ui.Payment
+ADDED from AndroidManifest.xml:87:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:91:13
+	android:label
+		ADDED from AndroidManifest.xml:90:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:89:13
+	android:name
+		ADDED from AndroidManifest.xml:88:13
+activity#com.ajantech.nfcpaymentsystem.ui.RetailSearch
+ADDED from AndroidManifest.xml:92:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:96:13
+	android:label
+		ADDED from AndroidManifest.xml:95:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:94:13
+	android:name
+		ADDED from AndroidManifest.xml:93:13
+activity#com.ajantech.nfcpaymentsystem.ui.AddRegister
+ADDED from AndroidManifest.xml:97:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:101:13
+	android:label
+		ADDED from AndroidManifest.xml:100:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:99:13
+	android:name
+		ADDED from AndroidManifest.xml:98:13
+activity#com.ajantech.nfcpaymentsystem.ui.ModifyInformation
+ADDED from AndroidManifest.xml:102:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:106:13
+	android:label
+		ADDED from AndroidManifest.xml:105:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:104:13
+	android:name
+		ADDED from AndroidManifest.xml:103:13
+activity#com.ajantech.nfcpaymentsystem.ui.NFCPaymentClient
+ADDED from AndroidManifest.xml:107:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:110:13
+	android:label
+		ADDED from AndroidManifest.xml:109:13
+	android:name
+		ADDED from AndroidManifest.xml:108:13
+activity#com.ajantech.nfcpaymentsystem.ui.NFCPaymentRetailer
+ADDED from AndroidManifest.xml:119:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:122:13
+	android:label
+		ADDED from AndroidManifest.xml:121:13
+	android:name
+		ADDED from AndroidManifest.xml:120:13
+activity#com.ajantech.nfcpaymentsystem.ui.RetailSearchMain
+ADDED from AndroidManifest.xml:131:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:134:13
+	android:label
+		ADDED from AndroidManifest.xml:133:13
+	android:name
+		ADDED from AndroidManifest.xml:132:13
+activity#com.ajantech.nfcpaymentsystem.ui.RetailSearchDate
+ADDED from AndroidManifest.xml:135:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:138:13
+	android:label
+		ADDED from AndroidManifest.xml:137:13
+	android:name
+		ADDED from AndroidManifest.xml:136:13
+activity#com.ajantech.nfcpaymentsystem.ui.RetailSearchProduct
+ADDED from AndroidManifest.xml:139:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:142:13
+	android:label
+		ADDED from AndroidManifest.xml:141:13
+	android:name
+		ADDED from AndroidManifest.xml:140:13
+activity#com.geno.bill_folder.IssueCoupon
+ADDED from AndroidManifest.xml:143:9
+	android:label
+		ADDED from AndroidManifest.xml:145:13
+	android:name
+		ADDED from AndroidManifest.xml:144:13
+activity#com.geno.bill_folder.CouponDetailCal
+ADDED from AndroidManifest.xml:147:9
+	android:label
+		ADDED from AndroidManifest.xml:149:13
+	android:name
+		ADDED from AndroidManifest.xml:148:13
+activity#com.geno.bill_folder.CouponDetailPaid
+ADDED from AndroidManifest.xml:151:9
+	android:label
+		ADDED from AndroidManifest.xml:153:13
+	android:name
+		ADDED from AndroidManifest.xml:152:13
+activity#com.geno.bill_folder.CouponDetailFree
+ADDED from AndroidManifest.xml:155:9
+	android:label
+		ADDED from AndroidManifest.xml:157:13
+	android:name
+		ADDED from AndroidManifest.xml:156:13
+activity#com.geno.bill_folder.Agreement
+ADDED from AndroidManifest.xml:159:9
+	android:label
+		ADDED from AndroidManifest.xml:161:13
+	android:name
+		ADDED from AndroidManifest.xml:160:13
+activity#com.geno.bill_folder.Join
+ADDED from AndroidManifest.xml:163:9
+	android:label
+		ADDED from AndroidManifest.xml:165:13
+	android:name
+		ADDED from AndroidManifest.xml:164:13
+activity#com.geno.bill_folder.DbConnect
+ADDED from AndroidManifest.xml:167:9
+	android:label
+		ADDED from AndroidManifest.xml:169:13
+	android:name
+		ADDED from AndroidManifest.xml:168:13
+service#com.ajantech.nfc_network.service.NetworkService
+ADDED from AndroidManifest.xml:172:9
+	android:exported
+		ADDED from AndroidManifest.xml:174:13
+	android:name
+		ADDED from AndroidManifest.xml:173:13
+intent-filter#com.ajantech.nfc_network.heh
+ADDED from AndroidManifest.xml:175:13
+action#com.ajantech.nfc_network.heh
+ADDED from AndroidManifest.xml:176:17
+	android:name
+		ADDED from AndroidManifest.xml:176:25
