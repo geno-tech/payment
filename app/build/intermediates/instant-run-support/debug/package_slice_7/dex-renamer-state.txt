@@ -1,0 +1,4 @@
+#Mon Mar 27 15:30:22 KST 2017
+base.0=C\:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
+renamed.0=classes.dex
+file.0=C\:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

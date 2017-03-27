@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.view.KeyEvent;
 
 import com.geno.MainActivity;
 import com.geno.bill_folder.R;
@@ -26,11 +27,20 @@ public class LodingActivity extends FragmentActivity {
 
         @Override
         public void run() {
+
             startActivity(new Intent(getApplication(), MainActivity.class));
 
             LodingActivity.this.finish();
 
         }
 
+    }
+
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        switch (keyCode) {
+            case KeyEvent.KEYCODE_BACK:
+                return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 }

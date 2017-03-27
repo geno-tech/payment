@@ -127,6 +127,12 @@
     <string name="rs_error_date_title">날짜 오류</string>
     <string name="rs_error_date_msg">날짜를 다시 확인 해 주십시오.</string>
     <string name="dial_size">30dp</string>
-    
 
+
+    <string name="login">로그인</string>
+    <string name="signup">회원가입</string>
+    <string name="agree">동의</string>
+    <string name="disagree">거부</string>
+    <string name="cancel">취소</string>
+    <string name="auction">경매</string>
 </resources>

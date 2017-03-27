@@ -122,4 +122,40 @@
     <string name="use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
     <string name="use_fingerprint_to_authenticate_key">use_fingerprint_to_authenticate_key</string>
 
+
+    <string name="singup">Sign Up</string>
+    <string name="login">login</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+    <string name="auction">Auction</string>
+    <string name="agreement_msg">Personal Information Use Agreement Terms \ n \ n
+        Article 1 (Purpose) \ nThese Terms and Conditions are for the purpose of collecting personal information of users and agreeing to provide personal information to third parties when using the services provided by XenoTech Co., Ltd. ("Company"). \ N \ N
+Article 2 (Items of Personal Information Collected) \ n
+"Company" collects the following personal information necessary for user registration. \ N
+- Name, phone number, email. \ N
+\ N
+Article 3 (Collection and Use of Personal Information) \ n
+Personal information collected from "Company" is used for the following purposes: \ n
+1. Register your users \ n
+2. Confirm your identity \ n
+\ N
+Article 4 (Personal Information Retention and Use Period) \ n
+It is saved from the time the user joins the membership to the time before the membership withdrawal, and it is canceled at the time of withdrawal or when the application is terminated. \ N
+\ N
+Article 5 (Right to Deny Consent to Collection of Personal Information) \ n
+Any person who intends to provide personal information for user registration has the right to refuse to consent to use personal information, and if refused, the services provided by "Company" can not be used. \ N
+\ N
+Article 6 (Personal Information Third Party Offer) \ n
+Collected personal information is not available to third parties. \ N
+\ N
+Article 7 (Contact Information) \ n
+The names and addresses of the "Company" are as follows: \ n
+1. Company name: Genotech Co., Ltd. \ n
+2. Representative: tea arrangement \ n
+3. Address: 306, B Business Building, Gwangju Institute of Science and Technology, Oryong-dong, Buk-gu, Gwangju
+4. Telephone: 070-8269-0591 \ n
+\ N
+We will confirm the above facts, agree to collect and use personal information, collect unique identification information, and provide third parties with personal information. \ N
+</string>
+
 </resources>

@@ -3,6 +3,24 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\9e33b1340dab763f83a1ed7c7d923967608f370b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a226b0b5a71322a4d5d5ddc4c0797763926fbea7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\cc97a855d4c76f905126c6bc5c532693d7126466\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8781fda85c553889ea145ecda509b81a5ade0f87\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\nfc_network.jar"
         jumboMode="true"
         optimize="true"
@@ -12,21 +30,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jar="C:\Users\GOD\.android\build-cache\f56dffa8d087d1bbc55481f60449f3b658bb5aa6\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_2c27ef8110ae42c0de49f9f3e74e3b4510062307\classes.dex" />
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f3bda77b044296879237cd85a20ce251576faa3a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b152566165a75d4bb1583574a0158e30f43a2e31\classes.dex" />
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d9e588ffc8faad81a6f100b01e87bcd0928b1afb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,120 +57,147 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jar="C:\Users\GOD\.android\build-cache\8385e7b4ebc61c65155d58de0d25063074fa81dd\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_998a45e8bf17c32ab44aa8b9520b35605ef1491e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_52b5a64bdfe60abce90934a5576d7eb7c020e571\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_49991429d24c63b0d1296c66fb5601af7da6f0f7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="bc3c4c6b203eef715f8e33b2f39a36e01eaf82c4">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d9e588ffc8faad81a6f100b01e87bcd0928b1afb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_97af4cdeaa0a7e1cc99d9a0e070300151e592ca3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_645e3e4ba7e392af766d2f9ee708612ef2b0e4da\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_c3b267b493d22866a5e8bb7ddd9687d35101a9c1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7e8aecb769d12608be425ca771337355b675d316\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_aa054e264464b2225c6a9eacfe6a99bc23eb1e24\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_69d0947828bb993d67bceb423804ab0e0a732648\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_0645827d5011f314304fb52870fc97395c7cca7d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_1dd960005181b932bc2c6ce62dabfdee01e58c2a\classes.dex" />
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a6b9995fc1f41145b1279b14ee3a073bc43d5d8\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="e2ace75c9f199a76295a080033f590cca0f9045f">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_76d3afac7cd841a6f88160cbc9d3e09e08f22620\classes.dex" />
+        revision="25.0.0"
+        sha1="94b0b4ff02780216fa1c6008490192ff1365a24b">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_76d3afac7cd841a6f88160cbc9d3e09e08f22620\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\b172f6ac5975173208428d931c06c9f0820c46a1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa82cf2f7fce5761c1eba3ce4277413126595a5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\2df049af10ea8d1f45ec5fcc3d2fcf7cf90ba985\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_3c080317c7b88640197b48f8c0a374716d0f28e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\ecf872170cb1b697ae03b7fc891467582d589f99\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71412ff022707d1e0e93f865bc5093c550d21f76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\996befd5f6eadccb1f8e0e2154b78fdb4aaa78a1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_600d4f441ec151dc7e6c759b99cc91ab96eccf62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\nfc_network.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5106750e204b4d82d865bf793f91aaed46d32951">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\2\nfc_network_3f6d86df8290373a7ca65b2388e8a146f56a1991\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\e0108d52b0f285475ca3e42639678643d27f82c9\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_743f099cce28d5165e459a1443f39694ff1b89bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\e0108d52b0f285475ca3e42639678643d27f82c9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_141cde23474a71a35369417b99cc3a43e92b4c23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_d1d857eb407988a705ee4640ebd4ebc4d6e4dbb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\cc97a855d4c76f905126c6bc5c532693d7126466\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_95fae355b1050991d2419c4f1a88f650bdef3088\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\b172f6ac5975173208428d931c06c9f0820c46a1\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_4fc1c89f93cd539e63b705d35216f741ccc0b53c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\2df049af10ea8d1f45ec5fcc3d2fcf7cf90ba985\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7860962a04a9a1e377d7e56df4ffd1133dd72828\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\78e17d768c75e0ab872ed7dc42769aadaa91c25f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_57fdfcc2c3dfe420b0a6b755a36e102f41914de1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\.android\build-cache\8385e7b4ebc61c65155d58de0d25063074fa81dd\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_93095333a3f0ca11253630f74f32e4cd32809fdd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\NfcSecurity.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\2\NfcSecurity_3a8c89fbac7873272adb4a0de30de975f2c12d6d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -162,15 +207,6 @@
         revision="24.0.1"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
         <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_2e7d783d918c7e4066fd65c0e7e99a7046ecc3e4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_f7ee578e07f471d2ce3ab1e41387644210e97765\classes.dex" />
     </item>
 
 </items>

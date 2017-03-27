@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.GalleryAuction.GalleryActivity;
 import com.ajantech.nfcpaymentsystem.ClearEditText;
 import com.ajantech.nfcpaymentsystem.ui.Start;
 import com.geno.bill_folder.R;
@@ -28,24 +29,27 @@ public class MainActivity extends Activity { //액티비티 정의
 	public void mOnClick(View v) {
 		Intent intent;
 		switch (v.getId()) {
-		case R.id.imageButton1:
+		case R.id.Button1:
 
 			finish();// 현재 액티비티를 종료함
 			intent = new Intent(MainActivity.this, Start.class);
 			startActivity(intent);//start클래스를 실행함
 			break;
-		case R.id.imageButton2:
+		case R.id.Button2:
 
 			finish();// 현재 액티비티를 종료함
 			intent = new Intent(MainActivity.this, Agreement.class);
 			startActivity(intent);//agreement.class를 실행함
 			break;
-		case R.id.imageButton3:
+		case R.id.Button3:
 			Toast.makeText(this, "준비중입니다.", Toast.LENGTH_SHORT).show();//짧게 준비중입니다 텍스쳐를 띄움
 			break;
-		case R.id.imageButton4:
+		case R.id.Button4:
 			Toast.makeText(this, "준비중입니다.", Toast.LENGTH_SHORT).show();
 			break;
+			case R.id.Button5:
+				intent = new Intent(MainActivity.this, GalleryActivity.class);
+				startActivity(intent);
 		}
 	}
 
