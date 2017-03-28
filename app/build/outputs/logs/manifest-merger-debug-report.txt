@@ -17,18 +17,18 @@ ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:2:
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:7:5-9:40
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\GOD\.android\build-cache\78e17d768c75e0ab872ed7dc42769aadaa91c25f\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\GOD\.android\build-cache\9e33b1340dab763f83a1ed7c7d923967608f370b\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\GOD\.android\build-cache\cc97a855d4c76f905126c6bc5c532693d7126466\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\GOD\.android\build-cache\2df049af10ea8d1f45ec5fcc3d2fcf7cf90ba985\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\GOD\.android\build-cache\8385e7b4ebc61c65155d58de0d25063074fa81dd\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\GOD\.android\build-cache\e0108d52b0f285475ca3e42639678643d27f82c9\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\GOD\.android\build-cache\996befd5f6eadccb1f8e0e2154b78fdb4aaa78a1\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\GOD\.android\build-cache\ecf872170cb1b697ae03b7fc891467582d589f99\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\GOD\.android\build-cache\b172f6ac5975173208428d931c06c9f0820c46a1\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\GOD\.android\build-cache\9edda1be754ff6b22835f6524099a8be207e862a\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\GOD\.android\build-cache\d4f854e36064a8e61177c0632a9db76f4c56f277\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\GOD\.android\build-cache\84af7b2dac00ca27b2f882c3edea198bba568498\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\GOD\.android\build-cache\41290c42c189e371faa8063f24f2e5bb66abc251\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\GOD\.android\build-cache\757f42bb8e2316f868c67d6ac0d5984524a714a1\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\GOD\.android\build-cache\874e2dfb82a38e02ff5055e23909e0e870bbfb03\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\GOD\.android\build-cache\3a99a8d03bca8d2e5e532dfa29f544427b4e9ef4\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\GOD\.android\build-cache\9e420679480a5e8feb874b5ffa1acb1946e53334\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\GOD\.android\build-cache\71fbbf8bed7c61dd7180ddd5ecfdd1514d670144\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\GOD\.android\build-cache\f56dffa8d087d1bbc55481f60449f3b658bb5aa6\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\GOD\.android\build-cache\78e17d768c75e0ab872ed7dc42769aadaa91c25f\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\GOD\.android\build-cache\9edda1be754ff6b22835f6524099a8be207e862a\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:9:9-37
 		INJECTED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml
@@ -85,15 +85,15 @@ ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:25
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:25:22-77
 application
 ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:27:5-171:19
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\GOD\.android\build-cache\78e17d768c75e0ab872ed7dc42769aadaa91c25f\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\GOD\.android\build-cache\9e33b1340dab763f83a1ed7c7d923967608f370b\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\GOD\.android\build-cache\cc97a855d4c76f905126c6bc5c532693d7126466\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\GOD\.android\build-cache\2df049af10ea8d1f45ec5fcc3d2fcf7cf90ba985\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\GOD\.android\build-cache\8385e7b4ebc61c65155d58de0d25063074fa81dd\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\GOD\.android\build-cache\e0108d52b0f285475ca3e42639678643d27f82c9\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\GOD\.android\build-cache\996befd5f6eadccb1f8e0e2154b78fdb4aaa78a1\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\GOD\.android\build-cache\ecf872170cb1b697ae03b7fc891467582d589f99\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\GOD\.android\build-cache\b172f6ac5975173208428d931c06c9f0820c46a1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\GOD\.android\build-cache\9edda1be754ff6b22835f6524099a8be207e862a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\GOD\.android\build-cache\d4f854e36064a8e61177c0632a9db76f4c56f277\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\GOD\.android\build-cache\84af7b2dac00ca27b2f882c3edea198bba568498\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\GOD\.android\build-cache\41290c42c189e371faa8063f24f2e5bb66abc251\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\GOD\.android\build-cache\757f42bb8e2316f868c67d6ac0d5984524a714a1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\GOD\.android\build-cache\874e2dfb82a38e02ff5055e23909e0e870bbfb03\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\GOD\.android\build-cache\3a99a8d03bca8d2e5e532dfa29f544427b4e9ef4\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\GOD\.android\build-cache\9e420679480a5e8feb874b5ffa1acb1946e53334\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\GOD\.android\build-cache\71fbbf8bed7c61dd7180ddd5ecfdd1514d670144\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\GOD\.android\build-cache\f56dffa8d087d1bbc55481f60449f3b658bb5aa6\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:30:9-41
