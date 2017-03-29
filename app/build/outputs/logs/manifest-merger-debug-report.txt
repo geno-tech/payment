@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:2:1-173:12
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:2:1-174:12
 	package
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml
@@ -84,7 +84,7 @@ ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:25
 	android:name
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:25:22-77
 application
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:27:5-171:19
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:27:5-172:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\GOD\.android\build-cache\9edda1be754ff6b22835f6524099a8be207e862a\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] C:\Users\GOD\.android\build-cache\d4f854e36064a8e61177c0632a9db76f4c56f277\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\GOD\.android\build-cache\84af7b2dac00ca27b2f882c3edea198bba568498\output\AndroidManifest.xml:25:5-20
@@ -316,22 +316,30 @@ ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:16
 	android:name
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:164:19-67
 activity#com.GalleryAuction.TagInfo
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:165:9-166:20
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:165:9-63
 	android:name
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:165:19-60
 activity#com.GalleryAuction.ArtInformation
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:167:9-70
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:166:9-70
 	android:name
-		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:167:19-67
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:166:19-67
 activity#com.GalleryAuction.BiddingList
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:168:9-67
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:167:9-67
 	android:name
-		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:168:19-64
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:167:19-64
 activity#com.GalleryAuction.BidderInfo
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:169:9-66
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:168:9-66
 	android:name
-		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:169:19-63
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:168:19-63
 activity#com.GalleryAuction.BiddingConfirm
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:170:9-79
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:169:9-70
 	android:name
-		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:170:19-67
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:169:19-67
+activity#com.GalleryAuction.ArtInfoListItem
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:170:9-71
+	android:name
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:170:19-68
+activity#com.GalleryAuction.ArtRemove
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:171:9-74
+	android:name
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:171:19-62

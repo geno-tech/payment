@@ -53,6 +53,7 @@
             android:id="@+id/auctionX_btn"
             android:layout_weight="1"
             android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"/>
+            android:layout_marginRight="50dp"
+            android:text="@string/cancel"/>
     </LinearLayout>
 </LinearLayout>

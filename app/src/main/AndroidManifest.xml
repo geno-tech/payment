@@ -162,12 +162,13 @@
             android:label="@string/app_name" />
         <activity android:name="com.GalleryAuction.GalleryActivity" />
         <activity android:name="com.GalleryAuction.ArtInfoTagList" />
-        <activity android:name="com.GalleryAuction.TagInfo">
-        </activity>
+        <activity android:name="com.GalleryAuction.TagInfo" />
         <activity android:name="com.GalleryAuction.ArtInformation" />
         <activity android:name="com.GalleryAuction.BiddingList" />
         <activity android:name="com.GalleryAuction.BidderInfo" />
-        <activity android:name="com.GalleryAuction.BiddingConfirm"></activity>
+        <activity android:name="com.GalleryAuction.BiddingConfirm" />
+        <activity android:name="com.GalleryAuction.ArtInfoListItem" />
+        <activity android:name="com.GalleryAuction.ArtRemove"></activity>
     </application>
 
 </manifest>
