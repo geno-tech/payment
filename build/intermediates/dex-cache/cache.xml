@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="5106750e204b4d82d865bf793f91aaed46d32951">
+        sha1="8dbb8193966ced3c75e6df97b06fe91c754374b0">
         <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\2\nfc_network_3f6d86df8290373a7ca65b2388e8a146f56a1991\classes.dex" />
     </item>
     <item
@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f50805a94da671482d27eb5638f21998c447e635">
+        sha1="80bf2acfa0c38f34689b8c2e9fa634a5bb8f59bd">
         <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_76d3afac7cd841a6f88160cbc9d3e09e08f22620\classes.dex" />
     </item>
     <item

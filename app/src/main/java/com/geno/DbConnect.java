@@ -33,7 +33,7 @@ public class DbConnect extends Activity {
 
 		WebView wv=(WebView)findViewById(R.id.webView); 
 		  wv.getSettings().setJavaScriptEnabled(true);
-		  wv.loadUrl("http://119.200.143.15:8081/db_connect.jsp?bankName="+bankName+
+		  wv.loadUrl("http://118.40.113.241:9999/db_connect.jsp?bankName="+bankName+
 				  "&bankAccount="+bankAccount+"&passWd="+passWd+
 				  "&faceValue="+faceValue+"&storeName="+storeName+"&userName="+userName);
 

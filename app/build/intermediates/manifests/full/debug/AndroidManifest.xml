@@ -160,15 +160,19 @@
         <activity
             android:name="com.geno.DbConnect"
             android:label="@string/app_name" />
-        <activity android:name="com.GalleryAuction.GalleryActivity" />
-        <activity android:name="com.GalleryAuction.ArtInfoTagList" />
-        <activity android:name="com.GalleryAuction.TagInfo" />
-        <activity android:name="com.GalleryAuction.ArtInformation" />
-        <activity android:name="com.GalleryAuction.BiddingList" />
-        <activity android:name="com.GalleryAuction.BidderInfo" />
-        <activity android:name="com.GalleryAuction.BiddingConfirm" />
+        <activity android:name="com.GalleryAuction.Bidder.BidderActivity" />
+        <activity android:name="com.GalleryAuction.Bidder.ArtInfoTagList" />
+        <activity android:name="com.GalleryAuction.Bidder.TagInfo" />
+        <activity android:name="com.GalleryAuction.Bidder.ArtInformation" />
+        <activity android:name="com.GalleryAuction.Bidder.BiddingList" />
+        <activity android:name="com.GalleryAuction.Bidder.BidderInfo" />
         <activity android:name="com.GalleryAuction.ArtInfoListItem" />
-        <activity android:name="com.GalleryAuction.ArtRemove" />
+        <activity android:name="com.GalleryAuction.Artist.ArtistActivity" />
+        <activity android:name="com.GalleryAuction.Artist.ArtistArtInformation" />
+        <activity android:name="com.GalleryAuction.Artist.ArtistAuctionInformation" />
+        <activity android:name="com.GalleryAuction.Bidder.BiddingComplete" />
+        <activity android:name="com.GalleryAuction.Bidder.AuctionListClickView" />
+        <activity android:name="com.GalleryAuction.Bidder.AuctionListClickConfirm" />
     </application>
 
 </manifest>

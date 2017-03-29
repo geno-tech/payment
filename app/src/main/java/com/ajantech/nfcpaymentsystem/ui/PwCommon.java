@@ -27,6 +27,7 @@ import com.ajantech.nfc_network.request.AuthTokenRequestStruct;
 import com.ajantech.nfc_network.request.DefaultRequestStruct;
 import com.ajantech.nfc_network.request.ErrorRequestStruct;
 import com.ajantech.nfcpaymentsystem.ClearEditText;
+import com.geno.MainActivity;
 import com.geno.bill_folder.R;
 
 public class PwCommon extends Activity implements OnClickListener, OnNFCServiceCallBack{
@@ -138,7 +139,7 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 
 					finish();
 
-					Intent intent = new Intent(PwCommon.this, Main.class);
+					Intent intent = new Intent(PwCommon.this, MainActivity.class);
 					startActivity(intent);
 					
 

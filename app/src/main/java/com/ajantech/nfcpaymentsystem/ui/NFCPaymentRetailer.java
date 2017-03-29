@@ -493,7 +493,7 @@ public class NFCPaymentRetailer extends Activity implements
         if(msg == null)
             msg = "";
 
-        String URL = "http://119.200.143.15:9999/goclient.jsp";
+        String URL = "http://118.40.113.241:9999/goclient.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {

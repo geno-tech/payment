@@ -6,18 +6,23 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import com.GalleryAuction.GalleryActivity;
+import com.GalleryAuction.Artist.ArtistActivity;
+import com.GalleryAuction.Bidder.BidderActivity;
+import com.ajantech.nfc_network.ShareData;
 import com.ajantech.nfcpaymentsystem.ClearEditText;
-import com.ajantech.nfcpaymentsystem.ui.Start;
+import com.ajantech.nfcpaymentsystem.ui.Main;
 import com.geno.bill_folder.R;
 
 public class MainActivity extends Activity { //액티비티 정의
 
 	private final int DLG_EXIT = 0;
-
+	ShareData mConfingData = null;
+	private	Intent intent;
+	int mType = 1;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {//액티비티 생성시에 호출되는 메서드
 		super.onCreate(savedInstanceState);
@@ -32,7 +37,7 @@ public class MainActivity extends Activity { //액티비티 정의
 		case R.id.Button1:
 
 			finish();// 현재 액티비티를 종료함
-			intent = new Intent(MainActivity.this, Start.class);
+			intent = new Intent(MainActivity.this, Main.class);
 			startActivity(intent);//start클래스를 실행함
 			break;
 		case R.id.Button2:
@@ -48,8 +53,19 @@ public class MainActivity extends Activity { //액티비티 정의
 			Toast.makeText(this, "준비중입니다.", Toast.LENGTH_SHORT).show();
 			break;
 			case R.id.Button5:
-				intent = new Intent(MainActivity.this, GalleryActivity.class);
-				startActivity(intent);
+				mConfingData = ShareData.newInstance(this);
+				mType = Integer.parseInt(mConfingData.getLastLoginUserType());
+				Log.d("aa", "" + mType);
+				// 첫번째 탭 메뉴 추가
+				if (mType == 1) {
+					Intent intent1 = new Intent(MainActivity.this, BidderActivity.class);
+					startActivity(intent1);
+				} else if (mType == 0) {
+					Intent intent2 = new Intent(MainActivity.this, ArtistActivity.class);
+					startActivity(intent2);
+				}
+				break;
+
 		}
 	}
 

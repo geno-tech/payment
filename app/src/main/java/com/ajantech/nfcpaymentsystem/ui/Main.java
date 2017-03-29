@@ -94,7 +94,7 @@ public class Main extends TabActivity implements CreateNdefMessageCallback {
 
 		mConfingData = ShareData.newInstance(this);
 		mType = Integer.parseInt(mConfingData.getLastLoginUserType());
-
+	Log.d("jjj", "" +mType);
 		// Toast.makeText(getApplicationContext(),
 		// Integer.toString(mType),Toast.LENGTH_SHORT).show();
 

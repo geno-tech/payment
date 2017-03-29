@@ -9,7 +9,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/auctionartimage_img"
             android:layout_width="150dp"
             android:layout_height="100dp"
             android:src="@color/success_color" />
@@ -34,9 +34,32 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="경매 주의사항"/>
+        android:text="경매 주의사항"
+        android:layout_gravity="center"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="#^%$^%$%^*%*#"/>
+        android:layout_marginTop="30dp"
+        android:text="#^%$^%$%^*%*#@#%#$%#$%@#$%#$%@#$%@#%@#$%@#$%@#$%@#$%@#$%@#$%@#$%@#$%@#$%@#$%@#$%@%$@#$%@#$%$%@#$%@$#%@#%@#$%@#$%#$%@$%@#$%@#$%@#$%"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:layout_weight="2"
+        android:layout_marginBottom="25dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="입찰" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginRight="50dp"
+            android:text="취소"/>
+    </LinearLayout>
 </LinearLayout>
