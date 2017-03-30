@@ -33,12 +33,12 @@ public class TagInfo extends Activity {
         pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
     }
 
-    private String TagId(String msg) {
+    private String ArtInfo(String msg) {
         if (msg == null) {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:9998/NFCTEST/NewFile.jsp";
+        String URL = "http://59.3.109.220:9998/NFCTEST/art_info.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -83,7 +83,7 @@ public class TagInfo extends Activity {
     }
 
     @Override
-    protected void onNewIntent(Intent intent) {
+    protected void onNewIntent(final Intent intent) {
         super.onNewIntent(intent);
 
         Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
@@ -92,9 +92,12 @@ public class TagInfo extends Activity {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
+                    Intent intent0 = getIntent();
+                    String userID = intent0.getStringExtra("userID");
                     Intent intent = new Intent(TagInfo.this, ArtInformation.class);
-                    intent.putExtra("tagid",TagId(toHexString(tagId)));
-                    Log.d("tag",TagId(toHexString(tagId)));
+                    intent.putExtra("artinfo",ArtInfo(toHexString(tagId)));
+                    intent.putExtra("userID",userID);
+                    Log.d("tag",ArtInfo(toHexString(tagId)));
                     startActivity(intent);
                     finish();
                 }

@@ -6,39 +6,36 @@
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490767888873"
+    timestamp="1490856587391"
     token="7908273513481032013"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1045" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="12" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
 
+    <artifact
+        location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\GOD\Desktop\aaaa\payment\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1490763101727"
+        timestamp="1490854558886"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\outputs\apk\app-debug.apk"
@@ -56,10 +53,16 @@
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -70,33 +73,19 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1490767305909"
+        timestamp="1490855372130"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
+            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1490767510484"
+        timestamp="1490856587391"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1490767888873"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />

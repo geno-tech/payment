@@ -170,6 +170,9 @@
         <activity android:name="com.GalleryAuction.Artist.ArtistActivity" />
         <activity android:name="com.GalleryAuction.Artist.ArtistArtInformation" />
         <activity android:name="com.GalleryAuction.Artist.ArtistAuctionInformation" />
+        <activity android:name="com.GalleryAuction.Bidder.BiddingComplete" />
+        <activity android:name="com.GalleryAuction.Bidder.AuctionListClickView" />
+        <activity android:name="com.GalleryAuction.Bidder.AuctionListClickConfirm" />
 
         <service
             android:name="com.android.tools.fd.runtime.InstantRunService"

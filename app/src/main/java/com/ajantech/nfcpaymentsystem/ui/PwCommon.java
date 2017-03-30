@@ -6,6 +6,7 @@ import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
@@ -130,6 +131,7 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 					case DefaultRequestStruct.REQUEST_COMMAND_LOGIN_PWD:
 						if (insertDb(newUserRequestStruct)) {
 							Log.d(TAG, "신규유저 등록 성공  - token 갱신!!");
+
 						} else {
 							Log.d(TAG, "신규유저 등록 성공  - token 저장 실패!!");
 						}
@@ -138,8 +140,10 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 
 
 					finish();
+					Log.d("aaaa", mNewID);
 
 					Intent intent = new Intent(PwCommon.this, MainActivity.class);
+					intent.putExtra("userID", mNewID);
 					startActivity(intent);
 					
 
@@ -191,8 +195,7 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 	{
 		mHandler.obtainMessage(1026, request).sendToTarget();
 	}
-	
-	private boolean insertDb(AuthTokenRequestStruct aAtrs) {		
+	private boolean insertDb(AuthTokenRequestStruct aAtrs) {
 		String newID = mNewID;
 		String user_pw = "";
 		String user_type = aAtrs.user_type;
@@ -200,7 +203,6 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 		String token = aAtrs.token;
 		String mdc = aAtrs.mdc;
 		String mds = aAtrs.mds;
-
 		if(!aAtrs.token.isEmpty() /*&& !aAtrs.mdc.isEmpty() && !aAtrs.mds.isEmpty()*/ && !user_type.isEmpty())
 		{
 			//ShareData.newInstance().saveLastLoginToken(newID, "", token, mdc, mds, user_type);

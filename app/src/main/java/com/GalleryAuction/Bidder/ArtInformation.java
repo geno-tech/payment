@@ -2,14 +2,17 @@ package com.GalleryAuction.Bidder;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.geno.bill_folder.R;
 
@@ -31,13 +34,14 @@ import java.net.URL;
 
 public class ArtInformation extends Activity implements View.OnClickListener{
     Button btn1, btn2;
-    String username, test2, image, key;
+    String arttitle, arttext, image, artkey, nfcid, artistid, auctionkey, artdate_s, artadte_e, artdate;
     TextView tv1, tv2;
     ImageView imView;
     String imgUrl = "http://59.3.109.220:9998/NFCTEST/art_images/";
     Bitmap bmImg;
     back task;
     DBHelper dbHelper;
+    String userId;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,24 +52,32 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         tv2 = (TextView)findViewById(R.id.artcontents_txt);
         task = new back();
         imView = (ImageView) findViewById(R.id.imageView);
-        dbHelper = new DBHelper(getApplicationContext(), "MoneyBook.db", null, 1);
+//        dbHelper = new DBHelper(getApplicationContext(), "MoneyBook.db", null, 1);
 
         Intent intent = getIntent();
-        String tagid = intent.getStringExtra("tagid").toString();
+        String artinfo = intent.getStringExtra("artinfo");
+        userId = intent.getStringExtra("userID");
         JSONObject job = null;
         try {
-            job = new JSONObject(tagid);
-            username = job.get("user_name").toString();
-            test2 = job.get("user_join_time").toString();
-            image = job.get("image").toString();
-            key = job.get("test_seq").toString();
+            job = new JSONObject(artinfo);
+            artkey = job.get("art_seq").toString();
+            nfcid = job.get("nfc_id").toString();
+            artistid = job.get("artist_id").toString();
+            arttitle = job.get("art_title").toString();
+            arttext = job.get("art_content").toString();
+            image = job.get("art_image").toString();
+            auctionkey = job.get("art_seq").toString();
+            artdate_s = job.get("art_seq").toString();
+            artadte_e = job.get("art_seq").toString();
+            artdate = job.get("art_seq").toString();
 
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        tv1.setText(username);
-        tv2.setText(test2);
+        tv1.setText(arttitle);
+        tv2.setText(arttext);
         task.execute(imgUrl+image);
+        Log.d("ffffff", image);
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
 
@@ -82,23 +94,18 @@ public class ArtInformation extends Activity implements View.OnClickListener{
                 finish();
                 break;
             case R.id.auctionX_btn:
-//                SharedPreferences preferences = getSharedPreferences("KEY", 0);
-//                SharedPreferences.Editor editor = preferences.edit();
-//                editor.putString("key", key);
-//                if (editor.commit()){
-//                    Toast.makeText(ArtInformation.this, key, Toast.LENGTH_SHORT).show();
+                ArtAlbumList(userId, artkey);
+//                JSONObject job = null;
+//                try {
+//                    job = new JSONObject(Artinfo(key));
+//                    arttitle = job.get("user_name").toString();
+//                    arttext = job.get("user_join_time").toString();
+//                    image = job.get("image").toString();
+//                } catch (JSONException e) {
+//                    e.printStackTrace();
 //                }
-                JSONObject job = null;
-                try {
-                    job = new JSONObject(Artinfo(key));
-                    username = job.get("user_name").toString();
-                    test2 = job.get("user_join_time").toString();
-                    image = job.get("image").toString();
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-
-                dbHelper.insert(test2,image,username);
+//
+//                dbHelper.insert(arttext,image, arttitle);
 //                Log.d("aa",dbHelper.getResult());
 
                 finish();
@@ -128,17 +135,17 @@ public class ArtInformation extends Activity implements View.OnClickListener{
             imView.setImageBitmap(bmImg);
         }
     }
-    private String Artinfo(String msg) {
+    private void ArtAlbumList(String msg , String msg2) {
         if (msg == null) {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:9998/NFCTEST/NewFile.jsp";
+        String URL = "http://59.3.109.220:9998/NFCTEST/artalbum_insert.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
 
-            HttpPost post = new HttpPost(URL + "?msg=" + msg);
+            HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2);
             HttpParams params = client.getParams();
             HttpConnectionParams.setConnectionTimeout(params, 3000);
             HttpConnectionParams.setSoTimeout(params, 3000);
@@ -146,19 +153,8 @@ public class ArtInformation extends Activity implements View.OnClickListener{
             BufferedReader bufreader = new BufferedReader(
                     new InputStreamReader(response.getEntity().getContent(),
                             "utf-8"));
-
-            String line = null;
-            String result = "";
-
-            while ((line = bufreader.readLine()) != null) {
-                result += line;
-
-            }
-            return result;
-
         } catch (Exception e) {
             e.printStackTrace();
-            return null;
         }
     }
 

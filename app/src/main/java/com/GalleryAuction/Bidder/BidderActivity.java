@@ -3,6 +3,7 @@ package com.GalleryAuction.Bidder;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -26,12 +27,16 @@ public class BidderActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch(v.getId()) {
             case R.id.artinfor_list_btn:
+
                 Intent intent = new Intent(BidderActivity.this, ArtInfoTagList.class);
                 startActivity(intent);
                 finish();
                 break;
             case R.id.tag_btn:
+                Intent intent0 = getIntent();
+                String userID = intent0.getStringExtra("userID");
                 Intent intent2 = new Intent(BidderActivity.this, TagInfo.class);
+                intent2.putExtra("userID", userID);
                 startActivity(intent2);
                 finish();
                 break;

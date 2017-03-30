@@ -21,7 +21,6 @@ public class MainActivity extends Activity { //액티비티 정의
 
 	private final int DLG_EXIT = 0;
 	ShareData mConfingData = null;
-	private	Intent intent;
 	int mType = 1;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {//액티비티 생성시에 호출되는 메서드
@@ -56,10 +55,15 @@ public class MainActivity extends Activity { //액티비티 정의
 				mConfingData = ShareData.newInstance(this);
 				mType = Integer.parseInt(mConfingData.getLastLoginUserType());
 				Log.d("aa", "" + mType);
-				// 첫번째 탭 메뉴 추가
+				// 입찰자
 				if (mType == 1) {
+					Intent intent0 = getIntent();
+					String userID = intent0.getStringExtra("userID");
+
 					Intent intent1 = new Intent(MainActivity.this, BidderActivity.class);
+					intent1.putExtra("userID", userID);
 					startActivity(intent1);
+					//아티스트
 				} else if (mType == 0) {
 					Intent intent2 = new Intent(MainActivity.this, ArtistActivity.class);
 					startActivity(intent2);

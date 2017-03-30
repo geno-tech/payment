@@ -674,7 +674,7 @@ public class CouponDetailPaid extends Activity implements
 				HttpClient httpClient = new DefaultHttpClient();
 				// replace with your url
 				HttpPost httpPost = new HttpPost(
-						"http://118.40.113.241:9999/pay_connect.jsp");
+						"http://59.3.109.220:9999/pay_connect.jsp");
 
 				// Post Data
 				List<NameValuePair> nameValuePair = new ArrayList<NameValuePair>(
