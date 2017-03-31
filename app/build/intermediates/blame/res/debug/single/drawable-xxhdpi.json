@@ -4,24 +4,56 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\startbutton.png",
+        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\startbutton.png"
+    },
+    {
+        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\textinput2.png",
+        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\textinput2.png"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\rigsterbutton.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\rigsterbutton.png"
+    },
+    {
+        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\startbackgroud.png",
+        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\startbackgroud.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\registerbutton.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\registerbutton.png"
     },
     {
+        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logo_ttt.png",
+        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\logo_ttt.png"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\agreementbackground.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\agreementbackground.png"
+    },
+    {
+        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\registerbutton.png",
+        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\registerbutton.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\startbackgroud.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\startbackgroud.png"
     },
     {
+        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\agreementbackground.png",
+        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\agreementbackground.png"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logo_ttt.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\logo_ttt.png"
+    },
+    {
+        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\rigsterbutton.png",
+        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\rigsterbutton.png"
+    },
+    {
+        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\textinput2.png",

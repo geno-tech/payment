@@ -75,9 +75,20 @@ public class ArtInfoTagList extends Activity {
             arttitle = job.get("art_title").toString();
             image = job.get("art_image").toString();
                     time_e = job.get("art_date_e").toString();
-                Log.d("aauser", "" +artkey);
-                adapter.addItem(imgUrl+image, arttitle, time_e);
-                Log.d("aaa", imgUrl+image);
+                //Log.d("aauser", "" +artkey);
+                //adapter.addItem(imgUrl+image, arttitle, time_e);
+                //Log.d("aaa", imgUrl+image);
+                new Thread() {
+                    public void run() {
+                            try {
+                                String url = "59.3.109.220:9998/NFCTEST/art_images/"+image;
+                                InputStream is = (InputStream) new URL(url).getContent();
+                                Bitmap bmp = BitmapFactory.decodeStream(is);
+                                iv.setImageBitmap(bmp);//Bitmap을 ImageView에 저장
+                                 } catch (Exception e) {
+                        }
+                    }
+                }.start();
             }
             } catch (JSONException e) {
             e.printStackTrace();
