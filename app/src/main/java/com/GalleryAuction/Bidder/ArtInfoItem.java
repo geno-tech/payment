@@ -1,5 +1,10 @@
 package com.GalleryAuction.Bidder;
 
+import android.graphics.drawable.Drawable;
+import android.webkit.WebView;
+
+import java.net.URL;
+
 /**
  * Created by GOD on 2017-03-28.
  */

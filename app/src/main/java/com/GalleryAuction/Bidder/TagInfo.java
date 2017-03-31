@@ -26,7 +26,7 @@ public class TagInfo extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.taginfo);
+        setContentView(R.layout.gallery_taginfo);
 
         nfcAdapter = NfcAdapter.getDefaultAdapter(this);
         Intent intent = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);

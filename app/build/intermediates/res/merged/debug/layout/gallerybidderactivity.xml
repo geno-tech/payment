@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="150dp"
-        android:text= "유저화면입니다."
+        android:text= "Bidder화면입니다."
         android:textSize="30dp"
         android:textStyle="bold"/>
     <Button

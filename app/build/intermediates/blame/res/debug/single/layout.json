@@ -8,6 +8,10 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_taginfo.xml",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\gallery_taginfo.xml"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_tabs2.xml",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\tabwidget_tabs2.xml"
     },
@@ -258,10 +262,6 @@
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\taginfo.xml",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\taginfo.xml"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artist_auctioninformation.xml",

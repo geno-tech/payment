@@ -18,13 +18,14 @@ import java.net.URL;
 
 public class BidderInfo extends Activity {
     String imgUrl = "http://59.3.109.220:9998/NFCTEST/art_images/";
-    back task;
     Bitmap bmImg;
     ImageView iv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gallerybidderinfo);
+        back task;
+
         task = new back();
 
         iv = (ImageView)findViewById(R.id.auctionartimage_img);

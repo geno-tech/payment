@@ -2,7 +2,6 @@ package com.GalleryAuction.Bidder;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
@@ -12,7 +11,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.geno.bill_folder.R;
 
@@ -29,15 +27,17 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
 
 
 public class ArtInformation extends Activity implements View.OnClickListener{
     Button btn1, btn2;
-    String arttitle, arttext, image, artkey, nfcid, artistid, auctionkey, artdate_s, artadte_e, artdate;
+    String arttitle, arttext, image, artkey, nfcid, artistid ;
     TextView tv1, tv2;
     ImageView imView;
     String imgUrl = "http://59.3.109.220:9998/NFCTEST/art_images/";
+
     Bitmap bmImg;
     back task;
     DBHelper dbHelper;
@@ -57,7 +57,9 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         Intent intent = getIntent();
         String artinfo = intent.getStringExtra("artinfo");
         userId = intent.getStringExtra("userID");
+
         JSONObject job = null;
+
         try {
             job = new JSONObject(artinfo);
             artkey = job.get("art_seq").toString();
@@ -66,10 +68,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
             arttitle = job.get("art_title").toString();
             arttext = job.get("art_content").toString();
             image = job.get("art_image").toString();
-            auctionkey = job.get("art_seq").toString();
-            artdate_s = job.get("art_seq").toString();
-            artadte_e = job.get("art_seq").toString();
-            artdate = job.get("art_seq").toString();
+
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -157,5 +156,6 @@ public class ArtInformation extends Activity implements View.OnClickListener{
             e.printStackTrace();
         }
     }
+
 
 }
