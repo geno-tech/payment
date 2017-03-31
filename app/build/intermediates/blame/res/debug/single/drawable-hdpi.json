@@ -4,12 +4,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_detail_top.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_2.png"
-    },
-    {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_non_click.png",
         "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_7_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_2.png"
     },
     {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_7.png",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\prev_1.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_back_click.png"
-    },
-    {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon1.png",
         "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\icon1.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_back_click.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_sel.png",
@@ -230,6 +230,10 @@
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_sel.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\search_tab_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gallertynfc.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\gallertynfc.png"
     },
     {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon.png",

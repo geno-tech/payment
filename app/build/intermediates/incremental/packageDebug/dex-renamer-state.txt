@@ -1,4 +1,7 @@
-#Fri Mar 31 13:18:30 KST 2017
-base.0=D\:\\Workspace\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Fri Mar 31 15:27:53 KST 2017
+base.0=C\:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d9e588ffc8faad81a6f100b01e87bcd0928b1afb
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=D\:\\Workspace\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.1=C\:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_76d3afac7cd841a6f88160cbc9d3e09e08f22620\\classes.dex
+base.1=C\:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_76d3afac7cd841a6f88160cbc9d3e09e08f22620
+file.0=C\:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d9e588ffc8faad81a6f100b01e87bcd0928b1afb\\classes.dex

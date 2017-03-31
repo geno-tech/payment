@@ -24,11 +24,11 @@ import com.geno.bill_folder.R;
 public class ArtInfoAdapter extends BaseAdapter {
     // 문자열 보관 ArrayList
     private ArrayList<ArtInfoItem> listViewItemList = new ArrayList<ArtInfoItem>() ;
-    TextView tv2, tv3;
-    ImageView iv1;
+    TextView tv2;
+    WebView iv1;
     String imgUrl = "http://59.3.109.220:9998/NFCTEST/art_images/";
     Bitmap bmImg;
-    back task;
+//    back task;
     public ArtInfoAdapter() {
 
     }
@@ -58,47 +58,51 @@ public class ArtInfoAdapter extends BaseAdapter {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = inflater.inflate(R.layout.galleryartinfo_listview_item, parent, false);
         }
-        task = new back();
-        iv1 = (ImageView) convertView.findViewById(R.id.artinfoitem1_img);
+//        task = new back();
+        iv1 = (WebView) convertView.findViewById(R.id.artinfoitem1_img);
         tv2 = (TextView) convertView.findViewById(R.id.artinfoitem2_txt);
-        tv3 = (TextView) convertView.findViewById(R.id.artinfoitem3_txt);
         ArtInfoItem artInfoItem = listViewItemList.get(position);
+        iv1.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
+
+        출처: http://cordinghouse.tistory.com/53 [코딩집]
+//        task.execute(artInfoItem.getIcon());
+        iv1.setBackgroundColor(0);
+        iv1.setVerticalScrollBarEnabled(false);
+        iv1.setHorizontalScrollBarEnabled(false);
+        iv1.loadUrl(artInfoItem.getIcon());
         tv2.setText(artInfoItem.getTitle());
-        tv3.setText(artInfoItem.getDesc());
-        task.execute(artInfoItem.getIcon());
         return convertView;
     }
 
-    public void addItem(String icon, String title, String desc) {
+    public void addItem(String icon, String title) {
         ArtInfoItem item = new ArtInfoItem();
         item.setIcon(icon);
         item.setTitle(title);
-        item.setDesc(desc);
 
         listViewItemList.add(item);
     }
-    private class back extends AsyncTask<String, Integer,Bitmap> {
-        @Override
-        protected Bitmap doInBackground(String... urls) {
-            // TODO Auto-generated method stub
-            try{
-                URL myFileUrl = new URL(urls[0]);
-                HttpURLConnection conn = (HttpURLConnection)myFileUrl.openConnection();
-                conn.setDoInput(true);
-                conn.connect();
-
-                InputStream is = conn.getInputStream();
-                bmImg = BitmapFactory.decodeStream(is);
-
-            }catch(IOException e){
-                e.printStackTrace();
-            }
-            return bmImg;
-        }
-        protected void onPostExecute(Bitmap img){
-            iv1.setImageBitmap(bmImg);
-        }
-    }
+//    private class back extends AsyncTask<String, Integer,Bitmap> {
+//        @Override
+//        protected Bitmap doInBackground(String... urls) {
+//            // TODO Auto-generated method stub
+//            try{
+//                URL myFileUrl = new URL(urls[0]);
+//                HttpURLConnection conn = (HttpURLConnection)myFileUrl.openConnection();
+//                conn.setDoInput(true);
+//                conn.connect();
+//
+//                InputStream is = conn.getInputStream();
+//                bmImg = BitmapFactory.decodeStream(is);
+//
+//            }catch(IOException e){
+//                e.printStackTrace();
+//            }
+//            return bmImg;
+//        }
+//        protected void onPostExecute(Bitmap img){
+//            iv1.setImageBitmap(bmImg);
+//        }
+//    }
     public void removeitem() {
         listViewItemList.clear();
     }

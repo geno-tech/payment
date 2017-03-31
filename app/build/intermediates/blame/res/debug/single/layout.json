@@ -52,16 +52,16 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\detail_coupon_cal.xml"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fingerprint_dialog_container.xml",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\fingerprint_dialog_container.xml"
+        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_ready.xml",
         "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\layout\\nfc_ready.xml"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fingerprint_dialog_container.xml",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\fingerprint_dialog_container.xml"
     },
     {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fingerprint_dialog_backup.xml",
@@ -332,12 +332,12 @@
         "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\layout\\gallery_auctionlist_clickview.xml"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_tabs2.xml",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\layout\\tabwidget_tabs2.xml"
-    },
-    {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\JSJ\\.android\\build-cache\\5d3f2b2498dcb3f53e894eb169d47eee890cae00\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_tabs2.xml",
+        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\layout\\tabwidget_tabs2.xml"
     },
     {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",

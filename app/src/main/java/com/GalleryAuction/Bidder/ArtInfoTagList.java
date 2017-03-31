@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -40,7 +41,7 @@ public class ArtInfoTagList extends Activity {
     Bitmap bmImg;
     String imgUrl = "http://59.3.109.220:9998/NFCTEST/art_images/";
 
-    private ListView listView;
+    private GridView gv;
     private ArtInfoAdapter adapter;
     Button remove_btn;
     String artkey, arttitle, image, time_e;
@@ -58,8 +59,8 @@ public class ArtInfoTagList extends Activity {
 //        dbHelper = new DBHelper(getApplicationContext(), "MoneyBook.db", null, 1);
         adapter = new ArtInfoAdapter();
 
-        listView = (ListView) findViewById(R.id.artinfo_listview);
-        listView.setAdapter(adapter);
+        gv = (GridView) findViewById(R.id.artalbum_grid);
+        gv.setAdapter(adapter);
         String albumlist = ArtAlbumlist(userId);
 
 
@@ -75,26 +76,15 @@ public class ArtInfoTagList extends Activity {
             arttitle = job.get("art_title").toString();
             image = job.get("art_image").toString();
                     time_e = job.get("art_date_e").toString();
-                //Log.d("aauser", "" +artkey);
-                //adapter.addItem(imgUrl+image, arttitle, time_e);
-                //Log.d("aaa", imgUrl+image);
-                new Thread() {
-                    public void run() {
-                            try {
-                                String url = "59.3.109.220:9998/NFCTEST/art_images/"+image;
-                                InputStream is = (InputStream) new URL(url).getContent();
-                                Bitmap bmp = BitmapFactory.decodeStream(is);
-                                iv.setImageBitmap(bmp);//Bitmap을 ImageView에 저장
-                                 } catch (Exception e) {
-                        }
-                    }
-                }.start();
+                Log.d("aauser", "" +artkey);
+                adapter.addItem(imgUrl+image, arttitle);
+                Log.d("aaa", imgUrl+image);
             }
             } catch (JSONException e) {
             e.printStackTrace();
         }
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        gv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 //

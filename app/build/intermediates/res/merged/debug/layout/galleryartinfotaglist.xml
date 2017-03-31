@@ -7,13 +7,15 @@
     tools:context="com.GalleryAuction.Bidder.ArtInfoTagList"
     android:orientation="vertical">
 
-    <ListView
+    <GridView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp"
-        android:id="@+id/artinfo_listview"
-        android:layout_weight="4"/>
+        android:columnWidth="150dp"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:id="@+id/artalbum_grid"
+        android:stretchMode="columnWidth">
+    </GridView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
