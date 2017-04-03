@@ -64,7 +64,6 @@ public class ArtInfoAdapter extends BaseAdapter {
         ArtInfoItem artInfoItem = listViewItemList.get(position);
         iv1.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
 
-        출처: http://cordinghouse.tistory.com/53 [코딩집]
 //        task.execute(artInfoItem.getIcon());
         iv1.setBackgroundColor(0);
         iv1.setVerticalScrollBarEnabled(false);

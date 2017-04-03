@@ -6,37 +6,34 @@
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490941671015"
+    timestamp="1491177361092"
     token="7908273513481032013"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="2651" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="16" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
 
+    <artifact
+        location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\GOD\Desktop\aaaa\payment\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1490936791918"
+        timestamp="1491176423342"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
@@ -59,6 +56,9 @@
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
@@ -67,33 +67,17 @@
         <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1490940210986"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1490941469597"
+        timestamp="1491177361092"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1490941671015"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />

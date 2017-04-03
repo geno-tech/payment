@@ -13,9 +13,6 @@
         android:layerType="software"
         android:clickable="false"
         android:focusable="false"
-        android:scrollbarAlwaysDrawHorizontalTrack="false"
-        android:scrollbarAlwaysDrawVerticalTrack="false"
-
         />
     <TextView
         android:layout_width="fill_parent"

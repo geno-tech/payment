@@ -344,24 +344,24 @@
         "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable\\dialog_no_xml.xml"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_button.xml",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\start_button.xml"
-    },
-    {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main3.png",
         "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable\\main3.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_button.xml",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\start_button.xml"
     },
     {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
         "source": "C:\\Users\\JSJ\\.android\\build-cache\\5d3f2b2498dcb3f53e894eb169d47eee890cae00\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\cancel_2.png"
-    },
-    {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\agree_2.png",
         "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable\\agree_2.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\cancel_2.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pw_button6.xml",
@@ -404,12 +404,12 @@
         "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable\\pw_button3.xml"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pw_button4.xml",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\pw_button4.xml"
-    },
-    {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\confirm_2.png",
         "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable\\confirm_2.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pw_button4.xml",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\pw_button4.xml"
     },
     {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_xml.xml",
@@ -448,12 +448,12 @@
         "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable\\tabs_info.xml"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\issue_button_1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\issue_button_1.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.gif",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\progressbar.gif"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\issue_button_1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\issue_button_1.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
@@ -524,12 +524,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\title.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\number_4_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\number_4_click.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\number_3_non_click.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\number_3_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\number_4_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\number_4_click.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_xml.xml",
@@ -560,12 +560,12 @@
         "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable\\cancel_2.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dlg_view.xml",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\dlg_view.xml"
-    },
-    {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\agreebtn_click.png",
         "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable\\agreebtn_click.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dlg_view.xml",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\dlg_view.xml"
     },
     {
         "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\number_clr_click.png",

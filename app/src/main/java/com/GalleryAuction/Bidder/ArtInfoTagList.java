@@ -18,6 +18,7 @@ import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.GalleryAuction.Artist.ArtistArtInformation;
 import com.geno.bill_folder.R;
 
 import org.apache.http.HttpResponse;
@@ -78,7 +79,7 @@ public class ArtInfoTagList extends Activity {
                     time_e = job.get("art_date_e").toString();
                 Log.d("aauser", "" +artkey);
                 adapter.addItem(imgUrl+image, arttitle);
-                Log.d("aaa", imgUrl+image);
+
             }
             } catch (JSONException e) {
             e.printStackTrace();
@@ -87,7 +88,7 @@ public class ArtInfoTagList extends Activity {
         gv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//
+
             }
         });
 //    getname();
