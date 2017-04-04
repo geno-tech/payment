@@ -6,22 +6,22 @@
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1491277662699"
+    timestamp="1491284526466"
     token="7908273513481032013"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1071" />
+        duration="1070" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="20" />
+        duration="33" />
     <task
         name="verifier"
-        duration="7" />
+        duration="13" />
 
     <artifact
         location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -32,7 +32,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1491276839810"
+        timestamp="1491281332748"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -73,7 +73,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491277631643"
+        timestamp="1491282636468"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\outputs\apk\app-debug.apk"
@@ -81,7 +81,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491277662699"
+        timestamp="1491284526466"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\split-apk\debug\slices\slice_6.apk"

@@ -85,6 +85,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         } catch (JSONException e) {
             e.printStackTrace();
         } catch (NullPointerException n) {
+                n.printStackTrace();
                 Toast.makeText(ArtInformation.this, "다시시도하세요", Toast.LENGTH_SHORT).show();
             }
         tv1.setText(arttitle);

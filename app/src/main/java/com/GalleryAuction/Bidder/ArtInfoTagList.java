@@ -43,7 +43,7 @@ public class ArtInfoTagList extends Activity {
     private ListView listView;
     private ArtInfoAdapter adapter;
     Button remove_btn;
-    String artkey, arttitle, image, time_e, nfcid;
+    String artkey, arttitle, image, nowtime, nfcid, auckey, bidkey, albumkey;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,9 +75,12 @@ public class ArtInfoTagList extends Activity {
                 arttitle = job.get("art_title").toString();
                 nfcid = job.get("nfc_id").toString();
                 image = job.get("art_image").toString();
-                time_e = job.get("art_date_e").toString();
-                Log.d("aauser", "" +artkey);
-                adapter.addItem(arttitle, time_e);
+                nowtime = job.get("art_con_time").toString();
+                auckey = job.get("auc_seq").toString();
+                bidkey = job.get("bid_seq").toString();
+                albumkey = job.get("album_seq").toString();
+                Log.d("aauser", "" +auckey);
+                adapter.addItem(arttitle, nowtime, auckey, bidkey);
                 Log.d("aaa", imgUrl+image);
             }
         } catch (JSONException e) {
@@ -99,19 +102,28 @@ public class ArtInfoTagList extends Activity {
                         arttitle = job.get("art_title").toString();
                         nfcid = job.get("nfc_id").toString();
                         image = job.get("art_image").toString();
-                        time_e = job.get("art_date_e").toString();
+                        nowtime = job.get("art_date_e").toString();
                         Log.d("aauser", "" +artkey);
-                        adapter.addItem(arttitle, time_e);
+                        adapter.addItem(arttitle, nowtime, auckey, bidkey);
                         Log.d("aaa", imgUrl+image);
 
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
+//                if (bidkey == "0")
             Intent intent1 = new Intent(ArtInfoTagList.this, ArtInformation2.class);
                 intent1.putExtra("tagid", nfcid);
                 intent1.putExtra("userID", userId);
                 startActivity(intent1);
                 finish();
+            }
+        });
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                listView.removeViewAt(position);
+
+                return false;
             }
         });
 //    getname();

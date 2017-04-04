@@ -2,6 +2,7 @@ package com.GalleryAuction.Bidder;
 import java.util.ArrayList;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,22 +50,41 @@ public class ArtInfoAdapter extends BaseAdapter {
         ArtInfoItem artInfoItem = listViewItemList.get(position);
         tv1.setText(artInfoItem.getIcon());
         tv2.setText(artInfoItem.getTitle());
-//        if (artInfoItem.getIcon() == "TEST1 IMAGE"){
-//            convertView.
-//        }
+        //경매 X
+        if (artInfoItem.getAuckey() == "0"){
+        }
+
+        //경매중일때
+        else {
+            //입찰했을때
+            if(artInfoItem.getBidkey() != "0"){
+            tv1.setTextColor(Color.YELLOW);
+            tv2.setTextColor(Color.YELLOW);
+        } else {
+                tv1.setTextColor(Color.BLUE);
+                tv2.setTextColor(Color.BLUE);
+            }
+        }
+
         return convertView;
     }
 
-    public void addItem(String icon, String title) {
+    public void addItem(String icon, String title, String auckey, String bidkey) {
         ArtInfoItem item = new ArtInfoItem();
 
         item.setIcon(icon);
         item.setTitle(title);
-
+        item.setAuckey(auckey);
+        item.setBidkey(bidkey);
         listViewItemList.add(item);
     }
 
-    public void removeitem() {
-        listViewItemList.clear();
+
+    public void removeitem(String icon, String title, String auckey) {
+        ArtInfoItem item = new ArtInfoItem();
+        item.setIcon(icon);
+        item.setTitle(title);
+        item.setAuckey(auckey);
+        listViewItemList.remove(item);
     }
 }

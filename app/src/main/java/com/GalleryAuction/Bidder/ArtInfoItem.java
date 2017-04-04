@@ -12,6 +12,8 @@ import java.net.URL;
 public class ArtInfoItem {
     private String iconDrawable ;
     private String titleStr ;
+    private String aucStr;
+    private String bidStr;
 
     public ArtInfoItem() {
 
@@ -24,12 +26,24 @@ public class ArtInfoItem {
     public void setTitle(String title) {
         titleStr = title ;
     }
+    public void setAuckey(String auckey) {
+        aucStr = auckey ;
+    }
 
+    public void setBidkey(String bidkey) {
+        bidStr = bidkey ;
+    }
     public String getIcon() {
         return this.iconDrawable ;
     }
     public String getTitle() {
         return this.titleStr ;
+    }
+    public String getAuckey() {
+        return this.aucStr ;
+    }
+    public String getBidkey() {
+        return this.bidStr ;
     }
 
 }
