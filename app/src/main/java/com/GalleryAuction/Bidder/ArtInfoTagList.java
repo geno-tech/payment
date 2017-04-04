@@ -39,17 +39,17 @@ public class ArtInfoTagList extends Activity {
     //    DBHelper dbHelper;
     Bitmap bmImg;
     String imgUrl = "http://59.3.109.220:9998/NFCTEST/art_images/";
-
+    String userId;
     private ListView listView;
     private ArtInfoAdapter adapter;
     Button remove_btn;
-    String artkey, arttitle, image, time_e;
+    String artkey, arttitle, image, time_e, nfcid;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.galleryartinfotaglist);
         Intent intent = getIntent();
-        String userId = intent.getStringExtra("userID");
+        userId = intent.getStringExtra("userID");
 
 //        SharedPreferences preferences = getSharedPreferences("KEY", 0);
 //        String userkey = preferences.getString("key", null);
@@ -60,7 +60,7 @@ public class ArtInfoTagList extends Activity {
 
         listView = (ListView) findViewById(R.id.artinfo_listview);
         listView.setAdapter(adapter);
-        String albumlist = ArtAlbumlist(userId);
+        final String albumlist = ArtAlbumlist(userId);
 
 
         JSONObject job = null;
@@ -73,6 +73,7 @@ public class ArtInfoTagList extends Activity {
                 job = (JSONObject) ja.get(i);
                 artkey = job.get("art_seq").toString();
                 arttitle = job.get("art_title").toString();
+                nfcid = job.get("nfc_id").toString();
                 image = job.get("art_image").toString();
                 time_e = job.get("art_date_e").toString();
                 Log.d("aauser", "" +artkey);
@@ -86,7 +87,31 @@ public class ArtInfoTagList extends Activity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//
+                JSONObject job = null;
+                JSONArray  ja = null;
+                try {
+                    ja = new JSONArray(albumlist);
+
+
+
+                        job = (JSONObject) ja.get(position);
+                        artkey = job.get("art_seq").toString();
+                        arttitle = job.get("art_title").toString();
+                        nfcid = job.get("nfc_id").toString();
+                        image = job.get("art_image").toString();
+                        time_e = job.get("art_date_e").toString();
+                        Log.d("aauser", "" +artkey);
+                        adapter.addItem(arttitle, time_e);
+                        Log.d("aaa", imgUrl+image);
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            Intent intent1 = new Intent(ArtInfoTagList.this, ArtInformation2.class);
+                intent1.putExtra("tagid", nfcid);
+                intent1.putExtra("userID", userId);
+                startActivity(intent1);
+                finish();
             }
         });
 //    getname();

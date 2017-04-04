@@ -97,7 +97,7 @@ public class TagInfo extends Activity {
                     Intent intent = new Intent(TagInfo.this, ArtInformation.class);
                     intent.putExtra("artinfo",ArtInfo(toHexString(tagId)));
                     intent.putExtra("userID",userID);
-                    Log.d("tag",ArtInfo(toHexString(tagId)));
+                    //Log.d("tag",ArtInfo(toHexString(tagId)));
                     startActivity(intent);
                     finish();
                 }

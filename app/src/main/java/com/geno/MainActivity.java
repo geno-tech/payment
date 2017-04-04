@@ -55,17 +55,19 @@ public class MainActivity extends Activity { //액티비티 정의
 				mConfingData = ShareData.newInstance(this);
 				mType = Integer.parseInt(mConfingData.getLastLoginUserType());
 				Log.d("aa", "" + mType);
+				Intent intent0 = getIntent();
+				String ID = intent0.getStringExtra("userID");
 				// 입찰자
 				if (mType == 1) {
-					Intent intent0 = getIntent();
-					String userID = intent0.getStringExtra("userID");
+
 
 					Intent intent1 = new Intent(MainActivity.this, BidderActivity.class);
-					intent1.putExtra("userID", userID);
+					intent1.putExtra("userID", ID);
 					startActivity(intent1);
 					//아티스트
 				} else if (mType == 0) {
 					Intent intent2 = new Intent(MainActivity.this, ArtistActivity.class);
+					intent2.putExtra("artistID", ID);
 					startActivity(intent2);
 				}
 				break;

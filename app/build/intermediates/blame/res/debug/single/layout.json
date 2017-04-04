@@ -688,6 +688,10 @@
         "source": "C:\\Users\\JSJ\\.android\\build-cache\\5d3f2b2498dcb3f53e894eb169d47eee890cae00\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartinformation2.xml",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\galleryartinformation2.xml"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_payment_retailer.xml",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\nfc_payment_retailer.xml"
     },

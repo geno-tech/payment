@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.nfc.Tag;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.geno.bill_folder.R;
 
@@ -33,7 +35,7 @@ import java.net.URL;
 
 public class ArtInformation extends Activity implements View.OnClickListener{
     Button btn1, btn2;
-    String arttitle, arttext, image, artkey, nfcid, artistid ;
+    String arttitle, arttext, image, artkey, nfcid, artistid, auckey ;
     TextView tv1, tv2;
     ImageView imView;
     String imgUrl = "http://59.3.109.220:9998/NFCTEST/art_images/";
@@ -41,7 +43,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
     Bitmap bmImg;
     back task;
     DBHelper dbHelper;
-    String userId;
+    String userId, artinfo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,30 +55,41 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         task = new back();
         imView = (ImageView) findViewById(R.id.imageView);
 //        dbHelper = new DBHelper(getApplicationContext(), "MoneyBook.db", null, 1);
-
         Intent intent = getIntent();
-        String artinfo = intent.getStringExtra("artinfo");
+        artinfo = intent.getStringExtra("artinfo");
+        //Log.d("HH", artinfo);
         userId = intent.getStringExtra("userID");
 
-        JSONObject job = null;
+                  JSONObject job = null;
 
-        try {
-            job = new JSONObject(artinfo);
-            artkey = job.get("art_seq").toString();
-            nfcid = job.get("nfc_id").toString();
-            artistid = job.get("artist_id").toString();
-            arttitle = job.get("art_title").toString();
-            arttext = job.get("art_content").toString();
-            image = job.get("art_image").toString();
+            try {
+                job = new JSONObject(artinfo);
+                Log.d("SS", ""+job);
+
+                artkey = job.get("art_seq").toString();
+                nfcid = job.get("nfc_id").toString();
+                artistid = job.get("artist_id").toString();
+                arttitle = job.get("art_title").toString();
+                Log.d("art_content : ",""+job.get("art_content"));
+                if(job.get("art_content") != null && job.get("art_content").toString().equals("")) {
+                    arttext = job.get("art_content").toString();
+                }
+                else {
+                    arttext = "값없음";
+                }
+
+                image = job.get("art_image").toString();
+                auckey = job.get("auc_seq").toString();
 
 
         } catch (JSONException e) {
             e.printStackTrace();
-        }
+        } catch (NullPointerException n) {
+                Toast.makeText(ArtInformation.this, "다시시도하세요", Toast.LENGTH_SHORT).show();
+            }
         tv1.setText(arttitle);
         tv2.setText(arttext);
         task.execute(imgUrl+image);
-        Log.d("ffffff", image);
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
 
@@ -89,6 +102,8 @@ public class ArtInformation extends Activity implements View.OnClickListener{
             case R.id.auctionok_btn:
                 Intent intent = new Intent(ArtInformation.this, BidderInfo.class);
                 intent.putExtra("artimage", image);
+                intent.putExtra("userId", userId);
+                intent.putExtra("auckey", auckey);
                 startActivity(intent);
                 finish();
                 break;
@@ -134,7 +149,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
             imView.setImageBitmap(bmImg);
         }
     }
-    private void ArtAlbumList(String msg , String msg2) {
+       private void ArtAlbumList(String msg , String msg2) {
         if (msg == null) {
             msg = "";
         }

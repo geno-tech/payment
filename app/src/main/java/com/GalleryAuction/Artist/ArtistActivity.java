@@ -11,6 +11,7 @@ import com.geno.bill_folder.R;
 
 public class ArtistActivity extends Activity implements View.OnClickListener {
     Button a1,a2;
+    String artistID;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +20,9 @@ public class ArtistActivity extends Activity implements View.OnClickListener {
         a2 = (Button)findViewById(R.id.auctionlist_btn_artist);
         a1.setOnClickListener(this);
         a2.setOnClickListener(this);
+        Intent intent = getIntent();
+        artistID = intent.getStringExtra("artistID");
+
     }
 
 
@@ -27,10 +31,12 @@ public class ArtistActivity extends Activity implements View.OnClickListener {
         switch (v.getId()) {
             case R.id.artinfo_btn_artist:
                 Intent intent1 = new Intent(ArtistActivity.this, ArtistArtInformation.class);
+                intent1.putExtra("artistID", artistID);
                 startActivity(intent1);
                 break;
             case R.id.auctionlist_btn_artist:
                 Intent intent2 = new Intent(ArtistActivity.this, ArtistAuctionInformation.class);
+                intent2.putExtra("artistID", artistID);
                 startActivity(intent2);
                 break;
 

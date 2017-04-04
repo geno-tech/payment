@@ -21,21 +21,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b6ef1374777aacaebed660fbaf1451730fe12a7e">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_76d3afac7cd841a6f88160cbc9d3e09e08f22620\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\NfcSecurity.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
         <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\2\NfcSecurity_3a8c89fbac7873272adb4a0de30de975f2c12d6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25a495c615e545bab1b95815fbda1f6f117eb984">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_76d3afac7cd841a6f88160cbc9d3e09e08f22620\classes.dex" />
     </item>
 
 </items>

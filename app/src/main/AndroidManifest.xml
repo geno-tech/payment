@@ -164,9 +164,9 @@
         <activity android:name="com.GalleryAuction.Bidder.ArtInfoTagList" />
         <activity android:name="com.GalleryAuction.Bidder.TagInfo" />
         <activity android:name="com.GalleryAuction.Bidder.ArtInformation" />
+        <activity android:name="com.GalleryAuction.Bidder.ArtInformation2" />
         <activity android:name="com.GalleryAuction.Bidder.BiddingList" />
         <activity android:name="com.GalleryAuction.Bidder.BidderInfo" />
-        <activity android:name="com.GalleryAuction.ArtInfoListItem" />
         <activity android:name="com.GalleryAuction.Artist.ArtistActivity" />
         <activity android:name="com.GalleryAuction.Artist.ArtistArtInformation" />
         <activity android:name="com.GalleryAuction.Artist.ArtistAuctionInformation" />

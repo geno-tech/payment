@@ -49,7 +49,9 @@ public class ArtInfoAdapter extends BaseAdapter {
         ArtInfoItem artInfoItem = listViewItemList.get(position);
         tv1.setText(artInfoItem.getIcon());
         tv2.setText(artInfoItem.getTitle());
-
+//        if (artInfoItem.getIcon() == "TEST1 IMAGE"){
+//            convertView.
+//        }
         return convertView;
     }
 
