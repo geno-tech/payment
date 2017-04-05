@@ -1,59 +1,43 @@
 [
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_detail_top.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_detail_top.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_top.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_top.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_7_non_click.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_detail_top.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_detail_top.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_2.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_2.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_7.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_7.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\evoucher.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\evoucher.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_button_2.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\button_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_5_non_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_5_non_click.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn_click.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreebtn_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_list.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\paid_1.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logo.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\company_logo.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_4_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\agree_1.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\prev_1.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\prev_1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\icon1.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_click.png",
@@ -68,20 +52,40 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\blue_button_sel.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\confirm_2.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\prev_2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\prev_2.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_icon.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_icon.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_7.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_7.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3_press.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3_press.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_8_click.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\confirm_1.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4_press.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4_press.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\join1.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_non_sel.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\button_non_sel.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_1.png",
@@ -92,20 +96,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\paid_2.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pro.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\pro.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_1.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\cancel_1.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupontest.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\used_coupontest.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_6.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_6.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_1.png",
@@ -120,552 +116,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\evoucher.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreebtn_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreeimage.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_main.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_main.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_layout.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_layout.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_non_sel.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\search_tab_non_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_detail_top.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_detail_top.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logow.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\company_logow.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\used_coupon.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_add1.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pro.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\pro.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_button_1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\search_tab_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_5.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_5.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg_sel.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_reg_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\blue_button_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\blue_button_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\paid_1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_clr_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_non_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\info_tab_non_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_0_non_click.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_non_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_1_non_click.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\process.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\process.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_non_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_8_non_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\info_tab_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreebtn.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_sel.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\search_tab_sel.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gallertynfc.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\gallertynfc.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\use_coupon.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon3.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\icon3.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_5.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_5.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel2.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_back_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\title.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\yes_2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\title.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gallertynfc.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\gallertynfc.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\x_image.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\x_image.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\exit_1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_non_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_clr_non_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_5_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_5_non_click.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_0_click.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\yes_1.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialoag_view.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialoag_view.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tradi_27_korea.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\tradi_27_korea.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\join_1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tradi_27_korea.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\tradi_27_korea.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_go_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_2_click.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\progress.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main4_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\main4_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_3.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_3.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_go.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_4_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_4.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_4.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_non_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_9_non_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logow.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\company_logow.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_8_click.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3_press.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3_press.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_1.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\payment_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\payment_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\cancel_1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_1_non_click.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\join_2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_non_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_2_non_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_non_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\button_non_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_list2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\icon1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\prev_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\prev_2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1_press.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1_press.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_non_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\search_tab_non_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\regi_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\regi_non_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_6_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_top.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_top.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_1.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_no_click.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\use_coupon.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_8_non_click.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_background.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\trade_2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel2.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\confirm_1.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\regi_non_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\regi_non_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_no.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\exit_2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_6_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1_press.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1_press.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\regi_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\regi_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_top.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_top.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_background.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_button_2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_5_non_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_5_non_click.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\paid_1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\prev_2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\prev_2.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_yes.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main4_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\main4_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_7_click.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_icon.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_icon.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\agree_2.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\confirm_1.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_8_click.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\join1.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_non_sel.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\button_non_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_reg_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_4_non_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\process.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\process.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_6.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_6.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupontest.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\use_coupontest.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_6.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_6.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_yes_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\prev_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\prev_1.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel2.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel2.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go_sel.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_go_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_3_non_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_1_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\paid_2.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_click.png",
@@ -676,32 +132,16 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\bill_folder.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_no_click.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon3.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\icon3.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_button_2.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_non_sel.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\search_tab_non_sel.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_non_sel_long.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_non_sel_long.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_2.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logow.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\company_logow.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_korea.png",
@@ -716,10 +156,6 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_layout.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\cancel_2.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_2.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\cancel_2.png"
     },
@@ -732,8 +168,8 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_clr_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_0_click.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_add1.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\x_image.png",
@@ -748,6 +184,10 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2_click.png"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pro.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\pro.png"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\used_coupon.png"
     },
@@ -760,44 +200,48 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_6_non_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_top_logo.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\common_top_logo.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg_sel.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_reg_sel.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_no.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_9_non_click.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_yes.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon_press.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\use_coupon_press.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_coupon.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_coupon.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn1.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1.png"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_non_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_1_non_click.png"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupontest.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\used_coupontest.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn1_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1_click.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_clr_non_click.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\process.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\process.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_non_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_8_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_sel.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\search_tab_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gallertynfc.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\gallertynfc.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_1.png",
@@ -812,16 +256,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_non_sel_long.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_reg.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_5.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_5.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\payment_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\payment_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\loading.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\regi_click.png",
@@ -832,24 +272,16 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\agree_1.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2_click.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\progress.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_2_non_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\trade_1.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\yes_2.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list.png",
@@ -868,96 +300,76 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\exit_2.png"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\title.png"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_2.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_2.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\yes_2.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon_press.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\used_coupon_press.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_1.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_non_click.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_3_non_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_go.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_non_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_clr_non_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\yes_1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreeimage_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_2.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_0_click.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_1.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_1.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bill_folder.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\bill_folder.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_icon.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_icon.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\yes_1.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_2.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\agree_2.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_korea.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_title_korea.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialoag_view.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialoag_view.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_3.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_3.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4_press.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4_press.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreebtn.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\trade_2.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tradi_27_korea.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\tradi_27_korea.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_list2.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\join_1.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_click.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_9_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_1.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_2.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_1.png",
@@ -968,60 +380,52 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\use_coupontest.png"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\progress.png"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_click.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_3_click.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main4_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\main4_click.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_1.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_1.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_add1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main3_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\main3_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\join_1.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_9_click.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn2.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreeimage.png"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_go.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_4_click.png"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_non_click.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_back_non_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logo.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\company_logo.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_non_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_9_non_click.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_non_click.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_4_non_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_add2.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_non_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_non_sel.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_click.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_7_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2_press.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2_press.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo_bottom.png",
@@ -1032,16 +436,16 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\join_2.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3_press.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3_press.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_1.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_1.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo_bottom.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\logo_bottom.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\payment_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\payment_click.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon_press.png",
@@ -1068,18 +472,6 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\use_coupon_press.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_background.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_background.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_2.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_2.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_6_non_click.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_sel_long.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_sel_long.png"
     },
@@ -1096,36 +488,32 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\main3_click.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_2.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_3_click.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_top_logo.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\common_top_logo.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_reg.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\join_2.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_sel_long.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_sel_long.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_reg.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_coupon.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_coupon.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialoag_view.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialoag_view.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_non_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_2_non_click.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_non_click.png",
@@ -1134,6 +522,18 @@
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_sel.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_list2.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\icon1.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1_press.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1_press.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_sel.png",
@@ -1152,43 +552,47 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_5_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_sel.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_sel.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_non_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_back_non_click.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage_click.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join1.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\join1.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_no_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_eng.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_title_eng.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\use_coupon.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_background.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\trade_2.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel2.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\regi_non_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\regi_non_click.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_non_click.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_0_non_click.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_yes_click.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2_press.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2_press.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_yes_click.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_5_click.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_5_click.png"
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_6_click.png"
     }
 ]

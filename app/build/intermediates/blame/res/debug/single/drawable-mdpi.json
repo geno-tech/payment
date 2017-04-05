@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\bluebackgroud.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-mdpi\\bluebackgroud.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\payment_btn.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-mdpi\\payment_btn.png"
     },
@@ -12,36 +8,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-mdpi\\itemspiner.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\itemsearch_btn.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-mdpi\\itemsearch_btn.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\itemprice.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-mdpi\\itemprice.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\payment_btn.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-mdpi\\payment_btn.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\modifyinfo_btn.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-mdpi\\modifyinfo_btn.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\textinput.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-mdpi\\textinput.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\bluebackgroud.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-mdpi\\bluebackgroud.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\itemprice.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-mdpi\\itemprice.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\traditionalmarketbackground.png",
@@ -64,27 +36,11 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-mdpi\\textinput.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\whitebutton.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-mdpi\\whitebutton.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\whitebutton.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-mdpi\\whitebutton.png"
     },
     {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\itemspiner.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-mdpi\\itemspiner.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\itemname.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-mdpi\\itemname.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\traditionalmarketbackground.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-mdpi\\traditionalmarketbackground.png"
-    },
-    {
-        "merged": "D:\\Workspace\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\itemname.png",
-        "source": "D:\\Workspace\\payment\\app\\src\\main\\res\\drawable-mdpi\\itemname.png"
     }
 ]

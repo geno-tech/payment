@@ -94,28 +94,37 @@ public class ArtInfoTagList extends Activity {
                 JSONArray  ja = null;
                 try {
                     ja = new JSONArray(albumlist);
-
-
-
                         job = (JSONObject) ja.get(position);
                         artkey = job.get("art_seq").toString();
                         arttitle = job.get("art_title").toString();
                         nfcid = job.get("nfc_id").toString();
                         image = job.get("art_image").toString();
                         nowtime = job.get("art_date_e").toString();
-                        Log.d("aauser", "" +artkey);
+                        bidkey = job.get("bid_seq").toString();
+                        albumkey = job.get("album_seq").toString();
+
+                    Log.d("aauser", "" +artkey);
                         adapter.addItem(arttitle, nowtime, auckey, bidkey);
                         Log.d("aaa", imgUrl+image);
 
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-//                if (bidkey == "0")
-            Intent intent1 = new Intent(ArtInfoTagList.this, ArtInformation2.class);
-                intent1.putExtra("tagid", nfcid);
-                intent1.putExtra("userID", userId);
-                startActivity(intent1);
-                finish();
+                if (bidkey == "0") {
+                    Log.d("bb", bidkey + "안녕");
+                    Intent intent1 = new Intent(ArtInfoTagList.this, ArtInformation2.class);
+                    intent1.putExtra("tagid", nfcid);
+                    intent1.putExtra("userID", userId);
+                    startActivity(intent1);
+                    finish();
+                } else{
+                    Log.d("cc", bidkey + "바이");
+                    Intent intent1 = new Intent(ArtInfoTagList.this, ReBidding.class);
+                    intent1.putExtra("tagid", nfcid);
+                    intent1.putExtra("userID", userId);
+                    startActivity(intent1);
+                    finish();
+                }
             }
         });
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {

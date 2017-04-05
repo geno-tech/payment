@@ -351,11 +351,11 @@ activity#com.GalleryAuction.Bidder.BiddingComplete
 ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:173:9-78
 	android:name
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:173:19-75
-activity#com.GalleryAuction.Bidder.AuctionListClickView
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:174:9-83
+activity#com.GalleryAuction.Bidder.ReBidding
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:174:9-72
 	android:name
-		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:174:19-80
-activity#com.GalleryAuction.Bidder.AuctionListClickConfirm
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:175:9-95
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:174:19-69
+activity#com.GalleryAuction.Bidder.ReBiddingConfirm
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:175:9-79
 	android:name
-		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:175:19-83
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:175:19-76
