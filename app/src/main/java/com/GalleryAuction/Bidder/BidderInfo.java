@@ -84,7 +84,7 @@ public class BidderInfo extends Activity implements View.OnClickListener {
                 break;
         }
     }
-//유저ID와 입찰가
+// auckey, 유저아이디, 입찰가
     private void BiddingInfo(String msg, String msg2, String msg3) {
         if (msg == null) {
             msg = "";

@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.geno.bill_folder.R;
 
@@ -88,12 +89,16 @@ public class ArtInformation2 extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.auctionok_btn2:
-                Intent intent = new Intent(ArtInformation2.this, BidderInfo.class);
-                intent.putExtra("artimage", image);
-                intent.putExtra("userId", userId);
-                intent.putExtra("auckey", auckey);
-                startActivity(intent);
-                finish();
+                if (auckey == "null" || auckey.equals(null)) {
+                    Toast.makeText(ArtInformation2.this, "경매하고 있지 않습니다.", Toast.LENGTH_SHORT).show();
+                } else {
+                    Intent intent = new Intent(ArtInformation2.this, BidderInfo.class);
+                    intent.putExtra("artimage", image);
+                    intent.putExtra("userId", userId);
+                    intent.putExtra("auckey", auckey);
+                    startActivity(intent);
+                    finish();
+                }
                 break;
             case R.id.auctionX_btn2:
                 ArtAlbumList(userId, artkey);
@@ -137,6 +142,7 @@ public class ArtInformation2 extends Activity implements View.OnClickListener{
             imView.setImageBitmap(bmImg);
         }
     }
+    //유저아이디와 그림Key 전달
        private void ArtAlbumList(String msg , String msg2) {
         if (msg == null) {
             msg = "";

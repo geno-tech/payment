@@ -7,17 +7,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b2107e802ccd3008ddbb8ab5f8eac3522ed02120">
+        sha1="3ee1227540f81e508e2708129d7b665a37c6865b">
         <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\2\nfc_network_3f6d86df8290373a7ca65b2388e8a146f56a1991\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d9e588ffc8faad81a6f100b01e87bcd0928b1afb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -30,11 +21,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d9e588ffc8faad81a6f100b01e87bcd0928b1afb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d9cd00ca923a1bc7e614b7dc0ed8ca012f809164">
+        sha1="1cf301c5e2ed54f8b638b16481f0b2283fecf53f">
         <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_76d3afac7cd841a6f88160cbc9d3e09e08f22620\classes.dex" />
     </item>
 

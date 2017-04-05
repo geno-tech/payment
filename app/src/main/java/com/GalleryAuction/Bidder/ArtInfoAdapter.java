@@ -87,4 +87,12 @@ public class ArtInfoAdapter extends BaseAdapter {
         item.setAuckey(auckey);
         listViewItemList.remove(item);
     }
+
+    public void refreshAdapter(ArrayList<ArtInfoItem> items) {
+
+        this.listViewItemList.clear();
+        this.listViewItemList.addAll(items);
+        notifyDataSetChanged();
+
+    }
 }

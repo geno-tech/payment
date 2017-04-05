@@ -101,12 +101,17 @@ public class ArtInformation extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.auctionok_btn:
-                Intent intent = new Intent(ArtInformation.this, BidderInfo.class);
-                intent.putExtra("artimage", image);
-                intent.putExtra("userId", userId);
-                intent.putExtra("auckey", auckey);
-                startActivity(intent);
-                finish();
+                Log.d("auckey", auckey);
+                if (auckey == "null" || auckey.equals(null)) {
+                    Toast.makeText(ArtInformation.this, "경매하고 있지 않습니다.", Toast.LENGTH_SHORT).show();
+                } else {
+                    Intent intent = new Intent(ArtInformation.this, BidderInfo.class);
+                    intent.putExtra("artimage", image);
+                    intent.putExtra("userId", userId);
+                    intent.putExtra("auckey", auckey);
+                    startActivity(intent);
+                    finish();
+                }
                 break;
             case R.id.auctionX_btn:
                 ArtAlbumList(userId, artkey);

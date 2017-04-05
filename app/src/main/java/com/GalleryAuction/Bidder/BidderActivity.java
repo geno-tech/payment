@@ -18,10 +18,8 @@ public class BidderActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.gallerybidderactivity);
         btn1 = (Button)findViewById(R.id.artinfor_list_btn);
         btn2 = (Button)findViewById(R.id.tag_btn);
-        btn3 = (Button)findViewById(R.id.biddinglist_btn);
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
-        btn3.setOnClickListener(this);
         Intent intent0 = getIntent();
         userID = intent0.getStringExtra("userID");
 
@@ -42,10 +40,6 @@ public class BidderActivity extends Activity implements View.OnClickListener {
                 intent2.putExtra("userID", userID);
                 startActivity(intent2);
                 finish();
-                break;
-            case R.id.biddinglist_btn:
-                Intent intent3 = new Intent(BidderActivity.this, BiddingList.class);
-                startActivity(intent3);
                 break;
         }
 

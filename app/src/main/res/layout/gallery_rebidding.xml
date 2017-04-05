@@ -25,7 +25,8 @@
         <TextView
             android:layout_marginLeft="5dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/bestbidding_tv2"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,7 +39,8 @@
         <TextView
             android:layout_marginLeft="5dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/nowbidding_tv2"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -51,7 +53,8 @@
         <TextView
             android:layout_marginLeft="5dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/rebiddingcountingtime_tv"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -69,7 +72,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="입찰금액 입력"/>
+            android:hint="입찰금액 입력"
+            android:id="@+id/rebidding_edt"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
