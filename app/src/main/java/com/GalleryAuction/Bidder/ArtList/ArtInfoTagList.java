@@ -59,6 +59,7 @@ public class ArtInfoTagList extends Activity {
         try {
             String albumlist = ArtAlbumlist(userId);
             JSONArray ja = new JSONArray(albumlist);
+            Log.d("auctime", albumlist);
 
             for (int i = 0 ; i  < ja.length(); i++){
 
@@ -72,9 +73,10 @@ public class ArtInfoTagList extends Activity {
                 bidkey = job.get("bid_seq").toString();
                 albumkey = job.get("album_seq").toString();
                 auctime_end = job.get("auc_end").toString();
-                Log.d("aauser", "" +auckey);
+                Log.d("aauser", "" +auckey + ", " + arttitle + ", " + bidkey);
                 adapter.addItem(arttitle, nowtime, auckey, bidkey);
                 Log.d("aaa", imgUrl+image);
+
             }
         } catch (JSONException e) {
             e.printStackTrace();
@@ -96,7 +98,6 @@ public class ArtInfoTagList extends Activity {
                         albumkey = job.get("album_seq").toString();
                         auckey = job.get("auc_seq").toString();
                     auctime_end = job.get("auc_end").toString();
-                    Log.d("auctime", auctime_end);
                     Log.d("aauser", "" +artkey);
                         Log.d("aaa", imgUrl+image);
                     adapter.addItem(arttitle, nowtime, auckey, bidkey);
@@ -105,7 +106,7 @@ public class ArtInfoTagList extends Activity {
                     e.printStackTrace();
                 }
 
-                if (bidkey == "0") {
+                if (auckey == "0") {
                     Log.d("bb", bidkey + "그림 정보화면");
                     Intent intent1 = new Intent(ArtInfoTagList.this, ArtInformation2.class);
                     intent1.putExtra("tagid", nfcid);
@@ -113,6 +114,14 @@ public class ArtInfoTagList extends Activity {
                     startActivity(intent1);
                     finish();
                 } else{
+                    if (bidkey == "0") {
+                        Log.d("bb", bidkey + "그림 정보화면");
+                        Intent intent1 = new Intent(ArtInfoTagList.this, ArtInformation2.class);
+                        intent1.putExtra("tagid", nfcid);
+                        intent1.putExtra("userID", userId);
+                        startActivity(intent1);
+                        finish();
+                    } else {
                     Log.d("cc", bidkey + "재입찰화면");
                     Intent intent1 = new Intent(ArtInfoTagList.this, ReBidding.class);
                     intent1.putExtra("auckey", auckey);
@@ -122,7 +131,7 @@ public class ArtInfoTagList extends Activity {
                     intent1.putExtra("image", image);
                     startActivity(intent1);
                     finish();
-                }
+                }}
             }
         });
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {

@@ -20,6 +20,8 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.params.HttpConnectionParams;
 import org.apache.http.params.HttpParams;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -34,7 +36,8 @@ public class BidderInfo extends Activity implements View.OnClickListener {
     Button btn1, btn2;
     ImageView iv;
     EditText et ;
-    String artimmage, auckey;
+    long bidding;
+    String artimmage, auckey, bidprice;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +48,13 @@ public class BidderInfo extends Activity implements View.OnClickListener {
         et = (EditText)findViewById(R.id.bidding_edt);
         task = new back();
 
+        try {
+            JSONObject job = new JSONObject(BiddingInfoBest(auckey));
 
+            bidprice = job.get("bid_price").toString();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
         iv = (ImageView)findViewById(R.id.auctionartimage_img);
         Intent intent = getIntent();
@@ -64,6 +73,11 @@ public class BidderInfo extends Activity implements View.OnClickListener {
                 if ( et.getText().toString().length() == 0) {
                     Toast.makeText(this, "입찰할 금액을 입력하시오", Toast.LENGTH_SHORT).show();
                 } else {
+                    bidding = Long.parseLong(et.getText().toString());
+
+                    if (bidding <= Long.parseLong(bidprice)) {
+                        Toast.makeText(this, "금액이 적습니다", Toast.LENGTH_SHORT).show();
+                    } else  {
                     Intent intent0 = getIntent();
                     String userID = intent0.getStringExtra("userId");
                     String nowbidding = et.getText().toString();
@@ -75,7 +89,7 @@ public class BidderInfo extends Activity implements View.OnClickListener {
                     intent.putExtra("artimg", artimmage);
                     startActivity(intent);
                     finish();
-                }
+                }}
 
                 break;
             case R.id.bidding_x_btn :
@@ -126,6 +140,39 @@ public class BidderInfo extends Activity implements View.OnClickListener {
         }
         protected void onPostExecute(Bitmap img){
             iv.setImageBitmap(bmImg);
+        }
+    }
+    private String BiddingInfoBest(String msg) {
+        if (msg == null) {
+            msg = "";
+        }
+
+        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_info_best.jsp";
+
+        DefaultHttpClient client = new DefaultHttpClient();
+        try {
+
+            HttpPost post = new HttpPost(URL + "?msg=" + msg);
+            HttpParams params = client.getParams();
+            HttpConnectionParams.setConnectionTimeout(params, 3000);
+            HttpConnectionParams.setSoTimeout(params, 3000);
+            HttpResponse response = client.execute(post);
+            BufferedReader bufreader = new BufferedReader(
+                    new InputStreamReader(response.getEntity().getContent(),
+                            "utf-8"));
+
+            String line = null;
+            String result = "";
+
+            while ((line = bufreader.readLine()) != null) {
+                result += line;
+
+            }
+            return result;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
         }
     }
 }

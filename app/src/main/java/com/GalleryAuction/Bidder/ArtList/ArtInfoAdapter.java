@@ -51,20 +51,30 @@ public class ArtInfoAdapter extends BaseAdapter {
         tv1.setText(artInfoItem.getIcon());
         tv2.setText(artInfoItem.getTitle());
         //경매 X
-        if (artInfoItem.getAuckey() == "0"){
+        if (artInfoItem.getAuckey() == "0" && artInfoItem.getBidkey() == "0") {
+            tv1.setTextColor(Color.BLACK);
+            tv2.setTextColor(Color.BLACK);
         }
-
-        //경매중일때
-        else {
+        else if (artInfoItem.getAuckey() == "0" && artInfoItem.getBidkey() != "0"){
+            //경매취소 ,마감 (한번이라도 경매했을때 )
+            tv1.setTextColor(Color.BLACK);
+            tv2.setTextColor(Color.BLACK);
+        }
+        else if (artInfoItem.getAuckey() != "0" && artInfoItem.getBidkey() == "0"){
+            //경매중일때
+            tv1.setTextColor(Color.BLUE);
+            tv2.setTextColor(Color.BLUE);
+        }
+        else{
             //입찰했을때
-            if(artInfoItem.getBidkey() != "0"){
             tv1.setTextColor(Color.YELLOW);
             tv2.setTextColor(Color.YELLOW);
-        } else {
-                tv1.setTextColor(Color.BLUE);
-                tv2.setTextColor(Color.BLUE);
-            }
         }
+
+
+
+
+
 
         return convertView;
     }

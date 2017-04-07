@@ -66,6 +66,7 @@ public class ArtistAuctionAdapter  extends BaseAdapter{
             } else{
                 tv1.setText(artistAuctionItem.getTitle());
                 tv2.setText(artistAuctionAdapter.currentpoint(artistAuctionItem.getNowbidding()) + "원");
+                tv2.setTextSize(20);
                 tv3.setText(artistAuctionItem.getTime());
             }
         }

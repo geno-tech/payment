@@ -34,22 +34,25 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ReBidding extends Activity implements View.OnClickListener {
     Button btn_ok, btn_x;
-    String bidprice, userID, image, auckey, aucend;
+    String bidprice, userID, image, auckey, aucend, bidprice2;
     TextView tv1,tv2, tv3;
     Bitmap bmImg;
     ImageView imView;
     EditText et;
     Thread thread;
     SimpleDateFormat sdf;
-    long now, end, ne, dd, nd, HH, nH, mm, ss;
+    long now, end, ne, dd, nd, HH, nH, mm, ss, rebiddinStr;
     String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
     Date date;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -84,21 +87,20 @@ public class ReBidding extends Activity implements View.OnClickListener {
         task.execute(imgUrl + image);
         Log.d("bidkey", userID);
 
-        Log.d("time", ""+ne);
-        Log.d("time", ""+ dd+"일" + HH+"시" +mm+"분"+ ss +"초");
-
-
         try {
             JSONObject job = new JSONObject(BiddingInfo(userID, auckey));
-            //Log.d("SS", ""+job);
-
             bidprice = job.get("bid_price").toString();
+            Log.d("SSAAAA", ""+job);
+            JSONObject job2 = new JSONObject(BiddingInfoBest(auckey));
+            bidprice2 = job2.get("bid_price").toString();
+            Log.d("SSAAAA", ""+job2);
+//            bidprice2 = job2.get("bid_price").toString();
 
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        ArtistAuctionDetailAdapter artistAuctionAdapter = new ArtistAuctionDetailAdapter();
-        tv1.setText(artistAuctionAdapter.currentpoint(bidprice) + "원");
+        tv1.setText(currentpoint(bidprice) + "원");
+        tv2.setText(currentpoint(bidprice2) + "원");
         Log.d("bidprice", bidprice);
 
         if (dd ==0 && HH == 0 && mm == 0 && ss ==0 ) {
@@ -109,24 +111,47 @@ public class ReBidding extends Activity implements View.OnClickListener {
 
     }
 
+    public static String currentpoint(String result) {
 
+        DecimalFormatSymbols dfs = new DecimalFormatSymbols();
+        dfs.setGroupingSeparator(',');
+
+        DecimalFormat df = new DecimalFormat("###,###,###,###");
+        df.setDecimalFormatSymbols(dfs);
+
+        try {
+            double inputNum = Double.parseDouble(result);
+            result = df.format(inputNum).toString();
+        } catch (NumberFormatException e) {
+            // TODO: handle exception
+        }
+
+        return result;
+    }
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.rebidding :
-                int bidprice_int = Integer.parseInt(bidprice);
-                int rebiddinStr = Integer.parseInt(et.getText().toString());
-                Log.w("안녕", bidprice_int + ", " + rebiddinStr);
-                if (rebiddinStr <= bidprice_int) {
-                Toast.makeText(ReBidding.this, "금액이 적습니다.", Toast.LENGTH_SHORT).show();
+                int bidprice_int = Integer.parseInt(bidprice2);
+                Log.d("??" , et.getText().toString());
+                if (et.getText().toString().length() == 0) {
+                    Toast.makeText(ReBidding.this, "금액을 입력하세요.", Toast.LENGTH_SHORT).show();
                 } else {
-                    Bidding_Insert(auckey, userID, et.getText().toString());
-                    Intent intent = new Intent(ReBidding.this, ReBiddingConfirm.class);
-                    intent.putExtra("rebidding", et.getText().toString());
-                    intent.putExtra("image", image);
-                    startActivity(intent);
-                    finish();
+                    rebiddinStr = Long.parseLong(et.getText().toString());
+
+                    if (rebiddinStr <= bidprice_int) {
+                        Toast.makeText(ReBidding.this, "금액이 적습니다.", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Bidding_Insert(auckey, userID, et.getText().toString());
+                        Intent intent = new Intent(ReBidding.this, ReBiddingConfirm.class);
+                        intent.putExtra("rebidding", et.getText().toString());
+                        intent.putExtra("image", image);
+                        startActivity(intent);
+                        finish();
+                    }
+
                 }
+
                 break;
             case R.id.rebidding_x :
                 finish();

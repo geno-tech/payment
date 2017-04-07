@@ -104,12 +104,14 @@ public class ArtInformation extends Activity implements View.OnClickListener{
                 Log.d("auckey", auckey);
                 if (auckey == "null" || auckey.equals(null)) {
                     Toast.makeText(ArtInformation.this, "경매하고 있지 않습니다.", Toast.LENGTH_SHORT).show();
+                    ArtAlbumList(userId, artkey);
                 } else {
                     Intent intent = new Intent(ArtInformation.this, BidderInfo.class);
                     intent.putExtra("artimage", image);
                     intent.putExtra("userId", userId);
                     intent.putExtra("auckey", auckey);
                     startActivity(intent);
+                    ArtAlbumList(userId, artkey);
                     finish();
                 }
                 break;
