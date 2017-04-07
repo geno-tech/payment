@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\NfcSecurity.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\2\NfcSecurity_3a8c89fbac7873272adb4a0de30de975f2c12d6d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -30,11 +21,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\NfcSecurity.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\2\NfcSecurity_3a8c89fbac7873272adb4a0de30de975f2c12d6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="1cf301c5e2ed54f8b638b16481f0b2283fecf53f">
+        sha1="33be4059c60aa8d819f005404bc2b0c1ccad12ac">
         <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_76d3afac7cd841a6f88160cbc9d3e09e08f22620\classes.dex" />
     </item>
 

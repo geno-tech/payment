@@ -3,10 +3,11 @@ package com.GalleryAuction.Bidder;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.GalleryAuction.Bidder.ArtList.ArtInfoTagList;
+import com.GalleryAuction.Bidder.ArtTag.TagInfo;
 import com.geno.bill_folder.R;
 
 public class BidderActivity extends Activity implements View.OnClickListener {

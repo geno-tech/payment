@@ -2,11 +2,12 @@ package com.GalleryAuction.Artist;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.GalleryAuction.Artist.ArtList.ArtistArtInformation;
+import com.GalleryAuction.Artist.AuctionList.ArtistAuctionInformation;
 import com.geno.bill_folder.R;
 
 public class ArtistActivity extends Activity implements View.OnClickListener {
