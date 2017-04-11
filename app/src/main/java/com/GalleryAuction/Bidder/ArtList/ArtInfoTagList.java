@@ -35,7 +35,7 @@ public class ArtInfoTagList extends Activity {
     private ListView listView;
     private ArtInfoAdapter adapter;
     Button remove_btn;
-    String artkey, arttitle, image, nowtime, nfcid, auckey, bidkey, albumkey, auctime_end;
+    String artkey, arttitle, image, nowtime, nfcid, auckey, bidkey, albumkey, auctime_end, auction;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,8 +73,9 @@ public class ArtInfoTagList extends Activity {
                 bidkey = job.get("bid_seq").toString();
                 albumkey = job.get("album_seq").toString();
                 auctime_end = job.get("auc_end").toString();
+                auction = job.get("auc_status").toString();
                 Log.d("aauser", "" +auckey + ", " + arttitle + ", " + bidkey);
-                adapter.addItem(arttitle, nowtime, auckey, bidkey);
+                adapter.addItem(arttitle, nowtime, auction, bidkey);
                 Log.d("aaa", imgUrl+image);
 
             }
@@ -96,32 +97,27 @@ public class ArtInfoTagList extends Activity {
                         nowtime = job.get("art_date_e").toString();
                         bidkey = job.get("bid_seq").toString();
                         albumkey = job.get("album_seq").toString();
-                        auckey = job.get("auc_seq").toString();
+                    auckey = job.get("auc_seq").toString();
+                    auction = job.get("auc_status").toString();
                     auctime_end = job.get("auc_end").toString();
-                    Log.d("aauser", "" +artkey);
+                    Log.d("aauser", "" +auction);
                         Log.d("aaa", imgUrl+image);
-                    adapter.addItem(arttitle, nowtime, auckey, bidkey);
+                    adapter.addItem(arttitle, nowtime, auction, bidkey);
 
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-
-                if (auckey == "0") {
+                if ((auction == "0")||(auction == "0" && bidkey != "0") || (auction == "2" && bidkey == "0") || (auction=="1")) {
                     Log.d("bb", bidkey + "그림 정보화면");
                     Intent intent1 = new Intent(ArtInfoTagList.this, ArtInformation2.class);
                     intent1.putExtra("tagid", nfcid);
                     intent1.putExtra("userID", userId);
+                    intent1.putExtra("auction", auction);
+                    intent1.putExtra("bidkey", bidkey);
+
                     startActivity(intent1);
                     finish();
-                } else{
-                    if (bidkey == "0") {
-                        Log.d("bb", bidkey + "그림 정보화면");
-                        Intent intent1 = new Intent(ArtInfoTagList.this, ArtInformation2.class);
-                        intent1.putExtra("tagid", nfcid);
-                        intent1.putExtra("userID", userId);
-                        startActivity(intent1);
-                        finish();
-                    } else {
+                } else if (auction == "2" &&bidkey != "0") {
                     Log.d("cc", bidkey + "재입찰화면");
                     Intent intent1 = new Intent(ArtInfoTagList.this, ReBidding.class);
                     intent1.putExtra("auckey", auckey);
@@ -131,7 +127,8 @@ public class ArtInfoTagList extends Activity {
                     intent1.putExtra("image", image);
                     startActivity(intent1);
                     finish();
-                }}
+                }
+
             }
         });
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {

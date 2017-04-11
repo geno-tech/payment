@@ -35,7 +35,7 @@ import java.net.URL;
 
 public class ArtInformation2 extends Activity implements View.OnClickListener{
     Button btn1, btn2;
-    String arttitle, arttext, image, artkey, nfcid, artistid, auckey ;
+    String arttitle, arttext, image, artkey, nfcid, artistid, auckey, auction, bidkey ;
     TextView tv1, tv2;
     ImageView imView;
     String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
@@ -57,6 +57,8 @@ public class ArtInformation2 extends Activity implements View.OnClickListener{
 //        dbHelper = new DBHelper(getApplicationContext(), "MoneyBook.db", null, 1);
         Intent intent2 = getIntent();
         String tagid = intent2.getStringExtra("tagid");
+        auction = intent2.getStringExtra("auction");
+        bidkey = intent2.getStringExtra("bidkey");
         Intent intent = getIntent();
         String artinfo = intent.getStringExtra("artinfo");
         userId = intent.getStringExtra("userID");
@@ -72,7 +74,6 @@ public class ArtInformation2 extends Activity implements View.OnClickListener{
             arttext = job.get("art_content").toString();
             image = job.get("art_image").toString();
             auckey = job.get("auc_seq").toString();
-
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -91,15 +92,26 @@ public class ArtInformation2 extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.auctionok_btn2:
-                if (auckey == "null" || auckey.equals(null)) {
+                if (auction.equals("0") || auction.equals("0") && !bidkey.equals("0")) {
+                    Log.d("auction", auction + " bidkey : " + bidkey);
                     Toast.makeText(ArtInformation2.this, "경매하고 있지 않습니다.", Toast.LENGTH_SHORT).show();
-                } else {
+
+                }
+                else if (auction.equals("1") ){
+                    //경매취소 ,마감 (한번이라도 경매했을때 )
+                    Toast.makeText(ArtInformation2.this, "곧 경매가 시작됩니다. 확인해 주세요.", Toast.LENGTH_SHORT).show();
+                }
+                else if (auction.equals("2") && bidkey.equals("0")) {
                     Intent intent = new Intent(ArtInformation2.this, BidderInfo.class);
                     intent.putExtra("artimage", image);
                     intent.putExtra("userId", userId);
                     intent.putExtra("auckey", auckey);
                     startActivity(intent);
                     finish();
+                } else {
+                    Toast.makeText(ArtInformation2.this, "말도안돼", Toast.LENGTH_SHORT).show();
+                    Log.d("auction", auction + " bidkey : " + bidkey);
+
                 }
                 break;
             case R.id.auctionX_btn2:

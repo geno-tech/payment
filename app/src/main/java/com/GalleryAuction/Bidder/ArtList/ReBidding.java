@@ -139,7 +139,7 @@ public class ReBidding extends Activity implements View.OnClickListener {
                 } else {
                     rebiddinStr = Long.parseLong(et.getText().toString());
 
-                    if (rebiddinStr <= bidprice_int) {
+                    if (rebiddinStr <= bidprice_int || rebiddinStr == 0) {
                         Toast.makeText(ReBidding.this, "금액이 적습니다.", Toast.LENGTH_SHORT).show();
                     } else {
                         Bidding_Insert(auckey, userID, et.getText().toString());

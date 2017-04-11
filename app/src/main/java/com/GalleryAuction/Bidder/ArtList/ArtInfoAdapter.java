@@ -1,5 +1,6 @@
 package com.GalleryAuction.Bidder.ArtList;
 import java.util.ArrayList;
+import java.util.PriorityQueue;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -51,7 +52,7 @@ public class ArtInfoAdapter extends BaseAdapter {
         tv1.setText(artInfoItem.getIcon());
         tv2.setText(artInfoItem.getTitle());
         //경매 X
-        if (artInfoItem.getAuckey() == "0" && artInfoItem.getBidkey() == "0") {
+        if (artInfoItem.getAuckey() == "0") {
             tv1.setTextColor(Color.BLACK);
             tv2.setTextColor(Color.BLACK);
         }
@@ -60,16 +61,19 @@ public class ArtInfoAdapter extends BaseAdapter {
             tv1.setTextColor(Color.BLACK);
             tv2.setTextColor(Color.BLACK);
         }
-        else if (artInfoItem.getAuckey() != "0" && artInfoItem.getBidkey() == "0"){
+        else if (artInfoItem.getAuckey() == "2" &&artInfoItem.getBidkey() == "0"){
             //경매중일때
             tv1.setTextColor(Color.BLUE);
             tv2.setTextColor(Color.BLUE);
-        }
-        else{
-            //입찰했을때
-            tv1.setTextColor(Color.YELLOW);
-            tv2.setTextColor(Color.YELLOW);
-        }
+        } else if (artInfoItem.getAuckey() == "1") {
+            tv1.setTextColor(Color.GREEN);
+            tv2.setTextColor(Color.GREEN);
+        } else if (artInfoItem.getAuckey() == "2" && artInfoItem.getBidkey() != "0") {
+                //입찰했을때
+                tv1.setTextColor(Color.YELLOW);
+                tv2.setTextColor(Color.YELLOW);
+            }
+
 
 
 

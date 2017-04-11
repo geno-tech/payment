@@ -75,7 +75,9 @@ public class BidderInfo extends Activity implements View.OnClickListener {
                 } else {
                     bidding = Long.parseLong(et.getText().toString());
 
-                    if (bidding <= Long.parseLong(bidprice)) {
+                    long  min_bidding = bidprice==null?0:Long.parseLong(bidprice);
+
+                    if (bidding <= min_bidding) {
                         Toast.makeText(this, "금액이 적습니다", Toast.LENGTH_SHORT).show();
                     } else  {
                     Intent intent0 = getIntent();

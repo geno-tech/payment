@@ -27,7 +27,7 @@ import java.util.List;
 
 public class ArtistAuctionInformation extends Activity {
     ArtistAuctionAdapter artistAuctionAdapter = new ArtistAuctionAdapter();
-    String artistID,arttitle, nowbidding, end, auction, auckey;
+    String artistID,arttitle, nowbidding, end, auction, auckey,artkey;
     ListView listView;
     Button btn;
     @Override
@@ -68,6 +68,7 @@ public class ArtistAuctionInformation extends Activity {
                         end = job.get("art_date_e").toString();
                         auction = job.get("auc_status").toString();
                         auckey = job.get("auc_seq").toString();
+                        artkey = job.get("art_seq").toString();
                         artistAuctionAdapter.addItem(arttitle, nowbidding, end, auction, auckey);
                         Log.d("key", auckey);
 
@@ -78,6 +79,7 @@ public class ArtistAuctionInformation extends Activity {
                 }
                 if (auction == "0")  {
                     Intent intent0 = new Intent(ArtistAuctionInformation.this, ArtistAuctionAddUi.class);
+                    intent0.putExtra("artkey", artkey);
                     startActivity(intent0);
                     finish();
                 } else if (auction == "3") {
