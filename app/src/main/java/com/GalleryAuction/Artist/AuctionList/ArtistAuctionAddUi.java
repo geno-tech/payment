@@ -116,20 +116,20 @@ public class ArtistAuctionAddUi extends Activity {
 
         itemHour = new String[24];
         cnt = 0 ;
-        for(int i = 1 ; i <= 24; i++){
+        for(int i = 0 ; i < 24; i++){
             itemHour[cnt++] = String.valueOf(i);
         }
 
-        itemMinute = new String[61];
+        itemMinute = new String[60];
         cnt = 0 ;
-        for(int i = 0 ; i <= 60; i++){
+        for(int i = 0 ; i < 60; i++){
             itemMinute[cnt++] = String.valueOf(i);
         }
         cal.set(year, 0, 1);
 
-        itemSecond = new String[61];
+        itemSecond = new String[60];
         cnt = 0 ;
-        for(int i = 0 ; i <= 60; i++){
+        for(int i = 0 ; i < 60; i++){
             itemSecond[cnt++] = String.valueOf(i);
         }
         itemDay = new String[cal.getMaximum(Calendar.DAY_OF_MONTH)];
@@ -366,8 +366,8 @@ public class ArtistAuctionAddUi extends Activity {
             Log.d("debuging" , "msg : " +msg  + " msg2 : " + msg2 + " msg3 : " + msg3);
             HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2 + "&msg3=" + msg3);
             HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 3000);
-            HttpConnectionParams.setSoTimeout(params, 3000);
+            HttpConnectionParams.setConnectionTimeout(params, 30000);
+            HttpConnectionParams.setSoTimeout(params, 30000);
             HttpResponse response = client.execute(post);
             BufferedReader bufreader = new BufferedReader(
                     new InputStreamReader(response.getEntity().getContent(),

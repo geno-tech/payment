@@ -52,16 +52,27 @@ public class ArtistAuctionAdapter  extends BaseAdapter{
         tv3 = (TextView)convertView.findViewById(R.id.auctionitem3_txt);
         ArtistAuctionItem artistAuctionItem = itemArrayList.get(position);
 
-        if (artistAuctionItem.getAuction() == "1" || artistAuctionItem.getAuction() == "0") {
+        if (artistAuctionItem.getAuction().equals("0")) {
             tv1.setText(artistAuctionItem.getTitle());
-            tv2.setText("경매 진행중이 아닙니다.");
+            tv2.setText("경매 미등록상태");
             tv2.setTextSize(13);
             tv2.setTextColor(Color.BLACK);
-
             tv3.setText(artistAuctionItem.getTime());
 
 
-        } else if (artistAuctionItem.getAuction() == "2"){
+        } else if (artistAuctionItem.getAuction().equals("1")){
+            tv1.setText(artistAuctionItem.getTitle());
+            tv2.setText("경매 취소상태");
+            tv2.setTextSize(13);
+            tv2.setTextColor(Color.BLACK);
+            tv3.setText(artistAuctionItem.getTime());
+        }else if (artistAuctionItem.getAuction().equals("2")){
+            tv1.setText(artistAuctionItem.getTitle());
+            tv2.setText("경매 대기상태");
+            tv2.setTextSize(13);
+            tv2.setTextColor(Color.BLACK);
+            tv3.setText(artistAuctionItem.getTime());
+        }else if (artistAuctionItem.getAuction() == "3"){
             if (artistAuctionItem.getNowbidding() == "0"){
                 tv1.setText(artistAuctionItem.getTitle());
                 tv2.setText("입찰된 금액이 없습니다.");
@@ -77,8 +88,17 @@ public class ArtistAuctionAdapter  extends BaseAdapter{
 
                 tv3.setText(artistAuctionItem.getTime());
             }
-        } else if (artistAuctionItem.getAuction() == "3") {
-                tv2.setText("경매마감되었습니다.");
+        } else if (artistAuctionItem.getAuction().equals("4")) {
+            tv1.setText(artistAuctionItem.getTitle());
+            tv2.setText("경매마감상태");
+            tv2.setTextSize(13);
+            tv3.setText(artistAuctionItem.getTime());
+
+        } else if (artistAuctionItem.getAuction().equals("5")) {
+            tv1.setText(artistAuctionItem.getTitle());
+            tv2.setText("경매완료상태");
+            tv2.setTextSize(13);
+            tv3.setText(artistAuctionItem.getTime());
         }
         return convertView;
     }
@@ -92,6 +112,10 @@ public class ArtistAuctionAdapter  extends BaseAdapter{
         item.setAuction(auction);
         item.setAuckey(auckey);
         itemArrayList.add(item);
+    }
+
+    public  void clear(int position) {
+        itemArrayList.remove(position);
     }
 
 }

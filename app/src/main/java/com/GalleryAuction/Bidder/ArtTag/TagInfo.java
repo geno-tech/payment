@@ -44,8 +44,8 @@ public class TagInfo extends Activity {
 
             HttpPost post = new HttpPost(URL + "?msg=" + msg);
             HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 3000);
-            HttpConnectionParams.setSoTimeout(params, 3000);
+            HttpConnectionParams.setConnectionTimeout(params, 30000);
+            HttpConnectionParams.setSoTimeout(params, 30000);
             HttpResponse response = client.execute(post);
             BufferedReader bufreader = new BufferedReader(
                     new InputStreamReader(response.getEntity().getContent(),

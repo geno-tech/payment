@@ -21,6 +21,7 @@ android {
 dependencies {
     compile files('libs/NfcSecurity.jar')
     compile files('libs/nfc_network.jar')
+
     compile 'com.android.support:support-v4:24.2.1'
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'

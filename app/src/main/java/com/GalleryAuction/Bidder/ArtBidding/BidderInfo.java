@@ -11,8 +11,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.GalleryAuction.Bidder.ArtList.ReBidding;
 import com.geno.bill_folder.R;
 
 import org.apache.http.HttpResponse;
@@ -29,6 +31,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 
 public class BidderInfo extends Activity implements View.OnClickListener {
     String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
@@ -36,8 +40,9 @@ public class BidderInfo extends Activity implements View.OnClickListener {
     Button btn1, btn2;
     ImageView iv;
     EditText et ;
-    long bidding;
-    String artimmage, auckey, bidprice;
+    TextView tv;
+    long bidding, min_bidding;
+    String artimmage, auckey, bidprice, aucend;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,26 +51,50 @@ public class BidderInfo extends Activity implements View.OnClickListener {
         btn1 = (Button)findViewById(R.id.bidding_btn);
         btn2 = (Button)findViewById(R.id.bidding_x_btn);
         et = (EditText)findViewById(R.id.bidding_edt);
+        tv = (TextView)findViewById(R.id.bestbidding_txt_bidding);
         task = new back();
-
-        try {
-            JSONObject job = new JSONObject(BiddingInfoBest(auckey));
-
-            bidprice = job.get("bid_price").toString();
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
 
         iv = (ImageView)findViewById(R.id.auctionartimage_img);
         Intent intent = getIntent();
         artimmage = intent.getStringExtra("artimage");
         auckey = intent.getStringExtra("auckey");
+        aucend = intent.getStringExtra("aucend");
+        try {
+            JSONObject job = new JSONObject(BiddingInfoBest(auckey));
+            Log.d("bidprice", ""+job);
+
+            bidprice = job.get("bid_price").toString();
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
         task.execute(imgUrl+artimmage);
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
 
+        min_bidding = bidprice==null?0:Long.parseLong(bidprice);
+
+
+        tv.setText("최고 입찰가 : " + currentpoint(String.valueOf(min_bidding)) +"원");
     }
 
+    public static String currentpoint(String result) {
+
+        DecimalFormatSymbols dfs = new DecimalFormatSymbols();
+        dfs.setGroupingSeparator(',');
+
+        DecimalFormat df = new DecimalFormat("###,###,###,###");
+        df.setDecimalFormatSymbols(dfs);
+
+        try {
+            double inputNum = Double.parseDouble(result);
+            result = df.format(inputNum).toString();
+        } catch (NumberFormatException e) {
+            // TODO: handle exception
+        }
+
+        return result;
+    }
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -89,7 +118,9 @@ public class BidderInfo extends Activity implements View.OnClickListener {
                     Intent intent = new Intent(BidderInfo.this, BiddingComplete.class);
                     intent.putExtra("nowbidding" , nowbidding);
                     intent.putExtra("artimg", artimmage);
-                    startActivity(intent);
+                    intent.putExtra("aucend", aucend);
+                    intent.putExtra("min_bidding", min_bidding);
+                        startActivity(intent);
                     finish();
                 }}
 
@@ -99,6 +130,7 @@ public class BidderInfo extends Activity implements View.OnClickListener {
                 break;
         }
     }
+
 // auckey, 유저아이디, 입찰가
     private void BiddingInfo(String msg, String msg2, String msg3) {
         if (msg == null) {
@@ -112,8 +144,8 @@ public class BidderInfo extends Activity implements View.OnClickListener {
 
             HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2 + "&msg3=" + msg3);
             HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 3000);
-            HttpConnectionParams.setSoTimeout(params, 3000);
+            HttpConnectionParams.setConnectionTimeout(params, 30000);
+            HttpConnectionParams.setSoTimeout(params, 30000);
             HttpResponse response = client.execute(post);
             BufferedReader bufreader = new BufferedReader(
                     new InputStreamReader(response.getEntity().getContent(),
@@ -156,8 +188,8 @@ public class BidderInfo extends Activity implements View.OnClickListener {
 
             HttpPost post = new HttpPost(URL + "?msg=" + msg);
             HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 3000);
-            HttpConnectionParams.setSoTimeout(params, 3000);
+            HttpConnectionParams.setConnectionTimeout(params, 30000);
+            HttpConnectionParams.setSoTimeout(params, 30000);
             HttpResponse response = client.execute(post);
             BufferedReader bufreader = new BufferedReader(
                     new InputStreamReader(response.getEntity().getContent(),

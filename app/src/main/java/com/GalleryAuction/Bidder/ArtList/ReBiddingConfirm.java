@@ -9,6 +9,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -21,15 +22,22 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class ReBiddingConfirm extends Activity {
     String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
     Bitmap bmImg;
     ImageView imView;
     TextView tv, tv2;
+    String aucend;
     ArtistAuctionDetailAdapter artistAuctionAdapter = new ArtistAuctionDetailAdapter();
     long now, end, ne, dd, nd, HH, nH, mm, ss;
     Thread thread;
+    Date date;
+    SimpleDateFormat sdf;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +49,17 @@ public class ReBiddingConfirm extends Activity {
         Intent intent = getIntent();
         String rebidding = intent.getStringExtra("rebidding");
         String image = intent.getStringExtra("image");
+        end = intent.getLongExtra("end", end);
+        now = System.currentTimeMillis();
+
+//        try {
+//            date = sdf.parse(aucend);
+//            end = date.getTime();
+//
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
+        Log.d("end : ", ""+end);
         tv.setText(artistAuctionAdapter.currentpoint(rebidding) + "원을 재입찰하였습니다.");
         back task = new back();
         task.execute(imgUrl + image);

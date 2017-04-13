@@ -27,7 +27,7 @@ import java.util.List;
 
 public class ArtistAuctionInformation extends Activity {
     ArtistAuctionAdapter artistAuctionAdapter = new ArtistAuctionAdapter();
-    String artistID,arttitle, nowbidding, end, auction, auckey,artkey;
+    String artistID,arttitle, nowbidding, end, auction, auckey,artkey, title, image;
     ListView listView;
     Button btn;
     @Override
@@ -44,12 +44,13 @@ public class ArtistAuctionInformation extends Activity {
             for (int i = 0 ; i  < ja.length(); i++){
 
                 JSONObject job = (JSONObject) ja.get(i);
-                arttitle = job.get("art_title").toString();
                 nowbidding = job.get("bid_price").toString();
                 end = job.get("art_date_e").toString();
                 auction = job.get("auc_status").toString();
                 auckey = job.get("auc_seq").toString();
-                artistAuctionAdapter.addItem(arttitle, nowbidding, end, auction, auckey);
+                title = job.get("art_title").toString();
+                image = job.get("art_image").toString();
+                artistAuctionAdapter.addItem(title, nowbidding, end, auction, auckey);
                 Log.d("aaaa" , auckey);
             }
         } catch (JSONException e) {
@@ -63,13 +64,14 @@ public class ArtistAuctionInformation extends Activity {
                     JSONArray ja = new JSONArray(AuctionInfo(artistID));
 
                         JSONObject job = (JSONObject) ja.get(position);
-                        arttitle = job.get("art_title").toString();
+                        title = job.get("art_title").toString();
                         nowbidding = job.get("bid_price").toString();
                         end = job.get("art_date_e").toString();
                         auction = job.get("auc_status").toString();
                         auckey = job.get("auc_seq").toString();
                         artkey = job.get("art_seq").toString();
-                        artistAuctionAdapter.addItem(arttitle, nowbidding, end, auction, auckey);
+                        new ArtistAuctionAdapter().addItem(title, nowbidding, end, auction, auckey);
+
                         Log.d("key", auckey);
 
 
@@ -77,22 +79,27 @@ public class ArtistAuctionInformation extends Activity {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                if (auction == "0")  {
+                if (auction == "1" || auction.equals("0"))  {
                     Intent intent0 = new Intent(ArtistAuctionInformation.this, ArtistAuctionAddUi.class);
                     intent0.putExtra("artkey", artkey);
                     startActivity(intent0);
                     finish();
-                } else if (auction == "3") {
+                } else if (auction == "4") {
                     Intent intent1 = new Intent(ArtistAuctionInformation.this, ArtistAuctionCompleteUi.class);
+                    intent1.putExtra("auckey", auckey);
+                    intent1.putExtra("title", title);
+                    intent1.putExtra("image", image);
                     startActivity(intent1);
                     finish();
-                }else if (auction == "2") {
+                }else if (auction == "3") {
                     Intent intent2 = new Intent(ArtistAuctionInformation.this, ArtistAuctionDetailInfoUi.class);
                     intent2.putExtra("auckey", auckey);
                     startActivity(intent2);
                     finish();
-                } else if (auction == "1") {
+                } else if (auction == "2") {
+
                     Toast.makeText(ArtistAuctionInformation.this, "아직 경매가 시작되지 않았습니다.", Toast.LENGTH_SHORT).show();
+
                 } else {
                     Toast.makeText(ArtistAuctionInformation.this, "잠시 후 다시 시도하세요", Toast.LENGTH_SHORT).show();
                 }
@@ -119,8 +126,8 @@ public class ArtistAuctionInformation extends Activity {
 
             HttpPost post = new HttpPost(URL + "?msg=" + msg);
             HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 3000);
-            HttpConnectionParams.setSoTimeout(params, 3000);
+            HttpConnectionParams.setConnectionTimeout(params, 30000);
+            HttpConnectionParams.setSoTimeout(params, 30000);
             HttpResponse response = client.execute(post);
             BufferedReader bufreader = new BufferedReader(
                     new InputStreamReader(response.getEntity().getContent(),

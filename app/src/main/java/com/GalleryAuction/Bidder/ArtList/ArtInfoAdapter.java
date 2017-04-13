@@ -52,27 +52,34 @@ public class ArtInfoAdapter extends BaseAdapter {
         tv1.setText(artInfoItem.getIcon());
         tv2.setText(artInfoItem.getTitle());
         //경매 X
-        if (artInfoItem.getAuckey() == "0") {
+        if (artInfoItem.getAuckey() == "1") {
             tv1.setTextColor(Color.BLACK);
             tv2.setTextColor(Color.BLACK);
         }
-        else if (artInfoItem.getAuckey() == "0" && artInfoItem.getBidkey() != "0"){
-            //경매취소 ,마감 (한번이라도 경매했을때 )
+        else if (artInfoItem.getAuckey() == "1" && artInfoItem.getBidkey() != "0"){
+            //경매취소 (한번이라도 경매했을때 )
             tv1.setTextColor(Color.BLACK);
             tv2.setTextColor(Color.BLACK);
         }
-        else if (artInfoItem.getAuckey() == "2" &&artInfoItem.getBidkey() == "0"){
+        else if (artInfoItem.getAuckey() == "3" &&artInfoItem.getBidkey() == "0"){
             //경매중일때
             tv1.setTextColor(Color.BLUE);
             tv2.setTextColor(Color.BLUE);
-        } else if (artInfoItem.getAuckey() == "1") {
+        } else if (artInfoItem.getAuckey() == "2") {
             tv1.setTextColor(Color.GREEN);
             tv2.setTextColor(Color.GREEN);
-        } else if (artInfoItem.getAuckey() == "2" && artInfoItem.getBidkey() != "0") {
+        } else if (artInfoItem.getAuckey() == "3" && artInfoItem.getBidkey() != "0") {
                 //입찰했을때
                 tv1.setTextColor(Color.YELLOW);
                 tv2.setTextColor(Color.YELLOW);
-            }
+            } else if (artInfoItem.getAuckey() == "4") {
+            //마감됐을때
+                tv1.setTextColor(Color.CYAN);
+            tv2.setTextColor(Color.YELLOW);
+
+        } else
+            tv1.setTextColor(Color.BLACK);
+        tv2.setTextColor(Color.BLACK);
 
 
 

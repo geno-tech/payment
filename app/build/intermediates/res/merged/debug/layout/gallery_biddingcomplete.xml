@@ -44,13 +44,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="200dp">
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="입찰이 완료되었습니다."
             android:textStyle="bold"
             android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/biddingtime_txt"
+            android:layout_marginTop="15dp"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"

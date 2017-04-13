@@ -57,26 +57,28 @@ public class ArtInfoTagList extends Activity {
 
 
         try {
-            String albumlist = ArtAlbumlist(userId);
-            JSONArray ja = new JSONArray(albumlist);
-            Log.d("auctime", albumlist);
 
-            for (int i = 0 ; i  < ja.length(); i++){
+                String albumlist = ArtAlbumlist(userId);
+                JSONArray ja = new JSONArray(albumlist);
+                Log.d("auctime", albumlist);
 
-                JSONObject job = (JSONObject) ja.get(i);
-                artkey = job.get("art_seq").toString();
-                arttitle = job.get("art_title").toString();
-                nfcid = job.get("nfc_id").toString();
-                image = job.get("art_image").toString();
-                nowtime = job.get("art_con_time").toString();
-                auckey = job.get("auc_seq").toString();
-                bidkey = job.get("bid_seq").toString();
-                albumkey = job.get("album_seq").toString();
-                auctime_end = job.get("auc_end").toString();
-                auction = job.get("auc_status").toString();
-                Log.d("aauser", "" +auckey + ", " + arttitle + ", " + bidkey);
-                adapter.addItem(arttitle, nowtime, auction, bidkey);
-                Log.d("aaa", imgUrl+image);
+                for (int i = 0; i < ja.length(); i++) {
+
+                    JSONObject job = (JSONObject) ja.get(i);
+                    artkey = job.get("art_seq").toString();
+                    arttitle = job.get("art_title").toString();
+                    nfcid = job.get("nfc_id").toString();
+                    image = job.get("art_image").toString();
+                    nowtime = job.get("art_con_time").toString();
+                    auckey = job.get("auc_seq").toString();
+                    bidkey = job.get("bid_seq").toString();
+                    albumkey = job.get("album_seq").toString();
+                    auctime_end = job.get("auc_end").toString();
+                    auction = job.get("auc_status").toString();
+                    Log.d("aauser", "" + auckey + ", " + arttitle + ", " + bidkey);
+                    adapter.addItem(arttitle, nowtime, auction, bidkey);
+                    Log.d("aaa", imgUrl + image);
+
 
             }
         } catch (JSONException e) {
@@ -87,8 +89,9 @@ public class ArtInfoTagList extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 try {
-                    String albumlist = ArtAlbumlist(userId);
-                    JSONArray ja = new JSONArray(albumlist);
+
+                        String albumlist = ArtAlbumlist(userId);
+                        JSONArray ja = new JSONArray(albumlist);
                         JSONObject job = (JSONObject) ja.get(position);
                         artkey = job.get("art_seq").toString();
                         arttitle = job.get("art_title").toString();
@@ -97,28 +100,31 @@ public class ArtInfoTagList extends Activity {
                         nowtime = job.get("art_date_e").toString();
                         bidkey = job.get("bid_seq").toString();
                         albumkey = job.get("album_seq").toString();
-                    auckey = job.get("auc_seq").toString();
-                    auction = job.get("auc_status").toString();
-                    auctime_end = job.get("auc_end").toString();
-                    Log.d("aauser", "" +auction);
-                        Log.d("aaa", imgUrl+image);
-                    adapter.addItem(arttitle, nowtime, auction, bidkey);
+                        auckey = job.get("auc_seq").toString();
+                        auction = job.get("auc_status").toString();
+                        auctime_end = job.get("auc_end").toString();
+                        Log.d("aauser", "" + auction);
+                        Log.d("aaa", imgUrl + image);
+                        adapter.addItem(arttitle, nowtime, auction, bidkey);
 
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                if ((auction == "0")||(auction == "0" && bidkey != "0") || (auction == "2" && bidkey == "0") || (auction=="1")) {
+                if ((auction.equals("0"))||(auction == "1")||(auction == "1" && bidkey != "0") || (auction == "3" && bidkey == "0") || (auction=="2") || (auction == "4")) {
                     Log.d("bb", bidkey + "그림 정보화면");
+                    Log.d("cc", auction +"???"+bidkey + "그림정보화면");
+
                     Intent intent1 = new Intent(ArtInfoTagList.this, ArtInformation2.class);
                     intent1.putExtra("tagid", nfcid);
                     intent1.putExtra("userID", userId);
                     intent1.putExtra("auction", auction);
                     intent1.putExtra("bidkey", bidkey);
+                    intent1.putExtra("aucend", auctime_end);
 
                     startActivity(intent1);
                     finish();
-                } else if (auction == "2" &&bidkey != "0") {
-                    Log.d("cc", bidkey + "재입찰화면");
+                } else if (auction == "3" &&bidkey != "0") {
+                    Log.d("cc", auction +"???"+bidkey + "재입찰화면");
                     Intent intent1 = new Intent(ArtInfoTagList.this, ReBidding.class);
                     intent1.putExtra("auckey", auckey);
                     intent1.putExtra("userID", userId);
@@ -207,8 +213,8 @@ public class ArtInfoTagList extends Activity {
             HttpPost post = new HttpPost(URL + "?msg=" + msg);
 
             HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 3000);
-            HttpConnectionParams.setSoTimeout(params, 3000);
+            HttpConnectionParams.setConnectionTimeout(params, 30000);
+            HttpConnectionParams.setSoTimeout(params, 30000);
             HttpResponse response = client.execute(post);
             BufferedReader bufreader = new BufferedReader(
                     new InputStreamReader(response.getEntity().getContent(),
@@ -241,9 +247,10 @@ public class ArtInfoTagList extends Activity {
             HttpPost post = new HttpPost(URL + "?msg=" + msg);
 
             HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 3000);
-            HttpConnectionParams.setSoTimeout(params, 3000);
+            HttpConnectionParams.setConnectionTimeout(params, 30000);
+            HttpConnectionParams.setSoTimeout(params, 30000);
             HttpResponse response = client.execute(post);
+
             BufferedReader bufreader = new BufferedReader(
                     new InputStreamReader(response.getEntity().getContent(),
                             "utf-8"));

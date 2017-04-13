@@ -360,6 +360,10 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\use_coupon_layout.xml"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_winningbidlist.xml",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\gallery_winningbidlist.xml"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_rebidding.xml",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\gallery_rebidding.xml"
     },

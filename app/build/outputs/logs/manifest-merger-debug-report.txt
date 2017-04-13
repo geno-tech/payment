@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:2:1-183:12
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:2:1-185:12
 	package
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml
@@ -84,7 +84,7 @@ ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:25
 	android:name
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:25:22-77
 application
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:27:5-181:19
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:27:5-183:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\GOD\.android\build-cache\9edda1be754ff6b22835f6524099a8be207e862a\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] C:\Users\GOD\.android\build-cache\d4f854e36064a8e61177c0632a9db76f4c56f277\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\GOD\.android\build-cache\84af7b2dac00ca27b2f882c3edea198bba568498\output\AndroidManifest.xml:25:5-20
@@ -376,6 +376,14 @@ ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:17
 	android:name
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:179:19-97
 activity#com.GalleryAuction.Artist.AuctionList.ArtistAuctionCompleteUi
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:180:9-107
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:180:9-98
 	android:name
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:180:19-95
+activity#com.GalleryAuction.Artist.AuctionEndList.AuctionEndList
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:181:9-92
+	android:name
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:181:19-89
+activity#com.GalleryAuction.Bidder.WinningBidWhether.WinningBidListActivity
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:182:9-112
+	android:name
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:182:19-100

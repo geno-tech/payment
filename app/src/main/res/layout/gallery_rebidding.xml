@@ -13,21 +13,25 @@
             android:layout_height="100dp"
             android:src="@color/success_color" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:layout_marginTop="30dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="현재 최고 입찰가 :"/>
+            android:text="현재 최고 입찰가 :" />
+
         <TextView
-            android:layout_marginLeft="5dp"
+            android:id="@+id/bestbidding_tv2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/bestbidding_tv2"/>
+            android:layout_marginLeft="5dp" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/artinfoconfirm.txt"/>
+        android:id="@+id/artinfoconfirm_txt"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,12 +31,14 @@
             android:layout_weight="1"
             android:text="낙찰"
             android:layout_marginRight="50dp"
-            android:layout_marginLeft="50dp"/>
+            android:layout_marginLeft="50dp"
+            android:id="@+id/artistwinningbid_btn"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="취소"
-            android:layout_marginRight="50dp"/>
+            android:layout_marginRight="50dp"
+            android:id="@+id/artistwinningbid_x_btn"/>
     </LinearLayout>
 </LinearLayout>

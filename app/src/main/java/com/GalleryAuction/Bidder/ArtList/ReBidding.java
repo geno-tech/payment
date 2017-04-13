@@ -103,9 +103,6 @@ public class ReBidding extends Activity implements View.OnClickListener {
         tv2.setText(currentpoint(bidprice2) + "원");
         Log.d("bidprice", bidprice);
 
-        if (dd ==0 && HH == 0 && mm == 0 && ss ==0 ) {
-            handler.sendEmptyMessage(1);
-        }
         thread = new Thread();
         thread.start();
 
@@ -134,23 +131,33 @@ public class ReBidding extends Activity implements View.OnClickListener {
             case R.id.rebidding :
                 int bidprice_int = Integer.parseInt(bidprice2);
                 Log.d("??" , et.getText().toString());
-                if (et.getText().toString().length() == 0) {
-                    Toast.makeText(ReBidding.this, "금액을 입력하세요.", Toast.LENGTH_SHORT).show();
-                } else {
-                    rebiddinStr = Long.parseLong(et.getText().toString());
-
-                    if (rebiddinStr <= bidprice_int || rebiddinStr == 0) {
-                        Toast.makeText(ReBidding.this, "금액이 적습니다.", Toast.LENGTH_SHORT).show();
-                    } else {
-                        Bidding_Insert(auckey, userID, et.getText().toString());
-                        Intent intent = new Intent(ReBidding.this, ReBiddingConfirm.class);
-                        intent.putExtra("rebidding", et.getText().toString());
-                        intent.putExtra("image", image);
-                        startActivity(intent);
-                        finish();
-                    }
+                now = System.currentTimeMillis();
+                long en = end-now;
+                if(en <= 0){
+                    Toast.makeText(ReBidding.this, "경매가 마감되었습니다.", Toast.LENGTH_SHORT).show();
 
                 }
+                else{
+                    if (et.getText().toString().length() == 0) {
+                        Toast.makeText(ReBidding.this, "금액을 입력하세요.", Toast.LENGTH_SHORT).show();
+                    } else {
+                        rebiddinStr = Long.parseLong(et.getText().toString());
+
+                        if (rebiddinStr <= bidprice_int || rebiddinStr == 0) {
+                            Toast.makeText(ReBidding.this, "금액이 적습니다.", Toast.LENGTH_SHORT).show();
+                        } else {
+                            Bidding_Insert(auckey, userID, et.getText().toString());
+                            Intent intent = new Intent(ReBidding.this, ReBiddingConfirm.class);
+                            intent.putExtra("rebidding", et.getText().toString());
+                            intent.putExtra("image", image);
+                            intent.putExtra("end", end);
+                            startActivity(intent);
+                            finish();
+                        }
+
+                    }
+                }
+
 
                 break;
             case R.id.rebidding_x :
@@ -170,8 +177,8 @@ public class ReBidding extends Activity implements View.OnClickListener {
 
             HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2);
             HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 3000);
-            HttpConnectionParams.setSoTimeout(params, 3000);
+            HttpConnectionParams.setConnectionTimeout(params, 30000);
+            HttpConnectionParams.setSoTimeout(params, 30000);
             HttpResponse response = client.execute(post);
             BufferedReader bufreader = new BufferedReader(
                     new InputStreamReader(response.getEntity().getContent(),
@@ -205,8 +212,8 @@ public class ReBidding extends Activity implements View.OnClickListener {
 
             HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2 + "&msg3=" + msg3);
             HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 3000);
-            HttpConnectionParams.setSoTimeout(params, 3000);
+            HttpConnectionParams.setConnectionTimeout(params, 30000);
+            HttpConnectionParams.setSoTimeout(params, 30000);
             HttpResponse response = client.execute(post);
             BufferedReader bufreader = new BufferedReader(
                     new InputStreamReader(response.getEntity().getContent(),
@@ -228,8 +235,8 @@ public class ReBidding extends Activity implements View.OnClickListener {
 
                 HttpPost post = new HttpPost(URL + "?msg=" + msg);
                 HttpParams params = client.getParams();
-                HttpConnectionParams.setConnectionTimeout(params, 3000);
-                HttpConnectionParams.setSoTimeout(params, 3000);
+                HttpConnectionParams.setConnectionTimeout(params, 300000);
+                HttpConnectionParams.setSoTimeout(params, 300000);
             HttpResponse response = client.execute(post);
             BufferedReader bufreader = new BufferedReader(
                     new InputStreamReader(response.getEntity().getContent(),
