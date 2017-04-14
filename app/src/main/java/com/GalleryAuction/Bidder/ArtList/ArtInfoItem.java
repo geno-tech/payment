@@ -14,6 +14,7 @@ public class ArtInfoItem {
     private String titleStr ;
     private String aucStr;
     private String bidStr;
+    private String bidwin;
 
     public ArtInfoItem() {
 
@@ -29,10 +30,13 @@ public class ArtInfoItem {
     public void setAuckey(String auckey) {
         aucStr = auckey ;
     }
-
     public void setBidkey(String bidkey) {
         bidStr = bidkey ;
     }
+    public void setBid(String bid) {
+        bidwin = bid ;
+    }
+
     public String getIcon() {
         return this.iconDrawable ;
     }
@@ -44,6 +48,9 @@ public class ArtInfoItem {
     }
     public String getBidkey() {
         return this.bidStr ;
+    }
+    public String getBid() {
+        return this.bidwin ;
     }
 
 }

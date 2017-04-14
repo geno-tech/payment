@@ -37,11 +37,11 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:text="얼씨구절씨구가나다라마바사아하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하딸기토마토복숭아오란씨오징어궁금해모두다궁금해헬로베이비후하하하하하하하아무말대잔치"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="계약서 읽어주기"
-        android:id="@+id/contractTTS_btn"/>
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="계약서 읽어주기"-->
+        <!--android:id="@+id/contractTTS_btn"/>-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

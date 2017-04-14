@@ -72,14 +72,32 @@ public class ArtInfoAdapter extends BaseAdapter {
                 //입찰했을때
                 tv1.setTextColor(Color.YELLOW);
                 tv2.setTextColor(Color.YELLOW);
-            } else if (artInfoItem.getAuckey() == "4") {
+        }
+        else if (artInfoItem.getAuckey().equals("4")) {
             //마감됐을때
                 tv1.setTextColor(Color.CYAN);
-            tv2.setTextColor(Color.YELLOW);
+            tv2.setTextColor(Color.CYAN);
 
-        } else
+        }
+        else if (artInfoItem.getAuckey().equals("5") ||artInfoItem.getAuckey().equals("6") || artInfoItem.getAuckey().equals("7")) {
+            //마감됐을때
+            if(artInfoItem.getBid().equals("2")){
+                tv1.setTextColor(Color.rgb(134,42,0));
+                tv2.setTextColor(Color.rgb(134,42,0));
+            }
+            else if(artInfoItem.getBid().equals("3")){
+                tv1.setTextColor(Color.rgb(255,187,0));
+                tv2.setTextColor(Color.rgb(255,187,0));
+            }
+            else{
+                tv1.setTextColor(Color.rgb(241,95,95));
+                tv2.setTextColor(Color.rgb(241,95,95));
+            }
+        }
+        else {
             tv1.setTextColor(Color.BLACK);
-        tv2.setTextColor(Color.BLACK);
+            tv2.setTextColor(Color.BLACK);
+        }
 
 
 
@@ -90,13 +108,14 @@ public class ArtInfoAdapter extends BaseAdapter {
         return convertView;
     }
 
-    public void addItem(String icon, String title, String auckey, String bidkey) {
+    public void addItem(String icon, String title, String auckey, String bidkey, String bid) {
         ArtInfoItem item = new ArtInfoItem();
 
         item.setIcon(icon);
         item.setTitle(title);
         item.setAuckey(auckey);
         item.setBidkey(bidkey);
+        item.setBid(bid);
         listViewItemList.add(item);
     }
 

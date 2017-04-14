@@ -103,7 +103,8 @@ public class ArtistAuctionInformation extends Activity {
                 } else if (auction.equals("5")){
                     Toast.makeText(ArtistAuctionInformation.this, "유저의 동의가 필요합니다", Toast.LENGTH_SHORT).show();
                 } else if (auction.equals("6")) {
-
+                    Intent intent1 = new Intent(ArtistAuctionInformation.this, ArtistAuctionUserWinningBidUi.class);
+                    startActivity(intent1);
                 }
             }
 

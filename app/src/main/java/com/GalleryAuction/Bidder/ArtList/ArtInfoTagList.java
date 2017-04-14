@@ -36,7 +36,7 @@ public class ArtInfoTagList extends Activity {
     private ListView listView;
     private ArtInfoAdapter adapter;
     Button remove_btn;
-    String artkey, arttitle, image, nowtime, nfcid, auckey, bidkey, albumkey, auctime_end, auction;
+    String artkey, arttitle, image, nowtime, nfcid, auckey, bidkey, albumkey, auctime_end, auction, bid;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,7 +50,7 @@ public class ArtInfoTagList extends Activity {
         remove_btn = (Button)findViewById(R.id.artinforemove_btn);
 //        dbHelper = new DBHelper(getApplicationContext(), "MoneyBook.db", null, 1);
         adapter = new ArtInfoAdapter();
-
+        remove_btn.setVisibility(View.INVISIBLE);
         listView = (ListView) findViewById(R.id.artinfo_listview);
         listView.setAdapter(adapter);
 
@@ -73,11 +73,12 @@ public class ArtInfoTagList extends Activity {
                     nowtime = job.get("art_con_time").toString();
                     auckey = job.get("auc_seq").toString();
                     bidkey = job.get("bid_seq").toString();
+                    bid = job.get("bid_status").toString();
                     albumkey = job.get("album_seq").toString();
                     auctime_end = job.get("auc_end").toString();
                     auction = job.get("auc_status").toString();
                     Log.d("aauser", "" + auckey + ", " + arttitle + ", " + bidkey);
-                    adapter.addItem(arttitle, nowtime, auction, bidkey);
+                    adapter.addItem(arttitle, nowtime, auction, bidkey, bid);
                     Log.d("aaa", imgUrl + image);
 
 
@@ -100,18 +101,19 @@ public class ArtInfoTagList extends Activity {
                         image = job.get("art_image").toString();
                         nowtime = job.get("art_date_e").toString();
                         bidkey = job.get("bid_seq").toString();
+                        bid = job.get("bid_status").toString();
                         albumkey = job.get("album_seq").toString();
                         auckey = job.get("auc_seq").toString();
                         auction = job.get("auc_status").toString();
                         auctime_end = job.get("auc_end").toString();
                         Log.d("aauser", "" + auction);
                         Log.d("aaa", imgUrl + image);
-                        adapter.addItem(arttitle, nowtime, auction, bidkey);
+                    new ArtInfoAdapter().addItem(arttitle, nowtime, auction, bidkey, bid);
 
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                if ((auction.equals("0"))||(auction == "1")||(auction == "1" && bidkey != "0") || (auction == "3" && bidkey == "0") || (auction=="2")) {
+                if ((auction.equals("0"))||(auction.equals("1"))||(auction.equals("1") && !bidkey.equals("0")) || (auction.equals("3") && bidkey.equals("0")) || (auction.equals("2"))) {
                     Log.d("bb", bidkey + "그림 정보화면");
                     Log.d("cc", auction +"???"+bidkey + "그림정보화면");
 
@@ -134,11 +136,22 @@ public class ArtInfoTagList extends Activity {
                     intent1.putExtra("image", image);
                     startActivity(intent1);
                     finish();
-                } else if (auction.equals("4")) {
+                } else if (auction.equals("5")) {
                     Intent intent1 = new Intent(ArtInfoTagList.this, WinningBidListActivity.class);
                     intent1.putExtra("auckey", auckey);
                     intent1.putExtra("userID", userId);
+                    intent1.putExtra("bid", bid);
+                    intent1.putExtra("bidkey", bidkey);
+
                     startActivity(intent1);
+                } else if (auction.equals("4")) {
+                    Toast.makeText(ArtInfoTagList.this, "아티스트의 낙찰을 기다리는 중 입니다.", Toast.LENGTH_SHORT).show();
+                } else if (auction.equals("6")) {
+                    Toast.makeText(ArtInfoTagList.this, "아티스트의 동의를 기다리는 중 입니다.", Toast.LENGTH_SHORT).show();
+
+                } else if (auction.equals("7")) {
+                    Toast.makeText(ArtInfoTagList.this, "경매완료", Toast.LENGTH_SHORT).show();
+
                 }
 
             }

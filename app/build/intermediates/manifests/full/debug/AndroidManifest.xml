@@ -180,6 +180,8 @@
         <activity android:name="com.GalleryAuction.Artist.AuctionList.ArtistAuctionCompleteUi" />
         <activity android:name="com.GalleryAuction.Artist.AuctionEndList.AuctionEndList" />
         <activity android:name="com.GalleryAuction.Bidder.WinningBidWhether.WinningBidListActivity" />
+        <activity android:name="com.GalleryAuction.Artist.AuctionList.ArtistAuctionUserWinningBidUi" />
+        <activity android:name="com.GalleryAuction.Bidder.WinningBidWhether.ContractorDialog" />
     </application>
 
 </manifest>
