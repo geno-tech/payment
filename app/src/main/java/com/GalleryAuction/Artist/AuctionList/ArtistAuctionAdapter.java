@@ -13,6 +13,7 @@ import com.geno.bill_folder.R;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.ArrayList;
+import java.util.PriorityQueue;
 
 /**
  * Created by GOD on 2017-04-03.
@@ -96,7 +97,12 @@ public class ArtistAuctionAdapter  extends BaseAdapter{
 
         } else if (artistAuctionItem.getAuction().equals("5")) {
             tv1.setText(artistAuctionItem.getTitle());
-            tv2.setText("경매완료상태");
+            tv2.setText("낙찰유저대기상태");
+            tv2.setTextSize(13);
+            tv3.setText(artistAuctionItem.getTime());
+        } else if (artistAuctionItem.getAuction().equals("6")) {
+            tv1.setText(artistAuctionItem.getTitle());
+            tv2.setText("낙찰유저동의상태");
             tv2.setTextSize(13);
             tv3.setText(artistAuctionItem.getTime());
         }

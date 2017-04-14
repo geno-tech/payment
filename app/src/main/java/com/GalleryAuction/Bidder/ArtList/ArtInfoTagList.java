@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.GalleryAuction.Bidder.WinningBidWhether.WinningBidListActivity;
 import com.geno.bill_folder.R;
 
 import org.apache.http.HttpResponse;
@@ -110,7 +111,7 @@ public class ArtInfoTagList extends Activity {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                if ((auction.equals("0"))||(auction == "1")||(auction == "1" && bidkey != "0") || (auction == "3" && bidkey == "0") || (auction=="2") || (auction == "4")) {
+                if ((auction.equals("0"))||(auction == "1")||(auction == "1" && bidkey != "0") || (auction == "3" && bidkey == "0") || (auction=="2")) {
                     Log.d("bb", bidkey + "그림 정보화면");
                     Log.d("cc", auction +"???"+bidkey + "그림정보화면");
 
@@ -133,6 +134,11 @@ public class ArtInfoTagList extends Activity {
                     intent1.putExtra("image", image);
                     startActivity(intent1);
                     finish();
+                } else if (auction.equals("4")) {
+                    Intent intent1 = new Intent(ArtInfoTagList.this, WinningBidListActivity.class);
+                    intent1.putExtra("auckey", auckey);
+                    intent1.putExtra("userID", userId);
+                    startActivity(intent1);
                 }
 
             }

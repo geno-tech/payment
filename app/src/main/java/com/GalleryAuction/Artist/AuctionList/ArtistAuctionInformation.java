@@ -100,8 +100,10 @@ public class ArtistAuctionInformation extends Activity {
 
                     Toast.makeText(ArtistAuctionInformation.this, "아직 경매가 시작되지 않았습니다.", Toast.LENGTH_SHORT).show();
 
-                } else {
-                    Toast.makeText(ArtistAuctionInformation.this, "잠시 후 다시 시도하세요", Toast.LENGTH_SHORT).show();
+                } else if (auction.equals("5")){
+                    Toast.makeText(ArtistAuctionInformation.this, "유저의 동의가 필요합니다", Toast.LENGTH_SHORT).show();
+                } else if (auction.equals("6")) {
+
                 }
             }
 
