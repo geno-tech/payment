@@ -27,7 +27,7 @@ import java.util.List;
 
 public class ArtistAuctionInformation extends Activity {
     ArtistAuctionAdapter artistAuctionAdapter = new ArtistAuctionAdapter();
-    String artistID,arttitle, nowbidding, end, auction, auckey,artkey, title, image;
+    String artistID,arttitle, nowbidding, end, auction, auckey,artkey, title, image, userID;
     ListView listView;
     Button btn;
     @Override
@@ -48,8 +48,12 @@ public class ArtistAuctionInformation extends Activity {
                 end = job.get("art_date_e").toString();
                 auction = job.get("auc_status").toString();
                 auckey = job.get("auc_seq").toString();
+                artkey = job.get("art_seq").toString();
+
                 title = job.get("art_title").toString();
                 image = job.get("art_image").toString();
+                userID = job.get("user_id").toString();
+
                 artistAuctionAdapter.addItem(title, nowbidding, end, auction, auckey);
                 Log.d("aaaa" , auckey);
             }
@@ -70,7 +74,10 @@ public class ArtistAuctionInformation extends Activity {
                         auction = job.get("auc_status").toString();
                         auckey = job.get("auc_seq").toString();
                         artkey = job.get("art_seq").toString();
-                        new ArtistAuctionAdapter().addItem(title, nowbidding, end, auction, auckey);
+                        image = job.get("art_image").toString();
+                        userID = job.get("user_id").toString();
+
+                    new ArtistAuctionAdapter().addItem(title, nowbidding, end, auction, auckey);
 
                         Log.d("key", auckey);
 
@@ -103,8 +110,17 @@ public class ArtistAuctionInformation extends Activity {
                 } else if (auction.equals("5")){
                     Toast.makeText(ArtistAuctionInformation.this, "유저의 동의가 필요합니다", Toast.LENGTH_SHORT).show();
                 } else if (auction.equals("6")) {
-                    Intent intent1 = new Intent(ArtistAuctionInformation.this, ArtistAuctionUserWinningBidUi.class);
-                    startActivity(intent1);
+                    Intent intent3 = new Intent(ArtistAuctionInformation.this, ArtistAuctionUserWinningBidUi.class);
+                    intent3.putExtra("auckey", auckey);
+                    intent3.putExtra("userID", userID);
+                    intent3.putExtra("artistID", artistID);
+                    startActivity(intent3);
+                    finish();
+                } else if (auction.equals("7")) {
+                    Toast.makeText(ArtistAuctionInformation.this, "낙찰상태" , Toast.LENGTH_SHORT).show();
+
+//                    Intent intent1 = new Intent(ArtistAuctionInformation.this, ArtistAuctionUserWinningBidUi.class);
+//                    startActivity(intent1);
                 }
             }
 

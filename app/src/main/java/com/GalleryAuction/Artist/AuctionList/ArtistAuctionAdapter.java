@@ -105,6 +105,11 @@ public class ArtistAuctionAdapter  extends BaseAdapter{
             tv2.setText("낙찰유저동의상태");
             tv2.setTextSize(13);
             tv3.setText(artistAuctionItem.getTime());
+        }else if (artistAuctionItem.getAuction().equals("7")) {
+            tv1.setText(artistAuctionItem.getTitle());
+            tv2.setText("낙찰완료상태");
+            tv2.setTextSize(13);
+            tv3.setText(artistAuctionItem.getTime());
         }
         return convertView;
     }
