@@ -5,11 +5,14 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -26,7 +29,11 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 public class ArtInfoTagList extends Activity {
     //    DBHelper dbHelper;
@@ -78,7 +85,8 @@ public class ArtInfoTagList extends Activity {
                     auctime_end = job.get("auc_end").toString();
                     auction = job.get("auc_status").toString();
                     Log.d("aauser", "" + auckey + ", " + arttitle + ", " + bidkey);
-                    adapter.addItem(arttitle, nowtime, auction, bidkey, bid);
+                    //new DownloadImageTask().execute(imgUrl+image);
+                    adapter.addItem(arttitle, nowtime, auction, bidkey, bid , getImageBitmap(imgUrl+image));
                     Log.d("aaa", imgUrl + image);
 
 
@@ -108,7 +116,7 @@ public class ArtInfoTagList extends Activity {
                         auctime_end = job.get("auc_end").toString();
                         Log.d("aauser", "" + auction);
                         Log.d("aaa", imgUrl + image);
-                    new ArtInfoAdapter().addItem(arttitle, nowtime, auction, bidkey, bid);
+                    new ArtInfoAdapter().addItem(arttitle, nowtime, auction, bidkey, bid , getImageBitmap(imgUrl+image));
 
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -291,4 +299,42 @@ public class ArtInfoTagList extends Activity {
     }
 
 
+
+    public Bitmap getImageBitmap(final String imageURL){
+        final Bitmap[] bitmapImage = new Bitmap[1];
+        Thread mThread = new Thread(){
+            @Override
+            public void run() {
+
+                try {
+                    URL url = new URL(imageURL); // URL 주소를 이용해서 URL 객체 생성
+
+                    //  아래 코드는 웹에서 이미지를 가져온 뒤
+                    //  이미지 뷰에 지정할 Bitmap을 생성하는 과정
+
+                    HttpURLConnection conn = (HttpURLConnection)url.openConnection();
+                    conn.setDoInput(true);
+                    conn.connect();
+
+                    InputStream is = conn.getInputStream();
+                    bitmapImage[0] = BitmapFactory.decodeStream(is);
+
+                } catch(IOException ex) {
+                    ex.getMessage();
+                }
+            }
+
+        };
+        mThread.start();
+        try {
+         mThread.join();
+
+        }
+        catch (InterruptedException e){
+            e.getMessage();
+        }
+        return bitmapImage[0];
+    }
+
 }
+

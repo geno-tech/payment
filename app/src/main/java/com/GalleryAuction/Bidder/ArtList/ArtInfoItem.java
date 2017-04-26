@@ -1,5 +1,6 @@
 package com.GalleryAuction.Bidder.ArtList;
 
+import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.webkit.WebView;
 
@@ -15,7 +16,7 @@ public class ArtInfoItem {
     private String aucStr;
     private String bidStr;
     private String bidwin;
-
+    private Bitmap image;
     public ArtInfoItem() {
 
     }
@@ -36,6 +37,7 @@ public class ArtInfoItem {
     public void setBid(String bid) {
         bidwin = bid ;
     }
+    public void setImage(Bitmap image) {this.image = image;}
 
     public String getIcon() {
         return this.iconDrawable ;
@@ -52,5 +54,8 @@ public class ArtInfoItem {
     public String getBid() {
         return this.bidwin ;
     }
+    public Bitmap getImage() {return image;}
+
+
 
 }

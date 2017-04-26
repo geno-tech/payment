@@ -2,6 +2,8 @@ package com.GalleryAuction.Artist.AuctionList;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -10,6 +12,8 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.GalleryAuction.Artist.ArtList.ArtistArtInformation;
+import com.GalleryAuction.Bidder.ArtList.ArtInfoTagList;
 import com.geno.bill_folder.R;
 
 import org.apache.http.HttpResponse;
@@ -22,12 +26,17 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.List;
 
 public class ArtistAuctionInformation extends Activity {
     ArtistAuctionAdapter artistAuctionAdapter = new ArtistAuctionAdapter();
     String artistID,arttitle, nowbidding, end, auction, auckey,artkey, title, image, userID;
+    String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
     ListView listView;
     Button btn;
     @Override
@@ -54,7 +63,7 @@ public class ArtistAuctionInformation extends Activity {
                 image = job.get("art_image").toString();
                 userID = job.get("user_id").toString();
 
-                artistAuctionAdapter.addItem(title, nowbidding, end, auction, auckey);
+                artistAuctionAdapter.addItem(title, nowbidding, end, auction, auckey , getImageBitmap(imgUrl+image));
                 Log.d("aaaa" , auckey);
             }
         } catch (JSONException e) {
@@ -77,7 +86,7 @@ public class ArtistAuctionInformation extends Activity {
                         image = job.get("art_image").toString();
                         userID = job.get("user_id").toString();
 
-                    new ArtistAuctionAdapter().addItem(title, nowbidding, end, auction, auckey);
+                    new ArtistAuctionAdapter().addItem(title, nowbidding, end, auction, auckey , getImageBitmap(imgUrl+image));
 
                         Log.d("key", auckey);
 
@@ -86,24 +95,24 @@ public class ArtistAuctionInformation extends Activity {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                if (auction == "1" || auction.equals("0"))  {
+                if (auction.equals("1") || auction.equals("0"))  {
                     Intent intent0 = new Intent(ArtistAuctionInformation.this, ArtistAuctionAddUi.class);
                     intent0.putExtra("artkey", artkey);
                     startActivity(intent0);
                     finish();
-                } else if (auction == "4") {
+                } else if (auction.equals("4")) {
                     Intent intent1 = new Intent(ArtistAuctionInformation.this, ArtistAuctionCompleteUi.class);
                     intent1.putExtra("auckey", auckey);
                     intent1.putExtra("title", title);
                     intent1.putExtra("image", image);
                     startActivity(intent1);
                     finish();
-                }else if (auction == "3") {
+                }else if (auction.equals("3")) {
                     Intent intent2 = new Intent(ArtistAuctionInformation.this, ArtistAuctionDetailInfoUi.class);
                     intent2.putExtra("auckey", auckey);
                     startActivity(intent2);
                     finish();
-                } else if (auction == "2") {
+                } else if (auction.equals("2")) {
 
                     Toast.makeText(ArtistAuctionInformation.this, "아직 경매가 시작되지 않았습니다.", Toast.LENGTH_SHORT).show();
 
@@ -165,5 +174,41 @@ public class ArtistAuctionInformation extends Activity {
             e.printStackTrace();
             return null;
         }
+    }
+
+    public Bitmap getImageBitmap(final String imageURL){
+        final Bitmap[] bitmapImage = new Bitmap[1];
+        Thread mThread = new Thread(){
+            @Override
+            public void run() {
+
+                try {
+                    URL url = new URL(imageURL); // URL 주소를 이용해서 URL 객체 생성
+
+                    //  아래 코드는 웹에서 이미지를 가져온 뒤
+                    //  이미지 뷰에 지정할 Bitmap을 생성하는 과정
+
+                    HttpURLConnection conn = (HttpURLConnection)url.openConnection();
+                    conn.setDoInput(true);
+                    conn.connect();
+
+                    InputStream is = conn.getInputStream();
+                    bitmapImage[0] = BitmapFactory.decodeStream(is);
+
+                } catch(IOException ex) {
+                    ex.getMessage();
+                }
+            }
+
+        };
+        mThread.start();
+        try {
+            mThread.join();
+
+        }
+        catch (InterruptedException e){
+            e.getMessage();
+        }
+        return bitmapImage[0];
     }
 }

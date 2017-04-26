@@ -1,5 +1,8 @@
 
 package com.GalleryAuction.Artist.AuctionList;
+
+import android.graphics.Bitmap;
+
 /*** Created by GOD on 2017-03-28.*/
 public class ArtistAuctionItem {
     private String artisttitle ;
@@ -7,7 +10,7 @@ public class ArtistAuctionItem {
     private String timeStr ;
     private String auctionStr;
     private String auckeyStr;
-
+    private Bitmap image;
     public ArtistAuctionItem() {
 
     }
@@ -27,6 +30,8 @@ public class ArtistAuctionItem {
     public void setAuckey(String auckey) {
         auckeyStr = auckey;
     }
+    public void setImage(Bitmap image) {   this.image = image;  }
+
 
     public String getTitle() {
         return this.artisttitle ;
@@ -43,4 +48,7 @@ public class ArtistAuctionItem {
     public String getAuckey() {
         return this.auckeyStr;
     }
+    public Bitmap getImage() {  return image;  }
+
+
 }

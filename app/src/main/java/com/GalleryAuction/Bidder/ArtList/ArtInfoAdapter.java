@@ -3,11 +3,13 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.geno.bill_folder.R;
@@ -16,7 +18,7 @@ public class ArtInfoAdapter extends BaseAdapter {
     // 문자열 보관 ArrayList
     private ArrayList<ArtInfoItem> listViewItemList = new ArrayList<ArtInfoItem>() ;
     TextView tv1, tv2, tv3;
-
+    ImageView imageView;
     public ArtInfoAdapter() {
 
     }
@@ -48,9 +50,11 @@ public class ArtInfoAdapter extends BaseAdapter {
         }
         tv1 = (TextView) convertView.findViewById(R.id.artinfoitem1_txt);
         tv2 = (TextView) convertView.findViewById(R.id.artinfoitem2_txt);
+        imageView = (ImageView) convertView.findViewById(R.id.artinfoitem_image);
         ArtInfoItem artInfoItem = listViewItemList.get(position);
         tv1.setText(artInfoItem.getIcon());
         tv2.setText(artInfoItem.getTitle());
+        imageView.setImageBitmap(artInfoItem.getImage());
         //경매 X
         if (artInfoItem.getAuckey() == "1") {
             tv1.setTextColor(Color.BLACK);
@@ -108,7 +112,7 @@ public class ArtInfoAdapter extends BaseAdapter {
         return convertView;
     }
 
-    public void addItem(String icon, String title, String auckey, String bidkey, String bid) {
+    public void addItem(String icon, String title, String auckey, String bidkey, String bid , Bitmap image) {
         ArtInfoItem item = new ArtInfoItem();
 
         item.setIcon(icon);
@@ -116,8 +120,11 @@ public class ArtInfoAdapter extends BaseAdapter {
         item.setAuckey(auckey);
         item.setBidkey(bidkey);
         item.setBid(bid);
+        item.setImage(image);
+
         listViewItemList.add(item);
     }
+
 
 
     public void removeitem(String icon, String title, String auckey) {
