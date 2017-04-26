@@ -7,7 +7,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.speech.tts.TextToSpeech;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -16,8 +15,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.GalleryAuction.Artist.AuctionList.ArtistAuctionCompleteUi;
-import com.GalleryAuction.Bidder.ArtList.ArtInfoAdapter;
 import com.geno.bill_folder.R;
 
 import org.apache.http.HttpResponse;
@@ -63,7 +60,7 @@ public class WinningBidListActivity extends Activity {
                 }
             }
         });
-        Intent intent = getIntent();
+        final Intent intent = getIntent();
         auckey = intent.getStringExtra("auckey");
         userID = intent.getStringExtra("userID");
         bid = intent.getStringExtra("bid");
@@ -111,9 +108,12 @@ public class WinningBidListActivity extends Activity {
                     }).setNeutralButton("동의", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            BiddingWinUserAgree(auckey);
                             tts.stop();
                             tts.shutdown();
+                            Toast.makeText(WinningBidListActivity.this, "준비중이다 기달", Toast.LENGTH_SHORT).show();
+//                            Intent intent1 = new Intent(WinningBidListActivity.this, IamPortWebViewRebidding.class) ;
+//                            intent1.putExtra("auckey", auckey);
+//                            startActivity(intent1);
                             finish();
                         }
                     }).setNegativeButton("계약서 읽기", null);
@@ -279,39 +279,7 @@ public class WinningBidListActivity extends Activity {
             return null;
         }
     }
-    private String BiddingWinUserAgree(String msg) {
-        if (msg == null) {
-            msg = "";
-        }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_win_userAgree.jsp";
-
-        DefaultHttpClient client = new DefaultHttpClient();
-        try {
-
-            HttpPost post = new HttpPost(URL + "?msg=" + msg);
-            HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 300000);
-            HttpConnectionParams.setSoTimeout(params, 300000);
-            HttpResponse response = client.execute(post);
-            BufferedReader bufreader = new BufferedReader(
-                    new InputStreamReader(response.getEntity().getContent(),
-                            "utf-8"));
-
-            String line = null;
-            String result = "";
-
-            while ((line = bufreader.readLine()) != null) {
-                result += line;
-
-            }
-            return result;
-
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
     private String BiddingWinUserCancel(String msg) {
         if (msg == null) {
             msg = "";
@@ -356,4 +324,5 @@ public class WinningBidListActivity extends Activity {
         String utteranceId=this.hashCode() + "";
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, utteranceId);
     }
+
     }

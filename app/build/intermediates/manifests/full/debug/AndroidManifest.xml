@@ -182,6 +182,30 @@
         <activity android:name="com.GalleryAuction.Bidder.WinningBidWhether.WinningBidListActivity" />
         <activity android:name="com.GalleryAuction.Artist.AuctionList.ArtistAuctionUserWinningBidUi" />
         <activity android:name="com.GalleryAuction.Bidder.WinningBidWhether.ContractorDialog" />
+        <activity
+            android:name="com.GalleryAuction.Bidder.WinningBidWhether.IamPortWebViewRebidding"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="iamportkakao" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.GalleryAuction.Bidder.WinningBidWhether.IamPortWebViewBidding"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="iamportkakao" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

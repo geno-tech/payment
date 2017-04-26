@@ -121,6 +121,7 @@ public class ArtInfoTagList extends Activity {
                     intent1.putExtra("tagid", nfcid);
                     intent1.putExtra("userID", userId);
                     intent1.putExtra("auction", auction);
+
                     intent1.putExtra("bidkey", bidkey);
                     intent1.putExtra("aucend", auctime_end);
 
@@ -156,48 +157,48 @@ public class ArtInfoTagList extends Activity {
 
             }
         });
-        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                try {
-                    final String albumlist2 = ArtAlbumlist(userId);
-
-                    JSONArray ja = new JSONArray(albumlist2);
-                    JSONObject job = (JSONObject) ja.get(position);
-                    artkey = job.get("art_seq").toString();
-                    arttitle = job.get("art_title").toString();
-                    nfcid = job.get("nfc_id").toString();
-                    image = job.get("art_image").toString();
-                    nowtime = job.get("art_date_e").toString();
-                    bidkey = job.get("bid_seq").toString();
-                    albumkey = job.get("album_seq").toString();
-                    auckey = job.get("auc_seq").toString();
-                    auctime_end = job.get("auc_end").toString();
-                    Log.d("auctime", auctime_end);
-                    Log.d("aauser", "" +artkey);
-                    Log.d("aaa", imgUrl+image);
-
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-                AlertDialog.Builder alert = new AlertDialog.Builder(ArtInfoTagList.this);
-                alert.setMessage("삭제하시겠습니까?").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-
-                        Toast.makeText(ArtInfoTagList.this, artkey, Toast.LENGTH_SHORT).show();
-                    }
-                }).setNegativeButton("취소", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                });
-                AlertDialog alertdialog = alert.create();
-                alertdialog.show();
-                return false;
-            }
-        });
+//        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+//            @Override
+//            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+//                try {
+//                    final String albumlist2 = ArtAlbumlist(userId);
+//
+//                    JSONArray ja = new JSONArray(albumlist2);
+//                    JSONObject job = (JSONObject) ja.get(position);
+//                    artkey = job.get("art_seq").toString();
+//                    arttitle = job.get("art_title").toString();
+//                    nfcid = job.get("nfc_id").toString();
+//                    image = job.get("art_image").toString();
+//                    nowtime = job.get("art_date_e").toString();
+//                    bidkey = job.get("bid_seq").toString();
+//                    albumkey = job.get("album_seq").toString();
+//                    auckey = job.get("auc_seq").toString();
+//                    auctime_end = job.get("auc_end").toString();
+//                    Log.d("auctime", auctime_end);
+//                    Log.d("aauser", "" +artkey);
+//                    Log.d("aaa", imgUrl+image);
+//
+//                } catch (JSONException e) {
+//                    e.printStackTrace();
+//                }
+//                AlertDialog.Builder alert = new AlertDialog.Builder(ArtInfoTagList.this);
+//                alert.setMessage("삭제하시겠습니까?").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//
+//                        Toast.makeText(ArtInfoTagList.this, artkey, Toast.LENGTH_SHORT).show();
+//                    }
+//                }).setNegativeButton("취소", new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        finish();
+//                    }
+//                });
+//                AlertDialog alertdialog = alert.create();
+//                alertdialog.show();
+//                return false;
+//            }
+//        });
 //    getname();
         remove_btn.setOnClickListener(new View.OnClickListener() {
             @Override

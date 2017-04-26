@@ -7,6 +7,7 @@ import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -42,7 +43,6 @@ public class ArtInformation extends Activity implements View.OnClickListener{
 
     Bitmap bmImg;
     back task;
-    DBHelper dbHelper;
     String userId, artinfo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -180,5 +180,12 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         }
     }
 
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        switch (keyCode) {
+            case KeyEvent.KEYCODE_BACK:
+                return true;
+        }
+        return super.onKeyDown(keyCode, event);
+    }
 
 }

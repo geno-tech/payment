@@ -14,7 +14,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.GalleryAuction.Bidder.ArtList.ReBidding;
+import com.GalleryAuction.Bidder.WinningBidWhether.IamPortWebViewBidding;
+import com.GalleryAuction.Bidder.WinningBidWhether.IamPortWebViewRebidding;
 import com.geno.bill_folder.R;
 
 import org.apache.http.HttpResponse;
@@ -113,15 +114,24 @@ public class BidderInfo extends Activity implements View.OnClickListener {
                     String userID = intent0.getStringExtra("userId");
                     String nowbidding = et.getText().toString();
                     Log.d("aff", userID+"와"+nowbidding);
-                    BiddingInfo(auckey ,userID, nowbidding);
+//                    BiddingInfo(auckey ,userID, nowbidding);
 
-                    Intent intent = new Intent(BidderInfo.this, BiddingComplete.class);
-                    intent.putExtra("nowbidding" , nowbidding);
-                    intent.putExtra("artimg", artimmage);
-                    intent.putExtra("aucend", aucend);
-                    intent.putExtra("min_bidding", min_bidding);
+//                    Intent intent = new Intent(BidderInfo.this, BiddingComplete.class);
+//                    intent.putExtra("nowbidding" , nowbidding);
+//                    intent.putExtra("artimg", artimmage);
+//                    intent.putExtra("aucend", aucend);
+//                    intent.putExtra("min_bidding", min_bidding);
+//                        startActivity(intent);
+//                    finish();
+                        Intent intent = new Intent(BidderInfo.this, IamPortWebViewBidding.class);
+                        intent.putExtra("bidding" , nowbidding);
+                        intent.putExtra("artimg", artimmage);
+                        intent.putExtra("aucend", aucend);
+                        intent.putExtra("min_bidding", min_bidding);
+                        intent.putExtra("auckey", auckey);
+                        intent.putExtra("userID", userID);
                         startActivity(intent);
-                    finish();
+                        finish();
                 }}
 
                 break;

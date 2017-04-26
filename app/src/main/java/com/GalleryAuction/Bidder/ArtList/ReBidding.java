@@ -16,8 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.GalleryAuction.Artist.AuctionList.ArtistAuctionAdapter;
-import com.GalleryAuction.Artist.AuctionList.ArtistAuctionDetailAdapter;
+import com.GalleryAuction.Bidder.WinningBidWhether.IamPortWebViewRebidding;
 import com.geno.bill_folder.R;
 
 import org.apache.http.HttpResponse;
@@ -146,11 +145,23 @@ public class ReBidding extends Activity implements View.OnClickListener {
                         if (rebiddinStr <= bidprice_int || rebiddinStr == 0) {
                             Toast.makeText(ReBidding.this, "금액이 적습니다.", Toast.LENGTH_SHORT).show();
                         } else {
-                            Bidding_Insert(auckey, userID, et.getText().toString());
-                            Intent intent = new Intent(ReBidding.this, ReBiddingConfirm.class);
-                            intent.putExtra("rebidding", et.getText().toString());
-                            intent.putExtra("image", image);
-                            intent.putExtra("end", end);
+//                            Bidding_Insert(auckey, userID, et.getText().toString());
+//                            Intent intent = new Intent(ReBidding.this, ReBiddingConfirm.class);
+//                            intent.putExtra("rebidding", et.getText().toString());
+//                            intent.putExtra("image", image);
+//                            intent.putExtra("end", end);
+//                            startActivity(intent);
+//                            finish();
+                            long  min_bidding = bidprice2==null?0:Long.parseLong(bidprice2);
+
+//                            Bidding_Insert(auckey, userID, et.getText().toString());
+                            Intent intent = new Intent(ReBidding.this, IamPortWebViewRebidding.class);
+                            intent.putExtra("bidding", et.getText().toString());
+                            intent.putExtra("artimg", image);
+                            intent.putExtra("aucend", end);
+                            intent.putExtra("min_bidding", min_bidding);
+                            intent.putExtra("auckey", auckey);
+                            intent.putExtra("userID", userID);
                             startActivity(intent);
                             finish();
                         }
@@ -199,29 +210,29 @@ public class ReBidding extends Activity implements View.OnClickListener {
         }
     }
 
-    // auckey, 유저아이디, 입찰가
-    private void Bidding_Insert(String msg, String msg2, String msg3) {
-        if (msg == null) {
-            msg = "";
-        }
-
-        String URL = "http://59.3.109.220:8989/NFCTEST/biddinginfo_insert.jsp";
-
-        DefaultHttpClient client = new DefaultHttpClient();
-        try {
-
-            HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2 + "&msg3=" + msg3);
-            HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 30000);
-            HttpConnectionParams.setSoTimeout(params, 30000);
-            HttpResponse response = client.execute(post);
-            BufferedReader bufreader = new BufferedReader(
-                    new InputStreamReader(response.getEntity().getContent(),
-                            "utf-8"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+//    // auckey, 유저아이디, 입찰가
+//    private void Bidding_Insert(String msg, String msg2, String msg3) {
+//        if (msg == null) {
+//            msg = "";
+//        }
+//
+//        String URL = "http://59.3.109.220:8989/NFCTEST/biddinginfo_insert.jsp";
+//
+//        DefaultHttpClient client = new DefaultHttpClient();
+//        try {
+//
+//            HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2 + "&msg3=" + msg3);
+//            HttpParams params = client.getParams();
+//            HttpConnectionParams.setConnectionTimeout(params, 30000);
+//            HttpConnectionParams.setSoTimeout(params, 30000);
+//            HttpResponse response = client.execute(post);
+//            BufferedReader bufreader = new BufferedReader(
+//                    new InputStreamReader(response.getEntity().getContent(),
+//                            "utf-8"));
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
     //auckey
     private String BiddingInfoBest(String msg) {
         if (msg == null) {

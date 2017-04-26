@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:2:1-187:12
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:2:1-209:12
 	package
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml
@@ -84,7 +84,7 @@ ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:25
 	android:name
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:25:22-77
 application
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:27:5-185:19
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:27:5-207:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\GOD\.android\build-cache\9edda1be754ff6b22835f6524099a8be207e862a\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] C:\Users\GOD\.android\build-cache\d4f854e36064a8e61177c0632a9db76f4c56f277\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\GOD\.android\build-cache\84af7b2dac00ca27b2f882c3edea198bba568498\output\AndroidManifest.xml:25:5-20
@@ -392,6 +392,28 @@ ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:18
 	android:name
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:183:19-101
 activity#com.GalleryAuction.Bidder.WinningBidWhether.ContractorDialog
-ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:184:9-106
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:184:9-97
 	android:name
 		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:184:19-94
+activity#com.GalleryAuction.Bidder.WinningBidWhether.IamPortWebViewRebidding
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:185:9-195:20
+	android:launchMode
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:186:13-44
+	android:name
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:185:19-101
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:187:13-194:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:188:17-69
+	android:name
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:188:25-66
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:191:17-78
+	android:name
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:191:27-75
+activity#com.GalleryAuction.Bidder.WinningBidWhether.IamPortWebViewBidding
+ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:196:9-206:20
+	android:launchMode
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:197:13-44
+	android:name
+		ADDED from C:\Users\GOD\Desktop\aaaa\payment\app\src\main\AndroidManifest.xml:196:19-99
