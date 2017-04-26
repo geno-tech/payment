@@ -101,13 +101,17 @@ public class ArtistAuctionInformation extends Activity {
                     startActivity(intent0);
                     finish();
                 } else if (auction.equals("4")) {
-                    Intent intent1 = new Intent(ArtistAuctionInformation.this, ArtistAuctionCompleteUi.class);
-                    intent1.putExtra("auckey", auckey);
-                    intent1.putExtra("title", title);
-                    intent1.putExtra("image", image);
-                    startActivity(intent1);
-                    finish();
-                }else if (auction.equals("3")) {
+
+
+
+                        Intent intent1 = new Intent(ArtistAuctionInformation.this, ArtistAuctionCompleteUi.class);
+                        intent1.putExtra("auckey", auckey);
+                        intent1.putExtra("title", title);
+                        intent1.putExtra("image", image);
+                        startActivity(intent1);
+                        finish();
+
+                } else if (auction.equals("3")) {
                     Intent intent2 = new Intent(ArtistAuctionInformation.this, ArtistAuctionDetailInfoUi.class);
                     intent2.putExtra("auckey", auckey);
                     startActivity(intent2);

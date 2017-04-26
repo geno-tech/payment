@@ -16,12 +16,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\join.xml"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tabs_bkgrd2.xml",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\tabs_bkgrd2.xml"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tabs_bkgrd2.xml",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\tabs_bkgrd2.xml"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_tab_non_sel.png",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\number_0_non_click.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pro.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\pro.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_cyan.xml",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\border_cyan.xml"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pro.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\pro.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_icon.png",
@@ -288,12 +288,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\info_tab_sel.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coupon_title_1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\coupon_title_1.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\number_5_non_click.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\number_5_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coupon_title_1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\coupon_title_1.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.png",
@@ -332,12 +332,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\agreeimage.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\cancel_1.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\nfc_tab_sel.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\nfc_tab_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\cancel_1.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\paid_1.png",
@@ -416,12 +416,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\pay_main_btn1.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pw_button6.xml",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\pw_button6.xml"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_1.xml",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\border_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pw_button6.xml",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\pw_button6.xml"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\number_1_click.png",
@@ -488,16 +488,20 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\exit_2.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\number_clr_non_click.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\number_clr_non_click.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.gif",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\progressbar.gif"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\number_clr_non_click.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\number_clr_non_click.png"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\issue_button_1.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\issue_button_1.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_3.xml",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\border_3.xml"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
@@ -506,10 +510,6 @@
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\nfc_tab_non_sel.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\nfc_tab_non_sel.png"
-    },
-    {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_3.xml",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\border_3.xml"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_main.png",
@@ -600,16 +600,16 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\spinner_xml.xml"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noagreeimage.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\noagreeimage.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_box_gray1.xml",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\round_box_gray1.xml"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noagreeimage.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\noagreeimage.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
@@ -700,12 +700,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\pw_button_clr.xml"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coupon_title_2.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\coupon_title_2.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\issue.xml",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\issue.xml"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coupon_title_2.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\coupon_title_2.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coupon_add2.png",
@@ -848,12 +848,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\dialog_no.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coupon_main.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\coupon_main.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coupon_main.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable\\coupon_main.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\number_2_click.png",

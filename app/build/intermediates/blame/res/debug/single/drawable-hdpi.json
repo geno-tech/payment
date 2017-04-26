@@ -104,12 +104,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_6.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_1.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_button_1.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_1.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_button_1.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\evoucher.png",
@@ -340,12 +340,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\agree_2.png"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialoag_view.png",
-        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialoag_view.png"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_3.png",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_3.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialoag_view.png",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialoag_view.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn.png",

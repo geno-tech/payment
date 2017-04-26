@@ -2,67 +2,13 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\nfc_network.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3ee1227540f81e508e2708129d7b665a37c6865b">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\2\nfc_network_3f6d86df8290373a7ca65b2388e8a146f56a1991\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\9e420679480a5e8feb874b5ffa1acb1946e53334\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\classes_7cabcdf9c391e6eddac55152638ec5eab1f0d5d0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_d1d857eb407988a705ee4640ebd4ebc4d6e4dbb9.jar" />
-    </item>
-    <item
         is-multidex="false"
         jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\nfc_network.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="3ee1227540f81e508e2708129d7b665a37c6865b">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\nfc_network_3f6d86df8290373a7ca65b2388e8a146f56a1991.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\f56dffa8d087d1bbc55481f60449f3b658bb5aa6\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\classes_f3bda77b044296879237cd85a20ce251576faa3a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\874e2dfb82a38e02ff5055e23909e0e870bbfb03\output\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_80fb24fce6fcdd4e3b046b10fc10613208d991c0.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d9e588ffc8faad81a6f100b01e87bcd0928b1afb\classes.dex" />
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\release\nfc_network_3f6d86df8290373a7ca65b2388e8a146f56a1991.jar" />
     </item>
     <item
         is-multidex="false"
@@ -71,142 +17,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\NfcSecurity_3a8c89fbac7873272adb4a0de30de975f2c12d6d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\3a99a8d03bca8d2e5e532dfa29f544427b4e9ef4\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\classes_2e0b69ef62f84f6f64d12e9e554f883ca215c6e0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\757f42bb8e2316f868c67d6ac0d5984524a714a1\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\classes_9a9c869dab633b24f9e166f723f1f23702414ac0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\84af7b2dac00ca27b2f882c3edea198bba568498\output\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d759789d8ba5826f7daeb5ebcaea1448eae8f693.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\757f42bb8e2316f868c67d6ac0d5984524a714a1\output\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_05e8310d3c759c32bfc64b9625a6ab070e50b00e.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cdca4a9f1135c2f9b77c1c220bdd32af67049f98">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_76d3afac7cd841a6f88160cbc9d3e09e08f22620\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\71fbbf8bed7c61dd7180ddd5ecfdd1514d670144\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\classes_91f7b5cabe6f002374a47f8df67079271903cdb7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\41290c42c189e371faa8063f24f2e5bb66abc251\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\classes_ccaa36634b88cab65e259ffe8eb8e0c2298e6135.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\9edda1be754ff6b22835f6524099a8be207e862a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\classes_684011bb150c56c49f351da6b326b1307e4931b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\41290c42c189e371faa8063f24f2e5bb66abc251\output\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_db04915c77f7bc07a7333517d6800ea7ed7258e7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\d4f854e36064a8e61177c0632a9db76f4c56f277\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\classes_c815d0f012f379bdba85f1e92a6adf2ee3d8bce0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\874e2dfb82a38e02ff5055e23909e0e870bbfb03\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\classes_3211274ab6aac9d3384510899db22b61b7e68823.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\NfcSecurity.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\2\NfcSecurity_3a8c89fbac7873272adb4a0de30de975f2c12d6d\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_2e7d783d918c7e4066fd65c0e7e99a7046ecc3e4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\84af7b2dac00ca27b2f882c3edea198bba568498\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\classes_7bcd38da9cbd8f29618da514f224f8b74d8721d5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\GOD\.android\build-cache\71fbbf8bed7c61dd7180ddd5ecfdd1514d670144\output\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5b2ba42bf14e767cc4fe62b64d852f628c47cc28.jar" />
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\release\NfcSecurity_3a8c89fbac7873272adb4a0de30de975f2c12d6d.jar" />
     </item>
 
 </items>

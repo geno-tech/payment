@@ -2,10 +2,14 @@ package com.GalleryAuction.Artist.AuctionList;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -24,6 +28,7 @@ import org.w3c.dom.Text;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -32,8 +37,9 @@ import java.util.StringTokenizer;
 public class ArtistAuctionAddUi extends Activity {
     int year , month , day , hour , minute , second;
     int cnt;
+    long currentTimeMillis, startTimeConf, selectTime, selectTime_end;
     String[] itemYear, itemMonth, itemDay, itemHour, itemMinute, itemSecond;
-    String s ,e, artkey;
+    String s ,e, artkey, ss, ee;
     Spinner spin1, spin2, spin3, spin4, spin5, spin6, spin1_e, spin2_e, spin3_e, spin4_e, spin5_e, spin6_e;
     ArrayAdapter adapter, adapter2, adapter3, adapter4, adapter5, adapter6, adapter_e, adapter2_e, adapter3_e, adapter4_e, adapter5_e, adapter6_e;
     Calendar cal;
@@ -66,17 +72,22 @@ public class ArtistAuctionAddUi extends Activity {
         btn2 = (Button)findViewById(R.id.artistauction_detail_btn_exit);
         Intent intent = getIntent();
         artkey = intent.getStringExtra("artkey");
-        long currentTimeMillis = System.currentTimeMillis();
+        currentTimeMillis = System.currentTimeMillis();
         Date date = new Date(currentTimeMillis);
+        Log.d("date",""+ date);
         SimpleDateFormat CurDayFormat = new SimpleDateFormat("yyyy-MM-dd");
         SimpleDateFormat CurHourFormat = new SimpleDateFormat("HH:mm:ss");
         String resultDay = CurDayFormat.format(date);
         String resultHour = CurHourFormat.format(date);
+        Log.d("date",""+ resultDay);
+        Log.d("date",""+ resultHour);
+
         StringTokenizer st = new StringTokenizer(resultDay, "-");
         StringTokenizer st2 = new StringTokenizer(resultHour, ":");
         int[] CurDay = new int[3];
         int[] CurHour = new int[3];
         cnt = 0;
+        startTimeConf = currentTimeMillis + 300000;
         while(st.hasMoreTokens()){
             CurDay[cnt++] = Integer.parseInt(st.nextToken());
         }
@@ -161,16 +172,38 @@ public class ArtistAuctionAddUi extends Activity {
         // city 와 gu 를 담을 두개의 Spinner 객체
         spin1.setAdapter(adapter);
         spin3.setAdapter(adapter3);
+        Log.d("DADADAY", ""+day);
+        spin3.setSelection(day -1);
+
         spin2.setAdapter(adapter2);
+        spin2.setSelection(month -1);
+
         spin4.setAdapter(adapter4);
+        spin4.setSelection(hour);
+
         spin5.setAdapter(adapter5);
+        spin5.setSelection(minute);
+
         spin6.setAdapter(adapter6);
+        spin6.setSelection(second);
+
         spin1_e.setAdapter(adapter_e);
+
         spin2_e.setAdapter(adapter2_e);
+        spin2_e.setSelection(month -1);
+
         spin3_e.setAdapter(adapter3_e);
+        spin3_e.setSelection(day -1);
+
         spin4_e.setAdapter(adapter4_e);
+        spin4_e.setSelection(hour);
+
         spin5_e.setAdapter(adapter5_e);
+        spin5_e.setSelection((minute +5));
+
         spin6_e.setAdapter(adapter6_e);
+        spin6_e.setSelection(second);
+
         s = null;
         e = null;
 //        String s = a + "-" +b + "-" + c + " " + d + ":" + e + ":" + f;
@@ -182,10 +215,46 @@ public class ArtistAuctionAddUi extends Activity {
             @Override
             public void onClick(View v) {
 
-                ArtAdd(artkey, s, e );
-                finish();
-                Log.d("시작합 " , s);
-                Log.d("끝 합", e);
+                String splitArray[] = {};
+                String splitArray2[] = {};
+                splitArray = s.split("%20");
+                splitArray2 = e.split("%20");
+                ss = splitArray[0] + " " + splitArray[1];
+                ee = splitArray2[0] + " " + splitArray2[1];
+
+                Log.d("splitArray[0]",splitArray[0]);
+                Log.d("splitArray[1]",splitArray[1]);
+                Log.d("splitArray2[0]",splitArray2[0]);
+                Log.d("splitArray2[1]",splitArray2[1]);
+                SimpleDateFormat FormatStringtoDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                try {
+                    Date formatdate = FormatStringtoDate.parse(ss);
+                    Date formatdate2 = FormatStringtoDate.parse(ee);
+
+                    selectTime = formatdate.getTime();
+                    selectTime_end = formatdate2.getTime();
+                } catch (ParseException e1) {
+                    e1.printStackTrace();
+                }
+                if (startTimeConf > selectTime) {
+                    Toast.makeText(ArtistAuctionAddUi.this, "현재시간보다 5분 이상의 시간이여야 합니다", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    if (selectTime >= selectTime_end) {
+                        Toast.makeText(ArtistAuctionAddUi.this, "마감시간이 시작시간보다 빠릅니다", Toast.LENGTH_SHORT).show();
+                    } else {
+                        ArtAdd(artkey, s, e);
+                        finish();
+                    }
+                }
+                Log.d("시작합 " , ss);
+                Log.d("끝 합", ee);
+                Log.d("현재시간 밀리초 " , String.valueOf(currentTimeMillis));
+                Log.d("현재시간 밀리초 " , String.valueOf(selectTime));
+                Log.d("현재시간+300000 밀리초 " , String.valueOf(startTimeConf) );
+                Log.d("현재시간합 " , String.valueOf(selectTime-startTimeConf) );
+                //currentTimeMillis
+                //startTimeConf
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
@@ -200,8 +269,8 @@ public class ArtistAuctionAddUi extends Activity {
         spin1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                cal.set(spin1.getSelectedItemPosition(), spin2.getSelectedItemPosition(), 1);
-                s = getDateresult(itemYear[position]  , spin2.getSelectedItem() , spin3.getSelectedItem() , spin4.getSelectedItem() , spin5.getSelectedItem()  , spin6.getSelectedItem());
+                spin1(position);
+
             }
 
             @Override
@@ -210,20 +279,83 @@ public class ArtistAuctionAddUi extends Activity {
             }
         });
         spin2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                itemDay = new String[cal.getMaximum(Calendar.DAY_OF_MONTH)];
+                cal.set(Integer.parseInt(spin1.getSelectedItem().toString()) , spin2.getSelectedItemPosition(), 1);
+                itemDay = new String[cal.getActualMaximum(Calendar.DATE)];
                 cnt = 0 ;
 
-                cal.set(year, spin2.getSelectedItemPosition(), 1);
-                for (int j = 1; j <= cal.getMaximum(Calendar.DAY_OF_MONTH); j++){
+                for (int j = 1; j <= cal.getActualMaximum(Calendar.DATE); j++){
                     itemDay[cnt++] = String.valueOf(j);
                     Log.d("jjjjjjj", ""+j);
-                    Log.d("MM", String.valueOf(cal.getMaximum(Calendar.DAY_OF_MONTH)));
 
                 }
-                adapter3 = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin, itemDay);
+                Log.d("year", ""+year);
+                Log.d("year", ""+year);
+                Log.d("spin1item", ""+Integer.parseInt(spin1.getSelectedItem().toString()) );
+
+                Log.d("MM", String.valueOf(cal.getActualMaximum(Calendar.DATE)));
+
+                adapter3 = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin, itemDay) {
+                    @Override
+                    public boolean isEnabled(int position) {
+                        if(Integer.parseInt(spin1.getSelectedItem().toString()) == year && Integer.parseInt(spin2.getSelectedItem().toString()) == month ) {
+                            if (position >= day - 1)
+                                return true;
+                            else
+                                return false;
+                        } else
+                        return true;
+                    }
+
+                    @Override
+                    public View getDropDownView(int position, View convertView,
+                                                ViewGroup parent) {
+                        View view = super.getDropDownView(position, convertView, parent);
+                        TextView tv = (TextView) view;
+                        if(Integer.parseInt(spin1.getSelectedItem().toString()) == year && Integer.parseInt(spin2.getSelectedItem().toString()) == month ) {
+                            if (position >= day - 1) {
+                                // Set the disable item text color
+                                tv.setTextColor(Color.BLACK);
+
+                            } else {
+                                tv.setTextColor(Color.GRAY);
+                            }
+                        }
+                        return view;
+                    }
+                };
                 spin3.setAdapter(adapter3);
+                spin3.setSelection(day -1);
+
+                adapter2_e = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin ,itemMonth) {
+                    @Override
+                    public boolean isEnabled(int position) {
+                        if (position >= spin2.getSelectedItemPosition())
+                            return true;
+                        else
+                            return false;
+                    }
+                    @Override
+                    public View getDropDownView(int position, View convertView,
+                                                ViewGroup parent) {
+                        View view = super.getDropDownView(position, convertView, parent);
+                        TextView tv = (TextView) view;
+                        if (position >= spin2.getSelectedItemPosition() ) {
+                            // Set the disable item text color
+                            tv.setTextColor(Color.BLACK);
+
+                        }
+                        else {
+                            tv.setTextColor(Color.GRAY);
+                        }
+                        return view;
+                    }
+                };
+                spin2_e.setAdapter(adapter2_e);
+                spin2_e.setSelection(spin2.getSelectedItemPosition());
+
                 String a = Integer.parseInt(itemMonth[position])>10?"":"0";
                 Log.d("a", a + itemMinute[position]);
                 s = getDateresult(spin1.getSelectedItem()  , itemMonth[position] , spin3.getSelectedItem() , spin4.getSelectedItem() , spin5.getSelectedItem()  , spin6.getSelectedItem());
@@ -241,7 +373,71 @@ public class ArtistAuctionAddUi extends Activity {
                 String a = Integer.parseInt(itemDay[position])>10?"":"0";
 
                 s = getDateresult(spin1.getSelectedItem()  , spin2.getSelectedItem() ,itemDay[position] , spin4.getSelectedItem() , spin5.getSelectedItem()  , spin6.getSelectedItem());
+                adapter4 = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin ,itemHour) {
+                    @Override
+                    public boolean isEnabled(int position) {
+                        if (Integer.parseInt(spin1.getSelectedItem().toString()) == year && Integer.parseInt(spin2.getSelectedItem().toString()) == month && Integer.parseInt(spin3.getSelectedItem().toString()) == day) {
+                            if (position >= hour)
+                                return true;
+                            else
+                                return false;
+                        } else
+                            return true;
+                    }
+                    @Override
+                    public View getDropDownView(int position, View convertView,
+                                                ViewGroup parent) {
+                        View view = super.getDropDownView(position, convertView, parent);
+                        TextView tv = (TextView) view;
+                        if (Integer.parseInt(spin1.getSelectedItem().toString()) == year && Integer.parseInt(spin2.getSelectedItem().toString()) == month  &&Integer.parseInt(spin3.getSelectedItem().toString()) == day) {
+                            if (position >= hour) {
+                                // Set the disable item text color
+                                tv.setTextColor(Color.BLACK);
 
+                            } else {
+                                tv.setTextColor(Color.GRAY);
+                            }
+                        } else
+                            tv.setTextColor(Color.BLACK);
+                        return view;
+                    }
+                };
+                spin4.setAdapter(adapter4);
+                spin4.setSelection(hour);
+
+                adapter3_e = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin ,itemDay) {
+                    @Override
+                    public boolean isEnabled(int position) {
+                        if (Integer.parseInt(spin1_e.getSelectedItem().toString()) == Integer.parseInt(spin1.getSelectedItem().toString()) && Integer.parseInt(spin2_e.getSelectedItem().toString()) == Integer.parseInt(spin2.getSelectedItem().toString())) {
+
+                            if (position >= spin3.getSelectedItemPosition())
+                                return true;
+                            else
+                                return false;
+                        } else
+                            return true;
+                    }
+                    @Override
+                    public View getDropDownView(int position, View convertView,
+                                                ViewGroup parent) {
+                        View view = super.getDropDownView(position, convertView, parent);
+                        TextView tv = (TextView) view;
+                        if(Integer.parseInt(spin1_e.getSelectedItem().toString()) == Integer.parseInt(spin1.getSelectedItem().toString()) && Integer.parseInt(spin2_e.getSelectedItem().toString()) == Integer.parseInt(spin2.getSelectedItem().toString()) ) {
+                            if (position >= spin3.getSelectedItemPosition()) {
+                                // Set the disable item text color
+                                tv.setTextColor(Color.BLACK);
+
+                            } else {
+                                tv.setTextColor(Color.GRAY);
+                            }
+                        } else
+                            tv.setTextColor(Color.BLACK);
+
+                        return view;
+                    }
+                };
+                spin3_e.setAdapter(adapter3_e);
+                spin3_e.setSelection(spin3.getSelectedItemPosition());
             }
 
             @Override
@@ -254,6 +450,72 @@ public class ArtistAuctionAddUi extends Activity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String a = Integer.parseInt(itemHour[position])>10?"":"0";
                 s = getDateresult(spin1.getSelectedItem()  , spin2.getSelectedItem() , spin3.getSelectedItem() , itemHour[position] , spin5.getSelectedItem()  , spin6.getSelectedItem());
+                adapter5 = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin ,itemMinute) {
+                    @Override
+                    public boolean isEnabled(int position) {
+                        if (Integer.parseInt(spin1.getSelectedItem().toString()) == year && Integer.parseInt(spin2.getSelectedItem().toString()) == month  &&Integer.parseInt(spin3.getSelectedItem().toString()) == day && Integer.parseInt(spin4.getSelectedItem().toString()) == hour) {
+                            if (position >= minute)
+                                return true;
+                            else
+                                return false;
+                        } else
+                            return true;
+                    }
+                    @Override
+                    public View getDropDownView(int position, View convertView,
+                                                ViewGroup parent) {
+                        View view = super.getDropDownView(position, convertView, parent);
+                        TextView tv = (TextView) view;
+                        if (Integer.parseInt(spin1.getSelectedItem().toString()) == year && Integer.parseInt(spin2.getSelectedItem().toString()) == month  &&Integer.parseInt(spin3.getSelectedItem().toString()) == day && Integer.parseInt(spin4.getSelectedItem().toString()) == hour) {
+                            if (position >= minute) {
+                                // Set the disable item text color
+                                tv.setTextColor(Color.BLACK);
+
+                            } else {
+                                tv.setTextColor(Color.GRAY);
+                            }
+                        } else
+                            tv.setTextColor(Color.BLACK);
+                        return view;
+                        }
+
+                };
+                spin5.setAdapter(adapter5);
+                spin5.setSelection(minute);
+
+                adapter4_e = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin ,itemHour) {
+                    @Override
+                    public boolean isEnabled(int position) {
+                        if (Integer.parseInt(spin1_e.getSelectedItem().toString()) == Integer.parseInt(spin1.getSelectedItem().toString()) && Integer.parseInt(spin2_e.getSelectedItem().toString()) == Integer.parseInt(spin2.getSelectedItem().toString()) && Integer.parseInt(spin3_e.getSelectedItem().toString()) == Integer.parseInt(spin3.getSelectedItem().toString())) {
+
+                            if (position >= spin4.getSelectedItemPosition())
+                                return true;
+                            else
+                                return false;
+                        } else
+                            return true;
+                    }
+                    @Override
+                    public View getDropDownView(int position, View convertView,
+                                                ViewGroup parent) {
+                        View view = super.getDropDownView(position, convertView, parent);
+                        TextView tv = (TextView) view;
+                        if (Integer.parseInt(spin1_e.getSelectedItem().toString()) == Integer.parseInt(spin1.getSelectedItem().toString()) && Integer.parseInt(spin2_e.getSelectedItem().toString()) == Integer.parseInt(spin2.getSelectedItem().toString()) && Integer.parseInt(spin3_e.getSelectedItem().toString()) == Integer.parseInt(spin3.getSelectedItem().toString())) {
+
+                            if (position >= spin4.getSelectedItemPosition()) {
+                                // Set the disable item text color
+                                tv.setTextColor(Color.BLACK);
+
+                            } else {
+                                tv.setTextColor(Color.GRAY);
+                            }
+                        } else
+                            tv.setTextColor(Color.BLACK);
+                        return view;
+                    }
+                };
+                spin4_e.setAdapter(adapter4_e);
+                spin4_e.setSelection(spin4.getSelectedItemPosition());
             }
 
             @Override
@@ -266,6 +528,70 @@ public class ArtistAuctionAddUi extends Activity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String a = Integer.parseInt(itemMinute[position])>10?"":"0";
                 s = getDateresult(spin1.getSelectedItem()  , spin2.getSelectedItem() , spin3.getSelectedItem() , spin4.getSelectedItem() , itemMinute[position]  , spin6.getSelectedItem());
+                adapter6 = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin ,itemSecond) {
+                    @Override
+                    public boolean isEnabled(int position) {
+                        if (Integer.parseInt(spin1.getSelectedItem().toString()) == year && Integer.parseInt(spin2.getSelectedItem().toString()) == month  &&Integer.parseInt(spin3.getSelectedItem().toString()) == day && Integer.parseInt(spin4.getSelectedItem().toString()) == hour &&Integer.parseInt(spin5.getSelectedItem().toString()) == minute) {
+                            if (position >= second)
+                                return true;
+                            else
+                                return false;
+                        } else
+                            return true;
+                    }
+                    @Override
+                            public View getDropDownView(int position, View convertView,
+                                    ViewGroup parent) {
+                                View view = super.getDropDownView(position, convertView, parent);
+                                TextView tv = (TextView) view;
+                                if (Integer.parseInt(spin1.getSelectedItem().toString()) == year && Integer.parseInt(spin2.getSelectedItem().toString()) == month  &&Integer.parseInt(spin3.getSelectedItem().toString()) == day && Integer.parseInt(spin4.getSelectedItem().toString()) == hour && Integer.parseInt(spin5.getSelectedItem().toString()) == minute) {
+                                    if (position >= second) {
+                                        // Set the disable item text color
+                                        tv.setTextColor(Color.BLACK);
+
+                            } else {
+                                tv.setTextColor(Color.GRAY);
+                            }
+                        } else
+                        tv.setTextColor(Color.BLACK);
+                        return view;
+                    }
+                };
+                spin6.setAdapter(adapter6);
+                spin6.setSelection(second);
+
+                adapter5_e = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin ,itemMinute) {
+                    @Override
+                    public boolean isEnabled(int position) {
+                        if (Integer.parseInt(spin1_e.getSelectedItem().toString()) == Integer.parseInt(spin1.getSelectedItem().toString()) && Integer.parseInt(spin2_e.getSelectedItem().toString()) == Integer.parseInt(spin2.getSelectedItem().toString()) && Integer.parseInt(spin3_e.getSelectedItem().toString()) == Integer.parseInt(spin3.getSelectedItem().toString()) && Integer.parseInt(spin4_e.getSelectedItem().toString()) == Integer.parseInt(spin4.getSelectedItem().toString())) {
+                            if (position >= spin5.getSelectedItemPosition())
+                                return true;
+                            else
+                                return false;
+                        } else
+                            return true;
+                    }
+                    @Override
+                    public View getDropDownView(int position, View convertView,
+                                                ViewGroup parent) {
+                        View view = super.getDropDownView(position, convertView, parent);
+                        TextView tv = (TextView) view;
+                        if (Integer.parseInt(spin1_e.getSelectedItem().toString()) == Integer.parseInt(spin1.getSelectedItem().toString()) && Integer.parseInt(spin2_e.getSelectedItem().toString()) == Integer.parseInt(spin2.getSelectedItem().toString()) && Integer.parseInt(spin3_e.getSelectedItem().toString()) == Integer.parseInt(spin3.getSelectedItem().toString()) && Integer.parseInt(spin4_e.getSelectedItem().toString()) == Integer.parseInt(spin4.getSelectedItem().toString())) {
+
+                            if (position >= spin5.getSelectedItemPosition()) {
+                                // Set the disable item text color
+                                tv.setTextColor(Color.BLACK);
+
+                            } else {
+                                tv.setTextColor(Color.GRAY);
+                            }
+                        } else
+                            tv.setTextColor(Color.BLACK);
+                        return view;
+                    }
+                };
+                spin5_e.setAdapter(adapter5_e);
+                spin5_e.setSelection(spin5.getSelectedItemPosition());
             }
 
             @Override
@@ -278,6 +604,41 @@ public class ArtistAuctionAddUi extends Activity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String a = Integer.parseInt(itemSecond[position])>10?"":"0";
                 s = getDateresult(spin1.getSelectedItem()  , spin2.getSelectedItem() , spin3.getSelectedItem() , spin4.getSelectedItem() , spin5.getSelectedItem()  , itemSecond[position]);
+                adapter6_e = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin ,itemSecond) {
+                    @Override
+                    public boolean isEnabled(int position) {
+                        if (Integer.parseInt(spin1_e.getSelectedItem().toString()) == Integer.parseInt(spin1.getSelectedItem().toString()) && Integer.parseInt(spin2_e.getSelectedItem().toString()) == Integer.parseInt(spin2.getSelectedItem().toString()) && Integer.parseInt(spin3_e.getSelectedItem().toString()) == Integer.parseInt(spin3.getSelectedItem().toString()) && Integer.parseInt(spin4_e.getSelectedItem().toString()) == Integer.parseInt(spin4.getSelectedItem().toString()) && Integer.parseInt(spin5_e.getSelectedItem().toString()) == Integer.parseInt(spin5.getSelectedItem().toString())) {
+
+                            if (position >= spin6.getSelectedItemPosition())
+                                return true;
+                            else
+                                return false;
+                        } else {
+                            return true;
+                        }
+                    }
+                    @Override
+                    public View getDropDownView(int position, View convertView,
+                                                ViewGroup parent) {
+                        View view = super.getDropDownView(position, convertView, parent);
+                        TextView tv = (TextView) view;
+                        if (Integer.parseInt(spin1_e.getSelectedItem().toString()) == Integer.parseInt(spin1.getSelectedItem().toString()) && Integer.parseInt(spin2_e.getSelectedItem().toString()) == Integer.parseInt(spin2.getSelectedItem().toString()) && Integer.parseInt(spin3_e.getSelectedItem().toString()) == Integer.parseInt(spin3.getSelectedItem().toString()) && Integer.parseInt(spin4_e.getSelectedItem().toString()) == Integer.parseInt(spin4.getSelectedItem().toString()) && Integer.parseInt(spin5_e.getSelectedItem().toString()) == Integer.parseInt(spin5.getSelectedItem().toString())) {
+
+                            if (position >= spin6.getSelectedItemPosition()) {
+                                // Set the disable item text color
+                                tv.setTextColor(Color.BLACK);
+
+                            } else {
+                                tv.setTextColor(Color.GRAY);
+                            }
+                        } else
+                            tv.setTextColor(Color.BLACK);
+
+                        return view;
+                    }
+                };
+                spin6_e.setAdapter(adapter6_e);
+                spin6_e.setSelection(spin6.getSelectedItemPosition());
             }
 
             @Override
@@ -290,6 +651,7 @@ public class ArtistAuctionAddUi extends Activity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 e = getDateresult(itemYear[position]  , spin2_e.getSelectedItem() , spin3_e.getSelectedItem() , spin4_e.getSelectedItem() , spin5_e.getSelectedItem()  , spin6_e.getSelectedItem());
+
             }
 
             @Override
@@ -299,8 +661,51 @@ public class ArtistAuctionAddUi extends Activity {
         });
         spin2_e.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String a = Integer.parseInt(itemMonth[position])>10?"":"0";
+                      public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                cal.set(Integer.parseInt(spin1_e.getSelectedItem().toString()) , spin2_e.getSelectedItemPosition(), 1);
+                itemDay = new String[cal.getActualMaximum(Calendar.DATE)];
+                cnt = 0 ;
+
+                for (int j = 1; j <= cal.getActualMaximum(Calendar.DATE); j++){
+                    itemDay[cnt++] = String.valueOf(j);
+                    Log.d("jjjjjjj", ""+j);
+
+                }
+
+                adapter3_e = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin, itemDay) {
+                    @Override
+                    public boolean isEnabled(int position) {
+                        if(Integer.parseInt(spin1_e.getSelectedItem().toString()) == Integer.parseInt(spin1.getSelectedItem().toString()) && Integer.parseInt(spin2_e.getSelectedItem().toString()) == Integer.parseInt(spin2.getSelectedItem().toString()) ) {
+                            if (position >= day - 1)
+                                return true;
+                            else
+                                return false;
+                        } else
+                            return true;
+                    }
+
+                    @Override
+                    public View getDropDownView(int position, View convertView,
+                                                ViewGroup parent) {
+                        View view = super.getDropDownView(position, convertView, parent);
+                        TextView tv = (TextView) view;
+                        if(Integer.parseInt(spin1_e.getSelectedItem().toString()) == Integer.parseInt(spin1.getSelectedItem().toString()) && Integer.parseInt(spin2_e.getSelectedItem().toString()) == Integer.parseInt(spin2.getSelectedItem().toString()) ) {
+                            if (position >= day - 1) {
+                                // Set the disable item text color
+                                tv.setTextColor(Color.BLACK);
+
+                            } else {
+                                tv.setTextColor(Color.GRAY);
+                            }
+                        }else
+                            tv.setTextColor(Color.BLACK);
+
+                        return view;
+                    }
+                };
+                spin3_e.setAdapter(adapter3_e);
+                spin3_e.setSelection(day -1);
+
                 e = getDateresult(spin1_e.getSelectedItem()  , itemMonth[position] , spin3_e.getSelectedItem() , spin4_e.getSelectedItem() , spin5_e.getSelectedItem()  , spin6_e.getSelectedItem()); }
                 @Override
             public void onNothingSelected(AdapterView<?> parent) {
@@ -312,6 +717,7 @@ public class ArtistAuctionAddUi extends Activity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String a = Integer.parseInt(itemDay[position])>10?"":"0";
                 e = getDateresult(spin1_e.getSelectedItem()  , spin2_e.getSelectedItem() , itemDay[position] , spin4_e.getSelectedItem() , spin5_e.getSelectedItem()  , spin6_e.getSelectedItem()); }
+
                 @Override
             public void onNothingSelected(AdapterView<?> parent) {
 
@@ -343,8 +749,8 @@ public class ArtistAuctionAddUi extends Activity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String a = Integer.parseInt(itemSecond[position])>10?"":"0";
-                //e = spin1_e.getSelectedItem() + "-" + spin2_e.getSelectedItem() + "-" + spin3_e.getSelectedItem() + " " + spin4_e.getSelectedItem() + ":" + spin5_e.getSelectedItem() + ":" + a + itemSecond[position];            }
                 e = getDateresult(spin1_e.getSelectedItem()  , spin2_e.getSelectedItem() , spin3_e.getSelectedItem() , spin4_e.getSelectedItem() , spin5_e.getSelectedItem()  , itemSecond[position]);
+
             }
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
@@ -423,6 +829,65 @@ public class ArtistAuctionAddUi extends Activity {
         return result;
     }
 
+    private void spin1(int position) {
+        cal.set(spin1.getSelectedItemPosition(), spin2.getSelectedItemPosition(), 1);
+        s = getDateresult(itemYear[position]  , spin2.getSelectedItem() , spin3.getSelectedItem() , spin4.getSelectedItem() , spin5.getSelectedItem()  , spin6.getSelectedItem());
+        adapter2 = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin ,itemMonth) {
+            @Override
+            public boolean isEnabled(int position) {
+                if (Integer.parseInt(spin1.getSelectedItem().toString()) == year) {
+                    if (position >= month - 1)
+                        return true;
+                    else
+                        return false;
+                } else
+                    return true;
+            }
+            @Override
+            public View getDropDownView(int position, View convertView,
+                                        ViewGroup parent) {
+                View view = super.getDropDownView(position, convertView, parent);
+                TextView tv = (TextView) view;
+                if (position >= month -1) {
+                    // Set the disable item text color
+                    tv.setTextColor(Color.BLACK);
 
+                }
+                else {
+                    tv.setTextColor(Color.GRAY);
+                }
+                return view;
+            }
+        };
+        spin2.setAdapter(adapter2);
+        spin2.setSelection(month -1);
+
+        adapter_e = new ArrayAdapter(getApplicationContext(), R.layout.gallery_spin ,itemYear) {
+            @Override
+            public boolean isEnabled(int position) {
+                if (position >= spin1.getSelectedItemPosition())
+                    return true;
+                else
+                    return false;
+            }
+            @Override
+            public View getDropDownView(int position, View convertView,
+                                        ViewGroup parent) {
+                View view = super.getDropDownView(position, convertView, parent);
+                TextView tv = (TextView) view;
+                if (position >= spin1.getSelectedItemPosition() ) {
+                    // Set the disable item text color
+                    tv.setTextColor(Color.BLACK);
+
+                }
+                else {
+                    tv.setTextColor(Color.GRAY);
+                }
+                return view;
+            }
+        };
+        spin1_e.setAdapter(adapter_e);
+        spin1_e.setSelection(spin1.getSelectedItemPosition());
+    }
 
 }

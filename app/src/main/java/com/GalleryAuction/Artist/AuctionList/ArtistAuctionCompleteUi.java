@@ -60,9 +60,19 @@ public class ArtistAuctionCompleteUi extends Activity {
             e.printStackTrace();
         }
         min_bidding = bidprice==null?0:Long.parseLong(bidprice);
-        tv1.setText(title);
-        tv2.setText("최고입찰가 : " + min_bidding + "원");
-        tv3.setText("입찰 한 아이디 : " + userid);
+        //()
+        if ((bidprice == null || bidprice.equals("")) && (userid == null || userid.equals(""))) {
+            tv1.setText(title);
+            tv2.setText("최고입찰가 : " + min_bidding + "원으로 입찰가가 없습니다.");
+            tv3.setText("입찰 한 아이디 : 없습니다");
+            btn1.setVisibility(View.GONE);
+        } else {
+            tv1.setText(title);
+            tv2.setText("최고입찰가 : " + min_bidding + "원");
+            tv3.setText("입찰 한 아이디 : " + userid);
+
+        }
+
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
