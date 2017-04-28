@@ -160,29 +160,29 @@
         <activity
             android:name="com.geno.DbConnect"
             android:label="@string/app_name" />
-        <activity android:name="com.GalleryAuction.Bidder.BidderActivity" />
-        <activity android:name="com.GalleryAuction.Bidder.ArtList.ArtInfoTagList" />
-        <activity android:name="com.GalleryAuction.Bidder.ArtTag.TagInfo" />
-        <activity android:name="com.GalleryAuction.Bidder.ArtTag.ArtInformation" />
-        <activity android:name="com.GalleryAuction.Bidder.ArtList.ArtInformation2" />
+        <activity android:name="com.GalleryAuction.UI.BidderActivity" />
+        <activity android:name="com.GalleryAuction.UI.ArtInfoTagList" />
+        <activity android:name="com.GalleryAuction.UI.TagInfo" />
+        <activity android:name="com.GalleryAuction.UI.ArtInformation" />
+        <activity android:name="com.GalleryAuction.UI.ArtInformation2" />
         <activity android:name="com.GalleryAuction.Bidder.BiddingList" />
-        <activity android:name="com.GalleryAuction.Bidder.ArtBidding.BidderInfo" />
-        <activity android:name="com.GalleryAuction.Artist.ArtistActivity" />
-        <activity android:name="com.GalleryAuction.Artist.ArtList.ArtistArtInformation" />
-        <activity android:name="com.GalleryAuction.Artist.AuctionList.ArtistAuctionInformation" />
-        <activity android:name="com.GalleryAuction.Bidder.ArtBidding.BiddingComplete" />
-        <activity android:name="com.GalleryAuction.Bidder.ArtList.ReBidding" />
-        <activity android:name="com.GalleryAuction.Bidder.ArtList.ReBiddingConfirm" />
-        <activity android:name="com.GalleryAuction.Bidder.WinningBidWhether.WinningBidUi" />
-        <activity android:name="com.GalleryAuction.Bidder.WinningBidWhether.UnsuccessfulBidUi" />
-        <activity android:name="com.GalleryAuction.Artist.AuctionList.ArtistAuctionAddUi" />
-        <activity android:name="com.GalleryAuction.Artist.AuctionList.ArtistAuctionDetailInfoUi" />
-        <activity android:name="com.GalleryAuction.Artist.AuctionList.ArtistAuctionCompleteUi" />
+        <activity android:name="com.GalleryAuction.UI.BidderInfo" />
+        <activity android:name="com.GalleryAuction.UI.ArtistActivity" />
+        <activity android:name="com.GalleryAuction.UI.ArtistArtInformation" />
+        <activity android:name="com.GalleryAuction.UI.ArtistAuctionInformation" />
+        <activity android:name="com.GalleryAuction.UI.BiddingComplete" />
+        <activity android:name="com.GalleryAuction.UI.ReBidding" />
+        <activity android:name="com.GalleryAuction.UI.ReBiddingConfirm" />
+        <activity android:name="com.GalleryAuction.UI.WinningBidUi" />
+        <activity android:name="com.GalleryAuction.UI.UnsuccessfulBidUi" />
+        <activity android:name="com.GalleryAuction.UI.ArtistAuctionAddUi" />
+        <activity android:name="com.GalleryAuction.UI.ArtistAuctionDetailInfoUi" />
+        <activity android:name="com.GalleryAuction.UI.ArtistAuctionCompleteUi" />
         <activity android:name="com.GalleryAuction.Artist.AuctionEndList.AuctionEndList" />
-        <activity android:name="com.GalleryAuction.Bidder.WinningBidWhether.WinningBidListActivity" />
-        <activity android:name="com.GalleryAuction.Artist.AuctionList.ArtistAuctionUserWinningBidUi" />
+        <activity android:name="com.GalleryAuction.UI.WinningBidListActivity" />
+        <activity android:name="com.GalleryAuction.UI.ArtistAuctionUserWinningBidUi" />
         <activity android:name="com.GalleryAuction.Bidder.WinningBidWhether.ContractorDialog" />
-        <activity android:name="com.GalleryAuction.Bidder.WinningBidWhether.IamPortWebViewRebidding"
+        <activity android:name="com.GalleryAuction.UI.IamPortWebViewRebidding"
             android:launchMode="singleTask" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -193,7 +193,7 @@
                 <data android:scheme="iamportkakao" />
             </intent-filter>
         </activity>
-        <activity android:name="com.GalleryAuction.Bidder.WinningBidWhether.IamPortWebViewBidding"
+        <activity android:name="com.GalleryAuction.UI.IamPortWebViewBidding"
             android:launchMode="singleTask" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />

@@ -10,8 +10,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import com.GalleryAuction.Artist.ArtistActivity;
-import com.GalleryAuction.Bidder.BidderActivity;
+import com.GalleryAuction.UI.ArtistActivity;
+import com.GalleryAuction.UI.BidderActivity;
 import com.ajantech.nfc_network.ShareData;
 import com.ajantech.nfcpaymentsystem.ClearEditText;
 import com.ajantech.nfcpaymentsystem.ui.Main;

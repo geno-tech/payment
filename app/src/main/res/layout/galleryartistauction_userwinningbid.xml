@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.GalleryAuction.Artist.AuctionList.ArtistAuctionUserWinningBidUi">
+    tools:context="com.GalleryAuction.UI.ArtistAuctionUserWinningBidUi">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">

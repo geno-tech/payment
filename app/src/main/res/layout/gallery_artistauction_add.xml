@@ -5,7 +5,8 @@
     android:orientation="vertical">
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:gravity="center">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,11 +15,12 @@
     <ImageView
         android:layout_width="110dp"
         android:layout_height="80dp"
-        android:id="@+id/artistimage" />
+        android:id="@+id/artistauctionaddimage" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:id="@+id/addarttitle_txt" />
+        android:id="@+id/addarttitle_txt"
+        android:textStyle="bold"/>
     </LinearLayout>
 </LinearLayout>
    <LinearLayout
@@ -37,6 +39,10 @@
            <LinearLayout
            android:layout_width="match_parent"
            android:layout_height="wrap_content">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="연도 : "/>
            <Spinner
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
@@ -45,6 +51,10 @@
                android:layout_marginRight="10dp"
                android:layout_marginLeft="10dp">
            </Spinner>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="월 : "/>
            <Spinner
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
@@ -52,6 +62,10 @@
                android:id="@+id/spinner_MM"
                android:layout_marginRight="10dp">
            </Spinner>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="일 : "/>
            <Spinner
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
@@ -64,6 +78,10 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:layout_marginTop="20dp">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="시 : "/>
            <Spinner
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
@@ -71,6 +89,10 @@
                android:id="@+id/spinner_HH"
                android:layout_marginLeft="30dp">
            </Spinner>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="분 : "/>
            <Spinner
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
@@ -78,6 +100,10 @@
                android:id="@+id/spinner_mm"
                android:layout_marginLeft="30dp">
            </Spinner>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="초 : "/>
            <Spinner
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
@@ -105,6 +131,10 @@
                <LinearLayout
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="연도 : "/>
                    <Spinner
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
@@ -113,6 +143,10 @@
                        android:layout_marginRight="10dp"
                        android:layout_marginLeft="10dp">
                    </Spinner>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="월 : "/>
                    <Spinner
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
@@ -120,6 +154,10 @@
                        android:id="@+id/spinner_MM_e"
                        android:layout_marginRight="10dp">
                    </Spinner>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="일 : "/>
                    <Spinner
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
@@ -132,6 +170,10 @@
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:layout_marginTop="20dp">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="시 : "/>
                    <Spinner
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
@@ -139,6 +181,10 @@
                        android:id="@+id/spinner_HH_e"
                        android:layout_marginLeft="30dp">
                    </Spinner>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="분 : "/>
                    <Spinner
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
@@ -146,6 +192,10 @@
                        android:id="@+id/spinner_mm_e"
                        android:layout_marginLeft="30dp">
                    </Spinner>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="초 : "/>
                    <Spinner
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
@@ -158,37 +208,7 @@
            </LinearLayout>
    </LinearLayout>
    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/test"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/test2"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/test3"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/test4"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/test5"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/test6"
-        android:text="aaa"/>
-    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
