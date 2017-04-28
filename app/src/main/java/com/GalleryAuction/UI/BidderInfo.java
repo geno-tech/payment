@@ -135,26 +135,26 @@ public class BidderInfo extends Activity implements View.OnClickListener {
     }
 
     private class back extends AsyncTask<String, Integer,Bitmap> {
-        @Override
-        protected Bitmap doInBackground(String... urls) {
-            // TODO Auto-generated method stub
-            try{
-                URL myFileUrl = new URL(urls[0]);
-                HttpURLConnection conn = (HttpURLConnection)myFileUrl.openConnection();
-                conn.setDoInput(true);
-                conn.connect();
+            @Override
+            protected Bitmap doInBackground(String... urls) {
+                // TODO Auto-generated method stub
+                try{
+                    URL myFileUrl = new URL(urls[0]);
+                    HttpURLConnection conn = (HttpURLConnection)myFileUrl.openConnection();
+                    conn.setDoInput(true);
+                    conn.connect();
 
-                InputStream is = conn.getInputStream();
-                bmImg = BitmapFactory.decodeStream(is);
+                    InputStream is = conn.getInputStream();
+                    bmImg = BitmapFactory.decodeStream(is);
 
-            }catch(IOException e){
-                e.printStackTrace();
+                }catch(IOException e){
+                    e.printStackTrace();
+                }
+                return bmImg;
             }
-            return bmImg;
-        }
-        protected void onPostExecute(Bitmap img){
-            iv.setImageBitmap(bmImg);
-        }
+            protected void onPostExecute(Bitmap img){
+                iv.setImageBitmap(bmImg);
+            }
     }
 
 }

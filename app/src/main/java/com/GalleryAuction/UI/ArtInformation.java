@@ -23,6 +23,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.HashMap;
 
 import static com.GalleryAuction.Item.HttpClientItem.ArtAlbumList;
 
@@ -123,23 +124,23 @@ public class ArtInformation extends Activity implements View.OnClickListener{
                 break;
         }
     }
-
+    //AsyncTask<Params, Progress, Result>
     private class back extends AsyncTask<String, Integer,Bitmap> {
         @Override
         protected Bitmap doInBackground(String... urls) {
             // TODO Auto-generated method stub
             try{
-                URL myFileUrl = new URL(urls[0]);
-                HttpURLConnection conn = (HttpURLConnection)myFileUrl.openConnection();
-                conn.setDoInput(true);
-                conn.connect();
+            URL myFileUrl = new URL(urls[0]);
+            HttpURLConnection conn = (HttpURLConnection)myFileUrl.openConnection();
+            conn.setDoInput(true);
+            conn.connect();
 
-                InputStream is = conn.getInputStream();
-                bmImg = BitmapFactory.decodeStream(is);
+            InputStream is = conn.getInputStream();
+            bmImg = BitmapFactory.decodeStream(is);
 
-            }catch(IOException e){
-                e.printStackTrace();
-            }
+        }catch(IOException e){
+            e.printStackTrace();
+        }
             return bmImg;
         }
         protected void onPostExecute(Bitmap img){

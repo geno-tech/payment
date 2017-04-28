@@ -17,7 +17,7 @@ public class BidderActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.gallerybidderactivity);
         btn1 = (Button)findViewById(R.id.artinfor_list_btn);
         btn2 = (Button)findViewById(R.id.tag_btn);
-        btn3 = (Button)findViewById(R.id.winningbidlist_btn);
+//        btn3 = (Button)findViewById(R.id.winningbidlist_btn);
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
         Intent intent0 = getIntent();
