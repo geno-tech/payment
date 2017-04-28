@@ -9,14 +9,7 @@ import android.os.Bundle;
 
 import com.geno.bill_folder.R;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
 
 public class TagInfo extends Activity {
     private NfcAdapter nfcAdapter;
@@ -32,39 +25,7 @@ public class TagInfo extends Activity {
         pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
     }
 
-    private String ArtInfo(String msg) {
-        if (msg == null) {
-            msg = "";
-        }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/art_info.jsp";
-
-        DefaultHttpClient client = new DefaultHttpClient();
-        try {
-
-            HttpPost post = new HttpPost(URL + "?msg=" + msg);
-            HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 30000);
-            HttpConnectionParams.setSoTimeout(params, 30000);
-            HttpResponse response = client.execute(post);
-            BufferedReader bufreader = new BufferedReader(
-                    new InputStreamReader(response.getEntity().getContent(),
-                            "utf-8"));
-
-            String line = null;
-            String result = "";
-
-            while ((line = bufreader.readLine()) != null) {
-                result += line;
-
-            }
-        return result;
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        return null;
-        }
-    }
     @Override
     protected void onPause() {
         if (nfcAdapter != null) {

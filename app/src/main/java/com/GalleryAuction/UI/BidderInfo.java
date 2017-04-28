@@ -16,22 +16,17 @@ import android.widget.Toast;
 
 import com.geno.bill_folder.R;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
+
+import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoBest;
 
 public class BidderInfo extends Activity implements View.OnClickListener {
     String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
@@ -139,29 +134,6 @@ public class BidderInfo extends Activity implements View.OnClickListener {
         }
     }
 
-// auckey, 유저아이디, 입찰가
-    private void BiddingInfo(String msg, String msg2, String msg3) {
-        if (msg == null) {
-            msg = "";
-        }
-
-        String URL = "http://59.3.109.220:8989/NFCTEST/biddinginfo_insert.jsp";
-
-        DefaultHttpClient client = new DefaultHttpClient();
-        try {
-
-            HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2 + "&msg3=" + msg3);
-            HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 30000);
-            HttpConnectionParams.setSoTimeout(params, 30000);
-            HttpResponse response = client.execute(post);
-            BufferedReader bufreader = new BufferedReader(
-                    new InputStreamReader(response.getEntity().getContent(),
-                            "utf-8"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
     private class back extends AsyncTask<String, Integer,Bitmap> {
         @Override
         protected Bitmap doInBackground(String... urls) {
@@ -184,37 +156,5 @@ public class BidderInfo extends Activity implements View.OnClickListener {
             iv.setImageBitmap(bmImg);
         }
     }
-    private String BiddingInfoBest(String msg) {
-        if (msg == null) {
-            msg = "";
-        }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_info_best.jsp";
-
-        DefaultHttpClient client = new DefaultHttpClient();
-        try {
-
-            HttpPost post = new HttpPost(URL + "?msg=" + msg);
-            HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 30000);
-            HttpConnectionParams.setSoTimeout(params, 30000);
-            HttpResponse response = client.execute(post);
-            BufferedReader bufreader = new BufferedReader(
-                    new InputStreamReader(response.getEntity().getContent(),
-                            "utf-8"));
-
-            String line = null;
-            String result = "";
-
-            while ((line = bufreader.readLine()) != null) {
-                result += line;
-
-            }
-            return result;
-
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
 }

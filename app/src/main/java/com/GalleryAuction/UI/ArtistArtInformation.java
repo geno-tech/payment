@@ -10,21 +10,17 @@ import android.widget.ListView;
 import com.GalleryAuction.Adapter.ArtistArtInfoAdapter;
 import com.geno.bill_folder.R;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+
+import static com.GalleryAuction.Client.ImageViewItem.getImageBitmap;
+import static com.GalleryAuction.Item.HttpClientItem.ArtistArtInfo;
 
 public class ArtistArtInformation extends Activity {
     ListView listView;
@@ -58,74 +54,6 @@ public class ArtistArtInformation extends Activity {
         }
     }
 
-    private String ArtistArtInfo(String msg) {
-        if (msg == null) {
-            msg = "";
-        }
-
-        String URL = "http://59.3.109.220:8989/NFCTEST/art_info_artistid_list.jsp";
-
-        DefaultHttpClient client = new DefaultHttpClient();
-        try {
-
-            HttpPost post = new HttpPost(URL + "?msg=" + msg);
-            HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 30000);
-            HttpConnectionParams.setSoTimeout(params, 30000);
-            HttpResponse response = client.execute(post);
-            BufferedReader bufreader = new BufferedReader(
-                    new InputStreamReader(response.getEntity().getContent(),
-                            "utf-8"));
-
-            String line = null;
-            String result = "";
-
-            while ((line = bufreader.readLine()) != null) {
-                result += line;
-
-            }
-            return result;
-
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
 
 
-    public Bitmap getImageBitmap(final String imageURL){
-        final Bitmap[] bitmapImage = new Bitmap[1];
-        Thread mThread = new Thread(){
-            @Override
-            public void run() {
-
-                try {
-                    URL url = new URL(imageURL); // URL 주소를 이용해서 URL 객체 생성
-
-                    //  아래 코드는 웹에서 이미지를 가져온 뒤
-                    //  이미지 뷰에 지정할 Bitmap을 생성하는 과정
-
-                    HttpURLConnection conn = (HttpURLConnection)url.openConnection();
-                    conn.setDoInput(true);
-                    conn.connect();
-
-                    InputStream is = conn.getInputStream();
-                    bitmapImage[0] = BitmapFactory.decodeStream(is);
-
-                } catch(IOException ex) {
-                    ex.getMessage();
-                }
-            }
-
-        };
-        mThread.start();
-        try {
-            mThread.join();
-
-        }
-        catch (InterruptedException e){
-            e.getMessage();
-        }
-        return bitmapImage[0];
-    }
 }

@@ -18,18 +18,11 @@ import android.widget.Toast;
 
 import com.geno.bill_folder.R;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.DecimalFormat;
@@ -37,6 +30,9 @@ import java.text.DecimalFormatSymbols;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import static com.GalleryAuction.Item.HttpClientItem.BiddingInfo;
+import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoBest;
 
 public class ReBidding extends Activity implements View.OnClickListener {
     Button btn_ok, btn_x;
@@ -174,40 +170,6 @@ public class ReBidding extends Activity implements View.OnClickListener {
                 finish();
         }
     }
-//UserID auckey
-    private String BiddingInfo(String msg, String msg2) {
-        if (msg == null) {
-            msg = "";
-        }
-
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_info.jsp";
-
-        DefaultHttpClient client = new DefaultHttpClient();
-        try {
-
-            HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2);
-            HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 30000);
-            HttpConnectionParams.setSoTimeout(params, 30000);
-            HttpResponse response = client.execute(post);
-            BufferedReader bufreader = new BufferedReader(
-                    new InputStreamReader(response.getEntity().getContent(),
-                            "utf-8"));
-
-            String line = null;
-            String result = "";
-
-            while ((line = bufreader.readLine()) != null) {
-                result += line;
-
-            }
-            return result;
-
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
 
 //    // auckey, 유저아이디, 입찰가
 //    private void Bidding_Insert(String msg, String msg2, String msg3) {
@@ -232,40 +194,7 @@ public class ReBidding extends Activity implements View.OnClickListener {
 //            e.printStackTrace();
 //        }
 //    }
-    //auckey
-    private String BiddingInfoBest(String msg) {
-        if (msg == null) {
-            msg = "";
-        }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_info_best.jsp";
-
-            DefaultHttpClient client = new DefaultHttpClient();
-            try {
-
-                HttpPost post = new HttpPost(URL + "?msg=" + msg);
-                HttpParams params = client.getParams();
-                HttpConnectionParams.setConnectionTimeout(params, 300000);
-                HttpConnectionParams.setSoTimeout(params, 300000);
-            HttpResponse response = client.execute(post);
-            BufferedReader bufreader = new BufferedReader(
-                    new InputStreamReader(response.getEntity().getContent(),
-                            "utf-8"));
-
-            String line = null;
-            String result = "";
-
-            while ((line = bufreader.readLine()) != null) {
-                result += line;
-
-            }
-            return result;
-
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
     private class back extends AsyncTask<String, Integer,Bitmap> {
         @Override
         protected Bitmap doInBackground(String... urls) {

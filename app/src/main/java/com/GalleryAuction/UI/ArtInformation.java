@@ -16,20 +16,15 @@ import android.widget.Toast;
 
 import com.geno.bill_folder.R;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+
+import static com.GalleryAuction.Item.HttpClientItem.ArtAlbumList;
 
 
 public class ArtInformation extends Activity implements View.OnClickListener{
@@ -52,6 +47,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         tv2 = (TextView)findViewById(R.id.artcontents_txt);
         task = new back();
         imView = (ImageView) findViewById(R.id.imageView);
+
 //        dbHelper = new DBHelper(getApplicationContext(), "MoneyBook.db", null, 1);
         Intent intent = getIntent();
         artinfo = intent.getStringExtra("artinfo");
@@ -96,6 +92,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
                 Log.d("auckey", auckey);
                 if (auckey == "null" || auckey.equals(null)) {
                     Toast.makeText(ArtInformation.this, "경매하고 있지 않습니다.", Toast.LENGTH_SHORT).show();
+
                     ArtAlbumList(userId, artkey);
                 } else {
                     Intent intent = new Intent(ArtInformation.this, BidderInfo.class);
@@ -147,28 +144,6 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         }
         protected void onPostExecute(Bitmap img){
             imView.setImageBitmap(bmImg);
-        }
-    }
-       private void ArtAlbumList(String msg , String msg2) {
-        if (msg == null) {
-            msg = "";
-        }
-
-        String URL = "http://59.3.109.220:8989/NFCTEST/artalbum_insert.jsp";
-
-        DefaultHttpClient client = new DefaultHttpClient();
-        try {
-
-            HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2);
-            HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 30000);
-            HttpConnectionParams.setSoTimeout(params, 30000);
-            HttpResponse response = client.execute(post);
-            BufferedReader bufreader = new BufferedReader(
-                    new InputStreamReader(response.getEntity().getContent(),
-                            "utf-8"));
-        } catch (Exception e) {
-            e.printStackTrace();
         }
     }
 

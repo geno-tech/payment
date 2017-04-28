@@ -16,14 +16,7 @@ import android.widget.Toast;
 import com.GalleryAuction.Client.IamPortWebViewClient;
 import com.geno.bill_folder.R;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoInsert;
 
 public class IamPortWebViewBidding extends Activity {
     private WebView mainWebView;
@@ -56,7 +49,7 @@ public class IamPortWebViewBidding extends Activity {
                                      final String url, final String message,
                                      JsResult result) {
                 if (message.contains("완료")) {
-                    BiddingInfo(auckey, userID, bidding);
+                    BiddingInfoInsert(auckey, userID, bidding);
                     Toast.makeText(IamPortWebViewBidding.this, message, Toast.LENGTH_SHORT).show();
                     finish();
                 } else if (message.contains("실패")) {
@@ -106,85 +99,7 @@ public class IamPortWebViewBidding extends Activity {
         }
 
     }
-    private String BiddingWinUserAgree(String msg) {
-        if (msg == null) {
-            msg = "";
-        }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_win_userAgree.jsp";
-
-        DefaultHttpClient client = new DefaultHttpClient();
-        try {
-
-            HttpPost post = new HttpPost(URL + "?msg=" + msg);
-            HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 300000);
-            HttpConnectionParams.setSoTimeout(params, 300000);
-            HttpResponse response = client.execute(post);
-            BufferedReader bufreader = new BufferedReader(
-                    new InputStreamReader(response.getEntity().getContent(),
-                            "utf-8"));
-
-            String line = null;
-            String result = "";
-
-            while ((line = bufreader.readLine()) != null) {
-                result += line;
-
-            }
-            return result;
-
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
-
-    // auckey, 유저아이디, 입찰가
-    private void Bidding_Insert(String msg, String msg2, String msg3) {
-        if (msg == null) {
-            msg = "";
-        }
-
-        String URL = "http://59.3.109.220:8989/NFCTEST/biddinginfo_insert.jsp";
-
-        DefaultHttpClient client = new DefaultHttpClient();
-        try {
-
-            HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2 + "&msg3=" + msg3);
-            HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 30000);
-            HttpConnectionParams.setSoTimeout(params, 30000);
-            HttpResponse response = client.execute(post);
-            BufferedReader bufreader = new BufferedReader(
-                    new InputStreamReader(response.getEntity().getContent(),
-                            "utf-8"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-    private void BiddingInfo(String msg, String msg2, String msg3) {
-        if (msg == null) {
-            msg = "";
-        }
-
-        String URL = "http://59.3.109.220:8989/NFCTEST/biddinginfo_insert.jsp";
-
-        DefaultHttpClient client = new DefaultHttpClient();
-        try {
-
-            HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2 + "&msg3=" + msg3);
-            HttpParams params = client.getParams();
-            HttpConnectionParams.setConnectionTimeout(params, 30000);
-            HttpConnectionParams.setSoTimeout(params, 30000);
-            HttpResponse response = client.execute(post);
-            BufferedReader bufreader = new BufferedReader(
-                    new InputStreamReader(response.getEntity().getContent(),
-                            "utf-8"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         switch (keyCode) {
             case KeyEvent.KEYCODE_BACK:
