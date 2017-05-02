@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -50,10 +51,12 @@ public class ArtInfoAdapter extends BaseAdapter {
         }
         tv1 = (TextView) convertView.findViewById(R.id.artinfoitem1_txt);
         tv2 = (TextView) convertView.findViewById(R.id.artinfoitem2_txt);
+        tv3 = (TextView) convertView.findViewById(R.id.artinfoitem_add_txt);
         imageView = (ImageView) convertView.findViewById(R.id.artinfoitem_image);
         ArtInfoItem artInfoItem = listViewItemList.get(position);
         tv1.setText(artInfoItem.getIcon());
         tv2.setText(artInfoItem.getTitle());
+        tv3.setText("");
         imageView.setImageBitmap(artInfoItem.getImage());
         //경매 X
         if (artInfoItem.getAuckey() == "1") {
@@ -83,7 +86,7 @@ public class ArtInfoAdapter extends BaseAdapter {
             tv2.setTextColor(Color.CYAN);
 
         }
-        else if (artInfoItem.getAuckey().equals("5") ||artInfoItem.getAuckey().equals("6") || artInfoItem.getAuckey().equals("7")) {
+        else if (artInfoItem.getAuckey().equals("5")) {
             //마감됐을때
             if(artInfoItem.getBid().equals("2")){
                 tv1.setTextColor(Color.rgb(134,42,0));
@@ -97,6 +100,39 @@ public class ArtInfoAdapter extends BaseAdapter {
                 tv1.setTextColor(Color.rgb(241,95,95));
                 tv2.setTextColor(Color.rgb(241,95,95));
             }
+        }
+        else if (artInfoItem.getAuckey().equals("6")) {
+            //마감됐을때
+            if(artInfoItem.getBid().equals("2")){
+                tv1.setTextColor(Color.rgb(134,42,0));
+                tv2.setTextColor(Color.rgb(134,42,0));
+            }
+            else if(artInfoItem.getBid().equals("3")){
+                tv1.setTextColor(Color.rgb(255,187,0));
+                tv2.setTextColor(Color.rgb(255,187,0));
+            }
+            else{
+                tv1.setTextColor(Color.rgb(241,95,95));
+                tv2.setTextColor(Color.rgb(241,95,95));
+            }
+            tv3.setText(Html.fromHtml("<u>유저동의</u>"));
+
+
+        } else if (artInfoItem.getAuckey().equals("7")) {
+            //마감됐을때
+            if(artInfoItem.getBid().equals("2")){
+                tv1.setTextColor(Color.rgb(134,42,0));
+                tv2.setTextColor(Color.rgb(134,42,0));
+            }
+            else if(artInfoItem.getBid().equals("3")){
+                tv1.setTextColor(Color.rgb(255,187,0));
+                tv2.setTextColor(Color.rgb(255,187,0));
+            }
+            else{
+                tv1.setTextColor(Color.rgb(241,95,95));
+                tv2.setTextColor(Color.rgb(241,95,95));
+            }
+            tv3.setText(Html.fromHtml("<u>유저동의</u>"));
         }
         else {
             tv1.setTextColor(Color.BLACK);

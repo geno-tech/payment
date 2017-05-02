@@ -61,6 +61,7 @@ public class ArtInformation2 extends Activity implements View.OnClickListener{
 //        dbHelper = new DBHelper(getApplicationContext(), "MoneyBook.db", null, 1);
         Intent intent2 = getIntent();
         String tagid = intent2.getStringExtra("tagid");
+        Log.d("tagID TEST : ",tagid);
         auction = intent2.getStringExtra("auction");
         bidkey = intent2.getStringExtra("bidkey");
         aucend = intent2.getStringExtra("aucend");
@@ -78,14 +79,17 @@ public class ArtInformation2 extends Activity implements View.OnClickListener{
             e.printStackTrace();
         }
         try {
+            Log.d("tagID TEST : ",tagid);
             JSONObject job = new JSONObject(ArtInfo(tagid));
+
             artkey = job.get("art_seq").toString();
             nfcid = job.get("nfc_id").toString();
             artistid = job.get("artist_id").toString();
             arttitle = job.get("art_title").toString();
-            arttext = job.get("art_content").toString();
+            arttext = job.get("ART_CONTENT").toString();
             image = job.get("art_image").toString();
             auckey = job.get("auc_seq").toString();
+
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -93,7 +97,6 @@ public class ArtInformation2 extends Activity implements View.OnClickListener{
         tv1.setText(arttitle);
         tv2.setText(arttext);
         task.execute(imgUrl+image);
-        Log.d("ffffff", image);
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
 
@@ -104,7 +107,7 @@ public class ArtInformation2 extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.auctionok_btn2:
-                if (auction.equals("1") || (auction.equals("1") && !bidkey.equals("0")) ||auction.equals("0")) {
+                if ((auction.equals("1") || (auction.equals("1")) && !bidkey.equals("0")) ||auction.equals("0")) {
                     Log.d("auction", auction + " bidkey : " + bidkey);
                     Toast.makeText(ArtInformation2.this, "경매하고 있지 않습니다.", Toast.LENGTH_SHORT).show();
 
@@ -156,8 +159,11 @@ public class ArtInformation2 extends Activity implements View.OnClickListener{
 //
 //                dbHelper.insert(arttext,image, arttitle);
 //                Log.d("aa",dbHelper.getResult());
-
+                Intent intent = new Intent(ArtInformation2.this, ArtInfoTagList.class);
+                intent.putExtra("userID", userId);
+                startActivity(intent);
                 finish();
+
                 break;
         }
     }

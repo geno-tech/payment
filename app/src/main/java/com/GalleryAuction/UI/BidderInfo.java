@@ -36,7 +36,7 @@ public class BidderInfo extends Activity implements View.OnClickListener {
     EditText et ;
     TextView tv;
     long bidding, min_bidding;
-    String artimmage, auckey, bidprice, aucend;
+    String artimmage, auckey, bidprice;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +52,6 @@ public class BidderInfo extends Activity implements View.OnClickListener {
         Intent intent = getIntent();
         artimmage = intent.getStringExtra("artimage");
         auckey = intent.getStringExtra("auckey");
-        aucend = intent.getStringExtra("aucend");
         try {
             JSONObject job = new JSONObject(BiddingInfoBest(auckey));
             Log.d("bidprice", ""+job);
@@ -119,7 +118,6 @@ public class BidderInfo extends Activity implements View.OnClickListener {
                         Intent intent = new Intent(BidderInfo.this, IamPortWebViewBidding.class);
                         intent.putExtra("bidding" , nowbidding);
                         intent.putExtra("artimg", artimmage);
-                        intent.putExtra("aucend", aucend);
                         intent.putExtra("min_bidding", min_bidding);
                         intent.putExtra("auckey", auckey);
                         intent.putExtra("userID", userID);

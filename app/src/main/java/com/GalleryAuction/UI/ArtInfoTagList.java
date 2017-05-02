@@ -34,7 +34,7 @@ public class ArtInfoTagList extends Activity {
     String userId;
     private ListView listView;
     private ArtInfoAdapter adapter;
-    Button remove_btn;
+    Button refresh_btn;
     String artkey, arttitle, image, nowtime, nfcid, auckey, bidkey, albumkey, auctime_end, auction, bid, auctime_start;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,12 +46,12 @@ public class ArtInfoTagList extends Activity {
 //        SharedPreferences preferences = getSharedPreferences("KEY", 0);
 //        String userkey = preferences.getString("key", null);
 //        Toast.makeText(this, Artinfo(key), Toast.LENGTH_SHORT).show();
-        remove_btn = (Button)findViewById(R.id.artinforemove_btn);
+        refresh_btn = (Button)findViewById(R.id.refresh_btn);
 //        dbHelper = new DBHelper(getApplicationContext(), "MoneyBook.db", null, 1);
         adapter = new ArtInfoAdapter();
-        remove_btn.setVisibility(View.INVISIBLE);
         listView = (ListView) findViewById(R.id.artinfo_listview);
         listView.setAdapter(adapter);
+
 
 
 
@@ -91,7 +91,6 @@ public class ArtInfoTagList extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 try {
-
                         String albumlist = ArtAlbumSelect(userId);
                         JSONArray ja = new JSONArray(albumlist);
                         JSONObject job = (JSONObject) ja.get(position);
@@ -105,8 +104,8 @@ public class ArtInfoTagList extends Activity {
                         albumkey = job.get("album_seq").toString();
                         auckey = job.get("auc_seq").toString();
                         auction = job.get("auc_status").toString();
-                    auctime_end = job.get("auc_end").toString();
-                    auctime_start = job.get("auc_start").toString();
+                        auctime_end = job.get("auc_end").toString();
+                        auctime_start = job.get("auc_start").toString();
                         Log.d("aauser", "" + auction);
                         Log.d("aaa", imgUrl + image);
                     new ArtInfoAdapter().addItem(arttitle, nowtime, auction, bidkey, bid , getImageBitmap(imgUrl+image));
@@ -144,9 +143,18 @@ public class ArtInfoTagList extends Activity {
                     intent1.putExtra("auckey", auckey);
                     intent1.putExtra("userID", userId);
                     intent1.putExtra("bid", bid);
-                    intent1.putExtra("bidkey", bidkey);
+                    intent1.putExtra("arttitle", arttitle);
+                    intent1.putExtra("nfcid", nfcid);
+                    intent1.putExtra("image", image);
+                    intent1.putExtra("nowtime", nowtime);
+                    intent1.putExtra("auction", auction);
+                    intent1.putExtra("albumkey", albumkey);
+                    intent1.putExtra("auckey", auckey);
+
+
 
                     startActivity(intent1);
+                    finish();
                 } else if (auction.equals("4")) {
                     Toast.makeText(ArtInfoTagList.this, "아티스트의 낙찰을 기다리는 중 입니다.", Toast.LENGTH_SHORT).show();
                 } else if (auction.equals("6")) {
@@ -202,11 +210,16 @@ public class ArtInfoTagList extends Activity {
 //            }
 //        });
 //    getname();
-        remove_btn.setOnClickListener(new View.OnClickListener() {
+        refresh_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//            dbHelper.deleteAll();
-//            adapter.notifyDataSetChanged();
+            Intent intent1 = new Intent(ArtInfoTagList.this, ArtInfoTagList.class);
+                intent1.putExtra("userID", userId);
+                startActivity(intent1);
+                overridePendingTransition(R.anim.alpha, R.anim.alpha);
+
+                finish();
+
             }
         });
     }

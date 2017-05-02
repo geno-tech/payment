@@ -32,7 +32,6 @@ public class IamPortWebViewBidding extends Activity {
         Intent intent1 = getIntent();
         bidding = intent1.getStringExtra("bidding");
         intent1.getStringExtra("artimg");
-        intent1.getStringExtra("aucend");
         intent1.getStringExtra("min_bidding");
         auckey = intent1.getStringExtra("auckey");
         userID = intent1.getStringExtra("userID");

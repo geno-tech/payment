@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.GalleryAuction.Adapter.WinningBidInfoAdapter;
+import com.GalleryAuction.Item.HttpClientItem;
 import com.geno.bill_folder.R;
 
 import org.json.JSONArray;
@@ -28,6 +29,7 @@ import java.util.Locale;
 import static com.GalleryAuction.Item.HttpClientItem.BiddingInfo;
 import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoBest;
 import static com.GalleryAuction.Item.HttpClientItem.BiddingList;
+import static com.GalleryAuction.Item.HttpClientItem.BiddingWinUserAgree;
 import static com.GalleryAuction.Item.HttpClientItem.BiddingWinUserCancel;
 
 public class WinningBidListActivity extends Activity {
@@ -37,6 +39,7 @@ public class WinningBidListActivity extends Activity {
     long min_bidding, min_bidding2;
     private ListView listView;
     private WinningBidInfoAdapter adapter;
+
     TextToSpeech tts;
 
     @Override
@@ -107,10 +110,14 @@ public class WinningBidListActivity extends Activity {
                         public void onClick(DialogInterface dialog, int which) {
                             tts.stop();
                             tts.shutdown();
-                            Toast.makeText(WinningBidListActivity.this, "준비중이다 기달", Toast.LENGTH_SHORT).show();
-//                            Intent intent1 = new Intent(WinningBidListActivity.this, IamPortWebViewRebidding.class) ;
-//                            intent1.putExtra("auckey", auckey);
-//                            startActivity(intent1);
+                            BiddingWinUserAgree(auckey);
+
+                            Toast.makeText(WinningBidListActivity.this, "거래완료", Toast.LENGTH_SHORT).show();
+
+//                            adapter.notifyDataSetChanged();
+                            Intent intent1 = new Intent(WinningBidListActivity.this, ArtInfoTagList.class) ;
+                            intent1.putExtra("userID", userID);
+                            startActivity(intent1);
                             finish();
                         }
                     }).setNegativeButton("계약서 읽기", null);

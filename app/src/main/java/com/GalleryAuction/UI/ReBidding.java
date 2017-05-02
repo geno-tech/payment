@@ -167,6 +167,9 @@ public class ReBidding extends Activity implements View.OnClickListener {
 
                 break;
             case R.id.rebidding_x :
+                Intent intent = new Intent(ReBidding.this, ArtInfoTagList.class);
+                intent.putExtra("userID", userID);
+                startActivity(intent);
                 finish();
         }
     }
