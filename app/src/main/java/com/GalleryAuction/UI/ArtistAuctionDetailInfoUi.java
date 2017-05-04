@@ -2,13 +2,17 @@ package com.GalleryAuction.UI;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.PendingIntent;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.GalleryAuction.Adapter.ArtistAuctionDetailAdapter;
 import com.geno.bill_folder.R;
@@ -24,6 +28,8 @@ public class ArtistAuctionDetailInfoUi extends Activity implements View.OnClickL
     String nowbidding, userid, end, time, auckey;
     ListView listView;
     Button btn1, btn2;
+    NfcAdapter  nfcAdapter;
+    PendingIntent pendingIntent;
     ArtistAuctionDetailAdapter adapter = new ArtistAuctionDetailAdapter();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +42,9 @@ public class ArtistAuctionDetailInfoUi extends Activity implements View.OnClickL
         auckey = intent.getStringExtra("auckey");
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
+        nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+        Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        pendingIntent = PendingIntent.getActivity(this, 0, intent0, 0);
         try {
             JSONArray ja = new JSONArray(AuctionDetailInfo(auckey));
 
@@ -84,6 +93,21 @@ public class ArtistAuctionDetailInfoUi extends Activity implements View.OnClickL
         }
     }
 
-
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (nfcAdapter != null) {
+            nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
+        }
+    }
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+        if (tag != null) {
+            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+        }
+        Log.d("TAGTEST : ", ""+ tag);
+    }
 
 }

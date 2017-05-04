@@ -1,9 +1,12 @@
 package com.GalleryAuction.UI;
 
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
@@ -13,6 +16,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.geno.bill_folder.R;
 
@@ -34,6 +38,8 @@ public class BiddingComplete extends Activity {
     long now, end, ne, dd, nd, HH, nH, mm, ss, min_bidding;
     SimpleDateFormat sdf;
     Date date;
+    NfcAdapter  nfcAdapter;
+    PendingIntent pendingIntent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +50,10 @@ public class BiddingComplete extends Activity {
         tv2 = (TextView)findViewById(R.id.biddingtime_txt);
         tv3 = (TextView)findViewById(R.id.bestbidding_tv);
         sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+        nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+        Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        pendingIntent = PendingIntent.getActivity(this, 0, intent0, 0);
         Intent intent = getIntent();
         nowbidding = intent.getStringExtra("nowbidding");
         artimg = intent.getStringExtra("artimg");
@@ -54,6 +64,8 @@ public class BiddingComplete extends Activity {
         back task = new back();
         task.execute(imgUrl+artimg);
         now = System.currentTimeMillis();
+
+
         try {
             date = sdf.parse(aucend);
             end = date.getTime();
@@ -174,5 +186,21 @@ public class BiddingComplete extends Activity {
 
             }
         }
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (nfcAdapter != null) {
+            nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
+        }
+    }
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+        if (tag != null) {
+            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+        }
+        Log.d("TAGTEST : ", ""+ tag);
     }
 }

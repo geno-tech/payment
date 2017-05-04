@@ -1,8 +1,11 @@
 package com.GalleryAuction.UI;
 
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.net.Uri;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -23,7 +26,8 @@ public class IamPortWebViewBidding extends Activity {
     private final String APP_SCHEME = "iamportkakao://";
     private TextView txt;
     private String auckey, userID, nowbidding, artimg, aucend, min_bidding, bidding, image, end;
-
+    NfcAdapter  nfcAdapter;
+    PendingIntent pendingIntent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +39,9 @@ public class IamPortWebViewBidding extends Activity {
         intent1.getStringExtra("min_bidding");
         auckey = intent1.getStringExtra("auckey");
         userID = intent1.getStringExtra("userID");
-
+        nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+        Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        pendingIntent = PendingIntent.getActivity(this, 0, intent0, 0);
 
         mainWebView = (WebView) findViewById(R.id.mainWebView);
         mainWebView.setWebViewClient(new IamPortWebViewClient(this));
@@ -72,7 +78,14 @@ public class IamPortWebViewBidding extends Activity {
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         setIntent(intent);
+        setIntent(intent);
+        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+        if (tag != null) {
+            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+        }
+        Log.d("TAGTEST : ", ""+ tag);
     }
+
 
     @Override
     protected void onResume() {
@@ -96,7 +109,9 @@ public class IamPortWebViewBidding extends Activity {
                 }
             }
         }
-
+        if (nfcAdapter != null) {
+            nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
+        }
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -111,4 +126,5 @@ public class IamPortWebViewBidding extends Activity {
         }
         return super.onKeyDown(keyCode, event);
     }
+
 }

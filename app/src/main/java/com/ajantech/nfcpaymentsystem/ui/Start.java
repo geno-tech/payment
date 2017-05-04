@@ -3,12 +3,17 @@ package com.ajantech.nfcpaymentsystem.ui;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.PendingIntent;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.geno.bill_folder.R;
 
@@ -16,13 +21,16 @@ public class Start extends Activity {
 	
 	ImageButton regBut, loginBut;
 	Intent intent1;
-	
+	NfcAdapter nfcAdapter;
+	PendingIntent pendingIntent;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.start);
-		
+		nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+		Intent intent = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+		pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
 		regBut = (ImageButton) findViewById(R.id.start_reg);
 		loginBut = (ImageButton) findViewById(R.id.start_login);
 		
@@ -104,6 +112,23 @@ public class Start extends Activity {
 				break;
 			}
 		}
+	}
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+		if (nfcAdapter != null) {
+			nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
+		}
+	}
+	@Override
+	protected void onNewIntent(Intent intent) {
+		super.onNewIntent(intent);
+		Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+		if (tag != null) {
+			Toast.makeText(this, "아직 로그인하지 않았습니다", Toast.LENGTH_SHORT).show();
+		}
+		Log.d("TAGTEST : ", ""+ tag);
 	}
 
 }

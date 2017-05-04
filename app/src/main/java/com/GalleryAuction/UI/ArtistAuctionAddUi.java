@@ -1,10 +1,13 @@
 package com.GalleryAuction.UI;
 
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -46,7 +49,8 @@ public class ArtistAuctionAddUi extends Activity {
     ImageView title_image;
     Bitmap bmImg;
     String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
-
+    NfcAdapter  nfcAdapter;
+    PendingIntent pendingIntent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,7 +69,9 @@ public class ArtistAuctionAddUi extends Activity {
         spin6_e = (Spinner)findViewById(R.id.spinner_ss_e);
         cal = Calendar.getInstance();
         back task;
-
+        nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+        Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        pendingIntent = PendingIntent.getActivity(this, 0, intent0, 0);
         task = new back();
 
         btn1 = (Button)findViewById(R.id.artistauction_detail_btn);
@@ -897,4 +903,20 @@ public class ArtistAuctionAddUi extends Activity {
         }
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (nfcAdapter != null) {
+            nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
+        }
+    }
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+        if (tag != null) {
+            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+        }
+        Log.d("TAGTEST : ", ""+ tag);
+    }
 }

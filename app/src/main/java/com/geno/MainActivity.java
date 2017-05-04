@@ -3,8 +3,11 @@ package com.geno; // 패키지 정의
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.PendingIntent;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -21,6 +24,8 @@ public class MainActivity extends Activity { //액티비티 정의
 
 	private final int DLG_EXIT = 0;
 	ShareData mConfingData = null;
+	NfcAdapter nfcAdapter;
+	PendingIntent pendingIntent;
 	int mType = 1;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {//액티비티 생성시에 호출되는 메서드
@@ -28,6 +33,27 @@ public class MainActivity extends Activity { //액티비티 정의
 
 		setContentView(R.layout.activity_main);//액티비티 화면을 R.layout.activity_main으로 설정
 		ClearEditText.class.getClass();
+
+		nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+		Intent intent = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+		pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
+	}
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+		if (nfcAdapter != null) {
+			nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
+		}
+	}
+	@Override
+	protected void onNewIntent(Intent intent) {
+		super.onNewIntent(intent);
+		Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+		if (tag != null) {
+			Toast.makeText(this, "태그창에서 태그하시오", Toast.LENGTH_SHORT).show();
+		}
+		Log.d("TAGTEST : ", ""+ tag);
 	}
 
 	public void mOnClick(View v) {

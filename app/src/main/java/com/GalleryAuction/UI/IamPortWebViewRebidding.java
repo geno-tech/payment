@@ -1,8 +1,11 @@
 package com.GalleryAuction.UI;
 
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.net.Uri;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -23,11 +26,15 @@ public class IamPortWebViewRebidding extends Activity {
     private final String APP_SCHEME = "iamportkakao://";
     private TextView txt;
     private String auckey, userID, nowbidding, artimg, aucend, min_bidding, bidding, image, end;
-
+    NfcAdapter  nfcAdapter;
+    PendingIntent pendingIntent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gallery_iamport_webview);
+        nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+        Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        pendingIntent = PendingIntent.getActivity(this, 0, intent0, 0);
 
         Intent intent1 = getIntent();
         bidding = intent1.getStringExtra("bidding");
@@ -73,6 +80,11 @@ public class IamPortWebViewRebidding extends Activity {
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         setIntent(intent);
+        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+        if (tag != null) {
+            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+        }
+        Log.d("TAGTEST : ", ""+ tag);
     }
 
     @Override
@@ -97,7 +109,9 @@ public class IamPortWebViewRebidding extends Activity {
                 }
             }
         }
-
+        if (nfcAdapter != null) {
+            nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
+        }
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -113,4 +127,6 @@ public class IamPortWebViewRebidding extends Activity {
         }
         return super.onKeyDown(keyCode, event);
     }
+
+
 }

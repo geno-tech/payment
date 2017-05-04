@@ -3,8 +3,11 @@ package com.GalleryAuction.UI;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.PendingIntent;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.Build;
 import android.speech.tts.TextToSpeech;
 import android.os.Bundle;
@@ -39,7 +42,8 @@ public class WinningBidListActivity extends Activity {
     long min_bidding, min_bidding2;
     private ListView listView;
     private WinningBidInfoAdapter adapter;
-
+    NfcAdapter  nfcAdapter;
+    PendingIntent pendingIntent;
     TextToSpeech tts;
 
     @Override
@@ -52,6 +56,10 @@ public class WinningBidListActivity extends Activity {
         btn2 = (Button)findViewById(R.id.winningbidlist_btnX);
         btn3 = (Button)findViewById(R.id.winningbidlist_btnExit);
         listView = (ListView)findViewById(R.id.winningbidlist_list);
+
+        nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+        Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        pendingIntent = PendingIntent.getActivity(this, 0, intent0, 0);
         tts=new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
@@ -199,4 +207,20 @@ public class WinningBidListActivity extends Activity {
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, utteranceId);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (nfcAdapter != null) {
+            nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
+        }
+    }
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+        if (tag != null) {
+            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+        }
+        Log.d("TAGTEST : ", ""+ tag);
+    }
     }

@@ -1,9 +1,12 @@
 package com.GalleryAuction.UI;
 
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
@@ -46,7 +49,8 @@ public class ReBidding extends Activity implements View.OnClickListener {
     String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
     Date date;
     SimpleDateFormat sdf;
-
+    NfcAdapter  nfcAdapter;
+    PendingIntent pendingIntent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,6 +62,10 @@ public class ReBidding extends Activity implements View.OnClickListener {
         tv3 = (TextView)findViewById(R.id.rebiddingcountingtime_tv);
         imView = (ImageView)findViewById(R.id.auctionartimage2_img);
         et = (EditText)findViewById(R.id.rebidding_edt);
+
+        nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+        Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        pendingIntent = PendingIntent.getActivity(this, 0, intent0, 0);
         sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
         Log.d("now", ""+now);
@@ -301,5 +309,22 @@ public class ReBidding extends Activity implements View.OnClickListener {
 
             }
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (nfcAdapter != null) {
+            nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
+        }
+    }
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+        if (tag != null) {
+            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+        }
+        Log.d("TAGTEST : ", ""+ tag);
     }
 }

@@ -1,16 +1,23 @@
 package com.GalleryAuction.UI;
 
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.Intent;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.geno.bill_folder.R;
 
 public class BidderActivity extends Activity implements View.OnClickListener {
     Button btn1, btn2, btn3;
     String userID;
+    NfcAdapter  nfcAdapter;
+    PendingIntent pendingIntent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,9 +27,11 @@ public class BidderActivity extends Activity implements View.OnClickListener {
 //        btn3 = (Button)findViewById(R.id.winningbidlist_btn);
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
-        Intent intent0 = getIntent();
-        userID = intent0.getStringExtra("userID");
-
+        Intent intent = getIntent();
+        userID = intent.getStringExtra("userID");
+        nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+        Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        pendingIntent = PendingIntent.getActivity(this, 0, intent0, 0);
     }
 
     @Override
@@ -47,5 +56,22 @@ public class BidderActivity extends Activity implements View.OnClickListener {
 //                break;
         }
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (nfcAdapter != null) {
+            nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
+        }
+    }
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+        if (tag != null) {
+            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+        }
+        Log.d("TAGTEST : ", ""+ tag);
     }
 }

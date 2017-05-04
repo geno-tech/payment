@@ -3,11 +3,14 @@ package com.ajantech.nfcpaymentsystem.ui;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.PendingIntent;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -20,6 +23,7 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.ajantech.nfc_network.CommunicationService;
 import com.ajantech.nfc_network.CommunicationService.OnNFCServiceCallBack;
@@ -41,7 +45,8 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 	private EditText reg_password_edittext;
 	Drawable drawable;
 	private ProgressDialog mProgressDialog;
-
+	NfcAdapter  nfcAdapter;
+	PendingIntent pendingIntent;
     ShareData mConfingData = null;
     
 	String mNewID = "";
@@ -59,7 +64,9 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 		super.onCreate(savedInstanceState);
 //		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.pw_common);
-
+		nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+		Intent intent = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+		pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
 		//first!!!
 	    mConfingData = ShareData.newInstance(this);
 
@@ -361,6 +368,21 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 		}
 		return dialog;
 	}
-
+	@Override
+	protected void onResume() {
+		super.onResume();
+		if (nfcAdapter != null) {
+			nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
+		}
+	}
+	@Override
+	protected void onNewIntent(Intent intent) {
+		super.onNewIntent(intent);
+		Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+		if (tag != null) {
+			Toast.makeText(this, "아직 로그인하지 않았습니다.", Toast.LENGTH_SHORT).show();
+		}
+		Log.d("TAGTEST : ", ""+ tag);
+	}
 
 }

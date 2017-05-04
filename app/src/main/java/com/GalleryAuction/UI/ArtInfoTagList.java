@@ -1,9 +1,12 @@
 package com.GalleryAuction.UI;
 
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -36,6 +39,9 @@ public class ArtInfoTagList extends Activity {
     private ArtInfoAdapter adapter;
     Button refresh_btn;
     String artkey, arttitle, image, nowtime, nfcid, auckey, bidkey, albumkey, auctime_end, auction, bid, auctime_start;
+
+    NfcAdapter  nfcAdapter;
+    PendingIntent pendingIntent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +49,9 @@ public class ArtInfoTagList extends Activity {
         final Intent intent = getIntent();
         userId = intent.getStringExtra("userID");
 
+        nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+        Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        pendingIntent = PendingIntent.getActivity(this, 0, intent0, 0);
 //        SharedPreferences preferences = getSharedPreferences("KEY", 0);
 //        String userkey = preferences.getString("key", null);
 //        Toast.makeText(this, Artinfo(key), Toast.LENGTH_SHORT).show();
@@ -237,7 +246,22 @@ public class ArtInfoTagList extends Activity {
 //
 //    }
 
-
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (nfcAdapter != null) {
+            nfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
+        }
+    }
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+        if (tag != null) {
+            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+        }
+        Log.d("TAGTEST : ", ""+ tag);
+    }
 
 
 }
