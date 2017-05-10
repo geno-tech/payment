@@ -607,7 +607,39 @@ public class HttpClientItem {
             return null;
         }
     }
+    public static String BiddingWinArtistCancel(String msg) {
+        if (msg == null) {
+            msg = "";
+        }
 
+        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_win_artistCancle.jsp";
+
+        DefaultHttpClient client = new DefaultHttpClient();
+        try {
+
+            HttpPost post = new HttpPost(URL + "?msg=" + msg);
+            HttpParams params = client.getParams();
+            HttpConnectionParams.setConnectionTimeout(params, 300000);
+            HttpConnectionParams.setSoTimeout(params, 300000);
+            HttpResponse response = client.execute(post);
+            BufferedReader bufreader = new BufferedReader(
+                    new InputStreamReader(response.getEntity().getContent(),
+                            "utf-8"));
+
+            String line = null;
+            String result = "";
+
+            while ((line = bufreader.readLine()) != null) {
+                result += line;
+
+            }
+            return result;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
 
 
 }

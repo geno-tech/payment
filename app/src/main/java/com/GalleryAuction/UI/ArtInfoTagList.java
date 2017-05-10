@@ -37,9 +37,8 @@ public class ArtInfoTagList extends Activity {
     String userId;
     private ListView listView;
     private ArtInfoAdapter adapter;
-    Button refresh_btn;
+    Button refresh_btn, taglist_ext_btn;
     String artkey, arttitle, image, nowtime, nfcid, auckey, bidkey, albumkey, auctime_end, auction, bid, auctime_start;
-
     NfcAdapter  nfcAdapter;
     PendingIntent pendingIntent;
     @Override
@@ -47,6 +46,7 @@ public class ArtInfoTagList extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.galleryartinfotaglist);
         final Intent intent = getIntent();
+        taglist_ext_btn = (Button)findViewById(R.id.taglist_ext_btn);
         userId = intent.getStringExtra("userID");
 
         nfcAdapter = NfcAdapter.getDefaultAdapter(this);
@@ -60,7 +60,12 @@ public class ArtInfoTagList extends Activity {
         adapter = new ArtInfoAdapter();
         listView = (ListView) findViewById(R.id.artinfo_listview);
         listView.setAdapter(adapter);
-
+        taglist_ext_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
 
 

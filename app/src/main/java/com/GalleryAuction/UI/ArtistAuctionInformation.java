@@ -38,9 +38,10 @@ public class ArtistAuctionInformation extends Activity {
     String artistID,arttitle, nowbidding, end, auction, auckey,artkey, title, image, userID;
     String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
     ListView listView;
-    Button btn;
+    Button btn, refresh_btn;
     NfcAdapter  nfcAdapter;
     PendingIntent pendingIntent;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +50,7 @@ public class ArtistAuctionInformation extends Activity {
         artistID = intent.getStringExtra("artistID");
         listView = (ListView)findViewById(R.id.auctioninfo_listview);
         btn = (Button) findViewById(R.id.auctionexit_btn);
+        refresh_btn = (Button) findViewById(R.id.artist_refresh_btn);
         nfcAdapter = NfcAdapter.getDefaultAdapter(this);
         Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
         pendingIntent = PendingIntent.getActivity(this, 0, intent0, 0);
@@ -165,6 +167,18 @@ public class ArtistAuctionInformation extends Activity {
             @Override
             public void onClick(View v) {
                 finish();
+            }
+        });
+        refresh_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(ArtistAuctionInformation.this, ArtistAuctionInformation.class);
+                intent1.putExtra("artistID", artistID);
+                startActivity(intent1);
+                overridePendingTransition(R.anim.alpha, R.anim.alpha);
+
+                finish();
+
             }
         });
     }

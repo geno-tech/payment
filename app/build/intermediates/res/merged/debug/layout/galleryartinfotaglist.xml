@@ -120,11 +120,18 @@
         android:layout_height="wrap_content"
         android:gravity="center|bottom"
         android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp">
+        android:orientation="vertical"
+        android:background="@drawable/colorgradation">
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:background="@drawable/refresh_xml"
         android:id="@+id/refresh_btn"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:text="나가기"
+            android:id="@+id/taglist_ext_btn"/>
     </LinearLayout>
 </LinearLayout>
