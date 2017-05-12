@@ -166,6 +166,7 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="isTablet">false</bool>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
@@ -215,6 +216,7 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="red">#f4511e</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
@@ -226,7 +228,6 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <color name="warning_color">#f4511e</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -247,6 +248,12 @@
     <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
     <declare-styleable name="ActionMenuView"/>
     <declare-styleable name="ActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/><attr format="reference" name="closeItemLayout"/></declare-styleable>
+    <declare-styleable name="ActionView"><attr format="color" name="av_color"/><attr format="enum" name="av_action">
+            <enum name="drawer" value="0"/>
+            <enum name="back" value="1"/>
+            <enum name="close" value="2"/>
+            <enum name="plus" value="3"/>
+        </attr></declare-styleable>
     <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
     <declare-styleable name="AlertDialog"><attr name="android:layout"/><attr format="reference" name="buttonPanelSideLayout"/><attr format="reference" name="listLayout"/><attr format="reference" name="multiChoiceItemLayout"/><attr format="reference" name="singleChoiceItemLayout"/><attr format="reference" name="listItemLayout"/></declare-styleable>
     <declare-styleable name="AppCompatImageView"><attr name="android:src"/><attr format="reference" name="srcCompat"/></declare-styleable>
@@ -295,6 +302,7 @@
         </attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
+    <declare-styleable name="MaterialTabHost"><attr format="boolean" name="hasIcons"/><attr format="color" name="primaryColor"/><attr format="color" name="accentColor"/><attr format="color" name="iconColor"/><attr format="color" name="textColor"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction">
             
@@ -440,9 +448,12 @@
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
+    <dimen name="materialTextTab">14sp</dimen>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
+    <dimen name="tabSelectorHeight">2dp</dimen>
+    <dimen name="tabhostHeight">48dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
@@ -455,7 +466,10 @@
     <item name="up" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="av_animationDuration">340</integer>
     <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="rcv_animationDurationHide">420</integer>
+    <integer name="rcv_animationDurationReveal">420</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -647,6 +661,8 @@ We will confirm the above facts, agree to collect and use personal information, 
         -->
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
+                <item name="windowActionBar">true</item>
+
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
@@ -1648,6 +1664,7 @@ We will confirm the above facts, agree to collect and use personal information, 
         <item name="android:scaleType">center</item>
     </style>
     <style name="MyActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+                <item name="windowActionBar">true</item>
 
         <item name="android:background">#ffd000</item>
 
@@ -1999,6 +2016,7 @@ We will confirm the above facts, agree to collect and use personal information, 
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
     <style name="Yellow" parent="android:Theme.Holo.Light">
+                <item name="windowActionBar">true</item>
 
         <item name="android:actionBarStyle">@style/MyActionBar</item>
     </style>

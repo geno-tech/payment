@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.GalleryAuction.Item.ArtInfoItem;
@@ -17,7 +18,7 @@ public class WinningBidInfoAdapter extends BaseAdapter {
     // 문자열 보관 ArrayList
     private ArrayList<WinningBidInfoItem> arrayList = new ArrayList<WinningBidInfoItem>() ;
     TextView tv1, tv2, tv3;
-
+    ImageView imageView;
     public WinningBidInfoAdapter() {
 
     }
@@ -47,12 +48,13 @@ public class WinningBidInfoAdapter extends BaseAdapter {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = inflater.inflate(R.layout.galleryartinfo_listview_item, parent, false);
         }
+        imageView = (ImageView) convertView.findViewById(R.id.artinfoitem_image);
         tv1 = (TextView) convertView.findViewById(R.id.artinfoitem1_txt);
         tv2 = (TextView) convertView.findViewById(R.id.artinfoitem2_txt);
         WinningBidInfoItem item = arrayList.get(position);
-        tv1.setText(item.getMybest());
+        tv1.setText(item.getMybest() + "원");
         tv2.setText(item.getTime());
-
+        imageView.setVisibility(View.GONE);
 
 
 

@@ -128,13 +128,13 @@ public class ArtistAuctionInformation extends Activity {
                     finish();
                 } else if (auction.equals("2")) {
                     AlertDialog.Builder alert = new AlertDialog.Builder(ArtistAuctionInformation.this);
-                    alert.setMessage("경매대기상태입니다. 취소하시겠습니까?" ).setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
+                    alert.setMessage("경매대기상태입니다. 취소하시겠습니까?" ).setCancelable(false).setPositiveButton("네", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             Artist_auc_cancle(auckey);
                             finish();
                         }
-                    }).setNegativeButton("취소", new DialogInterface.OnClickListener() {
+                    }).setNegativeButton("아니오", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             dialog.cancel();
@@ -175,7 +175,7 @@ public class ArtistAuctionInformation extends Activity {
                 Intent intent1 = new Intent(ArtistAuctionInformation.this, ArtistAuctionInformation.class);
                 intent1.putExtra("artistID", artistID);
                 startActivity(intent1);
-                overridePendingTransition(R.anim.alpha, R.anim.alpha);
+                overridePendingTransition(R.anim.scale, R.anim.scale);
 
                 finish();
 

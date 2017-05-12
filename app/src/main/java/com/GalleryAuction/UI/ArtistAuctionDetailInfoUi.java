@@ -70,13 +70,13 @@ public class ArtistAuctionDetailInfoUi extends Activity implements View.OnClickL
         switch (v.getId()) {
             case R.id.artistauction_detail_btn:
                 AlertDialog.Builder alert = new AlertDialog.Builder(ArtistAuctionDetailInfoUi.this);
-                alert.setMessage("취소하시겠습니까?").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
+                alert.setMessage("취소하시겠습니까?").setCancelable(false).setPositiveButton("네", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                     AuctionRemove(auckey);
                         finish();
                     }
-                }).setNegativeButton("취소", new DialogInterface.OnClickListener() {
+                }).setNegativeButton("아니오", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.cancel();

@@ -5,30 +5,7 @@
     android:layout_height="match_parent"
     tools:context="com.GalleryAuction.UI.ArtInfoTagList"
     android:orientation="vertical">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:gravity="left">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="제목"
-            android:textSize="30dp" />
-    </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="right">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="날짜"
-            android:textSize="30dp"/>
-        </LinearLayout>
-    </LinearLayout>
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,6 +13,8 @@
         android:gravity="center"
         android:numColumns="auto_fit"
         android:id="@+id/artinfo_listview"
+        android:divider="@color/red"
+        android:dividerHeight="3dp"
         android:stretchMode="columnWidth"
         android:layout_weight="1">
     </ListView>
@@ -121,7 +100,7 @@
         android:gravity="center|bottom"
         android:layout_marginTop="5dp"
         android:orientation="vertical"
-        android:background="@drawable/colorgradation">
+        >
     <Button
         android:layout_width="50dp"
         android:layout_height="50dp"

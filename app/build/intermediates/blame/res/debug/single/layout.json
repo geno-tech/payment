@@ -92,6 +92,10 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\galleryartinfo_listview_item.xml"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\f8c620659178e465674818a2bc45bfaaeba25548\\output\\res\\layout\\tab.xml"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
@@ -132,12 +136,12 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\nfc_ready.xml"
     },
     {
-        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artistauction_complete.xml",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\gallery_artistauction_complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pw_keypad.xml",
@@ -180,6 +184,10 @@
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\gallery_artist_artinformation.xml"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_icon.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\f8c620659178e465674818a2bc45bfaaeba25548\\output\\res\\layout\\tab_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_iamport_webview.xml",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\gallery_iamport_webview.xml"
     },
@@ -208,12 +216,20 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_tab_icon.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\f8c620659178e465674818a2bc45bfaaeba25548\\output\\res\\layout\\material_tab_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\issue_coupon.xml",
         "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\issue_coupon.xml"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallerybidder_main.xml",
+        "source": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\src\\main\\res\\layout\\gallerybidder_main.xml"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
@@ -246,6 +262,10 @@
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_tab.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\f8c620659178e465674818a2bc45bfaaeba25548\\output\\res\\layout\\material_tab.xml"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",

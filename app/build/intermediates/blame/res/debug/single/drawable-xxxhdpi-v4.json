@@ -40,6 +40,10 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\right_arrow.png",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\f8c620659178e465674818a2bc45bfaaeba25548\\output\\res\\drawable-xxxhdpi-v4\\right_arrow.png"
+    },
+    {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -98,6 +102,10 @@
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\9edda1be754ff6b22835f6524099a8be207e862a\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\left_arrow.png",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\f8c620659178e465674818a2bc45bfaaeba25548\\output\\res\\drawable-xxxhdpi-v4\\left_arrow.png"
     },
     {
         "merged": "C:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",

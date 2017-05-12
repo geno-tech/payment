@@ -27,6 +27,8 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import it.neokree.materialtabs.MaterialTabHost;
+
 import static com.GalleryAuction.Client.ImageViewItem.getImageBitmap;
 import static com.GalleryAuction.Item.HttpClientItem.ArtAlbumSelect;
 
@@ -230,7 +232,7 @@ public class ArtInfoTagList extends Activity {
             Intent intent1 = new Intent(ArtInfoTagList.this, ArtInfoTagList.class);
                 intent1.putExtra("userID", userId);
                 startActivity(intent1);
-                overridePendingTransition(R.anim.alpha, R.anim.alpha);
+                overridePendingTransition(R.anim.scale, R.anim.scale);
 
                 finish();
 
