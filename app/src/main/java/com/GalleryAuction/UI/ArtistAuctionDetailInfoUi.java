@@ -21,6 +21,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import static com.GalleryAuction.Client.TagInfoClient.toHexString;
+import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
 import static com.GalleryAuction.Item.HttpClientItem.AuctionDetailInfo;
 import static com.GalleryAuction.Item.HttpClientItem.AuctionRemove;
 
@@ -105,9 +107,9 @@ public class ArtistAuctionDetailInfoUi extends Activity implements View.OnClickL
         super.onNewIntent(intent);
         Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
         if (tag != null) {
-            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "구매자 ID가 아닙니다.", Toast.LENGTH_SHORT).show();
+
         }
-        Log.d("TAGTEST : ", ""+ tag);
     }
 
 }

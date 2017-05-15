@@ -22,9 +22,9 @@ public class ArtistActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.galleryartistactivity);
-        a1 = (Button)findViewById(R.id.artinfo_btn_artist);
+//        a1 = (Button)findViewById(R.id.artinfo_btn_artist);
         a2 = (Button)findViewById(R.id.auctionlist_btn_artist);
-        a1.setOnClickListener(this);
+//        a1.setOnClickListener(this);
         a2.setOnClickListener(this);
         Intent intent = getIntent();
         artistID = intent.getStringExtra("artistID");
@@ -39,11 +39,11 @@ public class ArtistActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.artinfo_btn_artist:
-                Intent intent1 = new Intent(ArtistActivity.this, ArtistArtInformation.class);
-                intent1.putExtra("artistID", artistID);
-                startActivity(intent1);
-                break;
+//            case R.id.artinfo_btn_artist:
+//                Intent intent1 = new Intent(ArtistActivity.this, ArtistArtInformation.class);
+//                intent1.putExtra("artistID", artistID);
+//                startActivity(intent1);
+//                break;
             case R.id.auctionlist_btn_artist:
                 Intent intent2 = new Intent(ArtistActivity.this, ArtistAuctionInformation.class);
                 intent2.putExtra("artistID", artistID);
@@ -65,7 +65,7 @@ public class ArtistActivity extends Activity implements View.OnClickListener {
         super.onNewIntent(intent);
         Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
         if (tag != null) {
-            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "구매자 ID가 아닙니다.", Toast.LENGTH_SHORT).show();
         }
         Log.d("TAGTEST : ", ""+ tag);
     }

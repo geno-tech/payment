@@ -28,6 +28,9 @@ import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import static com.GalleryAuction.Client.TagInfoClient.toHexString;
+import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
+
 public class ReBiddingConfirm extends Activity {
     String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
     Bitmap bmImg;
@@ -197,8 +200,21 @@ public class ReBiddingConfirm extends Activity {
         super.onNewIntent(intent);
         Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
         if (tag != null) {
-            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+            final byte[] tagId = tag.getId();
+            new java.lang.Thread(new Runnable() {
+                @Override
+                public void run() {
+                    Intent intent0 = getIntent();
+                    String userID = intent0.getStringExtra("userID");
+                    Intent intent = new Intent(ReBiddingConfirm.this, ArtInformation.class);
+                    intent.putExtra("artinfo",ArtInfo(toHexString(tagId)));
+                    intent.putExtra("userID",userID);
+                    //Log.d("tag",ArtInfo(toHexString(tagId)));
+                    startActivity(intent);
+                    finish();
+                }
+            }).start();
+
         }
-        Log.d("TAGTEST : ", ""+ tag);
     }
 }

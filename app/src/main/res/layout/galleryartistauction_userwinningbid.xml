@@ -47,4 +47,50 @@
     </LinearLayout>
         </LinearLayout>
     </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_gravity="end"
+        android:textColor="?android:attr/textColorPrimaryInverse"
+        android:text="@string/purchase"
+        android:id="@+id/purchase_button4" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_gravity="end"
+        android:textColor="?android:attr/textColorPrimaryInverse"
+        android:text="@string/purchase_not_invalidated"
+        android:id="@+id/purchase_button_not_invalidated4" />
+    <TextView
+        android:id="@+id/purchase_button_not_invalidated_description4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:gravity="end"
+        android:textAlignment="gravity"
+        android:text="@string/purchase_button_not_invalidated_description"
+        />
+    <TextView
+        android:id="@+id/confirmation_message4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="@string/purchase_done"
+        android:visibility="gone"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/encrypted_message4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="@string/purchase_done"
+        android:visibility="gone"/>
 </LinearLayout>

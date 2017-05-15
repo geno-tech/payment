@@ -11,11 +11,11 @@
         android:text="Artist 화면입니다."
         android:textSize="30dp"
         android:textStyle="bold"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="전시목록"
-        android:id="@+id/artinfo_btn_artist"/>
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="전시목록"-->
+        <!--android:id="@+id/artinfo_btn_artist"/>-->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

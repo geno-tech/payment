@@ -29,6 +29,8 @@ import java.net.URL;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 
+import static com.GalleryAuction.Client.TagInfoClient.toHexString;
+import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
 import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoBest;
 
 public class BidderInfo extends Activity implements View.OnClickListener {
@@ -174,8 +176,21 @@ public class BidderInfo extends Activity implements View.OnClickListener {
         super.onNewIntent(intent);
         Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
         if (tag != null) {
-            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+            final byte[] tagId = tag.getId();
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    Intent intent0 = getIntent();
+                    String userID = intent0.getStringExtra("userID");
+                    Intent intent = new Intent(BidderInfo.this, ArtInformation.class);
+                    intent.putExtra("artinfo",ArtInfo(toHexString(tagId)));
+                    intent.putExtra("userID",userID);
+                    //Log.d("tag",ArtInfo(toHexString(tagId)));
+                    startActivity(intent);
+                    finish();
+                }
+            }).start();
+
         }
-        Log.d("TAGTEST : ", ""+ tag);
     }
 }

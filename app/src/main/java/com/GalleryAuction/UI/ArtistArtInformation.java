@@ -25,6 +25,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 import static com.GalleryAuction.Client.ImageViewItem.getImageBitmap;
+import static com.GalleryAuction.Client.TagInfoClient.toHexString;
+import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
 import static com.GalleryAuction.Item.HttpClientItem.ArtistArtInfo;
 
 public class ArtistArtInformation extends Activity {
@@ -77,9 +79,8 @@ public class ArtistArtInformation extends Activity {
         super.onNewIntent(intent);
         Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
         if (tag != null) {
-            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "구매자 ID가 아닙니다.", Toast.LENGTH_SHORT).show();
         }
-        Log.d("TAGTEST : ", ""+ tag);
     }
 
 }

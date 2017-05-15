@@ -33,7 +33,9 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.StringTokenizer;
 
+import static com.GalleryAuction.Client.TagInfoClient.toHexString;
 import static com.GalleryAuction.Item.HttpClientItem.ArtAdd;
+import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
 
 public class ArtistAuctionAddUi extends Activity {
     int year , month , day , hour , minute , second;
@@ -915,8 +917,8 @@ public class ArtistAuctionAddUi extends Activity {
         super.onNewIntent(intent);
         Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
         if (tag != null) {
-            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "구매자 ID가 아닙니다.", Toast.LENGTH_SHORT).show();
+
         }
-        Log.d("TAGTEST : ", ""+ tag);
     }
 }

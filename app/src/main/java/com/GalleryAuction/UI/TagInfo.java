@@ -9,6 +9,7 @@ import android.os.Bundle;
 
 import com.geno.bill_folder.R;
 
+import static com.GalleryAuction.Client.TagInfoClient.toHexString;
 import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
 
 public class TagInfo extends Activity {
@@ -68,14 +69,4 @@ public class TagInfo extends Activity {
     }
 
 
-    public static final String CHARS = "0123456789ABCDEF";
-
-    public static String toHexString(byte[] data) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < data.length; ++i) {
-            sb.append(CHARS.charAt((data[i] >> 4) & 0x0F))
-                    .append(CHARS.charAt(data[i] & 0x0F));
-        }
-        return sb.toString();
-    }
 }

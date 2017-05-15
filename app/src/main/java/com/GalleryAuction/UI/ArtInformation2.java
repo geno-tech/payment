@@ -30,6 +30,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import static com.GalleryAuction.Client.TagInfoClient.toHexString;
 import static com.GalleryAuction.Item.HttpClientItem.ArtAlbumList;
 import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
 
@@ -221,8 +222,22 @@ public class ArtInformation2 extends Activity implements View.OnClickListener{
         super.onNewIntent(intent);
         Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
         if (tag != null) {
-            Toast.makeText(this, "[갤러리옥션 - 태그하기]에서 태그하시오", Toast.LENGTH_SHORT).show();
+            final byte[] tagId = tag.getId();
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    ArtAlbumList(userId, artkey);
+                    Intent intent0 = getIntent();
+                    String userID = intent0.getStringExtra("userID");
+                    Intent intent = new Intent(ArtInformation2.this, ArtInformation.class);
+                    intent.putExtra("artinfo",ArtInfo(toHexString(tagId)));
+                    intent.putExtra("userID",userID);
+                    //Log.d("tag",ArtInfo(toHexString(tagId)));
+                    startActivity(intent);
+                    finish();
+                }
+            }).start();
+
         }
-        Log.d("TAGTEST : ", ""+ tag);
     }
 }
