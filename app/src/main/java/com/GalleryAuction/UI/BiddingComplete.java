@@ -35,7 +35,7 @@ public class BiddingComplete extends Activity {
     String nowbidding, aucend, artimg;
     TextView nowbid_txt, tv2, tv3;
     Button btn;
-    String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
+    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
     Bitmap bmImg;
     ImageView iv;
     long now, end, ne, dd, nd, HH, nH, mm, ss, min_bidding;

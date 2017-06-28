@@ -1,11 +1,14 @@
 package com.GalleryAuction.Adapter;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.GalleryAuction.Item.ArtistAuctionItem;
@@ -22,6 +25,7 @@ import java.util.ArrayList;
 public class ArtistAuctionDetailAdapter  extends BaseAdapter{
     private ArrayList<ArtistAuctionItem> itemArrayList = new ArrayList<ArtistAuctionItem>();
     TextView tv1, tv2, tv3;
+    ImageView iv;
     @Override
     public int getCount() {
         return itemArrayList.size();
@@ -44,30 +48,32 @@ public class ArtistAuctionDetailAdapter  extends BaseAdapter{
 
         if (convertView == null) {
             LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.gallery_auction_listview_item, parent, false);
+            convertView = inflater.inflate(R.layout.gallery_artistdetail_item, parent, false);
         }
-        tv1 = (TextView)convertView.findViewById(R.id.auctionitem1_txt);
-        tv2 = (TextView)convertView.findViewById(R.id.auctionitem2_txt);
-        tv3 = (TextView)convertView.findViewById(R.id.auctionitem3_txt);
+        iv = (ImageView) convertView.findViewById(R.id.bidderfaceimg);
+        tv1 = (TextView)convertView.findViewById(R.id.detailitem1_txt);
+        tv2 = (TextView)convertView.findViewById(R.id.detailitem2_txt);
+        tv3 = (TextView)convertView.findViewById(R.id.detailitem3_txt);
         ArtistAuctionItem artistAuctionItem = itemArrayList.get(position);
-
         tv3.setText(artistAuctionItem.getTime());
 
                 tv2.setText(currentpoint(artistAuctionItem.getTitle())+"원");
                 tv1.setText(artistAuctionItem.getNowbidding());
         Log.d("abcde", artistAuctionItem.getTitle());
         Log.d("abcde", artistAuctionItem.getNowbidding());
+        iv.setImageBitmap(artistAuctionItem.getImage());
 
 
         return convertView;
     }
 
-    public void addItem( String nowbidding, String title, String time) {
+    public void addItem( String nowbidding, String title, String time, Bitmap image) {
         ArtistAuctionItem item = new ArtistAuctionItem();
 
         item.setTitle(nowbidding);
         item.setNowbidding(title);
         item.setTime(time);
+        item.setImage(image);
         itemArrayList.add(item);
     }
 

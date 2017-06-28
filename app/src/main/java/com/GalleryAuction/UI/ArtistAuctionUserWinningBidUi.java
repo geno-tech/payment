@@ -73,7 +73,7 @@ public class ArtistAuctionUserWinningBidUi extends Activity {
         tv1 = (TextView) findViewById(R.id.artistcontract_txt);
         btn1 = (Button)findViewById(R.id.artistcontract_agree_btn);
         btn2 = (Button)findViewById(R.id.artistcontract_x_btn);
-        tv1.setText(getString(R.string.agreement_msg));
+        tv1.setText(getString(R.string.ct_msg));
 
         try {
             mKeyStore = KeyStore.getInstance("AndroidKeyStore");
@@ -185,9 +185,9 @@ public class ArtistAuctionUserWinningBidUi extends Activity {
             }
         });
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            ttsGreater21(getString(R.string.agreement_msg).toString());
+            ttsGreater21(getString(R.string.ct_msg).toString());
         } else {
-            ttsUnder20(getString(R.string.agreement_msg).toString());
+            ttsUnder20(getString(R.string.ct_msg).toString());
         }
     }
     @Override

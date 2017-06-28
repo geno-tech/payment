@@ -9,6 +9,7 @@ import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -40,7 +41,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
     String arttitle, arttext, image, artkey, nfcid, artistid, auckey ,aucstatus ,bidkey, aucstart ;
     TextView tv1, tv2;
     ImageView imView;
-    String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
+    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
     Date date;
     SimpleDateFormat sdf;
     Bitmap bmImg;
@@ -103,6 +104,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         }
         tv1.setText(arttitle);
         tv2.setText(arttext);
+        tv2.setMovementMethod(new ScrollingMovementMethod());
         task.execute(imgUrl+image);
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
@@ -167,10 +169,13 @@ public class ArtInformation extends Activity implements View.OnClickListener{
                     intent.putExtra("auckey", auckey);
                     startActivity(intent);
                     finish();
-                } else if(aucstatus.equals("5")||aucstatus.equals("4")){
-                    Toast.makeText(ArtInformation.this, "마감되었습니다.", Toast.LENGTH_SHORT).show();
+                } else if(aucstatus.equals("5")||aucstatus.equals("4")||aucstatus.equals("6") ){
+                    Toast.makeText(ArtInformation.this, "낙찰된 다른 유저와 경매진행중입니다.", Toast.LENGTH_SHORT).show();
 
-                } else {
+                } else if(aucstatus.equals("7") ){
+                    Toast.makeText(ArtInformation.this, "경매가 완료되었습니다.", Toast.LENGTH_SHORT).show();
+
+                }else {
                     Toast.makeText(ArtInformation.this, "말도안돼", Toast.LENGTH_SHORT).show();
 
                 }

@@ -50,7 +50,7 @@ public class ArtistAuctionAddUi extends Activity {
     TextView title_txt;
     ImageView title_image;
     Bitmap bmImg;
-    String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
+    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
     NfcAdapter  nfcAdapter;
     PendingIntent pendingIntent;
     @Override

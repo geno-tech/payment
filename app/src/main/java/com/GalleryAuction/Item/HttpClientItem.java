@@ -16,6 +16,7 @@ import java.io.InputStreamReader;
  */
 
 public class HttpClientItem {
+    public static String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
 
     //유저아이디와 그림Key 전달  -> 그림정보 받아옴
     public static void ArtAlbumList(String msg , String msg2) {
@@ -23,7 +24,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/artalbum_insert.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/artalbum_insert.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -47,7 +48,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/art_info.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/art_info.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -82,7 +83,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/artalbum_select.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/artalbum_select.jsp";
         DefaultHttpClient client = new DefaultHttpClient();
         try {
 
@@ -117,7 +118,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/artalbumremote.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/artalbumremote.jsp";
         DefaultHttpClient client = new DefaultHttpClient();
         try {
 
@@ -152,7 +153,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/art_info_artistid_list.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/art_info_artistid_list.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -187,7 +188,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/artist_auc_insert.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/artist_auc_insert.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -211,7 +212,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_win.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_win.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -246,7 +247,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_info_best.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_info_best.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -281,7 +282,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/artist_auc_cancle.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/artist_auc_cancle.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -316,7 +317,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/artist_bid_info.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/artist_bid_info.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -351,7 +352,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/artist_auc_cancle.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/artist_auc_cancle.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -386,7 +387,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/artist_auc_info.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/artist_auc_info.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -421,7 +422,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_win_artistAgree.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_win_artistAgree.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -456,7 +457,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/biddinginfo_insert.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/biddinginfo_insert.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -478,7 +479,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_win_userAgree.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_win_userAgree.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -512,7 +513,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_info.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_info.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -545,7 +546,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_list.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_list.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -579,7 +580,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_win_userCancle.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_win_userCancle.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -612,7 +613,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://59.3.109.220:8989/NFCTEST/bidding_win_artistCancle.jsp";
+        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_win_artistCancle.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {

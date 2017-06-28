@@ -1,6 +1,7 @@
 package com.GalleryAuction.Adapter;
 import java.util.ArrayList;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -39,6 +40,7 @@ public class ArtInfoAdapter extends BaseAdapter {
         return position;
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         final int pos = position;
@@ -62,28 +64,44 @@ public class ArtInfoAdapter extends BaseAdapter {
         if (artInfoItem.getAuckey() == "1") {
             tv1.setTextColor(Color.BLACK);
             tv2.setTextColor(Color.BLACK);
+            tv3.setTextColor(Color.BLACK);
+            tv3.setText(Html.fromHtml("<u>경매중이 아닙니다</u>"));
+
         }
         else if (artInfoItem.getAuckey() == "1" && artInfoItem.getBidkey() != "0"){
             //경매취소 (한번이라도 경매했을때 )
             tv1.setTextColor(Color.BLACK);
             tv2.setTextColor(Color.BLACK);
+            tv3.setTextColor(Color.BLACK);
+            tv3.setText(Html.fromHtml("<u>경매중이 아닙니다</u>"));
+
         }
         else if (artInfoItem.getAuckey() == "3" &&artInfoItem.getBidkey() == "0"){
             //경매중일때
             tv1.setTextColor(Color.BLUE);
             tv2.setTextColor(Color.BLUE);
+            tv3.setTextColor(Color.BLUE);
+            tv3.setText(Html.fromHtml("<u>경매중(입찰하지않은 물품)</u>"));
+
         } else if (artInfoItem.getAuckey() == "2") {
             tv1.setTextColor(Color.GREEN);
             tv2.setTextColor(Color.GREEN);
+            tv3.setTextColor(Color.GREEN);
+            tv3.setText(Html.fromHtml("<u>경매 대기중</u>"));
+
         } else if (artInfoItem.getAuckey() == "3" && artInfoItem.getBidkey() != "0") {
                 //입찰했을때
-                tv1.setTextColor(Color.YELLOW);
-                tv2.setTextColor(Color.YELLOW);
+            tv1.setTextColor(Color.rgb(255,228,0));
+            tv2.setTextColor(Color.rgb(255,228,0));
+            tv3.setTextColor(Color.rgb(255,228,0));
+            tv3.setText(Html.fromHtml("<u>경매중(입찰한 물품)</u>"));
+
         }
         else if (artInfoItem.getAuckey().equals("4")) {
             //마감됐을때
                 tv1.setTextColor(Color.CYAN);
             tv2.setTextColor(Color.CYAN);
+            tv3.setText(Html.fromHtml("<u>경매마감대기중</u>"));
 
         }
         else if (artInfoItem.getAuckey().equals("5")) {
@@ -91,14 +109,23 @@ public class ArtInfoAdapter extends BaseAdapter {
             if(artInfoItem.getBid().equals("2")){
                 tv1.setTextColor(Color.rgb(134,42,0));
                 tv2.setTextColor(Color.rgb(134,42,0));
+                tv3.setTextColor(Color.rgb(134,42,0));
+                tv3.setText(Html.fromHtml("<u>낙찰되지 않았습니다</u>"));
+
             }
             else if(artInfoItem.getBid().equals("3")){
                 tv1.setTextColor(Color.rgb(255,187,0));
                 tv2.setTextColor(Color.rgb(255,187,0));
+                tv3.setTextColor(Color.rgb(255,187,0));
+                tv3.setText(Html.fromHtml("<u>낙찰되었습니다</u>"));
+
             }
             else{
                 tv1.setTextColor(Color.rgb(241,95,95));
                 tv2.setTextColor(Color.rgb(241,95,95));
+                tv3.setTextColor(Color.rgb(241,95,95));
+                tv3.setText(Html.fromHtml("<u>입찰하지 않았습니다</u>"));
+
             }
         }
         else if (artInfoItem.getAuckey().equals("6")) {
@@ -106,16 +133,22 @@ public class ArtInfoAdapter extends BaseAdapter {
             if(artInfoItem.getBid().equals("2")){
                 tv1.setTextColor(Color.rgb(134,42,0));
                 tv2.setTextColor(Color.rgb(134,42,0));
+                tv3.setTextColor(Color.rgb(134,42,0));
+                tv3.setText(Html.fromHtml("<u>낙찰되지 않았습니다</u>"));
             }
             else if(artInfoItem.getBid().equals("3")){
                 tv1.setTextColor(Color.rgb(255,187,0));
                 tv2.setTextColor(Color.rgb(255,187,0));
+                tv3.setTextColor(Color.rgb(255,187,0));
+                tv3.setText(Html.fromHtml("<u>낙찰되었습니다</u>"));
             }
             else{
                 tv1.setTextColor(Color.rgb(241,95,95));
                 tv2.setTextColor(Color.rgb(241,95,95));
+                tv3.setTextColor(Color.rgb(241,95,95));
+                tv3.setText(Html.fromHtml("<u>입찰하지 않았습니다</u>"));
             }
-            tv3.setText(Html.fromHtml("<u>유저동의</u>"));
+            tv3.setText(Html.fromHtml(tv3.getText() + " <u>유저동의</u>"));
 
 
         } else if (artInfoItem.getAuckey().equals("7")) {
@@ -123,20 +156,32 @@ public class ArtInfoAdapter extends BaseAdapter {
             if(artInfoItem.getBid().equals("2")){
                 tv1.setTextColor(Color.rgb(134,42,0));
                 tv2.setTextColor(Color.rgb(134,42,0));
+                tv3.setTextColor(Color.rgb(134,42,0));
+                tv3.setText(Html.fromHtml("<u>낙찰되지 않았습니다</u>"));
+
             }
             else if(artInfoItem.getBid().equals("3")){
                 tv1.setTextColor(Color.rgb(255,187,0));
                 tv2.setTextColor(Color.rgb(255,187,0));
+                tv3.setTextColor(Color.rgb(255,187,0));
+                tv3.setText(Html.fromHtml("<u>낙찰되었습니다</u>"));
+
             }
             else{
                 tv1.setTextColor(Color.rgb(241,95,95));
                 tv2.setTextColor(Color.rgb(241,95,95));
+                tv3.setTextColor(Color.rgb(241,95,95));
+                tv3.setText(Html.fromHtml("<u>입찰하지 않았습니다</u>"));
+
             }
-            tv3.setText(Html.fromHtml("<u>유저동의</u>"));
+            tv3.setText(Html.fromHtml(tv3.getText() + " <u>경매완료</u>"));
         }
         else {
             tv1.setTextColor(Color.BLACK);
             tv2.setTextColor(Color.BLACK);
+            tv3.setTextColor(Color.BLACK);
+            tv3.setText(Html.fromHtml("<u>경매중이 아닙니다</u>"));
+
         }
 
 

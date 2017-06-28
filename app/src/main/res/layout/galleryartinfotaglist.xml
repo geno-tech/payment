@@ -18,82 +18,82 @@
         android:stretchMode="columnWidth"
         android:layout_weight="1">
     </ListView>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="경매중(입찰NO)"
-            android:gravity="center"
-            android:background="@drawable/border_blue"
-            android:layout_marginRight="2dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="경매중(입찰YES)"
-            android:gravity="center"
-            android:background="@drawable/border_yello"/>
-    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="2dp">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="경매중(입찰NO)"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@drawable/border_blue"-->
+            <!--android:layout_marginRight="2dp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="경매중(입찰YES)"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@drawable/border_yello"/>-->
+    <!--</LinearLayout>-->
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="경매X"
-            android:gravity="center"
-            android:background="@drawable/border_black"
-            android:layout_marginRight="2dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="경매대기중"
-            android:gravity="center"
-            android:background="@drawable/border_green"
-            android:layout_marginRight="2dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="경매마감대기중"
-            android:gravity="center"
-            android:background="@drawable/border_cyan"/>
-        </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="낙찰되지 못한 그림"
-            android:gravity="center"
-            android:background="@drawable/border_1"
-            android:layout_marginRight="2dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="낙찰된 그림"
-            android:gravity="center"
-            android:background="@drawable/border_2"
-            android:layout_marginRight="2dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="입찰하지 않은 그림정보"
-            android:gravity="center"
-            android:background="@drawable/border_3" />
-    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="2dp">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="경매X"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@drawable/border_black"-->
+            <!--android:layout_marginRight="2dp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="경매대기중"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@drawable/border_green"-->
+            <!--android:layout_marginRight="2dp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="경매마감대기중"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@drawable/border_cyan"/>-->
+        <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="낙찰되지 못한 그림"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@drawable/border_1"-->
+            <!--android:layout_marginRight="2dp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="낙찰된 그림"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@drawable/border_2"-->
+            <!--android:layout_marginRight="2dp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="입찰하지 않은 그림정보"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@drawable/border_3" />-->
+    <!--</LinearLayout>-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

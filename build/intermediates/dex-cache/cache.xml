@@ -7,17 +7,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3ee1227540f81e508e2708129d7b665a37c6865b">
+        sha1="1bf803faf06679e288fcab5123480b37b8c93cfb">
         <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\2\nfc_network_3f6d86df8290373a7ca65b2388e8a146f56a1991\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\NfcSecurity.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
-        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\2\NfcSecurity_3a8c89fbac7873272adb4a0de30de975f2c12d6d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -27,6 +18,33 @@
         revision="25.0.0"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d9e588ffc8faad81a6f100b01e87bcd0928b1afb\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\NfcSecurity.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\NfcSecurity_3a8c89fbac7873272adb4a0de30de975f2c12d6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\nfc_network.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1bf803faf06679e288fcab5123480b37b8c93cfb">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\pre-dexed\debug\nfc_network_3f6d86df8290373a7ca65b2388e8a146f56a1991.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\GOD\Desktop\aaaa\payment\app\libs\NfcSecurity.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
+        <dex dex="C:\Users\GOD\Desktop\aaaa\payment\app\build\intermediates\transforms\dex\debug\folders\1000\2\NfcSecurity_3a8c89fbac7873272adb4a0de30de975f2c12d6d\classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -1066,7 +1066,7 @@ public class NFCPaymentClient extends Activity implements
 		if(msg == null)
 			msg = "";
 
-		String URL = "http://59.3.109.220:9999/change_count.jsp";
+		String URL = "http://221.156.54.210:9999/change_count.jsp";
 
 		DefaultHttpClient client = new DefaultHttpClient();
 		try {

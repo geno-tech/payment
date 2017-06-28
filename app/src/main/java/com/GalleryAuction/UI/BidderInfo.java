@@ -34,7 +34,7 @@ import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
 import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoBest;
 
 public class BidderInfo extends Activity implements View.OnClickListener {
-    String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
+    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
     Bitmap bmImg;
     Button btn1, btn2;
     ImageView iv;
@@ -130,6 +130,7 @@ public class BidderInfo extends Activity implements View.OnClickListener {
                         intent.putExtra("min_bidding", min_bidding);
                         intent.putExtra("auckey", auckey);
                         intent.putExtra("userID", userID);
+                        Log.d("min_biddddd", ""+min_bidding);
                         startActivity(intent);
                         finish();
                 }}

@@ -38,11 +38,11 @@ import static com.GalleryAuction.Item.HttpClientItem.AuctionInfo;
 public class ArtistAuctionInformation extends Activity {
     ArtistAuctionAdapter artistAuctionAdapter = new ArtistAuctionAdapter();
     String artistID,arttitle, nowbidding, end, auction, auckey,artkey, title, image, userID;
-    String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
     ListView listView;
     Button btn, refresh_btn;
     NfcAdapter  nfcAdapter;
     PendingIntent pendingIntent;
+    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,7 +72,7 @@ public class ArtistAuctionInformation extends Activity {
                 image = job.get("art_image").toString();
                 userID = job.get("user_id").toString();
 
-                artistAuctionAdapter.addItem(title, nowbidding, end, auction, auckey , getImageBitmap(imgUrl+image));
+                artistAuctionAdapter.addItem(title, nowbidding, end, auction, auckey , getImageBitmap(imgUrl + image));
                 Log.d("aaaa" , auckey);
             }
         } catch (JSONException e) {
@@ -97,7 +97,7 @@ public class ArtistAuctionInformation extends Activity {
                         userID = job.get("user_id").toString();
 
                     new ArtistAuctionAdapter().addItem(title, nowbidding, end, auction, auckey , getImageBitmap(imgUrl+image));
-
+                        Log.d("imgUrl + image", imgUrl + image);
                         Log.d("key", auckey);
 
 
@@ -126,6 +126,8 @@ public class ArtistAuctionInformation extends Activity {
                 } else if (auction.equals("3")) {
                     Intent intent2 = new Intent(ArtistAuctionInformation.this, ArtistAuctionDetailInfoUi.class);
                     intent2.putExtra("auckey", auckey);
+                    intent2.putExtra("image", image);
+
                     startActivity(intent2);
                     finish();
                 } else if (auction.equals("2")) {

@@ -32,7 +32,7 @@ import static com.GalleryAuction.Client.TagInfoClient.toHexString;
 import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
 
 public class ReBiddingConfirm extends Activity {
-    String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
+    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
     Bitmap bmImg;
     ImageView imView;
     TextView tv, tv2;

@@ -48,7 +48,7 @@ public class ReBidding extends Activity implements View.OnClickListener {
     EditText et;
     Thread thread;
     long now, end, ne, dd, nd, HH, nH, mm, ss, rebiddinStr;
-    String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
+    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
     Date date;
     SimpleDateFormat sdf;
     NfcAdapter  nfcAdapter;
@@ -190,7 +190,7 @@ public class ReBidding extends Activity implements View.OnClickListener {
 //            msg = "";
 //        }
 //
-//        String URL = "http://59.3.109.220:8989/NFCTEST/biddinginfo_insert.jsp";
+// String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
 //
 //        DefaultHttpClient client = new DefaultHttpClient();
 //        try {

@@ -35,8 +35,8 @@ public class IamPortWebViewBidding extends Activity {
 
         Intent intent1 = getIntent();
         bidding = intent1.getStringExtra("bidding");
-        intent1.getStringExtra("artimg");
-        intent1.getStringExtra("min_bidding");
+//        intent1.getStringExtra("artimg");
+//        intent1.getStringExtra("min_bidding");
         auckey = intent1.getStringExtra("auckey");
         userID = intent1.getStringExtra("userID");
         nfcAdapter = NfcAdapter.getDefaultAdapter(this);
@@ -47,7 +47,8 @@ public class IamPortWebViewBidding extends Activity {
         mainWebView.setWebViewClient(new IamPortWebViewClient(this));
         WebSettings settings = mainWebView.getSettings();
         settings.setJavaScriptEnabled(true);
-        mainWebView.loadUrl("http://59.3.109.220:8989/NFCTEST/iamport.jsp");
+        mainWebView.loadUrl("http://221.156.54.210:8989/NFCTEST/iamport.jsp");
+
         mainWebView.setWebChromeClient(new WebChromeClient() {
             @Override
             public boolean onJsAlert(final WebView view,

@@ -37,7 +37,7 @@ import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
 public class ArtInfoTagList extends Activity {
     //    DBHelper dbHelper;
     Bitmap bmImg;
-    String imgUrl = "http://59.3.109.220:8989/NFCTEST/art_images/";
+    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
     String userId;
     private ListView listView;
     private ArtInfoAdapter adapter;
@@ -131,7 +131,7 @@ public class ArtInfoTagList extends Activity {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                if ((auction.equals("0"))||(auction.equals("1"))||(auction.equals("1") && !bidkey.equals("0")) || (auction.equals("3") && bidkey.equals("0")) || (auction.equals("2"))) {
+                if ((auction.equals("0"))||(auction.equals("1"))||(auction.equals("1") && !bidkey.equals("0")) || (auction.equals("3") && bidkey.equals("0")) || (auction.equals("2")) ||  auction.equals("7")) {
                     Log.d("bb", bidkey + "그림 정보화면");
                     Log.d("cc", auction +"???"+bidkey + "그림정보화면");
 
@@ -177,9 +177,6 @@ public class ArtInfoTagList extends Activity {
                     Toast.makeText(ArtInfoTagList.this, "아티스트의 낙찰을 기다리는 중 입니다.", Toast.LENGTH_SHORT).show();
                 } else if (auction.equals("6")) {
                     Toast.makeText(ArtInfoTagList.this, "아티스트의 동의를 기다리는 중 입니다.", Toast.LENGTH_SHORT).show();
-
-                } else if (auction.equals("7")) {
-                    Toast.makeText(ArtInfoTagList.this, "경매완료", Toast.LENGTH_SHORT).show();
 
                 }
 

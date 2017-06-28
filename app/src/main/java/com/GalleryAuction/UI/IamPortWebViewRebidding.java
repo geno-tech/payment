@@ -49,7 +49,8 @@ public class IamPortWebViewRebidding extends Activity {
         mainWebView.setWebViewClient(new IamPortWebViewClient(this));
         WebSettings settings = mainWebView.getSettings();
         settings.setJavaScriptEnabled(true);
-        mainWebView.loadUrl("http://59.3.109.220:8989/NFCTEST/iamport.jsp");
+
+        mainWebView.loadUrl("http://221.156.54.210:8989/NFCTEST/iamport.jsp");
         mainWebView.setWebChromeClient(new WebChromeClient() {
             @Override
             public boolean onJsAlert(final WebView view,
