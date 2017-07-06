@@ -362,7 +362,7 @@ public class AddRegister extends Activity implements OnNFCServiceCallBack {
 			@Override
 			public void onClick(View v) {
 				finish();
-				Intent intent = new Intent(AddRegister.this, Start.class);
+				Intent intent = new Intent(AddRegister.this, PwCommon.class);
 				startActivity(intent);
 			}
 		});
@@ -940,7 +940,7 @@ public class AddRegister extends Activity implements OnNFCServiceCallBack {
 	@Override
 	public void onBackPressed() {
 		this.finish();
-		Intent intent = new Intent(AddRegister.this, Start.class);
+		Intent intent = new Intent(AddRegister.this, PwCommon.class);
 		startActivity(intent);
 	}
 	private String Confirm(String msg) {

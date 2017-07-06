@@ -14,6 +14,7 @@ import android.nfc.Tag;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.text.Html;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -23,6 +24,7 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ajantech.nfc_network.CommunicationService;
@@ -48,7 +50,8 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 	NfcAdapter  nfcAdapter;
 	PendingIntent pendingIntent;
     ShareData mConfingData = null;
-    
+	String sitename = "회원가입을 원하시면 여기를 클릭해 주세요.";
+	TextView tv_join;
 	String mNewID = "";
 	Intent intent;
 	@Override
@@ -64,12 +67,21 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 		super.onCreate(savedInstanceState);
 //		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.pw_common);
+		tv_join = (TextView)findViewById(R.id.text_join);
+		tv_join.setText(Html.fromHtml("<u>" + sitename + "</u>"));
 		nfcAdapter = NfcAdapter.getDefaultAdapter(this);
 		Intent intent = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 		pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
 		//first!!!
 	    mConfingData = ShareData.newInstance(this);
-
+		tv_join.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				finish();
+				Intent intent = new Intent(PwCommon.this, GeneralConditions.class);
+				startActivity(intent);
+			}
+		});
 	    CommunicationService.getInstance(this).registerNFCCallback(this);
 	    
 		pw_common_ok_btn = (Button) findViewById(R.id.pw_common_ok_btn);
@@ -189,9 +201,7 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 			break;
 
 		case R.id.pw_common_cancel_btn:
-			this.finish();
-			intent = new Intent(PwCommon.this, Start.class);
-			startActivity(intent);
+			showDialog(0);
 			break;
 
 		}
@@ -293,10 +303,9 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 	@SuppressWarnings("deprecation")
 	@Override
 	public void onBackPressed() {
-		this.finish();
-		intent = new Intent(PwCommon.this, Start.class);
-		startActivity(intent);
+		showDialog(0);
 	}
+
 	
 	
 	@Deprecated

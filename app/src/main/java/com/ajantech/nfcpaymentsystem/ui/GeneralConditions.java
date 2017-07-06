@@ -92,7 +92,7 @@ public class GeneralConditions extends Activity {
 		// super.onBackPressed();
 
 		this.finish();
-		Intent intent = new Intent(GeneralConditions.this, Start.class);
+		Intent intent = new Intent(GeneralConditions.this, PwCommon.class);
 		startActivity(intent);
 	}
 

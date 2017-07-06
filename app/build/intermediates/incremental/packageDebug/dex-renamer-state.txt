@@ -1,7 +1,7 @@
-#Mon Jun 12 14:14:47 KST 2017
-base.0=C\:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d9e588ffc8faad81a6f100b01e87bcd0928b1afb
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_76d3afac7cd841a6f88160cbc9d3e09e08f22620\\classes.dex
-base.1=C\:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_76d3afac7cd841a6f88160cbc9d3e09e08f22620
-file.0=C\:\\Users\\GOD\\Desktop\\aaaa\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d9e588ffc8faad81a6f100b01e87bcd0928b1afb\\classes.dex
+#Thu Jul 06 09:22:38 KST 2017
+base.0=G\:\\AndroidStudio\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0ace1e235d2d034386113e86186a3b864f0aab44
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=G\:\\AndroidStudio\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9f8f711fd40df7811656131605ea040379996cb0\\classes.dex
+base.1=G\:\\AndroidStudio\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9f8f711fd40df7811656131605ea040379996cb0
+file.0=G\:\\AndroidStudio\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0ace1e235d2d034386113e86186a3b864f0aab44\\classes.dex

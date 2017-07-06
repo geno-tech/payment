@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 
+import com.ajantech.nfcpaymentsystem.ui.PwCommon;
 import com.ajantech.nfcpaymentsystem.ui.Start;
 import com.geno.MainActivity;
 import com.geno.bill_folder.R;
@@ -29,7 +30,7 @@ public class LodingActivity extends FragmentActivity {
         @Override
         public void run() {
 
-            startActivity(new Intent(getApplication(), Start.class));
+            startActivity(new Intent(getApplication(), PwCommon.class));
 
             LodingActivity.this.finish();
 
