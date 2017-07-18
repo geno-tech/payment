@@ -203,16 +203,14 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-
                 <data android:scheme="iamportkakao" />
             </intent-filter>
         </activity>
-        <activity android:name="com.GalleryAuction.UI.ArtistMainActivity">
-
-        </activity>
-        <activity android:name="com.GalleryAuction.Dialog.GridCustomDialog"
-            android:theme="@android:style/Theme.Dialog">
-        </activity>
+        <activity android:name="com.GalleryAuction.UI.ArtistMainActivity"></activity>
+        <activity
+            android:name="com.GalleryAuction.Dialog.GridCustomDialog"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name="com.GalleryAuction.UI.BidderMainActivity"></activity>
     </application>
 
 </manifest>

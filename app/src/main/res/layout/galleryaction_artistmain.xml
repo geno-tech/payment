@@ -206,6 +206,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:orientation="vertical"
+        android:visibility="gone"
         android:id="@+id/Artist_Main_Auction_Time_layout">
         <LinearLayout
             android:layout_width="match_parent"
@@ -218,6 +219,7 @@
                 android:id="@+id/Artist_main_Auction_Time_count_txt"
                 android:textSize="13sp"
                 android:gravity="center"
+                android:text="그림을 선택하면 남은시간이 나타납니다."
                 />
         <ProgressBar
             android:layout_width="match_parent"
@@ -251,7 +253,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/Artist_Main_Auction_Complicate_btn"
+        android:id="@+id/Artist_Main_Auction_Complete_btn"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginLeft="30dp"
@@ -265,12 +267,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:background="#d2d2d2"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:orientation="vertical"
-        android:id="@+id/Artist_Main_Auction_Complicate_layout2">
+        android:visibility="gone"
+        android:id="@+id/Artist_Main_Auction_Complete_layout2">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -285,18 +288,23 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:id="@+id/Artist_Main_Auction_Complicate_layout"
+            android:id="@+id/Artist_Main_Auction_Complete_layout"
             android:orientation="vertical">
-            <GridView
-                android:id="@+id/Artist_Main_Complicate_GridView"
-                android:layout_width="match_parent"
+            <com.GalleryAuction.Item.GridViewItem
+                android:id="@+id/Artist_Main_Complete_GridView"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:numColumns="2" >
-            </GridView>
+                android:gravity="center"
+                android:horizontalSpacing="2dp"
+                android:isScrollContainer="false"
+                android:numColumns="2"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="20dp">
+            </com.GalleryAuction.Item.GridViewItem>
         </LinearLayout>
     </LinearLayout>
 

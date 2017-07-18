@@ -1,5 +1,6 @@
 package com.GalleryAuction.UI;
 
+import android.app.AlertDialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -9,13 +10,10 @@ import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
-import android.widget.GridView;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.TimePicker;
@@ -37,17 +35,18 @@ import java.util.Date;
 import static com.GalleryAuction.Client.ImageViewItem.getImageBitmap;
 import static com.GalleryAuction.Item.HttpClientItem.ArtAdd;
 import static com.GalleryAuction.Item.HttpClientItem.ArtistArtInfo;
+import static com.GalleryAuction.Item.HttpClientItem.Artist_auc_cancle;
 import static com.GalleryAuction.Item.HttpClientItem.AuctionInfo;
 import static com.GalleryAuction.Item.HttpClientItem.AuctionProgress;
+import static com.GalleryAuction.Item.HttpClientItem.BiddingWin;
 
 public class ArtistMainActivity extends AppCompatActivity implements View.OnClickListener {
-    Button add1,add2,add3,add4, pro1, add5, detail1;
-    LinearLayout linearLayout1, linearLayout2, linearLayout3, linearLayout_detail, linearLayout_detail2;
-    String  image, artistID, title, inTime, inDate, artkey, auckey, auc_end, auc_start;
+    Button add1,add2,add3,add4, pro1, add5, detail1, complete1;
+    LinearLayout linearLayout1, linearLayout2, linearLayout3, linearLayout_detail, linearLayout_detail2, linearLayout_complete1;
+    String  image, artistID, title, inTime, inDate, artkey, auckey, auc_end, auc_start, bidding, auc_status;
     TextView data1, data2, count1;
-    GridViewItem gridView, gridView_detail;
-    GridAdapter adapter, adapter_detail;
-    ScrollView scrollView;
+    GridViewItem gridView, gridView_detail, gridView_complete;
+    GridAdapter adapter, adapter_detail, adapter_complete;
     String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
     long now, end, ne, dd, nd, HH, nH, mm, ss, min_bidding;
     SimpleDateFormat sdf;
@@ -63,6 +62,11 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
         gridView_detail = (GridViewItem)findViewById(R.id.Artist_Main_Art_List_GridView);
         gridView_detail.setExpanded(true);
         adapter_detail = new GridAdapter();
+        complete1 = (Button)findViewById(R.id.Artist_Main_Auction_Complete_btn);
+        gridView_complete = (GridViewItem)findViewById(R.id.Artist_Main_Complete_GridView);
+        gridView_complete.setExpanded(true);
+        adapter_complete = new GridAdapter();
+
         add1 = (Button)findViewById(R.id.Artist_Main_Auction_Add_btn);
         add2 = (Button)findViewById(R.id.Artist_Main_Auction_Art_Add_btn);
         add3 = (Button)findViewById(R.id.Artist_Main_AuctionAdd_Start_btn);
@@ -77,6 +81,7 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
         linearLayout1 = (LinearLayout)findViewById(R.id.Artist_Main_Auction_Add_layout);
         linearLayout2 = (LinearLayout)findViewById(R.id.Artist_Main_Auction_Time_layout);
         linearLayout3 = (LinearLayout)findViewById(R.id.Artist_Main_Auction_Time_ArtList_layout);
+        linearLayout_complete1 = (LinearLayout)findViewById(R.id.Artist_Main_Auction_Complete_layout2);
 //        progressBar = (ProgressBar)findViewById(R.id.progressBar1);
         gridView = (GridViewItem) findViewById(R.id.Artist_Main_Going_GridView);
         gridView.setExpanded(true);
@@ -103,6 +108,76 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
         gridView_detail.setAdapter(adapter_detail);
 
         try {
+            JSONArray ja = new JSONArray(AuctionProgress(artistID, "complete"));
+
+            for (int i = 0; i < ja.length(); i++) {
+
+                JSONObject job = (JSONObject) ja.get(i);
+                title = job.get("art_title").toString();
+                image = job.get("art_image").toString();
+                artkey = job.get("art_seq").toString();
+                bidding = job.get("bid_price").toString();
+                bidding = bidding == "0"  ? "비낙찰" : "낙찰가 : " +bidding+ "원";
+
+                adapter_complete.addItem(bidding, getImageBitmap(imgUrl + image));
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        gridView_complete.setAdapter(adapter_complete);
+        gridView_complete.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                try {
+                    JSONArray ja = new JSONArray(AuctionProgress(artistID, "complete"));
+
+                    JSONObject job = (JSONObject) ja.get(i);
+                    auckey = job.get("auc_seq").toString();
+                    auc_status = job.get("auc_status").toString();
+                    bidding = job.get("bid_price").toString();
+                    bidding = bidding == "0"  ? "비낙찰" : "낙찰가 : " +bidding+ "원";
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                if (bidding.equals("비낙찰")) {
+                    AlertDialog.Builder alert = new AlertDialog.Builder(ArtistMainActivity.this);
+                    alert.setMessage(bidding + "입니다. 취소하시겠습니까?").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            Artist_auc_cancle(auckey);
+                            Intent intent = new Intent(ArtistMainActivity.this, ArtistMainActivity.class);
+                            intent.putExtra("artistID", artistID);
+                            startActivity(intent);
+                            finish();
+                        }
+                    }).setNegativeButton("아니오", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.cancel();
+                        }
+                    });
+                    AlertDialog alertdialog = alert.create();
+                    alertdialog.show();
+                } else {
+                    if (auc_status.equals("4")) {
+                        Intent intent1 = new Intent(ArtistMainActivity.this, ArtistAuctionCompleteUi.class);
+                        intent1.putExtra("title", title);
+                        intent1.putExtra("image", image);
+                        intent1.putExtra("auckey", auckey);
+                        intent1.putExtra("artistID", artistID);
+                        intent1.putExtra("bidding", bidding);
+                        startActivity(intent1);
+                        finish();
+                    } else if (auc_status.equals("5")) {
+                        Toast.makeText(ArtistMainActivity.this, "구매자의 입금을 기다리는 중 입니다.", Toast.LENGTH_SHORT).show();
+                    } else if (auc_status.equals("6")) {
+                        Toast.makeText(ArtistMainActivity.this, "주소입력창", Toast.LENGTH_SHORT).show();
+
+                    }
+                }
+            }
+        });
+        try {
             JSONArray ja = new JSONArray(AuctionProgress(artistID, "active"));
 
             for (int i = 0; i < ja.length(); i++) {
@@ -112,6 +187,7 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                 image = job.get("art_image").toString();
                 artkey = job.get("art_seq").toString();
                 adapter.addItem(title, getImageBitmap(imgUrl + image));
+
             }
         } catch (JSONException e) {
             e.printStackTrace();
@@ -121,7 +197,7 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 try {
-                    JSONArray ja = new JSONArray(AuctionInfo(artistID));
+                    JSONArray ja = new JSONArray(AuctionProgress(artistID, "active"));
 
                     JSONObject job = (JSONObject) ja.get(i);
                     auc_start = job.get("auc_start").toString();
@@ -132,7 +208,6 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                 try {
                     date = sdf.parse(auc_end);
                     end = date.getTime();
-                    Log.d("end", "" + end);
 
                 } catch (ParseException e) {
                     e.printStackTrace();
@@ -149,11 +224,11 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
         add4.setOnClickListener(this);
         pro1.setOnClickListener(this);
         add5.setOnClickListener(this);
+        complete1.setOnClickListener(this);
         inDate   = new java.text.SimpleDateFormat("yyyy-MM-dd").format(new java.util.Date());
         title = intent.getStringExtra("title");
         artkey = intent.getStringExtra("artkey");
         auckey = intent.getStringExtra("auckey");
-        Log.d("@@@@", title + auckey);
         if (title != null && (auckey.equals("0") ||auckey != null)) {
             add3.setEnabled(true);
             add4.setEnabled(true);
@@ -285,6 +360,13 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                 } else {
                     Toast.makeText(ArtistMainActivity.this, "그림선택과 시간을 정해주세요", Toast.LENGTH_SHORT).show();
 
+                }
+                break;
+            case R.id.Artist_Main_Auction_Complete_btn :
+                if (linearLayout_complete1.getVisibility() == View.VISIBLE) {
+                    linearLayout_complete1.setVisibility(View.GONE);
+                } else {
+                    linearLayout_complete1.setVisibility(View.VISIBLE);
                 }
                 break;
         }

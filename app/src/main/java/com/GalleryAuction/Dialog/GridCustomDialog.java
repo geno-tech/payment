@@ -103,6 +103,7 @@ public class GridCustomDialog extends Activity {
         intent1.putExtra("artkey", artkey);
         intent1.putExtra("auckey", auckey);
         startActivity(intent1);
+        finish();
         return super.onKeyDown(keyCode, event);
     }
 
