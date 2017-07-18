@@ -51,21 +51,21 @@ public class ArtistArtInformation extends Activity {
         Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
         pendingIntent = PendingIntent.getActivity(this, 0, intent0, 0);
         try {
-            JSONArray ja = new JSONArray(ArtistArtInfo(artistID));
+        JSONArray ja = new JSONArray(ArtistArtInfo(artistID));
 
-            for (int i = 0 ; i  < ja.length(); i++){
+        for (int i = 0 ; i  < ja.length(); i++){
 
-                JSONObject job = (JSONObject) ja.get(i);
-                title = job.get("art_title").toString();
-                nowtime = job.get("art_regit_date").toString();
-                image = job.get("art_image").toString();
-                adapter.addItem(title, nowtime , getImageBitmap(imgUrl+image));
+            JSONObject job = (JSONObject) ja.get(i);
+            title = job.get("art_title").toString();
+            nowtime = job.get("art_regit_date").toString();
+            image = job.get("art_image").toString();
+            adapter.addItem(title, nowtime , getImageBitmap(imgUrl+image));
 
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
         }
+    } catch (JSONException e) {
+        e.printStackTrace();
     }
+}
 
     @Override
     protected void onResume() {

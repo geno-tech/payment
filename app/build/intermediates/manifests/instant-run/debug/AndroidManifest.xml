@@ -125,11 +125,6 @@
         <activity
             android:name="com.ajantech.nfcpaymentsystem.LodingActivity"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.geno.coupon_list"
@@ -204,6 +199,13 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data android:scheme="iamportkakao" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.GalleryAuction.UI.ArtistMainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 

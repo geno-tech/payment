@@ -206,6 +206,12 @@
                 <data android:scheme="iamportkakao" />
             </intent-filter>
         </activity>
+        <activity android:name="com.GalleryAuction.UI.ArtistMainActivity" >
+        </activity>
+        <activity
+            android:name="com.GalleryAuction.Dialog.GridCustomDialog"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
     </application>
 
 </manifest>

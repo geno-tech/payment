@@ -1,4 +1,4 @@
-#Wed Jul 05 16:36:18 KST 2017
-base.0=G\:\\AndroidStudio\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
+#Thu Jul 06 11:16:36 KST 2017
+base.0=G\:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
 renamed.0=classes.dex
-file.0=G\:\\AndroidStudio\\payment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex
+file.0=G\:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

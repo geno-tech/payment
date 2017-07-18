@@ -1,51 +1,47 @@
 [
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sell_1.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\sell_1.xml"
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\used_coupon_layout.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\used_coupon_layout.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallerybidderactivity.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallerybidderactivity.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\used_coupon_layout.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\used_coupon_layout.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_auction_listview_item.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_auction_listview_item.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artist_artinformation.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_artist_artinformation.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_coupon_paid.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\detail_coupon_paid.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_ready.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\nfc_ready.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\use_coupon_layout.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\use_coupon_layout.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\issue_coupon.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\issue_coupon.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_main.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\search_main.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\modify_information.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\modify_information.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_layout.xml",
@@ -60,16 +56,8 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artistauction_detail_info.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_artistauction_detail_info.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loding.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\activity_loding.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_product.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\search_product.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_date.xml",
@@ -84,240 +72,236 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\sell_2.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\searchdatenew.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\searchdatenew.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artistauction_complete.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_artistauction_complete.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartinfo_listview_item.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\galleryartinfo_listview_item.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artistauction_complete.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_artistauction_complete.xml"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fingerprint_dialog_container.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\fingerprint_dialog_container.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\registration.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\registration.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_list.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\search_list.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_winningbid.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_winningbid.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\main.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\registration.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\registration.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_winningbidlist.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_winningbidlist.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artistdetail_item.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_artistdetail_item.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallerybidder_main.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallerybidder_main.xml"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_gridadapter_item.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_gridadapter_item.xml"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customview.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\customview.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartinformation2.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\galleryartinformation2.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\issue_confirm.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\issue_confirm.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sell_2.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\sell_2.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_rebidding.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_rebidding.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\modify_information.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\modify_information.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_payment_client.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\nfc_payment_client.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_taginfo.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_taginfo.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_auction_listview_item.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_auction_listview_item.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_ready.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\nfc_ready.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_taginfo.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_taginfo.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_part_time.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\general_conditions.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\general_conditions.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartinformation.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\galleryartinformation.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_spindropdown.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_spindropdown.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_main.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\search_main.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_coupon_paid.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\detail_coupon_paid.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fingerprint_dialog_container.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\fingerprint_dialog_container.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pw_keypad.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\pw_keypad.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_coupon_free.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\detail_coupon_free.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\agreement.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\agreement.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pw_keypad.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\pw_keypad.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_tabs2.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\tabwidget_tabs2.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\used_coupon_layout.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\used_coupon_layout.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_tabs2.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\tabwidget_tabs2.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\search.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_unsuccessfulbidui.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_unsuccessfulbidui.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartinformation.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\galleryartinformation.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_progress.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\nfc_progress.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\issue_confirm.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\issue_confirm.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_payment_retailer.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\nfc_payment_retailer.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallerybidder_main.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallerybidder_main.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\start.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_tab.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\79deae8858cdf331ba1aea1678078812200c6b11\\output\\res\\layout\\material_tab.xml"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\join.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\join.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_biddingcomplete.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_biddingcomplete.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_icon.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\79deae8858cdf331ba1aea1678078812200c6b11\\output\\res\\layout\\tab_icon.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\79deae8858cdf331ba1aea1678078812200c6b11\\output\\res\\layout\\tab.xml"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_payment_client.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\nfc_payment_client.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_nfc.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\tabwidget_nfc.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fingerprint_dialog_content.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\fingerprint_dialog_content.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallerybidderinfo.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallerybidderinfo.xml"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artist_auctioninformation.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_artist_auctioninformation.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_date.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\search_date.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_tabs.xml",
@@ -328,14 +312,6 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_spin.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_progress.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\nfc_progress.xml"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\password.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\password.xml"
     },
@@ -344,24 +320,12 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_artist_artinformation.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_biddingcomplete.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_biddingcomplete.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_nfc.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\tabwidget_nfc.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_coupon_cal.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\detail_coupon_cal.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\general_conditions.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\general_conditions.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pw_common.xml",
@@ -392,8 +356,8 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\search_item.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_product.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\search_product.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartistauction_userwinningbid.xml",
@@ -404,24 +368,520 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_tab_icon.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\79deae8858cdf331ba1aea1678078812200c6b11\\output\\res\\layout\\material_tab_icon.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customview.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\customview.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_iamport_webview.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_iamport_webview.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dbconnect.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\dbconnect.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_iamport_webview.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_iamport_webview.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_search.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\tabwidget_search.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\issue_coupon.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\issue_coupon.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_layout.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\title_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartinfotaglist.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\galleryartinfotaglist.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_tab.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\79deae8858cdf331ba1aea1678078812200c6b11\\output\\res\\layout\\material_tab.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sell_1.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\sell_1.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_coupon_free.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\detail_coupon_free.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_auction_listview_item.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_auction_listview_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_payment_retailer.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\nfc_payment_retailer.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallerybidderactivity.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallerybidderactivity.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fingerprint_dialog_backup.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\fingerprint_dialog_backup.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loding.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\activity_loding.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\use_coupon_layout.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\use_coupon_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\issue_coupon.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\issue_coupon.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_main.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\search_main.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_info.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\tabwidget_info.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryaction_artistmain.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\galleryaction_artistmain.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artistauction_detail_info.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_artistauction_detail_info.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loding.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\activity_loding.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_product.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\search_product.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_spindropdown.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_spindropdown.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_rebidding.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_rebidding.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\searchdatenew.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\searchdatenew.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artistauction_complete.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_artistauction_complete.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_item.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\search_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_icon.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\79deae8858cdf331ba1aea1678078812200c6b11\\output\\res\\layout\\tab_icon.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sell_1.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\sell_1.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\registration.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\registration.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_winningbidlist.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_winningbidlist.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_winningbidlist.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_winningbidlist.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fingerprint_dialog_content.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\fingerprint_dialog_content.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artistdetail_item.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_artistdetail_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\password.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\password.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_search.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\tabwidget_search.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artistauction_detail_info.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_artistauction_detail_info.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartistactivity.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\galleryartistactivity.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallerybidderinfo.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallerybidderinfo.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartinformation2.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\galleryartinformation2.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\issue_confirm.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\issue_confirm.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_rebidding.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_rebidding.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\79deae8858cdf331ba1aea1678078812200c6b11\\output\\res\\layout\\tab.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartinformation2.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\galleryartinformation2.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\search.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artistdetail_item.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_artistdetail_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\start.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\use_coupon_layout.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\use_coupon_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dbconnect.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\dbconnect.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\modify_information.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\modify_information.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_taginfo.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_taginfo.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\general_conditions.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\general_conditions.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_tabs.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\tabwidget_tabs.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_gridcustom_dialog.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_gridcustom_dialog.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_spindropdown.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_spindropdown.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_coupon_paid.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\detail_coupon_paid.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pw_keypad.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\pw_keypad.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_coupon_free.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\detail_coupon_free.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\agreement.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\agreement.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\agreement.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\agreement.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\searchdatenew.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\searchdatenew.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\search.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_unsuccessfulbidui.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_unsuccessfulbidui.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartinfotaglist.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\galleryartinfotaglist.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartinformation.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\galleryartinformation.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_unsuccessfulbidui.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_unsuccessfulbidui.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartistauction_userwinningbid.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\galleryartistauction_userwinningbid.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_payment_retailer.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\nfc_payment_retailer.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\start.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_tab.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\79deae8858cdf331ba1aea1678078812200c6b11\\output\\res\\layout\\material_tab.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartinfo_listview_item.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\galleryartinfo_listview_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pw_common.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\pw_common.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\join.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\join.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\79deae8858cdf331ba1aea1678078812200c6b11\\output\\res\\layout\\tab.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_coupon_cal.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\detail_coupon_cal.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_payment_client.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\nfc_payment_client.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallerybidderinfo.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallerybidderinfo.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artistauction_add.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_artistauction_add.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\join.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\join.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_progress.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\nfc_progress.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_nfc.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\tabwidget_nfc.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_winningbid.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_winningbid.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_coupon_cal.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\detail_coupon_cal.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_tab_icon.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\79deae8858cdf331ba1aea1678078812200c6b11\\output\\res\\layout\\material_tab_icon.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_rebidding_confirm.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_rebidding_confirm.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_spin.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_spin.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artist_auctioninformation.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_artist_auctioninformation.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_tab_icon.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\79deae8858cdf331ba1aea1678078812200c6b11\\output\\res\\layout\\material_tab_icon.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dbconnect.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\dbconnect.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabwidget_info.xml",
@@ -438,9 +898,5 @@
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_artistauction_add.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\gallery_artistauction_add.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\galleryartinfotaglist.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\layout\\galleryartinfotaglist.xml"
     }
 ]

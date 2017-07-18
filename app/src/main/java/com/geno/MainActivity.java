@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.GalleryAuction.UI.ArtistActivity;
+import com.GalleryAuction.UI.ArtistMainActivity;
 import com.GalleryAuction.UI.BidderActivity;
 import com.ajantech.nfc_network.ShareData;
 import com.ajantech.nfcpaymentsystem.ClearEditText;
@@ -92,7 +93,7 @@ public class MainActivity extends Activity { //액티비티 정의
 					startActivity(intent1);
 					//아티스트
 				} else if (mType == 0) {
-					Intent intent2 = new Intent(MainActivity.this, ArtistActivity.class);
+					Intent intent2 = new Intent(MainActivity.this, ArtistMainActivity.class);
 					intent2.putExtra("artistID", ID);
 					startActivity(intent2);
 				}

@@ -336,8 +336,8 @@ public final class R {
         public static final int abc_textfield_search_activated_mtrl_alpha = 0x7f02004f;
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f020050;
         public static final int abc_textfield_search_material = 0x7f020051;
-        public static final int left_arrow = 0x7f0200ba;
-        public static final int right_arrow = 0x7f02011a;
+        public static final int left_arrow = 0x7f0200bd;
+        public static final int right_arrow = 0x7f02011d;
     }
     public static final class id {
         public static final int action_bar = 0x7f0a0053;
@@ -384,7 +384,7 @@ public final class R {
         public static final int progress_circular = 0x7f0a0007;
         public static final int progress_horizontal = 0x7f0a0008;
         public static final int radio = 0x7f0a004c;
-        public static final int reveal = 0x7f0a010a;
+        public static final int reveal = 0x7f0a0124;
         public static final int right = 0x7f0a0001;
         public static final int search_badge = 0x7f0a0057;
         public static final int search_bar = 0x7f0a0056;
@@ -396,7 +396,7 @@ public final class R {
         public static final int search_plate = 0x7f0a005b;
         public static final int search_src_text = 0x7f0a005c;
         public static final int search_voice_btn = 0x7f0a0060;
-        public static final int selector = 0x7f0a010c;
+        public static final int selector = 0x7f0a0126;
         public static final int shortcut = 0x7f0a004b;
         public static final int showCustom = 0x7f0a0019;
         public static final int showHome = 0x7f0a001a;
@@ -404,7 +404,7 @@ public final class R {
         public static final int split_action_bar = 0x7f0a0009;
         public static final int submit_area = 0x7f0a005e;
         public static final int tabMode = 0x7f0a0016;
-        public static final int text = 0x7f0a010b;
+        public static final int text = 0x7f0a0125;
         public static final int title = 0x7f0a003b;
         public static final int up = 0x7f0a000a;
         public static final int useLogo = 0x7f0a001c;
@@ -438,11 +438,11 @@ public final class R {
         public static final int abc_screen_toolbar = 0x7f030016;
         public static final int abc_search_dropdown_item_icons_2line = 0x7f030017;
         public static final int abc_search_view = 0x7f030018;
-        public static final int material_tab = 0x7f030044;
-        public static final int material_tab_icon = 0x7f030045;
-        public static final int support_simple_spinner_dropdown_item = 0x7f030064;
-        public static final int tab = 0x7f030065;
-        public static final int tab_icon = 0x7f030066;
+        public static final int material_tab = 0x7f030047;
+        public static final int material_tab_icon = 0x7f030048;
+        public static final int support_simple_spinner_dropdown_item = 0x7f030067;
+        public static final int tab = 0x7f030068;
+        public static final int tab_icon = 0x7f030069;
     }
     public static final class string {
         public static final int abc_action_bar_home_description = 0x7f060000;

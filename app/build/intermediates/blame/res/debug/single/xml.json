@@ -2,5 +2,9 @@
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\xml\\preferences.xml"
     }
 ]

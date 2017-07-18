@@ -182,8 +182,9 @@
         <activity android:name="com.GalleryAuction.UI.WinningBidListActivity" />
         <activity android:name="com.GalleryAuction.UI.ArtistAuctionUserWinningBidUi" />
         <activity android:name="com.GalleryAuction.Bidder.WinningBidWhether.ContractorDialog" />
-        <activity android:name="com.GalleryAuction.UI.IamPortWebViewRebidding"
-            android:launchMode="singleTask" >
+        <activity
+            android:name="com.GalleryAuction.UI.IamPortWebViewRebidding"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -193,16 +194,24 @@
                 <data android:scheme="iamportkakao" />
             </intent-filter>
         </activity>
-        <activity android:name="com.GalleryAuction.UI.IamPortWebViewBidding"
-            android:launchMode="singleTask" >
+        <activity
+            android:name="com.GalleryAuction.UI.IamPortWebViewBidding"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
+
                 <data android:scheme="iamportkakao" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.GalleryAuction.UI.ArtistMainActivity">
+
+        </activity>
+        <activity android:name="com.GalleryAuction.Dialog.GridCustomDialog"
+            android:theme="@android:style/Theme.Dialog">
         </activity>
     </application>
 

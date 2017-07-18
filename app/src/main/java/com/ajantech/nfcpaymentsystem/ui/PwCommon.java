@@ -54,6 +54,8 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 	TextView tv_join;
 	String mNewID = "";
 	Intent intent;
+
+
 	@Override
 	protected void onPause() {
 		loginProgressDialgDisable();
@@ -93,6 +95,7 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 		reg_id_edittext = (EditText) findViewById(R.id.reg_id_edittext);
 		
 		reg_password_edittext = (EditText) findViewById(R.id.reg_password_edittext);
+
 	}
 
 	public boolean onCreateOptionsMenu(Menu menu) {
