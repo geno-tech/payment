@@ -206,11 +206,15 @@
                 <data android:scheme="iamportkakao" />
             </intent-filter>
         </activity>
-        <activity android:name="com.GalleryAuction.UI.ArtistMainActivity"></activity>
+        <activity android:name="com.GalleryAuction.UI.ArtistMainActivity" />
         <activity
             android:name="com.GalleryAuction.Dialog.GridCustomDialog"
-            android:theme="@android:style/Theme.Dialog"></activity>
-        <activity android:name="com.GalleryAuction.UI.BidderMainActivity"></activity>
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name="com.GalleryAuction.UI.BidderMainActivity" />
+        <activity android:name="com.GalleryAuction.Dialog.TagExplanationDialog"
+            android:theme="@android:style/Theme.Dialog">
+
+        </activity>
     </application>
 
 </manifest>

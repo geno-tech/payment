@@ -9,6 +9,8 @@ import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -19,6 +21,7 @@ import android.widget.Toast;
 
 import com.geno.bill_folder.R;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -28,10 +31,17 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import static com.GalleryAuction.Client.TagInfoClient.toHexString;
 import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
+import static com.GalleryAuction.Item.HttpClientItem.AuctionProgress;
+import static com.GalleryAuction.Item.HttpClientItem.AuctionProgress_Rank;
+import static com.GalleryAuction.Item.HttpClientItem.BiddingCount;
 import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoBest;
+import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoInsert;
 
 public class BidderInfo extends Activity implements View.OnClickListener {
     String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
@@ -39,11 +49,15 @@ public class BidderInfo extends Activity implements View.OnClickListener {
     Button btn1, btn2;
     ImageView iv;
     EditText et ;
-    TextView tv;
+    TextView tv, titlename, titletxt, content_txt, time, rownumtxt;
     long bidding, min_bidding;
-    String artimmage, auckey, bidprice;
+    String artimmage, auckey, bidprice, title, name, content, auc_end, bid_count, userID, rownum;
     NfcAdapter  nfcAdapter;
     PendingIntent pendingIntent;
+
+    long now, end, ne, dd, nd, HH, nH, mm, ss;
+    SimpleDateFormat sdf;
+    Date date;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,6 +67,13 @@ public class BidderInfo extends Activity implements View.OnClickListener {
         btn2 = (Button)findViewById(R.id.bidding_x_btn);
         et = (EditText)findViewById(R.id.bidding_edt);
         tv = (TextView)findViewById(R.id.bestbidding_txt_bidding);
+        rownumtxt = (TextView)findViewById(R.id.bidderinfo_lownum_txt);
+        titlename = (TextView)findViewById(R.id.bidderinfo_title_name);
+        titletxt = (TextView)findViewById(R.id.bidderinfo_title_txt);
+        content_txt = (TextView)findViewById(R.id.bidderinfo_content);
+        time = (TextView)findViewById(R.id.bidderinfo_time_txt);
+        sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
         task = new back();
         nfcAdapter = NfcAdapter.getDefaultAdapter(this);
         Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
@@ -61,6 +82,46 @@ public class BidderInfo extends Activity implements View.OnClickListener {
         Intent intent = getIntent();
         artimmage = intent.getStringExtra("artimage");
         auckey = intent.getStringExtra("auckey");
+        title = intent.getStringExtra("title");
+        name = intent.getStringExtra("name");
+        content = intent.getStringExtra("content");
+        auc_end = intent.getStringExtra("auc_end");
+        userID = intent.getStringExtra("userId");
+        try {
+            date = sdf.parse(auc_end);
+            end = date.getTime();
+
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        titlename.setText(title + " - " + name);
+        titletxt.setText(title);
+        content_txt.setText(content);
+        Thread2 thread = new Thread2();
+        thread.start();
+        try {
+            JSONArray ja = new JSONArray(BiddingCount(auckey,"count"));
+            for (int i = 0; i < ja.length(); i++) {
+                JSONObject job = (JSONObject) ja.get(i);
+                bid_count = job.get("bid_count").toString();
+            }
+        }catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            JSONArray ja = new JSONArray(AuctionProgress_Rank(userID, auckey));
+
+            for (int i = 0; i < ja.length(); i++) {
+                JSONObject job = (JSONObject) ja.get(i);
+                rownum = job.get("ROWNUM").toString();
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        rownum = rownum == null ? "응찰하지 않았습니다." : "당신은 현재" + rownum + "번째의 최고가 응찰자입니다.";
+                rownumtxt.setText(bid_count+"명/" + rownum);
         try {
             JSONObject job = new JSONObject(BiddingInfoBest(auckey));
             Log.d("bidprice", ""+job);
@@ -110,29 +171,36 @@ public class BidderInfo extends Activity implements View.OnClickListener {
 
                     if (bidding <= min_bidding) {
                         Toast.makeText(this, "금액이 적습니다", Toast.LENGTH_SHORT).show();
-                    } else  {
+                    } else  if (time.getText() == "마감되었습니다.") {
+                        Toast.makeText(this, "Auction이 마감되었습니다.", Toast.LENGTH_SHORT).show();
+
+                    } else {
                     Intent intent0 = getIntent();
                     String userID = intent0.getStringExtra("userId");
                     String nowbidding = et.getText().toString();
                     Log.d("aff", userID+"와"+nowbidding);
 //                    BiddingInfo(auckey ,userID, nowbidding);
+                        BiddingInfoInsert(auckey, userID, nowbidding);
 
-//                    Intent intent = new Intent(BidderInfo.this, BiddingComplete.class);
-//                    intent.putExtra("nowbidding" , nowbidding);
-//                    intent.putExtra("artimg", artimmage);
-//                    intent.putExtra("aucend", aucend);
-//                    intent.putExtra("min_bidding", min_bidding);
-//                        startActivity(intent);
-//                    finish();
-                        Intent intent = new Intent(BidderInfo.this, IamPortWebViewBidding.class);
-                        intent.putExtra("bidding" , nowbidding);
-                        intent.putExtra("artimg", artimmage);
-                        intent.putExtra("min_bidding", min_bidding);
+                    Intent intent = new Intent(BidderInfo.this, BidderInfo.class);
+                        intent.putExtra("artimage", artimmage);
+                        intent.putExtra("userId", userID);
                         intent.putExtra("auckey", auckey);
-                        intent.putExtra("userID", userID);
-                        Log.d("min_biddddd", ""+min_bidding);
+                        intent.putExtra("title",  title);
+                        intent.putExtra("name", name);
+                        intent.putExtra("content", content);
+                        intent.putExtra("auc_end", auc_end);
                         startActivity(intent);
-                        finish();
+                    finish();
+//                        Intent intent = new Intent(BidderInfo.this, IamPortWebViewBidding.class);
+//                        intent.putExtra("bidding" , nowbidding);
+//                        intent.putExtra("artimg", artimmage);
+//                        intent.putExtra("min_bidding", min_bidding);
+//                        intent.putExtra("auckey", auckey);
+//                        intent.putExtra("userID", userID);
+//                        Log.d("min_biddddd", ""+min_bidding);
+//                        startActivity(intent);
+//                        finish();
                 }}
 
                 break;
@@ -140,8 +208,88 @@ public class BidderInfo extends Activity implements View.OnClickListener {
                 finish();
                 break;
         }
-    }
 
+    }
+    final Handler handler = new Handler(){
+
+        @Override
+        public void handleMessage(Message msg){
+            switch (msg.what) {
+                case 0:
+                    now = System.currentTimeMillis();
+                    long en = end-now;
+                    if(en < 0){
+                        time.setText("마감되었습니다.");
+
+                    }
+                    else{
+                        ne = en/1000; dd = ne/86400; nd = ne%86400; HH = nd/3600; nH = nd%3600; mm = nH/60; ss = nH%60;
+                        time.setText("남은시간 : " + HH+"시간" +mm+"분"+ ss +"초" + " 남았습니다.");
+
+                    }
+                    break;
+
+                case 1:
+                    //thread.stopThread();
+                    break;
+
+                default:
+                    break;
+            }
+
+
+        }
+    };
+
+
+
+    class Thread2 extends java.lang.Thread {
+
+        boolean stopped = false;
+        int i = 0;
+
+        public Thread2(){
+            stopped = false;
+        }
+
+        public void stopThread() {
+            stopped = true;
+        }
+
+        @Override
+        public void run() {
+            super.run();
+
+            while(stopped == false) {
+                i++;
+
+                // 메시지 얻어오기
+                Message message = handler.obtainMessage();
+
+                // 메시지 ID 설정
+                message.what = 0;
+
+                // 메시지 내용 설정 (int)
+                message.arg1 = i;
+
+                // 메시지 내용 설정 (Object)
+                String information = new String("초 째 Thread 동작 중입니다.");
+                message.obj = information;
+
+                // 메시지 전
+                handler.sendMessage(message);
+
+                try {
+                    // 1초 씩 딜레이 부여
+                    sleep(1000);
+                } catch (InterruptedException e)
+                {
+                    e.printStackTrace();
+                }
+
+            }
+        }
+    }
     private class back extends AsyncTask<String, Integer,Bitmap> {
             @Override
             protected Bitmap doInBackground(String... urls) {
@@ -194,4 +342,5 @@ public class BidderInfo extends Activity implements View.OnClickListener {
 
         }
     }
+
 }

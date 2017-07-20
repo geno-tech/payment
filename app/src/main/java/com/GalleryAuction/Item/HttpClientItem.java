@@ -675,6 +675,71 @@ public class HttpClientItem {
             e.printStackTrace();
             return null;
         }
-    }
 
+    }
+    public static String AuctionProgress_Rank(String user_id, String auc_seq) {
+            if (user_id == null) {
+            user_id = "";
+        }
+
+        String URL = "http://221.156.54.210:8989/NFCTEST/auctionprogress.jsp";
+        DefaultHttpClient client = new DefaultHttpClient();
+        try {
+
+            HttpPost post = new HttpPost(URL + "?user_id=" + user_id + "&msg2=rank&auc_seq=" + auc_seq);
+            HttpParams params = client.getParams();
+            HttpConnectionParams.setConnectionTimeout(params, 300000);
+            HttpConnectionParams.setSoTimeout(params, 300000);
+            HttpResponse response = client.execute(post);
+            BufferedReader bufreader = new BufferedReader(
+                    new InputStreamReader(response.getEntity().getContent(),
+                            "utf-8"));
+
+            String line = null;
+            String result = "";
+
+            while ((line = bufreader.readLine()) != null) {
+                result += line;
+
+            }
+            return result;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+    public static String BiddingCount(String msg, String msg2) {
+        if (msg == null) {
+            msg = "";
+        }
+
+        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_count.jsp";
+
+        DefaultHttpClient client = new DefaultHttpClient();
+        try {
+
+            HttpPost post = new HttpPost(URL + "?msg=" + msg + "&msg2=" + msg2);
+            HttpParams params = client.getParams();
+            HttpConnectionParams.setConnectionTimeout(params, 300000);
+            HttpConnectionParams.setSoTimeout(params, 300000);
+            HttpResponse response = client.execute(post);
+            BufferedReader bufreader = new BufferedReader(
+                    new InputStreamReader(response.getEntity().getContent(),
+                            "utf-8"));
+
+            String line = null;
+            String result = "";
+
+            while ((line = bufreader.readLine()) != null) {
+                result += line;
+
+            }
+            return result;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
 }

@@ -1,7 +1,10 @@
 package com.GalleryAuction.Dialog;
 
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.Intent;
+import android.nfc.NfcAdapter;
+import android.nfc.Tag;
 import android.os.Bundle;
 
 import com.GalleryAuction.Adapter.GridAdapter;
@@ -88,7 +91,7 @@ public class GridCustomDialog extends Activity {
                 intent2.putExtra("title", title);
                 intent2.putExtra("artkey", artkey);
                 intent2.putExtra("auckey", auckey);
-
+                Log.d("@@@@@", artkey);
                 startActivity(intent2);
                 finish();
             }

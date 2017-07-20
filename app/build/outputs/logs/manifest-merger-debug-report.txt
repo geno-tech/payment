@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:2:1-216:12
+ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:2:1-220:12
 	package
 		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml
@@ -86,7 +86,7 @@ ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:25:22-77
 application
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:27:5-214:19
+ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:27:5-218:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\GOD\.android\build-cache\1b6c9d10fd9643d85664a0901011451920266bcb\output\AndroidManifest.xml:9:5-20
 MERGED from [com.github.markushi:android-ui:1.2] C:\Users\GOD\.android\build-cache\88fed9cf26ec89d4bbfc90c9098607d06341280d\output\AndroidManifest.xml:9:5-10:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\GOD\.android\build-cache\145120b8b6794664e9f01188cbfc956d06a6e282\output\AndroidManifest.xml:25:5-20
@@ -421,16 +421,22 @@ ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:198:13-71
 activity#com.GalleryAuction.UI.ArtistMainActivity
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:209:9-86
+ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:209:9-77
 	android:name
 		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:209:19-74
 activity#com.GalleryAuction.Dialog.GridCustomDialog
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:210:9-212:68
+ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:210:9-212:59
 	android:theme
 		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:212:13-56
 	android:name
 		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:211:13-70
 activity#com.GalleryAuction.UI.BidderMainActivity
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:213:9-86
+ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:213:9-77
 	android:name
 		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:213:19-74
+activity#com.GalleryAuction.Dialog.TagExplanationDialog
+ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:214:9-217:20
+	android:theme
+		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:215:13-56
+	android:name
+		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:214:19-80

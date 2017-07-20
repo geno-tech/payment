@@ -63,5 +63,6 @@ public class BidderGoingAdapter  extends BaseAdapter{
         item.setName(name);
         item.setTitle(title);
         item.setTime(time);
+        itemArrayList.add(item);
     }
 }

@@ -202,6 +202,7 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                     JSONObject job = (JSONObject) ja.get(i);
                     auc_start = job.get("auc_start").toString();
                     auc_end = job.get("auc_end").toString();
+                    artkey = job.get("art_seq").toString();
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -317,7 +318,7 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                         Toast.makeText(ArtistMainActivity.this, "경매시간은 최소 30분 이상으로 설정해야 합니다.", Toast.LENGTH_SHORT).show();
 
                     }else {
-                        android.app.AlertDialog.Builder alert2 = new android.app.AlertDialog.Builder(ArtistMainActivity.this);
+                        AlertDialog.Builder alert2 = new AlertDialog.Builder(ArtistMainActivity.this);
                         alert2.setMessage(add3.getText() + " ~ " + add4.getText() + "으로 Auction을 진행하시겠습니까?").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -408,7 +409,7 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                     }
                     else{
                         ne = en/1000; dd = ne/86400; nd = ne%86400; HH = nd/3600; nH = nd%3600; mm = nH/60; ss = nH%60;
-                        count1.setText("남은시간 : " + dd+"일" + HH+"시" +mm+"분"+ ss +"초" + " 남았습니다.");
+                        count1.setText("남은시간 : " + HH+"시간 " +mm+"분 " + ss +"초" + " 남았습니다.");
 
                     }
                     break;

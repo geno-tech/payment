@@ -7,11 +7,31 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center"
-    android:layout_marginTop="30dp">
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="Gallery Auction"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#447fff"
+        android:text="For buyer"/>
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:src="@color/success_color" />
 </LinearLayout>
     <LinearLayout
@@ -28,7 +48,7 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp">
+        android:layout_height="100dp">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -40,17 +60,19 @@
         android:gravity="center|bottom"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="30dp">
+        android:layout_marginBottom="25dp">
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:id="@+id/auctionok_btn"
+            android:background="@drawable/addbutton_xml"
             android:layout_weight="1"
             android:layout_marginLeft="50dp"
             android:text="@string/auction"/>
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/addbutton_xml"
             android:id="@+id/auctionX_btn"
             android:layout_weight="1"
             android:layout_marginLeft="50dp"

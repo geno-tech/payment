@@ -38,9 +38,10 @@ import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
 
 public class ArtInformation extends Activity implements View.OnClickListener{
     Button btn1, btn2;
-    String arttitle, arttext, image, artkey, nfcid, artistid, auckey ,aucstatus ,bidkey, aucstart ;
+    String arttitle, arttext, image, artkey, nfcid, artistid, auckey ,aucstatus ,bidkey, aucstart, name, aucend ;
     TextView tv1, tv2;
     ImageView imView;
+
     String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
     Date date;
     SimpleDateFormat sdf;
@@ -70,12 +71,11 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         artinfo = intent.getStringExtra("artinfo");
         //Log.d("HH", artinfo);
         userId = intent.getStringExtra("userID");
-
-        JSONObject job = null;
-        Log.d("artinfo", ""+artinfo);
+        name = intent.getStringExtra("name");
+        Log.d("@@@@@", ""+name);
 
         try {
-            job = new JSONObject(artinfo);
+            JSONObject job = new JSONObject(artinfo);
 
             artkey = job.get("art_seq").toString();
             nfcid = job.get("nfc_id").toString();
@@ -88,7 +88,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
             aucstatus = job.get("auc_status").toString();
             bidkey = job.get("bid_seq").toString();
             aucstart = job.get("auc_start").toString();
-
+            aucend = job.get("auc_end").toString();
         } catch (JSONException e) {
             e.printStackTrace();
         } catch (NullPointerException n) {
@@ -116,43 +116,15 @@ public class ArtInformation extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.auctionok_btn:
-//                Log.d("auckey", auckey);
-//                if (auckey == null || auckey.equals("null") || auckey.equals("0")) {
-//                    Toast.makeText(ArtInformation.this, "경매하고 있지 않습니다다.", Toast.LENGTH_SHORT).show();
-//
-//                    ArtAlbumList(userId, artkey);
-//                } else {
-//                    if (aucstatus == null || aucstatus.equals("0") ||aucstatus.equals("null")) {
-//                        Toast.makeText(ArtInformation.this, "경매하고 있지 않습니다.", Toast.LENGTH_SHORT).show();
-//
-//                    } else if (aucstatus.equals("1")) {
-//                        Toast.makeText(ArtInformation.this, "경매가 취소되었습니다.", Toast.LENGTH_SHORT).show();
-//
-//                    } else if (aucstatus.equals("2")) {
-//                        Toast.makeText(ArtInformation.this, "경매가 곧 시작됩니다. 기다리십시오", Toast.LENGTH_SHORT).show();
-//
-//                    }
-//                    else {
-//                        Intent intent = new Intent(ArtInformation.this, BidderInfo.class);
-//                        intent.putExtra("artimage", image);
-//                        intent.putExtra("userId", userId);
-//                        intent.putExtra("auckey", auckey);
-//                        startActivity(intent);
-//                        ArtAlbumList(userId, artkey);
-//                        finish();
-//                    }
-//                }
                 if ((aucstatus.equals("1") || (aucstatus.equals("1")) && !bidkey.equals("0")) ||aucstatus.equals("0")) {
                     Toast.makeText(ArtInformation.this, "경매하고 있지 않습니다.", Toast.LENGTH_SHORT).show();
 
                 }
                 else if (aucstatus.equals("2") ){
                     now = System.currentTimeMillis();
-                    //경매취소 ,마감 (한번이라도 경매했을때 )
                     long en = start-now;
                     if(en < 0){
                         ne = -(en)/1000; dd = ne/86400; nd = ne%86400; HH = nd/3600; nH = nd%3600; mm = nH/60; ss = nH%60;
-                        Toast.makeText(ArtInformation.this, "경매시작까지" + dd+"일" + HH+"시" +mm+"분"+ ss +"초" +" 지났습니다.", Toast.LENGTH_SHORT).show();
 
                     }
                     else{
@@ -162,15 +134,19 @@ public class ArtInformation extends Activity implements View.OnClickListener{
                     }
 //                    Toast.makeText(ArtInformation2.this, "곧 경매가 시작됩니다. 확인해 주세요.", Toast.LENGTH_SHORT).show();
                 }
-                else if (aucstatus.equals("3") && bidkey.equals("0")) {
+                else if (aucstatus.equals("3")) {
                     Intent intent = new Intent(ArtInformation.this, BidderInfo.class);
                     intent.putExtra("artimage", image);
                     intent.putExtra("userId", userId);
                     intent.putExtra("auckey", auckey);
+                    intent.putExtra("title",  arttitle);
+                    intent.putExtra("name", name);
+                    intent.putExtra("content", arttext);
+                    intent.putExtra("auc_end", aucend);
                     startActivity(intent);
                     finish();
                 } else if(aucstatus.equals("5")||aucstatus.equals("4")||aucstatus.equals("6") ){
-                    Toast.makeText(ArtInformation.this, "낙찰된 다른 유저와 경매진행중입니다.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ArtInformation.this, "경매가 종료되었습니다.", Toast.LENGTH_SHORT).show();
 
                 } else if(aucstatus.equals("7") ){
                     Toast.makeText(ArtInformation.this, "경매가 완료되었습니다.", Toast.LENGTH_SHORT).show();

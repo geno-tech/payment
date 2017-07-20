@@ -224,6 +224,10 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_tagexplanation_dialog.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\layout\\gallery_tagexplanation_dialog.xml"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
