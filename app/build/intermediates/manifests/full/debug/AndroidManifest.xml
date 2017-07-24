@@ -165,7 +165,6 @@
         <activity android:name="com.GalleryAuction.UI.TagInfo" />
         <activity android:name="com.GalleryAuction.UI.ArtInformation" />
         <activity android:name="com.GalleryAuction.UI.ArtInformation2" />
-        <activity android:name="com.GalleryAuction.Bidder.BiddingList" />
         <activity android:name="com.GalleryAuction.UI.BidderInfo" />
         <activity android:name="com.GalleryAuction.UI.ArtistActivity" />
         <activity android:name="com.GalleryAuction.UI.ArtistArtInformation" />
@@ -173,15 +172,11 @@
         <activity android:name="com.GalleryAuction.UI.BiddingComplete" />
         <activity android:name="com.GalleryAuction.UI.ReBidding" />
         <activity android:name="com.GalleryAuction.UI.ReBiddingConfirm" />
-        <activity android:name="com.GalleryAuction.UI.WinningBidUi" />
-        <activity android:name="com.GalleryAuction.UI.UnsuccessfulBidUi" />
         <activity android:name="com.GalleryAuction.UI.ArtistAuctionAddUi" />
         <activity android:name="com.GalleryAuction.UI.ArtistAuctionDetailInfoUi" />
         <activity android:name="com.GalleryAuction.UI.ArtistAuctionCompleteUi" />
-        <activity android:name="com.GalleryAuction.Artist.AuctionEndList.AuctionEndList" />
         <activity android:name="com.GalleryAuction.UI.WinningBidListActivity" />
         <activity android:name="com.GalleryAuction.UI.ArtistAuctionUserWinningBidUi" />
-        <activity android:name="com.GalleryAuction.Bidder.WinningBidWhether.ContractorDialog" />
         <activity
             android:name="com.GalleryAuction.UI.IamPortWebViewRebidding"
             android:launchMode="singleTask" >
@@ -213,8 +208,12 @@
         <activity android:name="com.GalleryAuction.UI.BidderMainActivity" />
         <activity
             android:name="com.GalleryAuction.Dialog.TagExplanationDialog"
-            android:theme="@android:style/Theme.Dialog" >
-        </activity>
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name="com.GalleryAuction.UI.BidderAddress" />
+        <activity
+            android:name="com.GalleryAuction.Dialog.WebViewAddressDialog"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+        <activity android:name="com.GalleryAuction.UI.ArtistAddress" />
     </application>
 
 </manifest>

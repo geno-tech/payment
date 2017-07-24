@@ -57,19 +57,17 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.SecretKey;
 
-import static com.GalleryAuction.Client.TagInfoClient.toHexString;
-import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
+
 import static com.GalleryAuction.Item.HttpClientItem.Artist_auc_cancle;
 import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoBest;
 import static com.GalleryAuction.Item.HttpClientItem.BiddingWin;
-import static com.GalleryAuction.Item.HttpClientItem.BiddingWinArtistAgree;
-import static com.GalleryAuction.Item.HttpClientItem.BiddingWinUserAgree;
+
 
 public class ArtistAuctionCompleteUi extends Activity {
     ImageView iv, iv2;
     TextView tv1, tv2, tv3, tv0;
     Button btn1, btn2, btn3;
-    String auckey, bidprice, userid, title, image, artistID;
+    String auckey, bidprice, userid, title, image, artistID, bidding;
     long min_bidding;
     NfcAdapter nfcAdapter;
     PendingIntent pendingIntent;
@@ -120,6 +118,7 @@ public class ArtistAuctionCompleteUi extends Activity {
         title = intent.getStringExtra("title");
         image = intent.getStringExtra("image");
         artistID = intent.getStringExtra("artistID");
+        bidding = intent.getStringExtra("bidding");
         task.execute(imgUrl + image);
         try {
             mKeyStore = KeyStore.getInstance("AndroidKeyStore");
@@ -154,10 +153,10 @@ public class ArtistAuctionCompleteUi extends Activity {
                 R.id.purchase_button_not_invalidated5);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            purchaseButtonNotInvalidated.setEnabled(true);
-            purchaseButtonNotInvalidated.setOnClickListener(
-                    (View.OnClickListener) new PurchaseButtonClickListener(cipherNotInvalidated,
-                            KEY_NAME_NOT_INVALIDATED));
+//            purchaseButtonNotInvalidated.setEnabled(true);
+//            purchaseButtonNotInvalidated.setOnClickListener(
+//                    (View.OnClickListener) new PurchaseButtonClickListener(cipherNotInvalidated,
+//                            KEY_NAME_NOT_INVALIDATED));
         } else {
             // Hide the purchase button which uses a non-invalidated key
             // if the app doesn't work on Android N preview

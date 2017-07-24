@@ -6,6 +6,8 @@ import android.view.ViewGroup;
 import android.widget.GridView;
 import android.widget.ProgressBar;
 
+import com.GalleryAuction.UI.BidderMainActivity;
+
 public class GridViewItem extends GridView {
     boolean expanded = false;
     public GridViewItem(Context context) {
@@ -37,4 +39,6 @@ public void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
 public void setExpanded(boolean expanded) {
     this.expanded = expanded;
 }
+
+
 }

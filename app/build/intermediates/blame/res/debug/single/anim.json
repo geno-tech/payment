@@ -8,6 +8,14 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\loading2.xml"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewup.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\viewup.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate2.xml",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\rotate2.xml"
     },
@@ -16,16 +24,16 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewdown.xml",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\viewdown.xml"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading3.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\loading3.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewout.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\viewout.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading2.xml",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\loading2.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading2.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\loading2.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate.xml",
@@ -40,11 +48,23 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\viewup.xml"
     },
     {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\rotate.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\scale.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
@@ -56,6 +76,10 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_popup_enter.xml"
     },
@@ -64,12 +88,16 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\viewin.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewup.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\viewup.xml"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\scale.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate.xml",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\rotate.xml"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewin.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\viewin.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading4.xml",
@@ -80,24 +108,20 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading5.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\loading5.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\alpha.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\alpha.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewin.xml",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\viewin.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale2.xml",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\scale2.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
@@ -112,6 +136,154 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate2.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\rotate2.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewdown.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\viewdown.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale2.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\scale2.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate2.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\rotate2.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewout.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\viewout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\scale.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading4.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\loading4.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\alpha.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\alpha.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading3.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\loading3.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading3.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\loading3.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\alpha.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\alpha.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewdown.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\viewdown.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading5.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\loading5.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading2.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\loading2.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewout.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\viewout.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale2.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\scale2.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewup.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\viewup.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\rotate.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading5.xml",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\loading5.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewin.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\viewin.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading2.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\loading2.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewup.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\viewup.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale2.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\scale2.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\rotate.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading5.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\loading5.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading4.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\loading4.xml"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_popup_exit.xml"
     },
@@ -120,16 +292,16 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale2.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\scale2.xml"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\alpha.xml",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\alpha.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewout.xml",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\viewout.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading4.xml",
@@ -144,8 +316,8 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\anim\\loading3.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale2.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\scale2.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale.xml",
@@ -156,16 +328,20 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewin.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\anim\\viewin.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewout.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\viewout.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading3.xml",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\loading3.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewdown.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\anim\\viewdown.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
@@ -176,8 +352,16 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\viewdown.xml",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\anim\\viewdown.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate2.xml",

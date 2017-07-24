@@ -1,9 +1,5 @@
 [
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_6_click.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_9_click.png"
     },
@@ -12,32 +8,28 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\regi_non_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_2.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_background.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_1.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\exit_1.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_1.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_non_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\button_non_sel.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_sel.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_sel.png"
     },
     {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_9_non_click.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_non_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_4_non_click.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_1.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add2.png",
@@ -48,14 +40,6 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_0_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_3_click.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\regi_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\regi_click.png"
     },
@@ -64,40 +48,48 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\refresh_c.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\used_coupon.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\prev_1.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\prev_1.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_add1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_sel_long.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\spinner_sel_long.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_back_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_3.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_3.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialoag_view.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\dialoag_view.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg_sel.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_reg_sel.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\x_image.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\x_image.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\trade_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\button_sel.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon_press.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\used_coupon_press.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\title.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\paid_1.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_non_click.png",
@@ -112,276 +104,280 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_clr_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\refresh.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\refresh.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo_bottom.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\logo_bottom.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_detail_top.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_detail_top.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupontest.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\used_coupontest.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupontest.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\used_coupontest.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage_click.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_non_sel.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\info_tab_non_sel.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_1.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\join_1.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_non_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_0_non_click.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn2.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_1.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agree_1.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel2.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel2.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\refresh_c.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\refresh_c.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_no.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\use_coupon.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_2_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel2.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel2.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_2_click.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tradi_27_korea.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\tradi_27_korea.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_non_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\search_tab_non_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\no_2.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_2.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\join_2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialoag_view.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\dialoag_view.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_non_sel.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\search_tab_non_sel.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo_bottom.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\logo_bottom.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupontest.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\use_coupontest.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_non_sel.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\info_tab_non_sel.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_6_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_1.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\yes_1.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\evoucher.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\evoucher.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_8_click.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_2.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_2.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\yes_2.png"
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_non_sel.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\info_tab_non_sel.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_icon.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_icon.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_2.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\trade_2.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\agreebtn.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_2.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\no_2.png"
     },
     {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_8_non_click.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_non_click.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_6_non_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_icon.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_icon.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3_press.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3_press.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_2.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\exit_2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_sel.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\button_sel.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\issue_1.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2_press.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2_press.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logow.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\company_logow.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_back_non_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_4_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_7.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_7.png"
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\info_tab_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_4_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_clr_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\issue_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_non_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\info_tab_non_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_2_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\progress.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\loading.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go_sel.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_go_sel.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bill_folder.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\bill_folder.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\use_coupon.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tradi_27_korea.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\tradi_27_korea.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_eng.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\main_title_eng.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn_click.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreebtn_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_add2.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1_press.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1_press.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_main.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_main.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_1.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_1.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_layout.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_layout.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_eng.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main_title_eng.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_1_click.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_sel.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\info_tab_sel.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logo.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\company_logo.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel2.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_button_1.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\used_coupon.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_5_non_click.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_5_non_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\exit_1.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\agree_2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_9_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\dialog_no_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel2.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\process.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\process.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn2.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn2.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_sel.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\info_tab_sel.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logo.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\company_logo.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3_press.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3_press.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_non_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_9_non_click.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_1.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\trade_1.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_layout.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main_layout.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_main.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_main.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go_sel.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_go_sel.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_korea.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main_title_korea.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_layout.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main_layout.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\prev_2.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\prev_2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\paid_2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_1_click.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_non_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_1_non_click.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\yes_1.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_sel.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\spinner_sel.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_korea.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\main_title_korea.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logo.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\company_logo.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg.png",
@@ -392,68 +388,68 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_8_non_click.png"
     },
     {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_7_non_click.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_2.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_2.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logow.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\company_logow.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_non_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_back_non_click.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupontest.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\use_coupontest.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pro.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pro.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreeimage.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agreebtn_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_5_click.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_5_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_2.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_2.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_9_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_2.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\agree_2.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\dialog_no.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_non_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\spinner_non_sel.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_5_non_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_5_non_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_back_click.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4_press.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4_press.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_top.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_top.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_eng.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_title_eng.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_4.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_4.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_eng.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main_title_eng.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\prev_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\prev_2.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4_press.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4_press.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_top.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_top.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\agreeimage.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_5.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_5.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_1_non_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_click.png",
@@ -464,64 +460,92 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_1.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_clr_click.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_2.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\paid_2.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\issue_button_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\cancel_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\title.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_top.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_top.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_1.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\agree_1.png"
     },
     {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\prev_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\prev_2.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_3.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_3.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_yes.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_2.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\loading.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_7.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_7.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_1.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_1.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_back_click.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\x_image.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\x_image.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_7_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\dialog_yes.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\no_1.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\payment_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\payment_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main3_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main3_click.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreebtn.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_5_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_5_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\agreeimage_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_layout.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\main_layout.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn.png",
@@ -532,36 +556,20 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_detail_top.png"
     },
     {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupontest.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\used_coupontest.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_click.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_9_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\regi_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\regi_click.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pro.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\pro.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\join1.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_1.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\refresh_c.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\refresh_c.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn2.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\progress.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_non_sel.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\search_tab_non_sel.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_non_click.png",
@@ -572,40 +580,44 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel2.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_6_click.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon_press.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\use_coupon_press.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agree_2.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_non_sel_long.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\spinner_non_sel_long.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\payment_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\payment_click.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\refresh.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\refresh.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_add2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_8_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_clr_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_clr_non_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_3_click.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logow.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\company_logow.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_click.png",
@@ -620,52 +632,68 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_1.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add1.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_add1.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\use_coupon.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_non_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_1_non_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\paid_1.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon3.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\icon3.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_background.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_background.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_top.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_top.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_non_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_7_non_click.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon3.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\icon3.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gallertynfc.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\gallertynfc.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_sel.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\search_tab_sel.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_2.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_2.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\confirm_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\join_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agreebtn_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\trade_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2_press.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2_press.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_background.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_sel_long.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_sel_long.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main3_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main3_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_non_sel_long.png",
@@ -676,40 +704,28 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_non_sel.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_non_sel.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\regi_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\regi_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_non_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_back_non_click.png"
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_1.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_1.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_non_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_8_non_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\dialog_no_click.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\process.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\process.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\issue_button_1.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_2.png",
@@ -720,24 +736,32 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage_click.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tradi_27_korea.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\tradi_27_korea.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\issue_1.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4_press.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4_press.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\start_reg.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_top_logo.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\common_top_logo.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_1.png",
@@ -756,10 +780,6 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_list.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\join_2.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon_press.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\use_coupon_press.png"
     },
@@ -768,48 +788,44 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\gallertynfc.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_4_non_click.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gallertynfc.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\gallertynfc.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_4.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_4.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_1.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_click.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_4.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_4.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_go.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_2_click.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_1.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_non_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_0_non_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agreeimage.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_non_sel.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\spinner_non_sel.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_2.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\issue_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon_press.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\use_coupon_press.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no_click.png",
@@ -818,6 +834,10 @@
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn1_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main.png",
@@ -840,12 +860,1220 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_non_click.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_2_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\confirm_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_7_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_back_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\exit_2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\refresh_c.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\refresh_c.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\button_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2_press.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2_press.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\spinner_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logo_bottom.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\logo_bottom.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\search_tab_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\join_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agreebtn.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\cancel_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\paid_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1_press.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1_press.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_6.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_6.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_non_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_4_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\used_coupon.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agree_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreeimage_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_non_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_clr_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\confirm_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\evoucher.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\evoucher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\x_image.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\x_image.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn1_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_6.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_6.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_non_sel_long.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_non_sel_long.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_6_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\payment_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\payment_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\info_tab_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_0_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\cancel_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\trade_2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_coupon.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\no_coupon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_list.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_top_logo.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\common_top_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_detail_top.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_detail_top.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_4_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\no_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\dialog_no.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\join1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\issue_button_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\paid_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_1_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon3.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\icon3.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tradi_27_korea.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\tradi_27_korea.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\loading.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_go_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_add1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\process.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\process.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_list2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bill_folder.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\bill_folder.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\trade_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1_press.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1_press.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logo.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\company_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\issue_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\blue_button_sel.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\blue_button_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1_press.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1_press.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_coupon.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_coupon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_korea.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main_title_korea.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_8_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\join_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_4_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg_sel.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_reg_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_4.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_4.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\progress.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\used_coupon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_8_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\evoucher.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\evoucher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialoag_view.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\dialoag_view.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_non_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_3_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\search_tab_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\blue_button_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\blue_button_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\cancel_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\pay_main.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_korea.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_title_korea.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_2.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_3_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_2_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_6_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\exit_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\join1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon_press.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\use_coupon_press.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4_press.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4_press.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_3_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\used_coupon.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pro.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\pro.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_3.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_3.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_reg_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\confirm_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\agreebtn_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\dialog_yes_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\title.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_background.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_background.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_non_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\spinner_non_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_1_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\refresh.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\refresh.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_detail_top.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_detail_top.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_non_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\info_tab_non_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupontest.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\used_coupontest.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_8_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\join_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_non_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_0_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\prev_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\prev_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupontest.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\use_coupontest.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_no.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon_press.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\used_coupon_press.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_9_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\button_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_non_sel.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\search_tab_non_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupontest.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\use_coupontest.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_3_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\icon1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_list2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\evoucher.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\evoucher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_8_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_2.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\yes_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_2.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\trade_2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\no_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_6.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_6.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bill_folder.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\bill_folder.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_icon.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\issue_button_2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_1_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_sel.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\button_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2_press.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2_press.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logow.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\company_logow.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\dialog_no_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_3.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_3.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_7.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_7.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\use_coupon.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_top_logo.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\common_top_logo.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go_sel.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_go_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bill_folder.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\bill_folder.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\regi_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\regi_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agreeimage.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_background.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tradi_27_korea.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\tradi_27_korea.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\spinner_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_back_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_main.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_main.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_layout.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_layout.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_1_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\info_tab_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_5_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_5_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logo.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\company_logo.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_list2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_button_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\exit_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_3_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupontest.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\used_coupontest.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn2.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_sel.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\info_tab_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\confirm_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\search_tab_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_9_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_9_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\confirm_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_4_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_go_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_7_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_0_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_non_sel.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_non_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_1_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_1_non_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_1_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\spinner_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_detail_top.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_detail_top.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_non_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\search_tab_non_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logow.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\company_logow.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_non_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_back_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupontest.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\use_coupontest.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pro.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pro.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreeimage.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main3_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\main3_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\exit_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agreebtn_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_2.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\issue_2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_2.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\agree_2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main4_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main4_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\refresh.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\yes_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\cancel_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_back_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_eng.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_title_eng.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_list.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_top.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_top.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_go.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\payment_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\payment_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_0_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_clr_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_2.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\paid_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\loading.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\dialog_yes.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\loading.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_sel_long.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\spinner_sel_long.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\regi_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\regi_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main3_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main3_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreebtn.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreebtn.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\trade_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\evoucher.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\evoucher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\title.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2_press.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2_press.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\exit_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\regi_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\regi_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pro.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\pro.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\join1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_2_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\progress.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_5_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_5_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_non_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\search_tab_non_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_6_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pro.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pro.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agree_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\progress.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\start_reg_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\refresh.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\refresh.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\payment_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\payment_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon_press.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\used_coupon_press.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\issue_button_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn4.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn4.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_3_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_background.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\start_background.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_add1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_3.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_3.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupon.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\use_coupon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\paid_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\dialog_yes.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_background.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_background.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\dialog_yes_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_2.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_background.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main_background.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\trade_2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_5_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_5_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_non_sel.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_non_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\x_image.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\x_image.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_back_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_back_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_5.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_5.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_title_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_title_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bill_folder.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\bill_folder.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\dialog_no_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\process.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\process.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_6_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn1_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nfc_tab_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\nfc_tab_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\exit_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_icon.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_icon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_coupon.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\no_coupon.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\join_2.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_non_sel_long.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\spinner_non_sel_long.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\prev_1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\prev_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\no_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\yes_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_1.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_click.png",
+        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_2_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agreeimage.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_6_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logow.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\company_logow.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\exit_1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yes_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\yes_2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\paid_1.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_non_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\button_non_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_3_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_2.png",
@@ -856,12 +2084,12 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\prev_2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\confirm_2.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_7_click.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\join1.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_background.png",
@@ -876,16 +2104,8 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_4.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\exit_2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\exit_2.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_coupon.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\no_coupon.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_sel.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\button_sel.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes_click.png",
@@ -894,6 +2114,14 @@
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_2_non_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_2_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\icon1.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\process.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\process.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go.png",
@@ -920,76 +2148,52 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\regi_non_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\cancel_1.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_non_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_4_non_click.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_clr_non_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_click.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\used_coupon.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\used_coupon.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_non_sel.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\button_non_sel.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_0_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_0_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\join_2.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\prev_1.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\prev_1.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\agreeimage_click.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agreeimage_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agreeimage_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_7.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_7.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_non_sel.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\button_non_sel.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_clr_non_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_clr_non_click.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\confirm_1.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\evoucher.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\evoucher.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_7.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_7.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\x_image.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\x_image.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn1_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1_click.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_6.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_6.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spinner_non_sel_long.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\spinner_non_sel_long.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_non_click.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_6_non_click.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_main.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_main.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_layout.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main_layout.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3_press.png",
@@ -1000,8 +2204,16 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\common_top_logo.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\agree_2.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_2.png",
@@ -1012,96 +2224,92 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\main3_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\cancel_2.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\noagreeimage.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\noagreeimage.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\trade_2.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\cancel_2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_top_logo.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\common_top_logo.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_7_non_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\number_7_non_click.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main4_click.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\main4_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list2.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_list2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_4_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_4_click.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\use_coupontest.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\use_coupontest.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_1.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\no_1.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_icon.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\start_icon.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\dialog_no.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\blue_button_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\blue_button_sel.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join1.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\join1.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\refresh.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\refresh.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\agree_1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\agree_1.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_list.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_1.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\issue_button_1.png"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\confirm_1.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\confirm_1.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\paid_2.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn1.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn1.png"
     },
     {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_no.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\dialog_no.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_reg.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_1.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\issue_1.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon3.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\icon3.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_mm_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_mm_2.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_5.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_5.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_add1.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_list2.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\coupon_list2.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bill_folder.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\bill_folder.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\trade_1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\trade_1.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1_press.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1_press.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add1.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_add1.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_reg.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\company_logo.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\company_logo.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\start_reg_sel.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn1.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn1.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cancel_2.png",
@@ -1112,32 +2320,36 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\used_coupon_press.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\blue_button_sel.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\blue_button_sel.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_yes.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\dialog_yes.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_coupon.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_coupon.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gallertynfc.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\gallertynfc.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go_sel.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\start_go_sel.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\title.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_korea.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\main_title_korea.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pay_main_btn2_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\pay_main_btn2_click.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\toggle_btn2.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon3.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\icon3.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\blue_button_sel.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\blue_button_sel.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_1.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\join_1.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\issue_button_2.png",
@@ -1152,52 +2364,48 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\logo_bottom.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_reg_sel.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\start_reg_sel.png"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\progress.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon3.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\icon3.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paid_1.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\paid_1.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_8_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_8_click.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_go.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\start_go.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialoag_view.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\dialoag_view.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbtn3_press.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\mainbtn3_press.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_add2.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\coupon_add2.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_non_click.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\number_3_non_click.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\coupon_main.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\coupon_main.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search_tab_sel.png",
-        "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\search_tab_sel.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\info_tab_non_sel.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\info_tab_non_sel.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_title_korea.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\main_title_korea.png"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\join_2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-hdpi\\join_2.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_3_non_click.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_3_non_click.png"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_2.png",
-        "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-hdpi\\no_2.png"
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\regi_non_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\regi_non_click.png"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\number_6_click.png",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-hdpi\\number_6_click.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toggle_btn.png",

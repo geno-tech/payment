@@ -35,6 +35,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.GalleryAuction.UI.ArtistAuctionUserWinningBidUi;
+import com.GalleryAuction.UI.BidderMainActivity;
 import com.geno.bill_folder.R;
 
 /**
@@ -57,7 +58,7 @@ public class FingerprintAuthenticationDialogFragment4 extends DialogFragment
 
     private FingerprintManager.CryptoObject mCryptoObject;
     private FingerprintUiHelper mFingerprintUiHelper;
-    private ArtistAuctionUserWinningBidUi mActivity;
+    private BidderMainActivity mActivity;
 
     private InputMethodManager mInputMethodManager;
     private SharedPreferences mSharedPreferences;
@@ -139,7 +140,7 @@ public class FingerprintAuthenticationDialogFragment4 extends DialogFragment
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        mActivity = (ArtistAuctionUserWinningBidUi) activity;
+        mActivity = (BidderMainActivity) activity;
         mInputMethodManager = mActivity.getSystemService(InputMethodManager.class);
         mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(mActivity);
     }
@@ -189,7 +190,7 @@ public class FingerprintAuthenticationDialogFragment4 extends DialogFragment
             }
         }
         mPassword.setText("");
-        mActivity.onPurchased4(false /* without Fingerprint */, null);
+        mActivity.onPurchased5(false /* without Fingerprint */, null);
         dismiss();
     }
 
@@ -246,7 +247,7 @@ public class FingerprintAuthenticationDialogFragment4 extends DialogFragment
     public void onAuthenticated() {
         // Callback from FingerprintUiHelper. Let the activity know that authentication was
         // successful.
-        mActivity.onPurchased4(true /* withFingerprint */, mCryptoObject);
+        mActivity.onPurchased5(true /* withFingerprint */, mCryptoObject);
         dismiss();
     }
 

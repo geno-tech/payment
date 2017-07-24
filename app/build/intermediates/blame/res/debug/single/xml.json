@@ -6,5 +6,13 @@
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
         "source": "G:\\AndroidStudio\\payment_galleryaction\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\xml\\preferences.xml"
     }
 ]

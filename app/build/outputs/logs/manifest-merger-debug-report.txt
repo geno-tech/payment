@@ -1,22 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:2:1-220:12
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:2:1-219:12
 	package
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:3:5-35
-		INJECTED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml
-		INJECTED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml
+		INJECTED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml
-		INJECTED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml
+		INJECTED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml
-		INJECTED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml
+		INJECTED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:7:5-9:40
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:7:5-9:40
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\GOD\.android\build-cache\1b6c9d10fd9643d85664a0901011451920266bcb\output\AndroidManifest.xml:5:5-7:41
 MERGED from [it.neokree:MaterialTabs:0.11] C:\Users\GOD\.android\build-cache\79deae8858cdf331ba1aea1678078812200c6b11\output\AndroidManifest.xml:7:5-10:50
 MERGED from [com.github.markushi:android-ui:1.2] C:\Users\GOD\.android\build-cache\88fed9cf26ec89d4bbfc90c9098607d06341280d\output\AndroidManifest.xml:7:5-44
@@ -32,61 +32,61 @@ MERGED from [com.android.support:support-compat:24.2.1] C:\Users\GOD\.android\bu
 	tools:overrideLibrary
 		ADDED from [it.neokree:MaterialTabs:0.11] C:\Users\GOD\.android\build-cache\79deae8858cdf331ba1aea1678078812200c6b11\output\AndroidManifest.xml:10:9-47
 	android:targetSdkVersion
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:9:9-37
-		INJECTED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml
-		INJECTED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:9:9-37
+		INJECTED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml
+		INJECTED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml
-		INJECTED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml
+		INJECTED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_CALENDAR
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:11:5-72
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:11:5-72
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:11:22-69
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:11:22-69
 uses-permission#android.permission.INTERNET
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:12:5-67
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:12:22-64
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:13:5-79
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:13:22-76
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:14:5-68
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:14:5-68
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:14:22-65
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:14:22-65
 uses-permission#android.permission.NFC
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:15:5-62
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:15:5-62
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:15:22-59
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:15:22-59
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:16:5-75
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:16:5-75
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:16:22-72
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:16:22-72
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:17:5-79
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:17:5-79
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:17:22-76
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:17:22-76
 uses-permission#android.permission.USE_FINGERPRINT
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:18:5-74
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:18:5-74
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:18:22-71
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:18:22-71
 uses-feature#android.hardware.nfc
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:20:5-22:35
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:20:5-22:35
 	android:required
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:22:9-32
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:22:9-32
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:21:9-44
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:21:9-44
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:24:5-81
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:24:5-81
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:24:22-78
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:24:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:25:5-80
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:25:5-80
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:25:22-77
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:25:22-77
 application
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:27:5-218:19
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:27:5-217:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\GOD\.android\build-cache\1b6c9d10fd9643d85664a0901011451920266bcb\output\AndroidManifest.xml:9:5-20
 MERGED from [com.github.markushi:android-ui:1.2] C:\Users\GOD\.android\build-cache\88fed9cf26ec89d4bbfc90c9098607d06341280d\output\AndroidManifest.xml:9:5-10:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\GOD\.android\build-cache\145120b8b6794664e9f01188cbfc956d06a6e282\output\AndroidManifest.xml:25:5-20
@@ -99,344 +99,338 @@ MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\GOD\.
 MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\GOD\.android\build-cache\f3ce3bc366d6eef53eedbc31024decc2d18e93c2\output\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\GOD\.android\build-cache\54c006dd86c5820b04e22475919b152d2bdc61dd\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:30:9-41
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:30:9-41
 	android:allowBackup
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:28:9-35
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:28:9-35
 	android:icon
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:29:9-42
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:29:9-42
 	android:theme
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:31:9-38
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:31:9-38
 activity#com.geno.MainActivity
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:32:9-34:49
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:32:9-34:49
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:34:13-46
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:34:13-46
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:33:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:33:13-49
 activity#com.ajantech.nfcpaymentsystem.ui.Start
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:35:9-38:95
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:35:9-38:95
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:37:13-46
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:37:13-46
 	android:theme
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:38:13-92
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:38:13-92
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:36:13-66
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:36:13-66
 activity#com.ajantech.nfcpaymentsystem.ui.Title
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:39:9-42:52
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:39:9-42:52
 	android:screenOrientation
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:42:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:42:13-49
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:41:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:41:13-45
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:40:13-66
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:40:13-66
 activity#com.ajantech.nfcpaymentsystem.ui.GeneralConditions
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:43:9-47:52
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:43:9-47:52
 	android:screenOrientation
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:47:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:47:13-49
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:46:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:46:13-45
 	android:configChanges
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:45:13-63
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:45:13-63
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:44:13-78
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:44:13-78
 activity#com.ajantech.nfcpaymentsystem.ui.Main
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:48:9-60:20
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:48:9-60:20
 	android:screenOrientation
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:52:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:52:13-49
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:51:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:51:13-45
 	android:configChanges
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:50:13-63
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:50:13-63
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:49:13-65
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:49:13-65
 intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:53:13-59:29
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:53:13-59:29
 action#android.nfc.action.NDEF_DISCOVERED
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:54:17-77
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:54:17-77
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:54:25-74
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:54:25-74
 category#android.intent.category.DEFAULT
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:56:17-76
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:56:17-76
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:56:27-73
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:56:27-73
 data
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:58:17-55
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:58:17-55
 	android:mimeType
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:58:23-52
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:58:23-52
 activity#com.ajantech.nfcpaymentsystem.ui.PwKeypad
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:61:9-65:52
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:61:9-65:52
 	android:screenOrientation
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:65:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:65:13-49
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:64:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:64:13-45
 	android:configChanges
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:63:13-63
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:63:13-63
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:62:13-69
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:62:13-69
 activity#com.ajantech.nfcpaymentsystem.ui.PwCommon
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:66:9-69:52
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:66:9-69:52
 	android:screenOrientation
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:69:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:69:13-49
 	android:configChanges
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:68:13-63
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:68:13-63
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:67:13-69
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:67:13-69
 activity#com.ajantech.nfcpaymentsystem.ui.AddRegister
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:70:9-74:52
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:70:9-74:52
 	android:screenOrientation
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:74:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:74:13-49
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:73:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:73:13-45
 	android:configChanges
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:72:13-63
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:72:13-63
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:71:13-72
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:71:13-72
 activity#com.ajantech.nfcpaymentsystem.ui.ModifyInformation
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:75:9-79:52
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:75:9-79:52
 	android:screenOrientation
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:79:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:79:13-49
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:78:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:78:13-45
 	android:configChanges
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:77:13-63
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:77:13-63
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:76:13-78
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:76:13-78
 activity#com.ajantech.nfcpaymentsystem.ui.NFCPaymentClient
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:80:9-91:20
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:80:9-91:20
 	android:screenOrientation
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:83:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:83:13-49
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:82:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:82:13-45
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:81:13-77
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:81:13-77
 activity#com.ajantech.nfcpaymentsystem.ui.NFCPaymentRetailer
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:92:9-103:20
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:92:9-103:20
 	android:screenOrientation
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:95:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:95:13-49
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:94:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:94:13-45
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:93:13-79
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:93:13-79
 activity#com.ajantech.nfcpaymentsystem.ui.RetailSearchMain
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:104:9-107:52
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:104:9-107:52
 	android:screenOrientation
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:107:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:107:13-49
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:106:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:106:13-45
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:105:13-77
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:105:13-77
 activity#com.ajantech.nfcpaymentsystem.ui.RetailSearchDate
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:108:9-111:52
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:108:9-111:52
 	android:screenOrientation
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:111:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:111:13-49
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:110:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:110:13-45
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:109:13-77
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:109:13-77
 activity#com.ajantech.nfcpaymentsystem.ui.RetailSearchProduct
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:112:9-115:52
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:112:9-115:52
 	android:screenOrientation
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:115:13-49
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:115:13-49
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:114:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:114:13-45
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:113:13-80
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:113:13-80
 service#com.ajantech.nfc_network.service.NetworkService
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:117:9-123:19
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:117:9-123:19
 	android:exported
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:119:13-37
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:119:13-37
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:118:13-75
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:118:13-75
 intent-filter#com.ajantech.nfc_network.heh
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:120:13-122:29
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:120:13-122:29
 action#com.ajantech.nfc_network.heh
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:121:17-71
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:121:17-71
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:121:25-68
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:121:25-68
 activity#com.ajantech.nfcpaymentsystem.LodingActivity
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:125:9-133:20
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:125:9-133:20
 	android:theme
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:127:13-71
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:127:13-71
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:126:13-72
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:126:13-72
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:128:13-132:29
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:128:13-132:29
 action#android.intent.action.MAIN
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:129:17-69
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:129:17-69
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:129:25-66
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:129:25-66
 category#android.intent.category.LAUNCHER
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:131:17-77
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:131:17-77
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:131:27-74
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:131:27-74
 activity#com.geno.coupon_list
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:134:9-144:20
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:134:9-144:20
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:136:13-46
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:136:13-46
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:135:13-48
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:135:13-48
 activity#com.geno.IssueCoupon
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:145:9-147:48
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:145:9-147:48
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:147:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:147:13-45
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:146:13-48
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:146:13-48
 activity#com.geno.CouponDetailCal
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:148:9-150:48
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:148:9-150:48
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:150:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:150:13-45
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:149:13-52
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:149:13-52
 activity#com.geno.CouponDetailPaid
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:151:9-153:48
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:151:9-153:48
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:153:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:153:13-45
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:152:13-53
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:152:13-53
 activity#com.geno.Agreement
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:154:9-156:48
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:154:9-156:48
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:156:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:156:13-45
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:155:13-46
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:155:13-46
 activity#com.geno.Join
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:157:9-159:48
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:157:9-159:48
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:159:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:159:13-45
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:158:13-41
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:158:13-41
 activity#com.geno.DbConnect
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:160:9-162:48
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:160:9-162:48
 	android:label
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:162:13-45
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:162:13-45
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:161:13-46
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:161:13-46
 activity#com.GalleryAuction.UI.BidderActivity
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:163:9-73
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:163:9-73
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:163:19-70
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:163:19-70
 activity#com.GalleryAuction.UI.ArtInfoTagList
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:164:9-73
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:164:9-73
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:164:19-70
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:164:19-70
 activity#com.GalleryAuction.UI.TagInfo
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:165:9-66
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:165:9-66
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:165:19-63
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:165:19-63
 activity#com.GalleryAuction.UI.ArtInformation
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:166:9-73
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:166:9-73
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:166:19-70
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:166:19-70
 activity#com.GalleryAuction.UI.ArtInformation2
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:167:9-74
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:167:9-74
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:167:19-71
-activity#com.GalleryAuction.Bidder.BiddingList
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:168:9-74
-	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:168:19-71
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:167:19-71
 activity#com.GalleryAuction.UI.BidderInfo
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:169:9-69
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:168:9-69
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:169:19-66
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:168:19-66
 activity#com.GalleryAuction.UI.ArtistActivity
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:170:9-73
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:169:9-73
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:170:19-70
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:169:19-70
 activity#com.GalleryAuction.UI.ArtistArtInformation
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:171:9-79
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:170:9-79
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:171:19-76
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:170:19-76
 activity#com.GalleryAuction.UI.ArtistAuctionInformation
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:172:9-83
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:171:9-83
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:172:19-80
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:171:19-80
 activity#com.GalleryAuction.UI.BiddingComplete
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:173:9-74
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:172:9-74
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:173:19-71
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:172:19-71
 activity#com.GalleryAuction.UI.ReBidding
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:174:9-68
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:173:9-68
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:174:19-65
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:173:19-65
 activity#com.GalleryAuction.UI.ReBiddingConfirm
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:175:9-75
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:174:9-75
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:175:19-72
-activity#com.GalleryAuction.UI.WinningBidUi
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:176:9-71
-	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:176:19-68
-activity#com.GalleryAuction.UI.UnsuccessfulBidUi
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:177:9-76
-	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:177:19-73
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:174:19-72
 activity#com.GalleryAuction.UI.ArtistAuctionAddUi
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:178:9-77
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:175:9-77
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:178:19-74
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:175:19-74
 activity#com.GalleryAuction.UI.ArtistAuctionDetailInfoUi
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:179:9-84
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:176:9-84
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:179:19-81
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:176:19-81
 activity#com.GalleryAuction.UI.ArtistAuctionCompleteUi
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:180:9-82
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:177:9-82
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:180:19-79
-activity#com.GalleryAuction.Artist.AuctionEndList.AuctionEndList
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:181:9-92
-	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:181:19-89
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:177:19-79
 activity#com.GalleryAuction.UI.WinningBidListActivity
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:182:9-81
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:178:9-81
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:182:19-78
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:178:19-78
 activity#com.GalleryAuction.UI.ArtistAuctionUserWinningBidUi
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:183:9-88
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:179:9-88
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:183:19-85
-activity#com.GalleryAuction.Bidder.WinningBidWhether.ContractorDialog
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:184:9-97
-	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:184:19-94
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:179:19-85
 activity#com.GalleryAuction.UI.IamPortWebViewRebidding
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:185:9-196:20
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:180:9-191:20
 	android:launchMode
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:187:13-44
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:182:13-44
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:186:13-73
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:181:13-73
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:188:13-195:29
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:183:13-190:29
 action#android.intent.action.VIEW
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:189:17-69
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:184:17-69
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:189:25-66
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:184:25-66
 category#android.intent.category.BROWSABLE
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:192:17-78
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:187:17-78
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:192:27-75
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:187:27-75
 activity#com.GalleryAuction.UI.IamPortWebViewBidding
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:197:9-208:20
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:192:9-203:20
 	android:launchMode
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:199:13-44
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:194:13-44
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:198:13-71
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:193:13-71
 activity#com.GalleryAuction.UI.ArtistMainActivity
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:209:9-77
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:204:9-77
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:209:19-74
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:204:19-74
 activity#com.GalleryAuction.Dialog.GridCustomDialog
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:210:9-212:59
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:205:9-207:59
 	android:theme
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:212:13-56
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:207:13-56
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:211:13-70
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:206:13-70
 activity#com.GalleryAuction.UI.BidderMainActivity
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:213:9-77
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:208:9-77
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:213:19-74
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:208:19-74
 activity#com.GalleryAuction.Dialog.TagExplanationDialog
-ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:214:9-217:20
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:209:9-211:59
 	android:theme
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:215:13-56
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:211:13-56
 	android:name
-		ADDED from G:\AndroidStudio\payment_galleryaction\app\src\main\AndroidManifest.xml:214:19-80
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:210:13-74
+activity#com.GalleryAuction.UI.BidderAddress
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:212:9-72
+	android:name
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:212:19-69
+activity#com.GalleryAuction.Dialog.WebViewAddressDialog
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:213:9-215:79
+	android:theme
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:215:13-67
+	android:name
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:214:13-74
+activity#com.GalleryAuction.UI.ArtistAddress
+ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:216:9-81
+	android:name
+		ADDED from G:\AndroidStudio\payment_galleryaction (2)\app\src\main\AndroidManifest.xml:216:19-69

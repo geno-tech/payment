@@ -43,12 +43,12 @@ import static com.GalleryAuction.Item.HttpClientItem.BiddingWin;
 public class ArtistMainActivity extends AppCompatActivity implements View.OnClickListener {
     Button add1,add2,add3,add4, pro1, add5, detail1, complete1;
     LinearLayout linearLayout1, linearLayout2, linearLayout3, linearLayout_detail, linearLayout_detail2, linearLayout_complete1;
-    String  image, artistID, title, inTime, inDate, artkey, auckey, auc_end, auc_start, bidding, auc_status;
+    String  image, artistID, title, inTime, inDate, artkey, auckey, auc_end, auc_start, bidding, auc_status, min_bidding;
     TextView data1, data2, count1;
     GridViewItem gridView, gridView_detail, gridView_complete;
     GridAdapter adapter, adapter_detail, adapter_complete;
     String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
-    long now, end, ne, dd, nd, HH, nH, mm, ss, min_bidding;
+    long now, end, ne, dd, nd, HH, nH, mm, ss;
     SimpleDateFormat sdf;
     Date date;
     @Override
@@ -87,7 +87,7 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
         gridView.setExpanded(true);
         sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-        Intent intent = getIntent();
+        final Intent intent = getIntent();
         adapter = new GridAdapter();
         artistID = intent.getStringExtra("artistID");
         try {
@@ -117,9 +117,9 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                 image = job.get("art_image").toString();
                 artkey = job.get("art_seq").toString();
                 bidding = job.get("bid_price").toString();
-                bidding = bidding == "0"  ? "비낙찰" : "낙찰가 : " +bidding+ "원";
+                min_bidding = bidding == "0"  ? "비낙찰" : "낙찰가 : " +bidding+ "원";
 
-                adapter_complete.addItem(bidding, getImageBitmap(imgUrl + image));
+                adapter_complete.addItem(min_bidding, getImageBitmap(imgUrl + image));
             }
         } catch (JSONException e) {
             e.printStackTrace();
@@ -132,16 +132,18 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                     JSONArray ja = new JSONArray(AuctionProgress(artistID, "complete"));
 
                     JSONObject job = (JSONObject) ja.get(i);
+                    title = job.get("art_title").toString();
                     auckey = job.get("auc_seq").toString();
                     auc_status = job.get("auc_status").toString();
                     bidding = job.get("bid_price").toString();
-                    bidding = bidding == "0"  ? "비낙찰" : "낙찰가 : " +bidding+ "원";
+                    image = job.get("art_image").toString();
+                    min_bidding = bidding == "0"  ? "비낙찰" : "낙찰가 : " +bidding+ "원";
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                if (bidding.equals("비낙찰")) {
+                if (min_bidding.equals("비낙찰")) {
                     AlertDialog.Builder alert = new AlertDialog.Builder(ArtistMainActivity.this);
-                    alert.setMessage(bidding + "입니다. 취소하시겠습니까?").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
+                    alert.setMessage(min_bidding + "입니다. 취소하시겠습니까?").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             Artist_auc_cancle(auckey);
@@ -168,10 +170,17 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                         intent1.putExtra("bidding", bidding);
                         startActivity(intent1);
                         finish();
-                    } else if (auc_status.equals("5")) {
+                    } else if (auc_status.equals("5") || auc_status.equals("6")) {
                         Toast.makeText(ArtistMainActivity.this, "구매자의 입금을 기다리는 중 입니다.", Toast.LENGTH_SHORT).show();
-                    } else if (auc_status.equals("6")) {
-                        Toast.makeText(ArtistMainActivity.this, "주소입력창", Toast.LENGTH_SHORT).show();
+                    } else if (auc_status.equals("7")) {
+                        Intent intent1 = new Intent(ArtistMainActivity.this ,ArtistAddress.class);
+                        intent1.putExtra("title", title);
+                        intent1.putExtra("image", image);
+                        intent1.putExtra("artistID", artistID);
+                        intent1.putExtra("bidding", bidding);
+                        intent1.putExtra("auckey", auckey);
+                        Log.d("@@@@@@@@@@@@@@@@@@@@@@", title + image + artistID + bidding + auckey);
+                        startActivity(intent1);
 
                     }
                 }
@@ -380,7 +389,6 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
             add3.setTextSize(11);
             data1.setText(hourOfDay + ":" + minute);
             add3.setTypeface(null, Typeface.BOLD);
-            Toast.makeText(getApplicationContext(), hourOfDay + "시 " + minute + "분", Toast.LENGTH_SHORT).show();
         }
     };
     private TimePickerDialog.OnTimeSetListener listener2 = new TimePickerDialog.OnTimeSetListener() {
@@ -391,7 +399,6 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
             add4.setTextSize(11);
             data2.setText(hourOfDay + ":" +minute);
             add4.setTypeface(null, Typeface.BOLD);
-            Toast.makeText(getApplicationContext(), hourOfDay + "시 " + minute + "분", Toast.LENGTH_SHORT).show();
 
         }
     };

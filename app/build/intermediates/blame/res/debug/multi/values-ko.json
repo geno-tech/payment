@@ -1,5 +1,2313 @@
 [
     {
+        "outputFile": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 94,
+                    "endOffset": 195
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 94,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 200,
+                    "endColumn": 107,
+                    "endOffset": 303
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 150,
+                        "endColumn": 107,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 308,
+                    "endColumn": 122,
+                    "endOffset": 426
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 258,
+                        "endColumn": 122,
+                        "endOffset": 376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 431,
+                    "endColumn": 93,
+                    "endOffset": 520
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 381,
+                        "endColumn": 93,
+                        "endOffset": 470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 525,
+                    "endColumn": 101,
+                    "endOffset": 622
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 475,
+                        "endColumn": 101,
+                        "endOffset": 572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 627,
+                    "endColumn": 81,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 577,
+                        "endColumn": 81,
+                        "endOffset": 654
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 97,
+                    "endOffset": 802
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 659,
+                        "endColumn": 97,
+                        "endOffset": 752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 807,
+                    "endColumn": 105,
+                    "endOffset": 908
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 757,
+                        "endColumn": 105,
+                        "endOffset": 858
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 913,
+                    "endColumn": 78,
+                    "endOffset": 987
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 863,
+                        "endColumn": 78,
+                        "endOffset": 937
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 992,
+                    "endColumn": 75,
+                    "endOffset": 1063
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 942,
+                        "endColumn": 75,
+                        "endOffset": 1013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1068,
+                    "endColumn": 79,
+                    "endOffset": 1143
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1018,
+                        "endColumn": 79,
+                        "endOffset": 1093
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1148,
+                    "endColumn": 97,
+                    "endOffset": 1241
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1098,
+                        "endColumn": 97,
+                        "endOffset": 1191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1246,
+                    "endColumn": 94,
+                    "endOffset": 1336
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1196,
+                        "endColumn": 94,
+                        "endOffset": 1286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1341,
+                    "endColumn": 94,
+                    "endOffset": 1431
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1291,
+                        "endColumn": 94,
+                        "endOffset": 1381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1436,
+                    "endColumn": 99,
+                    "endOffset": 1531
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1386,
+                        "endColumn": 99,
+                        "endOffset": 1481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1536,
+                    "endColumn": 95,
+                    "endOffset": 1627
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1486,
+                        "endColumn": 95,
+                        "endOffset": 1577
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1632,
+                    "endColumn": 98,
+                    "endOffset": 1726
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1582,
+                        "endColumn": 98,
+                        "endOffset": 1676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1731,
+                    "endColumn": 114,
+                    "endOffset": 1841
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1681,
+                        "endColumn": 114,
+                        "endOffset": 1791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1846,
+                    "endColumn": 93,
+                    "endOffset": 1935
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1796,
+                        "endColumn": 93,
+                        "endOffset": 1885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1940,
+                    "endColumn": 46,
+                    "endOffset": 1982
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 46,
+                        "endOffset": 188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1987,
+                    "endColumn": 36,
+                    "endOffset": 2019
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 239,
+                        "startColumn": 4,
+                        "startOffset": 11216,
+                        "endColumn": 36,
+                        "endOffset": 11248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2024,
+                    "endLine": 50,
+                    "endColumn": 69,
+                    "endOffset": 2866
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 1586,
+                        "endLine": 34,
+                        "endColumn": 69,
+                        "endOffset": 2428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2871,
+                    "endColumn": 29,
+                    "endOffset": 2896
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 37,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2901,
+                    "endColumn": 38,
+                    "endOffset": 2935
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 242,
+                        "startColumn": 4,
+                        "startOffset": 11331,
+                        "endColumn": 38,
+                        "endOffset": 11365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 2940,
+                    "endColumn": 37,
+                    "endOffset": 2973
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 11293,
+                        "endColumn": 37,
+                        "endOffset": 11326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 2978,
+                    "endColumn": 41,
+                    "endOffset": 3015
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 6377,
+                        "endColumn": 41,
+                        "endOffset": 6414
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3020,
+                    "endColumn": 72,
+                    "endOffset": 3088
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 185,
+                        "startColumn": 4,
+                        "startOffset": 7608,
+                        "endColumn": 72,
+                        "endOffset": 7676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3093,
+                    "endColumn": 44,
+                    "endOffset": 3133
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 6630,
+                        "endColumn": 44,
+                        "endOffset": 6670
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 3138,
+                    "endLine": 162,
+                    "endColumn": 13,
+                    "endOffset": 6359
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2433,
+                        "endLine": 140,
+                        "endColumn": 13,
+                        "endOffset": 5654
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 6364,
+                    "endColumn": 42,
+                    "endOffset": 6402
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 234,
+                        "startColumn": 4,
+                        "startOffset": 11093,
+                        "endColumn": 42,
+                        "endOffset": 11131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 6407,
+                    "endColumn": 39,
+                    "endOffset": 6442
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 11253,
+                        "endColumn": 39,
+                        "endOffset": 11288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 6447,
+                    "endColumn": 61,
+                    "endOffset": 6504
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 187,
+                        "startColumn": 4,
+                        "startOffset": 7728,
+                        "endColumn": 61,
+                        "endOffset": 7785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 6509,
+                    "endColumn": 46,
+                    "endOffset": 6551
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 186,
+                        "startColumn": 4,
+                        "startOffset": 7681,
+                        "endColumn": 46,
+                        "endOffset": 7723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 6556,
+                    "endColumn": 44,
+                    "endOffset": 6596
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 6460,
+                        "endColumn": 44,
+                        "endOffset": 6500
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 6601,
+                    "endColumn": 40,
+                    "endOffset": 6637
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 4,
+                        "startOffset": 6419,
+                        "endColumn": 40,
+                        "endOffset": 6455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 6642,
+                    "endColumn": 81,
+                    "endOffset": 6719
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 188,
+                        "startColumn": 4,
+                        "startOffset": 7790,
+                        "endColumn": 81,
+                        "endOffset": 7867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 170,
+                    "startColumn": 4,
+                    "startOffset": 6724,
+                    "endColumn": 1329,
+                    "endOffset": 8049
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 256,
+                        "endColumn": 1329,
+                        "endOffset": 1581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 171,
+                    "startColumn": 4,
+                    "startOffset": 8054,
+                    "endColumn": 62,
+                    "endOffset": 8112
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 193,
+                        "endColumn": 62,
+                        "endOffset": 251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 8117,
+                    "endColumn": 54,
+                    "endOffset": 8167
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 6284,
+                        "endColumn": 54,
+                        "endOffset": 6334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 8172,
+                    "endColumn": 43,
+                    "endOffset": 8211
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 168,
+                        "startColumn": 4,
+                        "startOffset": 6890,
+                        "endColumn": 43,
+                        "endOffset": 6929
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 8216,
+                    "endColumn": 37,
+                    "endOffset": 8249
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 237,
+                        "startColumn": 4,
+                        "startOffset": 11138,
+                        "endColumn": 37,
+                        "endOffset": 11171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 8254,
+                    "endColumn": 41,
+                    "endOffset": 8291
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 6719,
+                        "endColumn": 41,
+                        "endOffset": 6756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 8296,
+                    "endColumn": 43,
+                    "endOffset": 8335
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 208,
+                        "startColumn": 4,
+                        "startOffset": 9238,
+                        "endColumn": 43,
+                        "endOffset": 9277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 8340,
+                    "endColumn": 56,
+                    "endOffset": 8392
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 209,
+                        "startColumn": 4,
+                        "startOffset": 9282,
+                        "endColumn": 56,
+                        "endOffset": 9334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 8397,
+                    "endColumn": 61,
+                    "endOffset": 8454
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 6828,
+                        "endColumn": 61,
+                        "endOffset": 6885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 8459,
+                    "endColumn": 51,
+                    "endOffset": 8506
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 5796,
+                        "endColumn": 51,
+                        "endOffset": 5843
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 8511,
+                    "endColumn": 46,
+                    "endOffset": 8553
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 5706,
+                        "endColumn": 46,
+                        "endOffset": 5748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 181,
+                    "startColumn": 4,
+                    "startOffset": 8558,
+                    "endColumn": 67,
+                    "endOffset": 8621
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 4,
+                        "startOffset": 6995,
+                        "endColumn": 67,
+                        "endOffset": 7058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 8626,
+                    "endColumn": 37,
+                    "endOffset": 8659
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 6339,
+                        "endColumn": 37,
+                        "endOffset": 6372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 183,
+                    "startColumn": 4,
+                    "startOffset": 8664,
+                    "endColumn": 113,
+                    "endOffset": 8773
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 224,
+                        "startColumn": 4,
+                        "startOffset": 10340,
+                        "endColumn": 117,
+                        "endOffset": 10453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 184,
+                    "startColumn": 4,
+                    "startOffset": 8778,
+                    "endColumn": 62,
+                    "endOffset": 8836
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 223,
+                        "startColumn": 4,
+                        "startOffset": 10277,
+                        "endColumn": 62,
+                        "endOffset": 10335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 185,
+                    "startColumn": 4,
+                    "startOffset": 8841,
+                    "endColumn": 115,
+                    "endOffset": 8952
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 225,
+                        "startColumn": 4,
+                        "startOffset": 10458,
+                        "endColumn": 119,
+                        "endOffset": 10573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 186,
+                    "startColumn": 4,
+                    "startOffset": 8957,
+                    "endColumn": 66,
+                    "endOffset": 9019
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 219,
+                        "startColumn": 4,
+                        "startOffset": 9916,
+                        "endColumn": 66,
+                        "endOffset": 9978
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 9024,
+                    "endColumn": 72,
+                    "endOffset": 9092
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 220,
+                        "startColumn": 4,
+                        "startOffset": 9983,
+                        "endColumn": 72,
+                        "endOffset": 10051
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 9097,
+                    "endColumn": 70,
+                    "endOffset": 9163
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 218,
+                        "startColumn": 4,
+                        "startOffset": 9845,
+                        "endColumn": 70,
+                        "endOffset": 9911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 9168,
+                    "endColumn": 73,
+                    "endOffset": 9237
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 226,
+                        "startColumn": 4,
+                        "startOffset": 10578,
+                        "endColumn": 73,
+                        "endOffset": 10647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 190,
+                    "startColumn": 4,
+                    "startOffset": 9242,
+                    "endColumn": 73,
+                    "endOffset": 9311
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 217,
+                        "startColumn": 4,
+                        "startOffset": 9771,
+                        "endColumn": 73,
+                        "endOffset": 9840
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 191,
+                    "startColumn": 4,
+                    "startOffset": 9316,
+                    "endColumn": 154,
+                    "endOffset": 9466
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 221,
+                        "startColumn": 4,
+                        "startOffset": 10056,
+                        "endColumn": 162,
+                        "endOffset": 10214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 192,
+                    "startColumn": 4,
+                    "startOffset": 9471,
+                    "endColumn": 55,
+                    "endOffset": 9522
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 230,
+                        "startColumn": 4,
+                        "startOffset": 10863,
+                        "endColumn": 55,
+                        "endOffset": 10914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 193,
+                    "startColumn": 4,
+                    "startOffset": 9527,
+                    "endColumn": 55,
+                    "endOffset": 9578
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 231,
+                        "startColumn": 4,
+                        "startOffset": 10919,
+                        "endColumn": 55,
+                        "endOffset": 10970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 194,
+                    "startColumn": 4,
+                    "startOffset": 9583,
+                    "endColumn": 51,
+                    "endOffset": 9630
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 216,
+                        "startColumn": 4,
+                        "startOffset": 9719,
+                        "endColumn": 51,
+                        "endOffset": 9766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 195,
+                    "startColumn": 4,
+                    "startOffset": 9635,
+                    "endColumn": 57,
+                    "endOffset": 9688
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 222,
+                        "startColumn": 4,
+                        "startOffset": 10219,
+                        "endColumn": 57,
+                        "endOffset": 10272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 196,
+                    "startColumn": 4,
+                    "startOffset": 9693,
+                    "endColumn": 40,
+                    "endOffset": 9729
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 6547,
+                        "endColumn": 40,
+                        "endOffset": 6583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 197,
+                    "startColumn": 4,
+                    "startOffset": 9734,
+                    "endColumn": 50,
+                    "endOffset": 9780
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 7161,
+                        "endColumn": 50,
+                        "endOffset": 7207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 198,
+                    "startColumn": 4,
+                    "startOffset": 9785,
+                    "endColumn": 47,
+                    "endOffset": 9828
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 7063,
+                        "endColumn": 47,
+                        "endOffset": 7106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 199,
+                    "startColumn": 4,
+                    "startOffset": 9833,
+                    "endColumn": 49,
+                    "endOffset": 9878
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 174,
+                        "startColumn": 4,
+                        "startOffset": 7111,
+                        "endColumn": 49,
+                        "endOffset": 7156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 200,
+                    "startColumn": 4,
+                    "startOffset": 9883,
+                    "endColumn": 56,
+                    "endOffset": 9935
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 7212,
+                        "endColumn": 56,
+                        "endOffset": 7264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 201,
+                    "startColumn": 4,
+                    "startOffset": 9940,
+                    "endColumn": 44,
+                    "endOffset": 9980
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 177,
+                        "startColumn": 4,
+                        "startOffset": 7269,
+                        "endColumn": 44,
+                        "endOffset": 7309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 202,
+                    "startColumn": 4,
+                    "startOffset": 9985,
+                    "endColumn": 64,
+                    "endOffset": 10045
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 212,
+                        "startColumn": 4,
+                        "startOffset": 9442,
+                        "endColumn": 64,
+                        "endOffset": 9502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 203,
+                    "startColumn": 4,
+                    "startOffset": 10050,
+                    "endColumn": 77,
+                    "endOffset": 10123
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 215,
+                        "startColumn": 4,
+                        "startOffset": 9641,
+                        "endColumn": 77,
+                        "endOffset": 9714
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 204,
+                    "startColumn": 4,
+                    "startOffset": 10128,
+                    "endColumn": 49,
+                    "endOffset": 10173
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 211,
+                        "startColumn": 4,
+                        "startOffset": 9392,
+                        "endColumn": 49,
+                        "endOffset": 9437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 205,
+                    "startColumn": 4,
+                    "startOffset": 10178,
+                    "endColumn": 86,
+                    "endOffset": 10260
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 229,
+                        "startColumn": 4,
+                        "startOffset": 10776,
+                        "endColumn": 86,
+                        "endOffset": 10858
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 206,
+                    "startColumn": 4,
+                    "startOffset": 10265,
+                    "endColumn": 78,
+                    "endOffset": 10339
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 213,
+                        "startColumn": 4,
+                        "startOffset": 9507,
+                        "endColumn": 78,
+                        "endOffset": 9581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 207,
+                    "startColumn": 4,
+                    "startOffset": 10344,
+                    "endColumn": 52,
+                    "endOffset": 10392
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 210,
+                        "startColumn": 4,
+                        "startOffset": 9339,
+                        "endColumn": 52,
+                        "endOffset": 9387
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 208,
+                    "startColumn": 4,
+                    "startOffset": 10397,
+                    "endColumn": 54,
+                    "endOffset": 10447
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 214,
+                        "startColumn": 4,
+                        "startOffset": 9586,
+                        "endColumn": 54,
+                        "endOffset": 9636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 209,
+                    "startColumn": 4,
+                    "startOffset": 10452,
+                    "endColumn": 45,
+                    "endOffset": 10493
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 6949,
+                        "endColumn": 45,
+                        "endOffset": 6990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 10498,
+                    "endColumn": 47,
+                    "endOffset": 10541
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 6780,
+                        "endColumn": 47,
+                        "endOffset": 6823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 211,
+                    "startColumn": 4,
+                    "startOffset": 10546,
+                    "endColumn": 60,
+                    "endOffset": 10602
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 6098,
+                        "endColumn": 60,
+                        "endOffset": 6154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 212,
+                    "startColumn": 4,
+                    "startOffset": 10607,
+                    "endColumn": 48,
+                    "endOffset": 10651
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 6049,
+                        "endColumn": 48,
+                        "endOffset": 6093
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 10656,
+                    "endColumn": 42,
+                    "endOffset": 10694
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 5753,
+                        "endColumn": 42,
+                        "endOffset": 5791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 214,
+                    "startColumn": 4,
+                    "startOffset": 10699,
+                    "endColumn": 57,
+                    "endOffset": 10752
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 147,
+                        "startColumn": 4,
+                        "startOffset": 5945,
+                        "endColumn": 57,
+                        "endOffset": 5998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 215,
+                    "startColumn": 4,
+                    "startOffset": 10757,
+                    "endColumn": 43,
+                    "endOffset": 10796
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 5901,
+                        "endColumn": 43,
+                        "endOffset": 5940
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 216,
+                    "startColumn": 4,
+                    "startOffset": 10801,
+                    "endColumn": 41,
+                    "endOffset": 10838
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 158,
+                        "startColumn": 4,
+                        "startOffset": 6505,
+                        "endColumn": 41,
+                        "endOffset": 6542
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 217,
+                    "startColumn": 4,
+                    "startOffset": 10843,
+                    "endColumn": 52,
+                    "endOffset": 10891
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 5848,
+                        "endColumn": 52,
+                        "endOffset": 5896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 218,
+                    "startColumn": 4,
+                    "startOffset": 10896,
+                    "endColumn": 45,
+                    "endOffset": 10937
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 6003,
+                        "endColumn": 45,
+                        "endOffset": 6044
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 219,
+                    "startColumn": 4,
+                    "startOffset": 10942,
+                    "endColumn": 46,
+                    "endOffset": 10984
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 5659,
+                        "endColumn": 46,
+                        "endOffset": 5701
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 220,
+                    "startColumn": 4,
+                    "startOffset": 10989,
+                    "endColumn": 69,
+                    "endOffset": 11054
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 205,
+                        "startColumn": 4,
+                        "startOffset": 9032,
+                        "endColumn": 69,
+                        "endOffset": 9097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 221,
+                    "startColumn": 4,
+                    "startOffset": 11059,
+                    "endColumn": 65,
+                    "endOffset": 11120
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 206,
+                        "startColumn": 4,
+                        "startOffset": 9102,
+                        "endColumn": 65,
+                        "endOffset": 9163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 222,
+                    "startColumn": 4,
+                    "startOffset": 11125,
+                    "endColumn": 81,
+                    "endOffset": 11202
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 204,
+                        "startColumn": 4,
+                        "startOffset": 8950,
+                        "endColumn": 81,
+                        "endOffset": 9027
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 223,
+                    "startColumn": 4,
+                    "startOffset": 11207,
+                    "endColumn": 71,
+                    "endOffset": 11274
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 203,
+                        "startColumn": 4,
+                        "startOffset": 8878,
+                        "endColumn": 71,
+                        "endOffset": 8945
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 224,
+                    "startColumn": 4,
+                    "startOffset": 11279,
+                    "endColumn": 78,
+                    "endOffset": 11353
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 199,
+                        "startColumn": 4,
+                        "startOffset": 8554,
+                        "endColumn": 78,
+                        "endOffset": 8628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 225,
+                    "startColumn": 4,
+                    "startOffset": 11358,
+                    "endColumn": 86,
+                    "endOffset": 11440
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 201,
+                        "startColumn": 4,
+                        "startOffset": 8708,
+                        "endColumn": 86,
+                        "endOffset": 8790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 11445,
+                    "endColumn": 62,
+                    "endOffset": 11503
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 190,
+                        "startColumn": 4,
+                        "startOffset": 7924,
+                        "endColumn": 62,
+                        "endOffset": 7982
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 227,
+                    "startColumn": 4,
+                    "startOffset": 11508,
+                    "endColumn": 80,
+                    "endOffset": 11584
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 195,
+                        "startColumn": 4,
+                        "startOffset": 8262,
+                        "endColumn": 80,
+                        "endOffset": 8338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 228,
+                    "startColumn": 4,
+                    "startOffset": 11589,
+                    "endColumn": 63,
+                    "endOffset": 11648
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 191,
+                        "startColumn": 4,
+                        "startOffset": 7987,
+                        "endColumn": 63,
+                        "endOffset": 8046
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 11653,
+                    "endColumn": 69,
+                    "endOffset": 11718
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 193,
+                        "startColumn": 4,
+                        "startOffset": 8123,
+                        "endColumn": 69,
+                        "endOffset": 8188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 230,
+                    "startColumn": 4,
+                    "startOffset": 11723,
+                    "endColumn": 68,
+                    "endOffset": 11787
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 197,
+                        "startColumn": 4,
+                        "startOffset": 8420,
+                        "endColumn": 68,
+                        "endOffset": 8484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 231,
+                    "startColumn": 4,
+                    "startOffset": 11792,
+                    "endColumn": 69,
+                    "endOffset": 11857
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 207,
+                        "startColumn": 4,
+                        "startOffset": 9168,
+                        "endColumn": 69,
+                        "endOffset": 9233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 232,
+                    "startColumn": 4,
+                    "startOffset": 11862,
+                    "endColumn": 51,
+                    "endOffset": 11909
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 189,
+                        "startColumn": 4,
+                        "startOffset": 7872,
+                        "endColumn": 51,
+                        "endOffset": 7919
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 233,
+                    "startColumn": 4,
+                    "startOffset": 11914,
+                    "endColumn": 74,
+                    "endOffset": 11984
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 4,
+                        "startOffset": 8633,
+                        "endColumn": 74,
+                        "endOffset": 8703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 234,
+                    "startColumn": 4,
+                    "startOffset": 11989,
+                    "endColumn": 82,
+                    "endOffset": 12067
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 202,
+                        "startColumn": 4,
+                        "startOffset": 8795,
+                        "endColumn": 82,
+                        "endOffset": 8873
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 235,
+                    "startColumn": 4,
+                    "startOffset": 12072,
+                    "endColumn": 71,
+                    "endOffset": 12139
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 192,
+                        "startColumn": 4,
+                        "startOffset": 8051,
+                        "endColumn": 71,
+                        "endOffset": 8118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 236,
+                    "startColumn": 4,
+                    "startOffset": 12144,
+                    "endColumn": 76,
+                    "endOffset": 12216
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 196,
+                        "startColumn": 4,
+                        "startOffset": 8343,
+                        "endColumn": 76,
+                        "endOffset": 8415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 12221,
+                    "endColumn": 68,
+                    "endOffset": 12285
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 194,
+                        "startColumn": 4,
+                        "startOffset": 8193,
+                        "endColumn": 68,
+                        "endOffset": 8257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 238,
+                    "startColumn": 4,
+                    "startOffset": 12290,
+                    "endColumn": 64,
+                    "endOffset": 12350
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 198,
+                        "startColumn": 4,
+                        "startOffset": 8489,
+                        "endColumn": 64,
+                        "endOffset": 8549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 12355,
+                    "endColumn": 59,
+                    "endOffset": 12410
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 6159,
+                        "endColumn": 59,
+                        "endOffset": 6214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 12415,
+                    "endColumn": 64,
+                    "endOffset": 12475
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 4,
+                        "startOffset": 6219,
+                        "endColumn": 64,
+                        "endOffset": 6279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 12480,
+                    "endColumn": 63,
+                    "endOffset": 12539
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 233,
+                        "startColumn": 4,
+                        "startOffset": 11029,
+                        "endColumn": 63,
+                        "endOffset": 11088
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 12544,
+                    "endColumn": 53,
+                    "endOffset": 12593
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 232,
+                        "startColumn": 4,
+                        "startOffset": 10975,
+                        "endColumn": 53,
+                        "endOffset": 11024
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 12598,
+                    "endColumn": 52,
+                    "endOffset": 12646
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 7464,
+                        "endColumn": 52,
+                        "endOffset": 7512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 244,
+                    "startColumn": 4,
+                    "startOffset": 12651,
+                    "endColumn": 55,
+                    "endOffset": 12702
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 180,
+                        "startColumn": 4,
+                        "startOffset": 7408,
+                        "endColumn": 55,
+                        "endOffset": 7459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 12707,
+                    "endColumn": 48,
+                    "endOffset": 12751
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 7359,
+                        "endColumn": 48,
+                        "endOffset": 7403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 246,
+                    "startColumn": 4,
+                    "startOffset": 12756,
+                    "endColumn": 48,
+                    "endOffset": 12800
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 7517,
+                        "endColumn": 48,
+                        "endOffset": 7561
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 12805,
+                    "endColumn": 77,
+                    "endOffset": 12878
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1890,
+                        "endColumn": 77,
+                        "endOffset": 1963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 12883,
+                    "endColumn": 41,
+                    "endOffset": 12920
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 6588,
+                        "endColumn": 41,
+                        "endOffset": 6625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 12925,
+                    "endColumn": 65,
+                    "endOffset": 12986
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 228,
+                        "startColumn": 4,
+                        "startOffset": 10710,
+                        "endColumn": 65,
+                        "endOffset": 10771
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 12991,
+                    "endColumn": 57,
+                    "endOffset": 13044
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 227,
+                        "startColumn": 4,
+                        "startOffset": 10652,
+                        "endColumn": 57,
+                        "endOffset": 10705
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 13049,
+                    "endColumn": 39,
+                    "endOffset": 13084
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 238,
+                        "startColumn": 4,
+                        "startOffset": 11176,
+                        "endColumn": 39,
+                        "endOffset": 11211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 13089,
+                    "endColumn": 43,
+                    "endOffset": 13128
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 162,
+                        "startColumn": 4,
+                        "startOffset": 6675,
+                        "endColumn": 43,
+                        "endOffset": 6714
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 13133,
+                    "endColumn": 44,
+                    "endOffset": 13173
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 178,
+                        "startColumn": 4,
+                        "startOffset": 7314,
+                        "endColumn": 44,
+                        "endOffset": 7354
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 13178,
+                    "endColumn": 100,
+                    "endOffset": 13274
+                },
+                "from": {
+                    "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1968,
+                        "endColumn": 100,
+                        "endOffset": 2064
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
         "map": [
             {
@@ -4604,6 +6912,2314 @@
                 },
                 "from": {
                     "file": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1968,
+                        "endColumn": 100,
+                        "endOffset": 2064
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 94,
+                    "endOffset": 195
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 94,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 200,
+                    "endColumn": 107,
+                    "endOffset": 303
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 150,
+                        "endColumn": 107,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 308,
+                    "endColumn": 122,
+                    "endOffset": 426
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 258,
+                        "endColumn": 122,
+                        "endOffset": 376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 431,
+                    "endColumn": 93,
+                    "endOffset": 520
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 381,
+                        "endColumn": 93,
+                        "endOffset": 470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 525,
+                    "endColumn": 101,
+                    "endOffset": 622
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 475,
+                        "endColumn": 101,
+                        "endOffset": 572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 627,
+                    "endColumn": 81,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 577,
+                        "endColumn": 81,
+                        "endOffset": 654
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 97,
+                    "endOffset": 802
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 659,
+                        "endColumn": 97,
+                        "endOffset": 752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 807,
+                    "endColumn": 105,
+                    "endOffset": 908
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 757,
+                        "endColumn": 105,
+                        "endOffset": 858
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 913,
+                    "endColumn": 78,
+                    "endOffset": 987
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 863,
+                        "endColumn": 78,
+                        "endOffset": 937
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 992,
+                    "endColumn": 75,
+                    "endOffset": 1063
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 942,
+                        "endColumn": 75,
+                        "endOffset": 1013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1068,
+                    "endColumn": 79,
+                    "endOffset": 1143
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1018,
+                        "endColumn": 79,
+                        "endOffset": 1093
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1148,
+                    "endColumn": 97,
+                    "endOffset": 1241
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1098,
+                        "endColumn": 97,
+                        "endOffset": 1191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1246,
+                    "endColumn": 94,
+                    "endOffset": 1336
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1196,
+                        "endColumn": 94,
+                        "endOffset": 1286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1341,
+                    "endColumn": 94,
+                    "endOffset": 1431
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1291,
+                        "endColumn": 94,
+                        "endOffset": 1381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1436,
+                    "endColumn": 99,
+                    "endOffset": 1531
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1386,
+                        "endColumn": 99,
+                        "endOffset": 1481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1536,
+                    "endColumn": 95,
+                    "endOffset": 1627
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1486,
+                        "endColumn": 95,
+                        "endOffset": 1577
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1632,
+                    "endColumn": 98,
+                    "endOffset": 1726
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1582,
+                        "endColumn": 98,
+                        "endOffset": 1676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1731,
+                    "endColumn": 114,
+                    "endOffset": 1841
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1681,
+                        "endColumn": 114,
+                        "endOffset": 1791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1846,
+                    "endColumn": 93,
+                    "endOffset": 1935
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1796,
+                        "endColumn": 93,
+                        "endOffset": 1885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1940,
+                    "endColumn": 46,
+                    "endOffset": 1982
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 46,
+                        "endOffset": 188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1987,
+                    "endColumn": 36,
+                    "endOffset": 2019
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 239,
+                        "startColumn": 4,
+                        "startOffset": 11216,
+                        "endColumn": 36,
+                        "endOffset": 11248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2024,
+                    "endLine": 50,
+                    "endColumn": 69,
+                    "endOffset": 2866
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 1586,
+                        "endLine": 34,
+                        "endColumn": 69,
+                        "endOffset": 2428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2871,
+                    "endColumn": 29,
+                    "endOffset": 2896
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 37,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2901,
+                    "endColumn": 38,
+                    "endOffset": 2935
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 242,
+                        "startColumn": 4,
+                        "startOffset": 11331,
+                        "endColumn": 38,
+                        "endOffset": 11365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 2940,
+                    "endColumn": 37,
+                    "endOffset": 2973
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 11293,
+                        "endColumn": 37,
+                        "endOffset": 11326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 2978,
+                    "endColumn": 41,
+                    "endOffset": 3015
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 6377,
+                        "endColumn": 41,
+                        "endOffset": 6414
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3020,
+                    "endColumn": 72,
+                    "endOffset": 3088
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 185,
+                        "startColumn": 4,
+                        "startOffset": 7608,
+                        "endColumn": 72,
+                        "endOffset": 7676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3093,
+                    "endColumn": 44,
+                    "endOffset": 3133
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 6630,
+                        "endColumn": 44,
+                        "endOffset": 6670
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 3138,
+                    "endLine": 162,
+                    "endColumn": 13,
+                    "endOffset": 6359
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2433,
+                        "endLine": 140,
+                        "endColumn": 13,
+                        "endOffset": 5654
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 6364,
+                    "endColumn": 42,
+                    "endOffset": 6402
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 234,
+                        "startColumn": 4,
+                        "startOffset": 11093,
+                        "endColumn": 42,
+                        "endOffset": 11131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 6407,
+                    "endColumn": 39,
+                    "endOffset": 6442
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 11253,
+                        "endColumn": 39,
+                        "endOffset": 11288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 6447,
+                    "endColumn": 61,
+                    "endOffset": 6504
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 187,
+                        "startColumn": 4,
+                        "startOffset": 7728,
+                        "endColumn": 61,
+                        "endOffset": 7785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 6509,
+                    "endColumn": 46,
+                    "endOffset": 6551
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 186,
+                        "startColumn": 4,
+                        "startOffset": 7681,
+                        "endColumn": 46,
+                        "endOffset": 7723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 6556,
+                    "endColumn": 44,
+                    "endOffset": 6596
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 6460,
+                        "endColumn": 44,
+                        "endOffset": 6500
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 6601,
+                    "endColumn": 40,
+                    "endOffset": 6637
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 4,
+                        "startOffset": 6419,
+                        "endColumn": 40,
+                        "endOffset": 6455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 6642,
+                    "endColumn": 81,
+                    "endOffset": 6719
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 188,
+                        "startColumn": 4,
+                        "startOffset": 7790,
+                        "endColumn": 81,
+                        "endOffset": 7867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 170,
+                    "startColumn": 4,
+                    "startOffset": 6724,
+                    "endColumn": 1329,
+                    "endOffset": 8049
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 256,
+                        "endColumn": 1329,
+                        "endOffset": 1581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 171,
+                    "startColumn": 4,
+                    "startOffset": 8054,
+                    "endColumn": 62,
+                    "endOffset": 8112
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 193,
+                        "endColumn": 62,
+                        "endOffset": 251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 8117,
+                    "endColumn": 54,
+                    "endOffset": 8167
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 6284,
+                        "endColumn": 54,
+                        "endOffset": 6334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 8172,
+                    "endColumn": 43,
+                    "endOffset": 8211
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 168,
+                        "startColumn": 4,
+                        "startOffset": 6890,
+                        "endColumn": 43,
+                        "endOffset": 6929
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 8216,
+                    "endColumn": 37,
+                    "endOffset": 8249
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 237,
+                        "startColumn": 4,
+                        "startOffset": 11138,
+                        "endColumn": 37,
+                        "endOffset": 11171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 8254,
+                    "endColumn": 41,
+                    "endOffset": 8291
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 6719,
+                        "endColumn": 41,
+                        "endOffset": 6756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 8296,
+                    "endColumn": 43,
+                    "endOffset": 8335
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 208,
+                        "startColumn": 4,
+                        "startOffset": 9238,
+                        "endColumn": 43,
+                        "endOffset": 9277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 8340,
+                    "endColumn": 56,
+                    "endOffset": 8392
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 209,
+                        "startColumn": 4,
+                        "startOffset": 9282,
+                        "endColumn": 56,
+                        "endOffset": 9334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 8397,
+                    "endColumn": 61,
+                    "endOffset": 8454
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 6828,
+                        "endColumn": 61,
+                        "endOffset": 6885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 8459,
+                    "endColumn": 51,
+                    "endOffset": 8506
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 5796,
+                        "endColumn": 51,
+                        "endOffset": 5843
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 8511,
+                    "endColumn": 46,
+                    "endOffset": 8553
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 5706,
+                        "endColumn": 46,
+                        "endOffset": 5748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 181,
+                    "startColumn": 4,
+                    "startOffset": 8558,
+                    "endColumn": 67,
+                    "endOffset": 8621
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 4,
+                        "startOffset": 6995,
+                        "endColumn": 67,
+                        "endOffset": 7058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 8626,
+                    "endColumn": 37,
+                    "endOffset": 8659
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 6339,
+                        "endColumn": 37,
+                        "endOffset": 6372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 183,
+                    "startColumn": 4,
+                    "startOffset": 8664,
+                    "endColumn": 113,
+                    "endOffset": 8773
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 224,
+                        "startColumn": 4,
+                        "startOffset": 10340,
+                        "endColumn": 117,
+                        "endOffset": 10453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 184,
+                    "startColumn": 4,
+                    "startOffset": 8778,
+                    "endColumn": 62,
+                    "endOffset": 8836
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 223,
+                        "startColumn": 4,
+                        "startOffset": 10277,
+                        "endColumn": 62,
+                        "endOffset": 10335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 185,
+                    "startColumn": 4,
+                    "startOffset": 8841,
+                    "endColumn": 115,
+                    "endOffset": 8952
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 225,
+                        "startColumn": 4,
+                        "startOffset": 10458,
+                        "endColumn": 119,
+                        "endOffset": 10573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 186,
+                    "startColumn": 4,
+                    "startOffset": 8957,
+                    "endColumn": 66,
+                    "endOffset": 9019
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 219,
+                        "startColumn": 4,
+                        "startOffset": 9916,
+                        "endColumn": 66,
+                        "endOffset": 9978
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 9024,
+                    "endColumn": 72,
+                    "endOffset": 9092
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 220,
+                        "startColumn": 4,
+                        "startOffset": 9983,
+                        "endColumn": 72,
+                        "endOffset": 10051
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 9097,
+                    "endColumn": 70,
+                    "endOffset": 9163
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 218,
+                        "startColumn": 4,
+                        "startOffset": 9845,
+                        "endColumn": 70,
+                        "endOffset": 9911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 9168,
+                    "endColumn": 73,
+                    "endOffset": 9237
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 226,
+                        "startColumn": 4,
+                        "startOffset": 10578,
+                        "endColumn": 73,
+                        "endOffset": 10647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 190,
+                    "startColumn": 4,
+                    "startOffset": 9242,
+                    "endColumn": 73,
+                    "endOffset": 9311
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 217,
+                        "startColumn": 4,
+                        "startOffset": 9771,
+                        "endColumn": 73,
+                        "endOffset": 9840
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 191,
+                    "startColumn": 4,
+                    "startOffset": 9316,
+                    "endColumn": 154,
+                    "endOffset": 9466
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 221,
+                        "startColumn": 4,
+                        "startOffset": 10056,
+                        "endColumn": 162,
+                        "endOffset": 10214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 192,
+                    "startColumn": 4,
+                    "startOffset": 9471,
+                    "endColumn": 55,
+                    "endOffset": 9522
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 230,
+                        "startColumn": 4,
+                        "startOffset": 10863,
+                        "endColumn": 55,
+                        "endOffset": 10914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 193,
+                    "startColumn": 4,
+                    "startOffset": 9527,
+                    "endColumn": 55,
+                    "endOffset": 9578
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 231,
+                        "startColumn": 4,
+                        "startOffset": 10919,
+                        "endColumn": 55,
+                        "endOffset": 10970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 194,
+                    "startColumn": 4,
+                    "startOffset": 9583,
+                    "endColumn": 51,
+                    "endOffset": 9630
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 216,
+                        "startColumn": 4,
+                        "startOffset": 9719,
+                        "endColumn": 51,
+                        "endOffset": 9766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 195,
+                    "startColumn": 4,
+                    "startOffset": 9635,
+                    "endColumn": 57,
+                    "endOffset": 9688
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 222,
+                        "startColumn": 4,
+                        "startOffset": 10219,
+                        "endColumn": 57,
+                        "endOffset": 10272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 196,
+                    "startColumn": 4,
+                    "startOffset": 9693,
+                    "endColumn": 40,
+                    "endOffset": 9729
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 6547,
+                        "endColumn": 40,
+                        "endOffset": 6583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 197,
+                    "startColumn": 4,
+                    "startOffset": 9734,
+                    "endColumn": 50,
+                    "endOffset": 9780
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 7161,
+                        "endColumn": 50,
+                        "endOffset": 7207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 198,
+                    "startColumn": 4,
+                    "startOffset": 9785,
+                    "endColumn": 47,
+                    "endOffset": 9828
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 7063,
+                        "endColumn": 47,
+                        "endOffset": 7106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 199,
+                    "startColumn": 4,
+                    "startOffset": 9833,
+                    "endColumn": 49,
+                    "endOffset": 9878
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 174,
+                        "startColumn": 4,
+                        "startOffset": 7111,
+                        "endColumn": 49,
+                        "endOffset": 7156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 200,
+                    "startColumn": 4,
+                    "startOffset": 9883,
+                    "endColumn": 56,
+                    "endOffset": 9935
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 7212,
+                        "endColumn": 56,
+                        "endOffset": 7264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 201,
+                    "startColumn": 4,
+                    "startOffset": 9940,
+                    "endColumn": 44,
+                    "endOffset": 9980
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 177,
+                        "startColumn": 4,
+                        "startOffset": 7269,
+                        "endColumn": 44,
+                        "endOffset": 7309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 202,
+                    "startColumn": 4,
+                    "startOffset": 9985,
+                    "endColumn": 64,
+                    "endOffset": 10045
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 212,
+                        "startColumn": 4,
+                        "startOffset": 9442,
+                        "endColumn": 64,
+                        "endOffset": 9502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 203,
+                    "startColumn": 4,
+                    "startOffset": 10050,
+                    "endColumn": 77,
+                    "endOffset": 10123
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 215,
+                        "startColumn": 4,
+                        "startOffset": 9641,
+                        "endColumn": 77,
+                        "endOffset": 9714
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 204,
+                    "startColumn": 4,
+                    "startOffset": 10128,
+                    "endColumn": 49,
+                    "endOffset": 10173
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 211,
+                        "startColumn": 4,
+                        "startOffset": 9392,
+                        "endColumn": 49,
+                        "endOffset": 9437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 205,
+                    "startColumn": 4,
+                    "startOffset": 10178,
+                    "endColumn": 86,
+                    "endOffset": 10260
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 229,
+                        "startColumn": 4,
+                        "startOffset": 10776,
+                        "endColumn": 86,
+                        "endOffset": 10858
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 206,
+                    "startColumn": 4,
+                    "startOffset": 10265,
+                    "endColumn": 78,
+                    "endOffset": 10339
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 213,
+                        "startColumn": 4,
+                        "startOffset": 9507,
+                        "endColumn": 78,
+                        "endOffset": 9581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 207,
+                    "startColumn": 4,
+                    "startOffset": 10344,
+                    "endColumn": 52,
+                    "endOffset": 10392
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 210,
+                        "startColumn": 4,
+                        "startOffset": 9339,
+                        "endColumn": 52,
+                        "endOffset": 9387
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 208,
+                    "startColumn": 4,
+                    "startOffset": 10397,
+                    "endColumn": 54,
+                    "endOffset": 10447
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 214,
+                        "startColumn": 4,
+                        "startOffset": 9586,
+                        "endColumn": 54,
+                        "endOffset": 9636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 209,
+                    "startColumn": 4,
+                    "startOffset": 10452,
+                    "endColumn": 45,
+                    "endOffset": 10493
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 6949,
+                        "endColumn": 45,
+                        "endOffset": 6990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 10498,
+                    "endColumn": 47,
+                    "endOffset": 10541
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 6780,
+                        "endColumn": 47,
+                        "endOffset": 6823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 211,
+                    "startColumn": 4,
+                    "startOffset": 10546,
+                    "endColumn": 60,
+                    "endOffset": 10602
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 6098,
+                        "endColumn": 60,
+                        "endOffset": 6154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 212,
+                    "startColumn": 4,
+                    "startOffset": 10607,
+                    "endColumn": 48,
+                    "endOffset": 10651
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 6049,
+                        "endColumn": 48,
+                        "endOffset": 6093
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 10656,
+                    "endColumn": 42,
+                    "endOffset": 10694
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 5753,
+                        "endColumn": 42,
+                        "endOffset": 5791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 214,
+                    "startColumn": 4,
+                    "startOffset": 10699,
+                    "endColumn": 57,
+                    "endOffset": 10752
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 147,
+                        "startColumn": 4,
+                        "startOffset": 5945,
+                        "endColumn": 57,
+                        "endOffset": 5998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 215,
+                    "startColumn": 4,
+                    "startOffset": 10757,
+                    "endColumn": 43,
+                    "endOffset": 10796
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 5901,
+                        "endColumn": 43,
+                        "endOffset": 5940
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 216,
+                    "startColumn": 4,
+                    "startOffset": 10801,
+                    "endColumn": 41,
+                    "endOffset": 10838
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 158,
+                        "startColumn": 4,
+                        "startOffset": 6505,
+                        "endColumn": 41,
+                        "endOffset": 6542
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 217,
+                    "startColumn": 4,
+                    "startOffset": 10843,
+                    "endColumn": 52,
+                    "endOffset": 10891
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 5848,
+                        "endColumn": 52,
+                        "endOffset": 5896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 218,
+                    "startColumn": 4,
+                    "startOffset": 10896,
+                    "endColumn": 45,
+                    "endOffset": 10937
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 6003,
+                        "endColumn": 45,
+                        "endOffset": 6044
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 219,
+                    "startColumn": 4,
+                    "startOffset": 10942,
+                    "endColumn": 46,
+                    "endOffset": 10984
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 5659,
+                        "endColumn": 46,
+                        "endOffset": 5701
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 220,
+                    "startColumn": 4,
+                    "startOffset": 10989,
+                    "endColumn": 69,
+                    "endOffset": 11054
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 205,
+                        "startColumn": 4,
+                        "startOffset": 9032,
+                        "endColumn": 69,
+                        "endOffset": 9097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 221,
+                    "startColumn": 4,
+                    "startOffset": 11059,
+                    "endColumn": 65,
+                    "endOffset": 11120
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 206,
+                        "startColumn": 4,
+                        "startOffset": 9102,
+                        "endColumn": 65,
+                        "endOffset": 9163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 222,
+                    "startColumn": 4,
+                    "startOffset": 11125,
+                    "endColumn": 81,
+                    "endOffset": 11202
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 204,
+                        "startColumn": 4,
+                        "startOffset": 8950,
+                        "endColumn": 81,
+                        "endOffset": 9027
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 223,
+                    "startColumn": 4,
+                    "startOffset": 11207,
+                    "endColumn": 71,
+                    "endOffset": 11274
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 203,
+                        "startColumn": 4,
+                        "startOffset": 8878,
+                        "endColumn": 71,
+                        "endOffset": 8945
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 224,
+                    "startColumn": 4,
+                    "startOffset": 11279,
+                    "endColumn": 78,
+                    "endOffset": 11353
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 199,
+                        "startColumn": 4,
+                        "startOffset": 8554,
+                        "endColumn": 78,
+                        "endOffset": 8628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 225,
+                    "startColumn": 4,
+                    "startOffset": 11358,
+                    "endColumn": 86,
+                    "endOffset": 11440
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 201,
+                        "startColumn": 4,
+                        "startOffset": 8708,
+                        "endColumn": 86,
+                        "endOffset": 8790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 11445,
+                    "endColumn": 62,
+                    "endOffset": 11503
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 190,
+                        "startColumn": 4,
+                        "startOffset": 7924,
+                        "endColumn": 62,
+                        "endOffset": 7982
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 227,
+                    "startColumn": 4,
+                    "startOffset": 11508,
+                    "endColumn": 80,
+                    "endOffset": 11584
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 195,
+                        "startColumn": 4,
+                        "startOffset": 8262,
+                        "endColumn": 80,
+                        "endOffset": 8338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 228,
+                    "startColumn": 4,
+                    "startOffset": 11589,
+                    "endColumn": 63,
+                    "endOffset": 11648
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 191,
+                        "startColumn": 4,
+                        "startOffset": 7987,
+                        "endColumn": 63,
+                        "endOffset": 8046
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 11653,
+                    "endColumn": 69,
+                    "endOffset": 11718
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 193,
+                        "startColumn": 4,
+                        "startOffset": 8123,
+                        "endColumn": 69,
+                        "endOffset": 8188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 230,
+                    "startColumn": 4,
+                    "startOffset": 11723,
+                    "endColumn": 68,
+                    "endOffset": 11787
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 197,
+                        "startColumn": 4,
+                        "startOffset": 8420,
+                        "endColumn": 68,
+                        "endOffset": 8484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 231,
+                    "startColumn": 4,
+                    "startOffset": 11792,
+                    "endColumn": 69,
+                    "endOffset": 11857
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 207,
+                        "startColumn": 4,
+                        "startOffset": 9168,
+                        "endColumn": 69,
+                        "endOffset": 9233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 232,
+                    "startColumn": 4,
+                    "startOffset": 11862,
+                    "endColumn": 51,
+                    "endOffset": 11909
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 189,
+                        "startColumn": 4,
+                        "startOffset": 7872,
+                        "endColumn": 51,
+                        "endOffset": 7919
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 233,
+                    "startColumn": 4,
+                    "startOffset": 11914,
+                    "endColumn": 74,
+                    "endOffset": 11984
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 4,
+                        "startOffset": 8633,
+                        "endColumn": 74,
+                        "endOffset": 8703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 234,
+                    "startColumn": 4,
+                    "startOffset": 11989,
+                    "endColumn": 82,
+                    "endOffset": 12067
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 202,
+                        "startColumn": 4,
+                        "startOffset": 8795,
+                        "endColumn": 82,
+                        "endOffset": 8873
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 235,
+                    "startColumn": 4,
+                    "startOffset": 12072,
+                    "endColumn": 71,
+                    "endOffset": 12139
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 192,
+                        "startColumn": 4,
+                        "startOffset": 8051,
+                        "endColumn": 71,
+                        "endOffset": 8118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 236,
+                    "startColumn": 4,
+                    "startOffset": 12144,
+                    "endColumn": 76,
+                    "endOffset": 12216
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 196,
+                        "startColumn": 4,
+                        "startOffset": 8343,
+                        "endColumn": 76,
+                        "endOffset": 8415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 12221,
+                    "endColumn": 68,
+                    "endOffset": 12285
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 194,
+                        "startColumn": 4,
+                        "startOffset": 8193,
+                        "endColumn": 68,
+                        "endOffset": 8257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 238,
+                    "startColumn": 4,
+                    "startOffset": 12290,
+                    "endColumn": 64,
+                    "endOffset": 12350
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 198,
+                        "startColumn": 4,
+                        "startOffset": 8489,
+                        "endColumn": 64,
+                        "endOffset": 8549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 12355,
+                    "endColumn": 59,
+                    "endOffset": 12410
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 6159,
+                        "endColumn": 59,
+                        "endOffset": 6214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 12415,
+                    "endColumn": 64,
+                    "endOffset": 12475
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 4,
+                        "startOffset": 6219,
+                        "endColumn": 64,
+                        "endOffset": 6279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 12480,
+                    "endColumn": 63,
+                    "endOffset": 12539
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 233,
+                        "startColumn": 4,
+                        "startOffset": 11029,
+                        "endColumn": 63,
+                        "endOffset": 11088
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 12544,
+                    "endColumn": 53,
+                    "endOffset": 12593
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 232,
+                        "startColumn": 4,
+                        "startOffset": 10975,
+                        "endColumn": 53,
+                        "endOffset": 11024
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 12598,
+                    "endColumn": 52,
+                    "endOffset": 12646
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 7464,
+                        "endColumn": 52,
+                        "endOffset": 7512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 244,
+                    "startColumn": 4,
+                    "startOffset": 12651,
+                    "endColumn": 55,
+                    "endOffset": 12702
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 180,
+                        "startColumn": 4,
+                        "startOffset": 7408,
+                        "endColumn": 55,
+                        "endOffset": 7459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 12707,
+                    "endColumn": 48,
+                    "endOffset": 12751
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 7359,
+                        "endColumn": 48,
+                        "endOffset": 7403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 246,
+                    "startColumn": 4,
+                    "startOffset": 12756,
+                    "endColumn": 48,
+                    "endOffset": 12800
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 7517,
+                        "endColumn": 48,
+                        "endOffset": 7561
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 12805,
+                    "endColumn": 77,
+                    "endOffset": 12878
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1890,
+                        "endColumn": 77,
+                        "endOffset": 1963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 12883,
+                    "endColumn": 41,
+                    "endOffset": 12920
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 6588,
+                        "endColumn": 41,
+                        "endOffset": 6625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 12925,
+                    "endColumn": 65,
+                    "endOffset": 12986
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 228,
+                        "startColumn": 4,
+                        "startOffset": 10710,
+                        "endColumn": 65,
+                        "endOffset": 10771
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 12991,
+                    "endColumn": 57,
+                    "endOffset": 13044
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 227,
+                        "startColumn": 4,
+                        "startOffset": 10652,
+                        "endColumn": 57,
+                        "endOffset": 10705
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 13049,
+                    "endColumn": 39,
+                    "endOffset": 13084
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 238,
+                        "startColumn": 4,
+                        "startOffset": 11176,
+                        "endColumn": 39,
+                        "endOffset": 11211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 13089,
+                    "endColumn": 43,
+                    "endOffset": 13128
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 162,
+                        "startColumn": 4,
+                        "startOffset": 6675,
+                        "endColumn": 43,
+                        "endOffset": 6714
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 13133,
+                    "endColumn": 44,
+                    "endOffset": 13173
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 178,
+                        "startColumn": 4,
+                        "startOffset": 7314,
+                        "endColumn": 44,
+                        "endOffset": 7354
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 13178,
+                    "endColumn": 100,
+                    "endOffset": 13274
+                },
+                "from": {
+                    "file": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\values-ko\\values-ko.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

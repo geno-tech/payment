@@ -742,4 +742,61 @@ public class HttpClientItem {
             return null;
         }
     }
+
+    public static void BidBuy(String bid_seq, String auc_seq, String price, String user_id, String address) {
+        if (bid_seq == null) {
+            bid_seq = "";
+        }
+        String URL = "http://221.156.54.210:8989/NFCTEST/bid_buy.jsp";
+        DefaultHttpClient client = new DefaultHttpClient();
+        try {
+           // Log.d("@@@@!@#!@#!@#", "실행됨 공백제거 전 :"+ address);
+            address = address.replaceAll(" ","%20");
+            //Log.d("@@@@!@#!@#!@#", "address 공백제거 : "+ address);
+
+            HttpPost post = new HttpPost(URL + "?bid_seq=" + bid_seq + "&auc_seq=" + auc_seq + "&price=" + price + "&user_id=" + user_id + "&address=" + address);
+            HttpParams params = client.getParams();
+            HttpConnectionParams.setConnectionTimeout(params, 30000);
+            HttpConnectionParams.setSoTimeout(params, 30000);
+            HttpResponse response = client.execute(post);
+            BufferedReader bufreader = new BufferedReader(
+                    new InputStreamReader(response.getEntity().getContent(),
+                            "utf-8"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static String AuctionProgress_Buyer(String auc_seq) {
+        if (auc_seq == null) {
+            auc_seq = "";
+        }
+
+        String URL = "http://221.156.54.210:8989/NFCTEST/auctionprogress.jsp";
+        DefaultHttpClient client = new DefaultHttpClient();
+        try {
+
+            HttpPost post = new HttpPost(URL + "?auc_seq=" + auc_seq + "&msg2=buyer");
+            HttpParams params = client.getParams();
+            HttpConnectionParams.setConnectionTimeout(params, 300000);
+            HttpConnectionParams.setSoTimeout(params, 300000);
+            HttpResponse response = client.execute(post);
+            BufferedReader bufreader = new BufferedReader(
+                    new InputStreamReader(response.getEntity().getContent(),
+                            "utf-8"));
+
+            String line = null;
+            String result = "";
+
+            while ((line = bufreader.readLine()) != null) {
+                result += line;
+
+            }
+            return result;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
 }

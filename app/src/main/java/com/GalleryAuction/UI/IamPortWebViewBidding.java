@@ -20,25 +20,30 @@ import com.GalleryAuction.Client.IamPortWebViewClient;
 import com.geno.bill_folder.R;
 
 import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoInsert;
+import static com.GalleryAuction.Item.HttpClientItem.BiddingWinArtistAgree;
 
 public class IamPortWebViewBidding extends Activity {
     private WebView mainWebView;
     private final String APP_SCHEME = "iamportkakao://";
     private TextView txt;
-    private String auckey, userID, nowbidding, artimg, aucend, min_bidding, bidding, image, end;
+    private String title, image, auckey, aucstatus, artistname, bidprice, userID, bidkey;
     NfcAdapter  nfcAdapter;
     PendingIntent pendingIntent;
+    Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gallery_iamport_webview);
 
-        Intent intent1 = getIntent();
-        bidding = intent1.getStringExtra("bidding");
-//        intent1.getStringExtra("artimg");
-//        intent1.getStringExtra("min_bidding");
-        auckey = intent1.getStringExtra("auckey");
-        userID = intent1.getStringExtra("userID");
+        intent = getIntent();
+        title = intent.getStringExtra("title");
+        image = intent.getStringExtra("image");
+        auckey = intent.getStringExtra("auckey");
+        artistname = intent.getStringExtra("artistname");
+        bidprice = intent.getStringExtra("bidprice");
+        userID = intent.getStringExtra("userID");
+        bidkey = intent.getStringExtra("bidkey");
+
         nfcAdapter = NfcAdapter.getDefaultAdapter(this);
         Intent intent0 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
         pendingIntent = PendingIntent.getActivity(this, 0, intent0, 0);
@@ -47,6 +52,7 @@ public class IamPortWebViewBidding extends Activity {
         mainWebView.setWebViewClient(new IamPortWebViewClient(this));
         WebSettings settings = mainWebView.getSettings();
         settings.setJavaScriptEnabled(true);
+        mainWebView.loadUrl("javascript:global_function("+bidprice+")");
         mainWebView.loadUrl("http://221.156.54.210:8989/NFCTEST/iamport.jsp");
 
         mainWebView.setWebChromeClient(new WebChromeClient() {
@@ -55,12 +61,35 @@ public class IamPortWebViewBidding extends Activity {
                                      final String url, final String message,
                                      JsResult result) {
                 if (message.contains("완료")) {
-                    BiddingInfoInsert(auckey, userID, bidding);
+                    aucstatus ="7";
+                    Intent intent1 = new Intent(IamPortWebViewBidding.this, BidderAddress.class);
+                    intent1.putExtra("title", title);
+                    intent1.putExtra("image", image);
+                    intent1.putExtra("auckey", auckey);
+                    intent1.putExtra("aucstatus", aucstatus);
+                    intent1.putExtra("artistname", artistname);
+                    intent1.putExtra("bidprice", bidprice);
+                    intent1.putExtra("userID", userID);
+                    intent1.putExtra("bidkey",bidkey);
+
+                    startActivity(intent1);
                     Toast.makeText(IamPortWebViewBidding.this, message, Toast.LENGTH_SHORT).show();
                     finish();
                 } else if (message.contains("실패")) {
                     Log.d("aa", "onJsAlert(!" + view + ", " + url + ", "
                             + message + ", " + result + ")");
+                    aucstatus = "6";
+                    Intent intent1 = new Intent(IamPortWebViewBidding.this, BidderAddress.class);
+                    intent1.putExtra("title", title);
+                    intent1.putExtra("image", image);
+                    intent1.putExtra("auckey", auckey);
+                    intent1.putExtra("aucstatus", aucstatus);
+                    intent1.putExtra("artistname", artistname);
+                    intent1.putExtra("bidprice", bidprice);
+                    intent1.putExtra("userID", userID);
+                    intent1.putExtra("bidkey",bidkey);
+
+                    startActivity(intent1);
                     finish();
                     Toast.makeText(IamPortWebViewBidding.this, message, Toast.LENGTH_SHORT).show();
                 }

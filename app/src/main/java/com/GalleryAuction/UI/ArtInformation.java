@@ -109,6 +109,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
 
+        ArtAlbumList(userId, artkey);
 
     }
 
@@ -157,7 +158,6 @@ public class ArtInformation extends Activity implements View.OnClickListener{
                 }
                 break;
             case R.id.auctionX_btn:
-                ArtAlbumList(userId, artkey);
 //                JSONObject job = null;
 //                try {
 //                    job = new JSONObject(Artinfo(key));
