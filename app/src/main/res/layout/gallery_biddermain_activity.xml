@@ -116,7 +116,7 @@
         android:gravity="center_vertical"
         android:textStyle="bold"
         android:paddingLeft="10dp"
-        android:text="낙찰된 Auction" />
+        android:text="구매한 Auction" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -124,12 +124,18 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:orientation="vertical"
-        android:visibility="gone"
         android:id="@+id/Bidder_Main_WinningBid_Layout">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:gravity="bottom">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:text="아티스트 이름과 핸드폰번호"
+                android:id="@+id/Bidder_Main_WinningBid_ArtistNamePhone_txt"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"

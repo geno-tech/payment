@@ -159,7 +159,7 @@ public class ArtistAuctionInformation extends Activity {
                     startActivity(intent3);
                     finish();
                 } else if (auction.equals("7")) {
-                    Toast.makeText(ArtistAuctionInformation.this, "낙찰상태" , Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ArtistAuctionInformation.this, "판매상태" , Toast.LENGTH_SHORT).show();
 
 //                    Intent intent1 = new Intent(ArtistAuctionInformation.this, ArtistAuctionUserWinningBidUi.class);
 //                    startActivity(intent1);

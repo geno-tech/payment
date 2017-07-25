@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="낙찰진행"
+            android:text="구매진행"
             android:id="@+id/winningbidlist_btnagree"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"/>

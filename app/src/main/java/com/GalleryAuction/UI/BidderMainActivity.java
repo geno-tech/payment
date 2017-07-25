@@ -27,6 +27,7 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.GalleryAuction.Adapter.BidderGoingAdapter;
@@ -72,7 +73,8 @@ public class BidderMainActivity extends AppCompatActivity implements View.OnClic
     BidderGoingAdapter bidderGoingAdapter;
     LinearLayout SeeLayout, WinningBidLayout;
     Button SeeBtn, WinningBidBtn;
-    String name, title, auc_end, auc_start, art_content, userID, image, bidstatus, auckey, aucstatus, artistname, bidprice, bidkey;
+    TextView ArtistNamePhone_txt;
+    String name, title, auc_end, auc_start, art_content, userID, image, bidstatus, auckey, aucstatus, artistname, bidprice, bidkey, tagid, artistphone;
     String[] start, end, start_hhmm, end_hhmm;
     GridViewItem gridView, gridView_Winning, listView;
     GridAdapter gridAdapter, gridAdapter_Winning;
@@ -108,9 +110,11 @@ public class BidderMainActivity extends AppCompatActivity implements View.OnClic
         WinningBidBtn = (Button) findViewById(R.id.Bidder_Main_WinningBid_btn);
         WinningBidLayout = (LinearLayout) findViewById(R.id.Bidder_Main_WinningBid_Layout);
         gridView_Winning = (GridViewItem) findViewById(R.id.Bidder_Main_WinningBid_GridView);
+        ArtistNamePhone_txt = (TextView) findViewById(R.id.Bidder_Main_WinningBid_ArtistNamePhone_txt);
         gridView_Winning.setExpanded(true);
         gridAdapter_Winning = new GridAdapter();
         WinningBidBtn.setOnClickListener(this);
+        ArtistNamePhone_txt.setText("");
         try {
             mKeyStore = KeyStore.getInstance("AndroidKeyStore");
         } catch (KeyStoreException e) {
@@ -251,6 +255,29 @@ public class BidderMainActivity extends AppCompatActivity implements View.OnClic
         e.printStackTrace();
     }
         gridView.setAdapter(gridAdapter);
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                try {
+
+                    JSONArray ja = new JSONArray(ArtAlbumSelect(userID));
+
+                        JSONObject job = (JSONObject) ja.get(i);
+                        tagid = job.get("nfc_id").toString();
+                        image = job.get("art_image").toString();
+                        bidstatus = job.get("bid_status").toString();
+                        name = job.get("artist_name").toString();
+                    Intent intent1 = new Intent(BidderMainActivity.this, ArtInformation.class);
+                    intent1.putExtra("tagid", tagid);
+                    intent1.putExtra("userID", userID);
+                    intent1.putExtra("name", name);
+                    startActivity(intent1);
+                    finish();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
         gridView_Winning.setAdapter(gridAdapter_Winning);
         gridView_Winning.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -265,13 +292,14 @@ public class BidderMainActivity extends AppCompatActivity implements View.OnClic
                         image = job.get("art_image").toString();
                         auckey = job.get("auc_seq").toString();
                         aucstatus = job.get("auc_status").toString();
-                        artistname = job.get("USER_NAME").toString();
-                    bidprice = job.get("bid_price").toString();
-                    bidkey = job.get("bid_seq").toString();
+                        artistname = job.get("user_name").toString();
+                        bidprice = job.get("bid_price").toString();
+                        bidkey = job.get("bid_seq").toString();
+                        artistphone = job.get("HP_NUMBER").toString();
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-
+                Log.d("@@@@@@@@@@", title + image + auckey + aucstatus + artistname + bidkey + bidprice);
                     if (aucstatus.equals("5")) {
                         final AlertDialog.Builder alert = new AlertDialog.Builder(BidderMainActivity.this);
                         alert.setMessage(getString(R.string.ct_msg)).setCancelable(false).setPositiveButton("거부", new DialogInterface.OnClickListener() {
@@ -323,8 +351,8 @@ public class BidderMainActivity extends AppCompatActivity implements View.OnClic
                         intent1.putExtra("userID", userID);
                         intent1.putExtra("bidkey",bidkey);
                         startActivity(intent1);
-
                     } else if (aucstatus.equals("7")) {
+                        ArtistNamePhone_txt.setText("아티스트 이름 : " + artistname +"\n아티스트 휴대폰번호 : "+ artistphone );
                         Toast.makeText(BidderMainActivity.this, "거래 완료", Toast.LENGTH_SHORT).show();
                     }
 
@@ -367,12 +395,12 @@ public class BidderMainActivity extends AppCompatActivity implements View.OnClic
                     Intent intent0 = getIntent();
                     String userID = intent0.getStringExtra("userID");
                     Intent intent = new Intent(BidderMainActivity.this, ArtInformation.class);
-                    intent.putExtra("artinfo", ArtInfo(toHexString(tagId)));
+                    intent.putExtra("tagid", toHexString(tagId));
                     intent.putExtra("userID", userID);
                     intent.putExtra("name", name);
 
 
-                    //Log.d("tag",ArtInfo(toHexString(tagId)));
+                    Log.d("tag",toHexString(tagId));
                     startActivity(intent);
                     finish();
                 }
@@ -465,7 +493,8 @@ public class BidderMainActivity extends AppCompatActivity implements View.OnClic
             intent1.putExtra("artistname", artistname);
             intent1.putExtra("bidprice", bidprice);
             intent1.putExtra("userID", userID);
-            intent1.putExtra("bidstatus",bidkey);
+            intent1.putExtra("bidkey",bidkey);
+            Log.d("@@@@", bidprice);
             startActivity(intent1);
             finish();
             assert cryptoObject != null;

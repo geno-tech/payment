@@ -231,7 +231,7 @@ public class ArtistAuctionCompleteUi extends Activity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder alert = new AlertDialog.Builder(ArtistAuctionCompleteUi.this);
-                alert.setMessage("최고 입찰가는" + min_bidding + "원 입니다.\n낙찰하시겠습니까?").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
+                alert.setMessage("최고 구매가는" + min_bidding + "원 입니다.\n판매하시겠습니까?").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
 

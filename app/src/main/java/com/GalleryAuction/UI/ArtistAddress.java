@@ -22,6 +22,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 
 import static com.GalleryAuction.Client.ImageViewItem.getImageBitmap;
 import static com.GalleryAuction.Item.HttpClientItem.AuctionProgress;
@@ -64,9 +66,9 @@ public class ArtistAddress extends AppCompatActivity {
             for (int i = 0; i < ja.length(); i++) {
 
                 JSONObject job = (JSONObject) ja.get(i);
-                name = job.get("USER_NAME").toString();
+                name = job.get("user_name").toString();
                 userID = job.get("user_id").toString();
-                phone = job.get("HP_NUMBER").toString();
+                phone = job.get("hp_number").toString();
                 address = job.get("address").toString();
 
             }
@@ -77,7 +79,7 @@ public class ArtistAddress extends AppCompatActivity {
         tv_id.setText(userID);
         tv_name.setText(name);
         tv_title.setText(title);
-        tv_price.setText(price + "원");
+        tv_price.setText(currentpoint(price) + "원");
         tv_phone.setText(phone);
         tv_address.setText(address);
         btn.setOnClickListener(new View.OnClickListener() {
@@ -87,6 +89,23 @@ public class ArtistAddress extends AppCompatActivity {
             }
         });
 
+    }
+    public static String currentpoint(String result) {
+
+        DecimalFormatSymbols dfs = new DecimalFormatSymbols();
+        dfs.setGroupingSeparator(',');
+
+        DecimalFormat df = new DecimalFormat("###,###,###,###");
+        df.setDecimalFormatSymbols(dfs);
+
+        try {
+            double inputNum = Double.parseDouble(result);
+            result = df.format(inputNum);
+        } catch (NumberFormatException e) {
+            // TODO: handle exception
+        }
+
+        return result;
     }
     private class back extends AsyncTask<String, Integer,Bitmap> {
         @Override

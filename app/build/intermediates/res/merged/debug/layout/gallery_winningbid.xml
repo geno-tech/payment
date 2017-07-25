@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:text="낙찰된 입찰가"
+            tools:text="판매가"
             android:gravity="center"
             android:id="@+id/winningbidding_txt"/>
     </LinearLayout>
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:id="@+id/winningbidding_txt2"
-        tools:text="누구님이 입찰하신 @@@원에 낙찰되었습니다"/>
+        tools:text="누구님이 입찰하신 @@@원에 구매되었습니다"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -80,13 +80,13 @@ public class BidderAddress extends Activity {
             @Override
             public void onClick(View view) {
                 if (!payment_btn.getText().equals("입금 완료")) {
-                    Toast.makeText(BidderAddress.this, "최종으로 낙찰 된 금액을 결제 해 주시길 바랍니다.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(BidderAddress.this, "최종으로 입금 된 금액을 결제 해 주시길 바랍니다.", Toast.LENGTH_SHORT).show();
                 } else if (et_address.getText().toString().length() == 0 || et_address_detail.getText().toString().length() == 0) {
                     Toast.makeText(BidderAddress.this, "주소를 입력해 주시길 바랍니다.", Toast.LENGTH_SHORT).show();
                 } else if (payment_btn.getText().equals("입금 완료") && (et_address.getText().toString().length() != 0 || et_address_detail.getText().toString().length() != 0)){
                     BiddingWinArtistAgree(auckey);
                     //String address = et_address.getText().toString() + et_address_detail.getText().toString();
-                    String address = et_address.getText().toString();
+                    String address = et_address.getText().toString() + " " + et_address_detail.getText().toString();
                     Log.d("@@@@@@@", bidkey + auckey +bidprice+userID+address);
                     BidBuy(bidkey ,auckey ,bidprice ,userID , address);
                     Intent intent = new Intent(BidderAddress.this, BidderMainActivity.class);
@@ -94,7 +94,7 @@ public class BidderAddress extends Activity {
 
                     startActivity(intent);
                     finish();
-                    //Log.d("@@@@@@@",bidkey+ "," +auckey + "," +bidprice + "," +userID + "," +address);
+                    Log.d("@@@@@@@",bidkey+ "," +auckey + "," +bidprice + "," +userID + "," +address);
                 }
             }
         });
@@ -168,7 +168,7 @@ public class BidderAddress extends Activity {
 
         try {
             double inputNum = Double.parseDouble(result);
-            result = df.format(inputNum).toString();
+            result = df.format(inputNum);
         } catch (NumberFormatException e) {
             // TODO: handle exception
         }

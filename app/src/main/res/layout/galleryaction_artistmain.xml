@@ -283,7 +283,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                android:text="그림을 선택하시면 계약서 낙찰 및 계약서 동의가 진행됩니다."
+                android:text="그림을 선택하시면 판매확정 및 계약서 동의가 진행됩니다."
                 android:textSize="15sp"/>
         </LinearLayout>
         <LinearLayout

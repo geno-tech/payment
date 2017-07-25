@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/addbutton_xml"
-            android:text="낙찰"
+            android:text="판매"
             android:layout_marginRight="15dp"
             android:id="@+id/artistwinningbid_btn"/>
         <Button

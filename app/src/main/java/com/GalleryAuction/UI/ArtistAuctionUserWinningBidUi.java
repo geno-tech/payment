@@ -171,7 +171,7 @@ public class ArtistAuctionUserWinningBidUi extends Activity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         BiddingWinArtistCancel(auckey);
-                        Toast.makeText(ArtistAuctionUserWinningBidUi.this, "낙찰을 취소하였습니다", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ArtistAuctionUserWinningBidUi.this, "구매를 취소하였습니다", Toast.LENGTH_SHORT).show();
                         finish();
                     }
                 }).setNegativeButton("취소", new DialogInterface.OnClickListener() {

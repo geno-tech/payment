@@ -174,7 +174,7 @@ public class ArtInfoTagList extends Activity {
                     startActivity(intent1);
                     finish();
                 } else if (auction.equals("4")) {
-                    Toast.makeText(ArtInfoTagList.this, "아티스트의 낙찰을 기다리는 중 입니다.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ArtInfoTagList.this, "아티스트의 판매동의를 기다리는 중 입니다.", Toast.LENGTH_SHORT).show();
                 } else if (auction.equals("6")) {
                     Toast.makeText(ArtInfoTagList.this, "아티스트의 동의를 기다리는 중 입니다.", Toast.LENGTH_SHORT).show();
 

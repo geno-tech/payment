@@ -148,7 +148,7 @@ public class ArtInformation2 extends Activity implements View.OnClickListener{
                     startActivity(intent);
                     finish();
                 } else if(auction.equals("5")||auction.equals("4") || auction.equals("6")){
-                    Toast.makeText(ArtInformation2.this, "낙찰된 다른 유저와 경매진행중입니다..", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ArtInformation2.this, "구입한 다른 유저와 경매진행중입니다..", Toast.LENGTH_SHORT).show();
 
                 } else if(auction.equals("7") ) {
                     Toast.makeText(ArtInformation2.this, "경매가 완료되었습니다.", Toast.LENGTH_SHORT).show();

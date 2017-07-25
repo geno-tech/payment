@@ -47,7 +47,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
     SimpleDateFormat sdf;
     Bitmap bmImg;
     back task;
-    String userId, artinfo;
+    String userId, tagid;
     long now, start, ne, dd, nd, HH, nH, mm, ss;
     NfcAdapter  nfcAdapter;
     PendingIntent pendingIntent;
@@ -68,14 +68,14 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         pendingIntent = PendingIntent.getActivity(this, 0, intent2, 0);
 //        dbHelper = new DBHelper(getApplicationContext(), "MoneyBook.db", null, 1);
         Intent intent = getIntent();
-        artinfo = intent.getStringExtra("artinfo");
+        tagid = intent.getStringExtra("tagid");
         //Log.d("HH", artinfo);
         userId = intent.getStringExtra("userID");
         name = intent.getStringExtra("name");
-        Log.d("@@@@@", ""+name);
+        Log.d("@@@", ""+tagid);
 
         try {
-            JSONObject job = new JSONObject(artinfo);
+            JSONObject job = new JSONObject(ArtInfo(tagid));
 
             artkey = job.get("art_seq").toString();
             nfcid = job.get("nfc_id").toString();
@@ -95,6 +95,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
             n.printStackTrace();
             Toast.makeText(ArtInformation.this, "다시시도하세요", Toast.LENGTH_SHORT).show();
         }
+        Log.d("@@@@@@", aucstart);
         try {
             date = sdf.parse(aucstart);
             start = date.getTime();

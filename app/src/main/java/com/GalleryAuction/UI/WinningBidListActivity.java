@@ -195,8 +195,8 @@ public class WinningBidListActivity extends Activity {
         min_bidding = mybest==null?0:Long.parseLong(mybest);
         min_bidding2 = best==null?0:Long.parseLong(best);
 
-        tv2.setText("낙찰가는 " + ReBidding.currentpoint(String.valueOf(min_bidding2)) + "원 입니다");
-        tv3.setText("당신의 입찰가는 " + ReBidding.currentpoint(String.valueOf(min_bidding)) + "원 입니다");
+        tv2.setText("구매가격은 " + ReBidding.currentpoint(String.valueOf(min_bidding2)) + "원 입니다");
+        tv3.setText("당신의 추가금액은 " + ReBidding.currentpoint(String.valueOf(min_bidding)) + "원 입니다");
         if (bid.equals("0")|| bid.equals("2")) {
             btn1.setVisibility(View.GONE);
             btn2.setVisibility(View.GONE);
@@ -261,7 +261,7 @@ public class WinningBidListActivity extends Activity {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             BiddingWinUserCancel(auckey);
-                            Toast.makeText(WinningBidListActivity.this, "낙찰을 취소하였습니다", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(WinningBidListActivity.this, "판매를 취소하였습니다", Toast.LENGTH_SHORT).show();
                             finish();
                         }
                     }).setNegativeButton("취소", new DialogInterface.OnClickListener() {

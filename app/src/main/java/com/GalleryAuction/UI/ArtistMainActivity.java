@@ -117,7 +117,7 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                 image = job.get("art_image").toString();
                 artkey = job.get("art_seq").toString();
                 bidding = job.get("bid_price").toString();
-                min_bidding = bidding == "0"  ? "비낙찰" : "낙찰가 : " +bidding+ "원";
+                min_bidding = bidding == "0"  ? "판매되지 않음" : "구매가 : " +bidding+ "원";
 
                 adapter_complete.addItem(min_bidding, getImageBitmap(imgUrl + image));
             }
@@ -137,11 +137,11 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                     auc_status = job.get("auc_status").toString();
                     bidding = job.get("bid_price").toString();
                     image = job.get("art_image").toString();
-                    min_bidding = bidding == "0"  ? "비낙찰" : "낙찰가 : " +bidding+ "원";
+                    min_bidding = bidding == "0"  ? "판매되지 않음" : "구매가 : " +bidding+ "원";
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                if (min_bidding.equals("비낙찰")) {
+                if (min_bidding.equals("판매되지 않음")) {
                     AlertDialog.Builder alert = new AlertDialog.Builder(ArtistMainActivity.this);
                     alert.setMessage(min_bidding + "입니다. 취소하시겠습니까?").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
                         @Override
