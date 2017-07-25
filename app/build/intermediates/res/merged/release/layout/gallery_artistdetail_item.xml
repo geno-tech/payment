@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/bidderfaceimg"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailitem1_txt"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailitem2_txt"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/detailitem3_txt"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="삭제"-->
+    <!--android:id="@+id/artinfolistremove_btn"/>-->
+</LinearLayout>

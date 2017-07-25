@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/coupon_top" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="쿠폰 리스트"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="233dp" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ToggleButton
+            android:id="@+id/toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/toggle_button"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textOff="쿠폰"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textOn="정산" />
+
+        <ImageButton
+            android:id="@+id/issuebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/toggle"
+            android:background="@drawable/issue_button"
+            android:onClick="mOnClick" />
+    </RelativeLayout>
+
+</LinearLayout>

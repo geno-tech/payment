@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:text="Gallery Auction"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#447fff"
+            android:text="For buyer"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#447fff"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:text="제목 - 이름"
+                android:id="@+id/bidderinfo_title_name"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="남은시간"
+                android:id="@+id/bidderinfo_time_txt"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/auctionartimage_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@color/success_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/layout"
+            android:padding="15dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#447fff"
+                android:textStyle="bold"
+                android:text="작품명 : "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="작품이름"
+                    android:id="@+id/bidderinfo_title_txt"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#447fff"
+                    android:textStyle="bold"
+                    android:text="작품설명 : "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="쿵기작쿵더러러러러러러러사과복숭아포도딸기맛사탕토레타10가지 과채의 착한 수분"
+                    android:id="@+id/bidderinfo_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_marginBottom="25dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#447fff"
+                android:textStyle="bold"
+                android:text="현재 응찰 인원  :  "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="응찰인원/현재몇번째응찰자인지"
+                android:id="@+id/bidderinfo_lownum_txt"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#447fff"
+                android:textStyle="bold"
+                android:text="현재 최고 Bidding : "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bestbidding_txt_bidding"
+                android:text="최고 입찰가 확인"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#447fff"
+                android:textStyle="bold"
+                android:text="내 가격  :  "/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="입찰가 입력"
+                android:id="@+id/bidding_edt"
+                android:inputType="number"
+                android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/bidding_btn"
+            android:text="응찰하기" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:id="@+id/bidding_x_btn"
+            android:text="취소"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

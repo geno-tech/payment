@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:gravity="right">
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_x"
+        android:text="X"
+        android:textColor="#ffffff"
+        android:id="@+id/tagexplanation_dialog_extbtn"/>
+   <TextView
+       android:layout_width="200dp"
+       android:layout_height="150dp"
+       android:padding="10dp"
+       android:textSize="15sp"
+       android:text="현재 진행하고 있는 Auction의 정보입니다. \n 해당 작품에 관심이 있다면 휴대폰을 카드에 NFC Tag하여 작품의 정보와 Auction에 참여할 수 있습니다. "/>
+
+    </LinearLayout>
+</LinearLayout>

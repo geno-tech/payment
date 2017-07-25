@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.GalleryAuction.UI.ArtistAddress">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/artist_address_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:src="@color/success_color" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#447fff"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="title"
+            android:id="@+id/artist_address_imgtitle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/round_background"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#447fff"
+            android:textStyle="bold"
+            android:text="구매자 ID : "
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/artist_address_id"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#447fff"
+        android:textStyle="bold"
+        android:text="구매자 이름 : " />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/artist_address_name"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#447fff"
+            android:textStyle="bold"
+            android:text="핸드폰 번호 : "
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/artist_address_phone"/>
+        </LinearLayout>
+
+        <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#447fff"
+            android:textStyle="bold"
+            android:text="구매 가격 : "
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/artist_address_price"/>
+        </LinearLayout>
+
+        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#447fff"
+            android:textStyle="bold"
+            android:text="구매자 주소 : "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/artist_address_address"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="#FF8200"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="나가기"
+            android:id="@+id/artist_address_exitbtn"/>
+    </LinearLayout>
+</LinearLayout>

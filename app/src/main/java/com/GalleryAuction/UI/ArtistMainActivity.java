@@ -320,10 +320,10 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                     int Now_sum = Now_HH + Now_mm;
                     int Start_sum = Start_HH + Start_mm;
                     int End_sum = End_HH + End_mm;
-                    if (Now_sum >= Start_sum -3 || Now_sum >= End_sum -3){
+                    if (Now_sum >= Start_sum -1 || Now_sum >= End_sum -1){
                         Toast.makeText(ArtistMainActivity.this, "현재 시간에서 3분 이후로 등록할 수 있습니다.", Toast.LENGTH_SHORT).show();
 
-                    } else if (Start_sum >= End_sum -30) {
+                    } else if (Start_sum >= End_sum -6) {
                         Toast.makeText(ArtistMainActivity.this, "경매시간은 최소 30분 이상으로 설정해야 합니다.", Toast.LENGTH_SHORT).show();
 
                     }else {
