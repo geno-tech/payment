@@ -16,7 +16,7 @@ import android.view.Window;
 
 import com.ajantech.nfc_network.ShareData;
 import com.ajantech.nfcpaymentsystem.DbHelper;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 public class Title extends Activity {
 	private final int HM_SHOW_TYPE_DIALOG = 0;

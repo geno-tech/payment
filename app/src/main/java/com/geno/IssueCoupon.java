@@ -27,7 +27,7 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

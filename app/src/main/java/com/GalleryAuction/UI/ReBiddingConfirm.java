@@ -19,7 +19,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.GalleryAuction.Adapter.ArtistAuctionDetailAdapter;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import java.io.IOException;
 import java.io.InputStream;

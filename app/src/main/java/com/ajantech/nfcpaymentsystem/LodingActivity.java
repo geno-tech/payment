@@ -9,7 +9,7 @@ import android.view.KeyEvent;
 import com.ajantech.nfcpaymentsystem.ui.PwCommon;
 import com.ajantech.nfcpaymentsystem.ui.Start;
 import com.geno.MainActivity;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 public class LodingActivity extends FragmentActivity {
 

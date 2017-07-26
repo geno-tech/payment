@@ -31,7 +31,7 @@ import android.widget.Toast;
 import com.ajantech.nfc_network.CommunicationService;
 import com.ajantech.nfc_network.ShareData;
 import com.ajantech.nfc_network.request.TransactionalInformationRequestStruct;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 @SuppressWarnings("deprecation")
 public class Main extends TabActivity implements CreateNdefMessageCallback {

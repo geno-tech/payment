@@ -20,7 +20,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 public class Join extends Activity {
 	DBHelper dbHelper, dbHelper2, dbHelper3, dbHelper4; //디비

@@ -20,7 +20,7 @@ import android.widget.Toast;
 
 import com.GalleryAuction.Client.ImageViewItem;
 import com.GalleryAuction.Dialog.WebViewAddressDialog;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -35,7 +35,7 @@ import static com.GalleryAuction.Item.HttpClientItem.BiddingWinArtistAgree;
 public class BidderAddress extends Activity {
     private static final int SEARCH_ADDRESS_ACTIVITY = 10000;
     Button payment_btn, OK_btn, Exit_btn;
-    String title,image,auckey,aucstatus,artistname,bidprice,userID,bidkey;
+    String title,image,auckey,aucstatus,artistname,bidprice,userID,bidkey, biddername, bidderhp;
     TextView title_name_txt, price_txt;
     ImageView imView;
     String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
@@ -63,6 +63,8 @@ public class BidderAddress extends Activity {
         bidprice = intent.getStringExtra("bidprice");
         userID = intent.getStringExtra("userID");
         bidkey = intent.getStringExtra("bidkey");
+        biddername = intent.getStringExtra("biddername");
+        bidderhp = intent.getStringExtra("bidderhp");
         task = new back();
         task.execute(imgUrl+image);
         title_name_txt.setText(title + " - " + artistname);
@@ -121,6 +123,8 @@ public class BidderAddress extends Activity {
                 intent.putExtra("bidprice", bidprice);
                 intent.putExtra("userID", userID);
                 intent.putExtra("bidkey",bidkey);
+                intent.putExtra("biddername",biddername);
+                intent.putExtra("bidderhp",bidderhp);
                 startActivity(intent);
                 finish();
             }

@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 public class SearchListBaseAdapter extends BaseAdapter{
 	private final String TAG = "SearchListBaseAdapter";

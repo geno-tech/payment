@@ -19,7 +19,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -11,7 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 public class Agreement extends Activity {
 	private SharedPreferences mSprefs;

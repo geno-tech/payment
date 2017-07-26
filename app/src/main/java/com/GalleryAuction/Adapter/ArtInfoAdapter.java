@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.GalleryAuction.Item.ArtInfoItem;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 public class ArtInfoAdapter extends BaseAdapter {
     // 문자열 보관 ArrayList

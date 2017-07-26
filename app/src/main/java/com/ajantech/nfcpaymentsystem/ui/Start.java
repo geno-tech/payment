@@ -15,7 +15,7 @@ import android.view.Window;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 public class Start extends Activity {
 

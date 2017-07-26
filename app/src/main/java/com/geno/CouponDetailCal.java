@@ -18,7 +18,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import java.util.ArrayList;
 
@@ -75,26 +75,26 @@ public class CouponDetailCal extends Activity {
 		int couponNum;
 		if(payDbList.get(1).equals("롯데백화점"))
 		{
-			couponNum = res.getIdentifier("coupon_1", "drawable", "com.geno.bill_folder");
+			couponNum = res.getIdentifier("coupon_1", "drawable", "com.geno.payment");
 		} else if(payDbList.get(1).equals("신세계백화점"))
 		{
-			couponNum = res.getIdentifier("coupon_2", "drawable", "com.geno.bill_folder");
+			couponNum = res.getIdentifier("coupon_2", "drawable", "com.geno.payment");
 		}
 		else if(payDbList.get(1).equals("NC"))
 		{
-			couponNum = res.getIdentifier("coupon_3", "drawable", "com.geno.bill_folder");
+			couponNum = res.getIdentifier("coupon_3", "drawable", "com.geno.payment");
 		}
 		else if(payDbList.get(1).equals("현대백화점"))
 		{
-			couponNum = res.getIdentifier("coupon_4", "drawable", "com.geno.bill_folder");
+			couponNum = res.getIdentifier("coupon_4", "drawable", "com.geno.payment");
 		}
 		else if(payDbList.get(1).equals("온누리"))
 		{
-			couponNum = res.getIdentifier("coupon_7", "drawable", "com.geno.bill_folder");
+			couponNum = res.getIdentifier("coupon_7", "drawable", "com.geno.payment");
 		}
 		else
 		{
-			couponNum = res.getIdentifier("coupon_5", "drawable", "com.geno.bill_folder");
+			couponNum = res.getIdentifier("coupon_5", "drawable", "com.geno.payment");
 		}
 		imgView.setBackgroundResource(couponNum);
 	}

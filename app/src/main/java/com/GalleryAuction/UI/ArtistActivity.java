@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 public class ArtistActivity extends Activity implements View.OnClickListener {
     Button a1,a2;

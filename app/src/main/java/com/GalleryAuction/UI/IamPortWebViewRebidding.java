@@ -17,7 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.GalleryAuction.Client.IamPortWebViewClient;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoInsert;
 

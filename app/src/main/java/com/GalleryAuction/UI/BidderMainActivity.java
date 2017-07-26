@@ -36,7 +36,7 @@ import com.GalleryAuction.Client.FingerprintAuthenticationDialogFragment4;
 import com.GalleryAuction.Dialog.TagExplanationDialog;
 import com.GalleryAuction.Item.BidderGoingItem;
 import com.GalleryAuction.Item.GridViewItem;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -74,7 +74,7 @@ public class BidderMainActivity extends AppCompatActivity implements View.OnClic
     LinearLayout SeeLayout, WinningBidLayout;
     Button SeeBtn, WinningBidBtn;
     TextView ArtistNamePhone_txt;
-    String name, title, auc_end, auc_start, art_content, userID, image, bidstatus, auckey, aucstatus, artistname, bidprice, bidkey, tagid, artistphone;
+    String name, title, auc_end, auc_start, art_content, userID, image, bidstatus, auckey, aucstatus, artistname, bidprice, bidkey, tagid, artistphone,biddername,bidderhp;
     String[] start, end, start_hhmm, end_hhmm;
     GridViewItem gridView, gridView_Winning, listView;
     GridAdapter gridAdapter, gridAdapter_Winning;
@@ -213,12 +213,14 @@ public class BidderMainActivity extends AppCompatActivity implements View.OnClic
 
                 end = auc_end.split(" ");
                 end_hhmm = end[1].split(":");
+                Log.d("@@@@@@", name);
 
                 bidderGoingAdapter.addItem(title, name, "진행시간 : " + start_hhmm[0] + "시" + start_hhmm[1] + "분" + " - " + end_hhmm[0] + "시" + end_hhmm[1] + "분");
             }
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
         try {
 
             JSONArray ja = new JSONArray(ArtAlbumSelect(userID));
@@ -292,10 +294,12 @@ public class BidderMainActivity extends AppCompatActivity implements View.OnClic
                         image = job.get("art_image").toString();
                         auckey = job.get("auc_seq").toString();
                         aucstatus = job.get("auc_status").toString();
-                        artistname = job.get("user_name").toString();
+                    artistname = job.get("artist_name").toString();
+                    biddername = job.get("bidder_name").toString();
+                    bidderhp = job.get("bidder_hp").toString();
                         bidprice = job.get("bid_price").toString();
                         bidkey = job.get("bid_seq").toString();
-                        artistphone = job.get("HP_NUMBER").toString();
+                        artistphone = job.get("artist_hp").toString();
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -350,6 +354,8 @@ public class BidderMainActivity extends AppCompatActivity implements View.OnClic
                         intent1.putExtra("bidprice", bidprice);
                         intent1.putExtra("userID", userID);
                         intent1.putExtra("bidkey",bidkey);
+                        intent1.putExtra("biddername",biddername);
+                        intent1.putExtra("bidderhp",bidderhp);
                         startActivity(intent1);
                     } else if (aucstatus.equals("7")) {
                         ArtistNamePhone_txt.setText("아티스트 이름 : " + artistname +"\n아티스트 휴대폰번호 : "+ artistphone );

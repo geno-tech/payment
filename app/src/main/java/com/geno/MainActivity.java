@@ -20,7 +20,7 @@ import com.GalleryAuction.UI.BidderMainActivity;
 import com.ajantech.nfc_network.ShareData;
 import com.ajantech.nfcpaymentsystem.ClearEditText;
 import com.ajantech.nfcpaymentsystem.ui.Main;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 public class MainActivity extends Activity { //액티비티 정의
 

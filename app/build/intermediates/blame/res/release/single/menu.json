@@ -4,6 +4,14 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\menu\\setting.xml",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\menu\\setting.xml"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\menu\\setting.xml",
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\menu\\setting.xml"
     }

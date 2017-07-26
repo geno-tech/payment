@@ -22,7 +22,8 @@ import android.widget.Toast;
 import com.GalleryAuction.Adapter.GridAdapter;
 import com.GalleryAuction.Dialog.GridCustomDialog;
 import com.GalleryAuction.Item.GridViewItem;
-import com.geno.bill_folder.R;
+import com.ajantech.nfc_network.service.Login_tonek_WorkPart;
+import com.geno.payment.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -320,11 +321,13 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                     int Now_sum = Now_HH + Now_mm;
                     int Start_sum = Start_HH + Start_mm;
                     int End_sum = End_HH + End_mm;
-                    if (Now_sum >= Start_sum -1 || Now_sum >= End_sum -1){
-                        Toast.makeText(ArtistMainActivity.this, "현재 시간에서 3분 이후로 등록할 수 있습니다.", Toast.LENGTH_SHORT).show();
+                   Log.d("@@@@@@@@@@@", inTime + "," + data1.getText() + "," +data2.getText());
+                    if (Now_sum >= Start_sum  || Now_sum >= End_sum){
+                        Log.d("N@N@@@@@", Now_sum + ", " + Start_sum + ", " + End_sum );
+                        Toast.makeText(ArtistMainActivity.this, "현재 시간에서 1분 이후로 등록할 수 있습니다.", Toast.LENGTH_SHORT).show();
 
-                    } else if (Start_sum >= End_sum -6) {
-                        Toast.makeText(ArtistMainActivity.this, "경매시간은 최소 30분 이상으로 설정해야 합니다.", Toast.LENGTH_SHORT).show();
+                    } else if (Start_sum >= End_sum -2) {
+                        Toast.makeText(ArtistMainActivity.this, "경매시간은 최소 3분 이상으로 설정해야 합니다.", Toast.LENGTH_SHORT).show();
 
                     }else {
                         AlertDialog.Builder alert2 = new AlertDialog.Builder(ArtistMainActivity.this);
@@ -344,8 +347,8 @@ public class ArtistMainActivity extends AppCompatActivity implements View.OnClic
                                 int Now_sum = Now_HH + Now_mm;
                                 int Start_sum = Start_HH + Start_mm;
                                 int End_sum = End_HH + End_mm;
-                                if (Now_sum >= Start_sum -3 || Now_sum >= End_sum -3){
-                                    Toast.makeText(ArtistMainActivity.this, "현재 시간에서 3분 이후로 등록할 수 있습니다.", Toast.LENGTH_SHORT).show();
+                                if (Now_sum >= Start_sum  || Now_sum >= End_sum){
+                                    Toast.makeText(ArtistMainActivity.this, "현재 시간에서 1분 이후로 등록할 수 있습니다.", Toast.LENGTH_SHORT).show();
 
                                 } else {
                                     ArtAdd(artkey, inDate + "%20" + data1.getText(), inDate  +"%20" + data2.getText());

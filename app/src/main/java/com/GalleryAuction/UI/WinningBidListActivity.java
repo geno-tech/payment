@@ -30,7 +30,7 @@ import com.GalleryAuction.Adapter.WinningBidInfoAdapter;
 import com.GalleryAuction.Client.FingerprintAuthenticationDialogFragment4;
 import com.GalleryAuction.Client.FingerprintAuthenticationDialogFragment5;
 import com.GalleryAuction.Item.HttpClientItem;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

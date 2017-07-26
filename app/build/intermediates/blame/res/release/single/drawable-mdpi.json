@@ -1,5 +1,9 @@
 [
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\traditionalmarketbackground.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-mdpi\\traditionalmarketbackground.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\ic_launcher.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
@@ -12,12 +16,36 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-mdpi\\bluebackgroud.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\bluebackgroud.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-mdpi\\bluebackgroud.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\textinput.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-mdpi\\textinput.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\itemsearch_btn.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-mdpi\\itemsearch_btn.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\itemname.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-mdpi\\itemname.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\itemprice.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-mdpi\\itemprice.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\modifyinfo_btn.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-mdpi\\modifyinfo_btn.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\textinput.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-mdpi\\textinput.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\itemprice.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-mdpi\\itemprice.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\whitebutton.png",
@@ -28,12 +56,28 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-mdpi\\itemspiner.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\payment_btn.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-mdpi\\payment_btn.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\ic_launcher.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\traditionalmarketbackground.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-mdpi\\traditionalmarketbackground.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\modifyinfo_btn.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-mdpi\\modifyinfo_btn.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\itemspiner.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-mdpi\\itemspiner.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\whitebutton.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-mdpi\\whitebutton.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\itemsearch_btn.png",

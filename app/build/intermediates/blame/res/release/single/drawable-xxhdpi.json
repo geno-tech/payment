@@ -1,5 +1,9 @@
 [
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\tab_select_bg.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xxhdpi\\tab_select_bg.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\logo_ttt.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-xxhdpi\\logo_ttt.png"
     },
@@ -8,8 +12,16 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-xxhdpi\\textinput2.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\agreementbackground.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xxhdpi\\agreementbackground.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\tab_select_bg.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-xxhdpi\\tab_select_bg.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\tab_bg.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xxhdpi\\tab_bg.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\registerbutton.png",
@@ -20,12 +32,20 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-xxhdpi\\startbackgroud.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\textinput2.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xxhdpi\\textinput2.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\tab_bg.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-xxhdpi\\tab_bg.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\agreementbackground.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-xxhdpi\\agreementbackground.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\logo_ttt.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xxhdpi\\logo_ttt.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\startbutton.png",
@@ -36,7 +56,27 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\rigsterbutton.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xxhdpi\\rigsterbutton.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\startbutton.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xxhdpi\\startbutton.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\registerbutton.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xxhdpi\\registerbutton.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\rigsterbutton.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-xxhdpi\\rigsterbutton.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi\\startbackgroud.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xxhdpi\\startbackgroud.png"
     }
 ]

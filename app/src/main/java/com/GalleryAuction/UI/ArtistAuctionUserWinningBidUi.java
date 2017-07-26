@@ -26,7 +26,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.GalleryAuction.Client.FingerprintAuthenticationDialogFragment4;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;

@@ -3,21 +3,39 @@
 
     <item
         is-multidex="false"
-        jar="G:\AndroidStudio\payment_galleryaction (2)\app\libs\NfcSecurity.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
-        <dex dex="G:\AndroidStudio\payment_galleryaction (2)\app\build\intermediates\pre-dexed\debug\NfcSecurity_759d39136ec5c7597ba88ab6aa88ea01653bfe0d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="G:\AndroidStudio\payment_galleryaction (2)\app\libs\nfc_network.jar"
+        jar="G:\AndroidStudio\payment_galleryaction_3\app\lib\nfc_network.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="1bf803faf06679e288fcab5123480b37b8c93cfb">
-        <dex dex="G:\AndroidStudio\payment_galleryaction (2)\app\build\intermediates\pre-dexed\debug\nfc_network_892c255f7277169a4a3c83df4bcb77245cb09f69.jar" />
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\nfc_network_b211e0488148c6e0dd8b7b86518dd1aadb6c4aa5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\payment_galleryaction_2\app\libs\NfcSecurity.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_2\app\build\intermediates\pre-dexed\debug\NfcSecurity_d7285fa627b5668a8f555f89ab90bb9d8b4708c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\payment_galleryaction_3\app\lib\NfcSecurity.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\NfcSecurity_85356e508922bdb3fbbb67ecd367af92f56ee1af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\payment_galleryaction_2\app\libs\nfc_network.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1bf803faf06679e288fcab5123480b37b8c93cfb">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_2\app\build\intermediates\pre-dexed\debug\nfc_network_32a8f89ef906aba28cf3b20d4db43df999af0920.jar" />
     </item>
 
 </items>

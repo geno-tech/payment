@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import static com.GalleryAuction.Client.TagInfoClient.toHexString;
 import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;

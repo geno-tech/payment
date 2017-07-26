@@ -34,7 +34,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 /**
  * A dialog which uses fingerprint APIs to authenticate the user, and falls back to password

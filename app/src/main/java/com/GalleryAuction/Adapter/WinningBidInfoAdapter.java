@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.GalleryAuction.Item.ArtInfoItem;
 import com.GalleryAuction.Item.WinningBidInfoItem;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import java.util.ArrayList;
 

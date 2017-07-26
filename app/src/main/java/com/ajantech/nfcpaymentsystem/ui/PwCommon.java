@@ -35,7 +35,7 @@ import com.ajantech.nfc_network.request.DefaultRequestStruct;
 import com.ajantech.nfc_network.request.ErrorRequestStruct;
 import com.ajantech.nfcpaymentsystem.ClearEditText;
 import com.geno.MainActivity;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 public class PwCommon extends Activity implements OnClickListener, OnNFCServiceCallBack{
 	private final String TAG = "PwCommon";

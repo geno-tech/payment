@@ -21,7 +21,7 @@ import android.os.CancellationSignal;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 /**
  * Small helper class to manage text/icon around fingerprint authentication UI.

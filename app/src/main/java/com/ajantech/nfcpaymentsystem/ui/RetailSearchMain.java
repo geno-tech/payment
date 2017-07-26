@@ -13,7 +13,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.TabHost;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 @SuppressWarnings("deprecation")
 public class RetailSearchMain extends TabActivity {

@@ -83,7 +83,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:34:17
 	android:name
 		ADDED from AndroidManifest.xml:34:27
-activity#com.geno.bill_folder.coupon_list
+activity#com.geno.payment.coupon_list
 ADDED from AndroidManifest.xml:37:9
 	android:label
 		ADDED from AndroidManifest.xml:39:13
@@ -113,7 +113,7 @@ ADDED from AndroidManifest.xml:49:9
 		ADDED from AndroidManifest.xml:51:13
 	android:name
 		ADDED from AndroidManifest.xml:50:13
-activity#com.geno.bill_folder.MainActivity
+activity#com.geno.payment.MainActivity
 ADDED from AndroidManifest.xml:54:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:58:13
@@ -243,43 +243,43 @@ ADDED from AndroidManifest.xml:139:9
 		ADDED from AndroidManifest.xml:141:13
 	android:name
 		ADDED from AndroidManifest.xml:140:13
-activity#com.geno.bill_folder.IssueCoupon
+activity#com.geno.payment.IssueCoupon
 ADDED from AndroidManifest.xml:143:9
 	android:label
 		ADDED from AndroidManifest.xml:145:13
 	android:name
 		ADDED from AndroidManifest.xml:144:13
-activity#com.geno.bill_folder.CouponDetailCal
+activity#com.geno.payment.CouponDetailCal
 ADDED from AndroidManifest.xml:147:9
 	android:label
 		ADDED from AndroidManifest.xml:149:13
 	android:name
 		ADDED from AndroidManifest.xml:148:13
-activity#com.geno.bill_folder.CouponDetailPaid
+activity#com.geno.payment.CouponDetailPaid
 ADDED from AndroidManifest.xml:151:9
 	android:label
 		ADDED from AndroidManifest.xml:153:13
 	android:name
 		ADDED from AndroidManifest.xml:152:13
-activity#com.geno.bill_folder.CouponDetailFree
+activity#com.geno.payment.CouponDetailFree
 ADDED from AndroidManifest.xml:155:9
 	android:label
 		ADDED from AndroidManifest.xml:157:13
 	android:name
 		ADDED from AndroidManifest.xml:156:13
-activity#com.geno.bill_folder.Agreement
+activity#com.geno.payment.Agreement
 ADDED from AndroidManifest.xml:159:9
 	android:label
 		ADDED from AndroidManifest.xml:161:13
 	android:name
 		ADDED from AndroidManifest.xml:160:13
-activity#com.geno.bill_folder.Join
+activity#com.geno.payment.Join
 ADDED from AndroidManifest.xml:163:9
 	android:label
 		ADDED from AndroidManifest.xml:165:13
 	android:name
 		ADDED from AndroidManifest.xml:164:13
-activity#com.geno.bill_folder.DbConnect
+activity#com.geno.payment.DbConnect
 ADDED from AndroidManifest.xml:167:9
 	android:label
 		ADDED from AndroidManifest.xml:169:13

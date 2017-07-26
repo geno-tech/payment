@@ -44,7 +44,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -601,22 +601,22 @@ public class CouponDetailPaid extends Activity implements
 		int couponNum;
 		if (basicDbList.get(1).equals("롯데백화점")) {
 			couponNum = res.getIdentifier("coupon_1", "drawable",
-					"com.geno.bill_folder");
+					"com.geno.payment");
 		} else if (basicDbList.get(1).equals("신세계백화점")) {
 			couponNum = res.getIdentifier("coupon_2", "drawable",
-					"com.geno.bill_folder");
+					"com.geno.payment");
 		} else if (basicDbList.get(1).equals("NC")) {
 			couponNum = res.getIdentifier("coupon_3", "drawable",
-					"com.geno.bill_folder");
+					"com.geno.payment");
 		} else if (basicDbList.get(1).equals("현대백화점")) {
 			couponNum = res.getIdentifier("coupon_4", "drawable",
-					"com.geno.bill_folder");
+					"com.geno.payment");
 		} else if (basicDbList.get(1).equals("온누리")) {
 			couponNum = res.getIdentifier("coupon_7", "drawable",
-					"com.geno.bill_folder");
+					"com.geno.payment");
 		} else {
 			couponNum = res.getIdentifier("coupon_5", "drawable",
-					"com.geno.bill_folder");
+					"com.geno.payment");
 		}
 		imgView.setBackgroundResource(couponNum);
 
@@ -815,7 +815,7 @@ public class CouponDetailPaid extends Activity implements
 				+ "\ntrat:" + nowTime + "\ntraf:"
 				+ userName);
 		NdefMessage msg = new NdefMessage(new NdefRecord[] { createMimeRecord(
-				"application/com.geno_bill_folder", text.getBytes())
+				"application/com.geno.payment", text.getBytes())
 		/**
 		 * The Android Application Record (AAR) is commented out. When a device
 		 * receives a push with an AAR in it, the application specified in the

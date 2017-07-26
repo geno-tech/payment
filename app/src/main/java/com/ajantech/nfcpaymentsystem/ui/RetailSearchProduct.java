@@ -29,7 +29,7 @@ import com.ajantech.nfc_network.request.DefaultRequestStruct;
 import com.ajantech.nfc_network.request.SearchGoodsRequestStruct;
 import com.ajantech.nfc_network.request.SearchGoodsRequestStruct.TradeData;
 import com.ajantech.nfcpaymentsystem.SearchListBaseAdapter;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 public class RetailSearchProduct extends Activity implements OnNFCServiceCallBack {
 	private final String TAG = "RetailSearchProduct";

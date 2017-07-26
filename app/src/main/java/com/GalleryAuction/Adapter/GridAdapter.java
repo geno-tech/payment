@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import com.GalleryAuction.Item.ArtistArtInfoItem;
 import com.GalleryAuction.Item.GridItem;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import java.util.ArrayList;
 

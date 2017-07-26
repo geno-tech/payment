@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 /**
  * 아이템으로 보여줄 뷰 정의

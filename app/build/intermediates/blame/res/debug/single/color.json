@@ -1,19 +1,7 @@
 [
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
@@ -28,8 +16,36 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
@@ -38,6 +54,70 @@
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
@@ -52,12 +132,16 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
@@ -76,10 +160,6 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\switch_thumb_material_light.xml"
     },
@@ -92,7 +172,7 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
@@ -104,12 +184,12 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
         "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
@@ -124,10 +204,6 @@
         "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\GOD\\.android\\build-cache\\145120b8b6794664e9f01188cbfc956d06a6e282\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
         "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
@@ -138,9 +214,5 @@
     {
         "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\WON\\.android\\build-cache\\3d27a136a9e42d176361eb3528af08d2ffad68a1\\output\\res\\color\\abc_primary_text_material_light.xml"
     }
 ]

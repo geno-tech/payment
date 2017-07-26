@@ -9,7 +9,7 @@ import android.os.Bundle;
 
 import com.GalleryAuction.Adapter.GridAdapter;
 import com.GalleryAuction.UI.ArtistMainActivity;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 import android.app.Dialog;
 import android.content.Context;
 import android.util.Log;

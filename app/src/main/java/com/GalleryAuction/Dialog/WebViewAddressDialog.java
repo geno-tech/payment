@@ -10,7 +10,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 public class WebViewAddressDialog extends Activity {
 

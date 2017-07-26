@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="nfc_network">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/nfc_network.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/lib/nfc_network.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

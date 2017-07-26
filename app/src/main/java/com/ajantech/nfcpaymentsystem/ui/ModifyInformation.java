@@ -36,7 +36,7 @@ import com.ajantech.nfc_network.ShareData;
 import com.ajantech.nfc_network.request.AuthTokenRequestStruct;
 import com.ajantech.nfc_network.request.DefaultRequestStruct;
 import com.ajantech.nfc_network.request.ErrorRequestStruct;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;

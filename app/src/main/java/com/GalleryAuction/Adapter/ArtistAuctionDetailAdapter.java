@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.GalleryAuction.Item.ArtistAuctionItem;
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;

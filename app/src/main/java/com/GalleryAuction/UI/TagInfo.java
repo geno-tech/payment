@@ -7,7 +7,7 @@ import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.os.Bundle;
 
-import com.geno.bill_folder.R;
+import com.geno.payment.R;
 
 import static com.GalleryAuction.Client.TagInfoClient.toHexString;
 import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
