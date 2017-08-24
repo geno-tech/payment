@@ -17,10 +17,13 @@
     </style>
 
     <!-- Application theme. -->
-    <style name="AppTheme" parent="AppBaseTheme">
-                <item name="windowActionBar">true</item>
-
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ffd000</item>
+        <item name="colorPrimaryDark">#303f9f</item>
+        <item name="colorAccent">#ff4081</item>
+        <!-- Customize picker mode here. -->
+        <item name="mdtp_theme_dark">true</item>
     </style>
     <style name="Yellow" parent="android:Theme.Holo.Light">
                 <item name="windowActionBar">true</item>

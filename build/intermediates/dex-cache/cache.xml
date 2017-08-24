@@ -3,21 +3,48 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\eda8610f7dddce066eb86554f5b07fa930e2abb5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_54b19180e2d90fe3add4160cfb83a791abad9378.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="G:\AndroidStudio\payment_galleryaction_3\app\lib\nfc_network.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="1bf803faf06679e288fcab5123480b37b8c93cfb">
+        sha1="6f736259f97f06a45e6628b7833bab77ac76556d">
         <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\nfc_network_b211e0488148c6e0dd8b7b86518dd1aadb6c4aa5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="G:\AndroidStudio\payment_galleryaction_2\app\libs\NfcSecurity.jar"
+        jar="G:\AndroidStudio\payment_galleryaction_3\app\lib\httpclient-cache-4.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
-        <dex dex="G:\AndroidStudio\payment_galleryaction_2\app\build\intermediates\pre-dexed\debug\NfcSecurity_d7285fa627b5668a8f555f89ab90bb9d8b4708c5.jar" />
+        sha1="96430170a9413a4a136958b42b1dac687f2dedd1">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\httpclient-cache-4.3_776651613f189efcd6c93d42c0318ad72bb39c8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\a400d68b29ebf9fa8d85d3162dfa727bad7eb7ef\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_14db77fc7e9299378bf1764eddc3d31f37c805fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\payment_galleryaction_3\app\lib\httpmime-4.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae66673ba3ecf96c6afbc15afbaefbf67baacee2">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\httpmime-4.3_1811cd3e4beb24cd0e41e9ec8a6dcc529f51311e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -30,12 +57,183 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\81323597f3538978e970d81dc06cf5e6fa44611b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_88f12842e095fa51820621da06b7b73a1de42714.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\5cfc269393fcfa5e3e7ddb65a5ef135452b885a8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_f1bb050d2725da32312df634f6f4f17b3e3180cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="G:\AndroidStudio\payment_galleryaction_2\app\libs\nfc_network.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="1bf803faf06679e288fcab5123480b37b8c93cfb">
         <dex dex="G:\AndroidStudio\payment_galleryaction_2\app\build\intermediates\pre-dexed\debug\nfc_network_32a8f89ef906aba28cf3b20d4db43df999af0920.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\payment_galleryaction_3\app\lib\httpclient-4.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7229a14112ae72cc5bb3b4f7b1b52e6021f1fee">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\httpclient-4.3_e55e1570c7a6b539dedd0515d96037b14b8029b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\e6b0de755b5ee5bcedc4fb5fd2b0dddb52e7e40f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="189cdb5ed1f6c37a6c327b3a220ad1bb95bb64f1">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_3e990560be15258dea965ed788f152f2a7bec6aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\dffb7b932d450537d7934e8ff38a2e9f2ed57ce3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_85dd3ae989adc8c3c1ab40ef195440d65518b057.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\payment_galleryaction_3\app\lib\fluent-hc-4.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="314dce43d272b47ee78a8b849ff93b6a47de3e80">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\fluent-hc-4.3_bef1f8b1843c96addb8847642db52126b109a49a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\848a37ad598a37f292de583817bf6488a5201b2f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_897a979021bc268c5822a9febc6340e9567de1dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\d026dee8dff35322697eb9018c2ab7c7f7a6515e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_74ecb2b2a45202ce67b253a54994d8f91001bf91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\payment_galleryaction_3\app\lib\commons-codec-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b7f0fc8f61ecadeb3695f0b9464755eee44374d4">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\commons-codec-1.6_f15bb551fd192d13dae40d992dc9cf50b5d2d1d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\6837ba8baf018e89c096ab49baede984d8138d89\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_1f2b642dd37af8e22bd7b65a07e778801dade92a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_01bea3efc03cc0821b6f8ae2086435f002e39091.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\7e24c8187143a6219618b81a00ff8664ddee8c20\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_cf86ea1d5fad322e4763094917ff59b679370b91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\payment_galleryaction_3\app\lib\httpcore-4.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8dfd6286d04ad9dbf26cdf7d4ef5c8fad430cf30">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\httpcore-4.3_6845a6de2bd08a43fae0636b9e41f90c4fc6646a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\1385d6de3fbe431501ea80289bcb3d76415d82d0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_118324be0a553191515c8238c4a63eb48d35c3d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\payment_galleryaction_2\app\libs\NfcSecurity.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1357b9ca662ae2283ecfa09e6a5e3161e83221ac">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_2\app\build\intermediates\pre-dexed\debug\NfcSecurity_d7285fa627b5668a8f555f89ab90bb9d8b4708c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\351c0aeb69d95d380e8ae3306cbc29ca3b466a65\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8531f2d46b35de75e6130f25830e0c2c0d6bb98c">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_edc4ba33ad315c7bea4705ff5f2611918afd5944.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\payment_galleryaction_3\app\lib\commons-logging-1.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\commons-logging-1.1.3_bd5475cfe46e48e952240d1893dbc18fad000278.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\c9c06cd5b21f260fee2c6c928fb63acd5d493b4c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_bf15107a9230a4feb3812a11078c323ebaaf0d21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\GOD\.android\build-cache\882c1cf2920e425d2ae5063d3fb19244db2963df\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="G:\AndroidStudio\payment_galleryaction_3\app\build\intermediates\pre-dexed\debug\classes_0dce84db00fa33473cdc99173e6f51eef4c6909e.jar" />
     </item>
 
 </items>

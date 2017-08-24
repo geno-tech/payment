@@ -14,6 +14,8 @@ import android.nfc.Tag;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.util.Log;
 import android.view.Menu;
@@ -37,7 +39,7 @@ import com.ajantech.nfcpaymentsystem.ClearEditText;
 import com.geno.MainActivity;
 import com.geno.payment.R;
 
-public class PwCommon extends Activity implements OnClickListener, OnNFCServiceCallBack{
+public class PwCommon extends AppCompatActivity implements OnClickListener, OnNFCServiceCallBack{
 	private final String TAG = "PwCommon";
 	private final boolean D = true;
 
@@ -50,8 +52,7 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 	NfcAdapter  nfcAdapter;
 	PendingIntent pendingIntent;
     ShareData mConfingData = null;
-	String sitename = "회원가입을 원하시면 여기를 클릭해 주세요.";
-	TextView tv_join;
+	Button tv_join;
 	String mNewID = "";
 	Intent intent;
 
@@ -69,8 +70,9 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 		super.onCreate(savedInstanceState);
 //		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.pw_common);
-		tv_join = (TextView)findViewById(R.id.text_join);
-		tv_join.setText(Html.fromHtml("<u>" + sitename + "</u>"));
+		setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
+
+		tv_join = (Button)findViewById(R.id.text_join);
 		nfcAdapter = NfcAdapter.getDefaultAdapter(this);
 		Intent intent = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 		pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
@@ -85,7 +87,7 @@ public class PwCommon extends Activity implements OnClickListener, OnNFCServiceC
 			}
 		});
 	    CommunicationService.getInstance(this).registerNFCCallback(this);
-	    
+
 		pw_common_ok_btn = (Button) findViewById(R.id.pw_common_ok_btn);
 		pw_common_ok_btn.setOnClickListener(this);
 
