@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  */
 
 public class HttpClientItem {
-    public static String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
+    public static String imgUrl = "http://183.105.72.65:28989/NFCTEST/art_images/";
 
     //유저아이디와 그림Key 전달  -> 그림정보 받아옴
     public static void ArtAlbumList(String msg , String msg2) {
@@ -24,7 +24,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/artalbum_insert.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/artalbum_insert.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -48,7 +48,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/art_info.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/art_info.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -83,7 +83,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/artalbum_select.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/artalbum_select.jsp";
         DefaultHttpClient client = new DefaultHttpClient();
         try {
 
@@ -118,7 +118,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/artalbumremote.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/artalbumremote.jsp";
         DefaultHttpClient client = new DefaultHttpClient();
         try {
 
@@ -153,7 +153,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/art_info_artistid_list.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/art_info_artistid_list.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -188,7 +188,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/artist_auc_insert.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/artist_auc_insert.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -212,7 +212,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_win.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/bidding_win.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -247,7 +247,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_info_best.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/bidding_info_best.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -282,7 +282,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/artist_auc_cancle.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/artist_auc_cancle.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -317,7 +317,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/artist_bid_info.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/artist_bid_info.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -352,7 +352,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/artist_auc_cancle.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/artist_auc_cancle.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -387,7 +387,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/artist_auc_info.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/artist_auc_info.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -422,7 +422,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_win_artistAgree.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/bidding_win_artistAgree.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -452,12 +452,12 @@ public class HttpClientItem {
     }
 
     // auckey, 유저아이디, 입찰가
-    public static void BiddingInfoInsert(String msg, String msg2, String msg3) {
+    public static String BiddingInfoInsert(String msg, String msg2, String msg3) {
         if (msg == null) {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/biddinginfo_insert.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/biddinginfo_insert.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -470,8 +470,19 @@ public class HttpClientItem {
             BufferedReader bufreader = new BufferedReader(
                     new InputStreamReader(response.getEntity().getContent(),
                             "utf-8"));
+            String line = null;
+            String result = "";
+
+            while ((line = bufreader.readLine()) != null) {
+                result += line;
+
+            }
+            Log.d("result : ", result);
+            return result;
+
         } catch (Exception e) {
             e.printStackTrace();
+            return null;
         }
     }
     public static String BiddingWinUserAgree(String msg) {
@@ -479,7 +490,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_win_userAgree.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/bidding_win_userAgree.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -513,7 +524,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_info.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/bidding_info.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -546,7 +557,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_list.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/bidding_list.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -580,7 +591,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_win_userCancle.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/bidding_win_userCancle.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -613,7 +624,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_win_artistCancle.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/bidding_win_artistCancle.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -648,7 +659,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/auctionprogress.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/auctionprogress.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -682,7 +693,7 @@ public class HttpClientItem {
             user_id = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/auctionprogress.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/auctionprogress.jsp";
         DefaultHttpClient client = new DefaultHttpClient();
         try {
 
@@ -714,7 +725,7 @@ public class HttpClientItem {
             msg = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/bidding_count.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/bidding_count.jsp";
 
         DefaultHttpClient client = new DefaultHttpClient();
         try {
@@ -747,7 +758,7 @@ public class HttpClientItem {
         if (bid_seq == null) {
             bid_seq = "";
         }
-        String URL = "http://221.156.54.210:8989/NFCTEST/bid_buy.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/bid_buy.jsp";
         DefaultHttpClient client = new DefaultHttpClient();
         try {
            // Log.d("@@@@!@#!@#!@#", "실행됨 공백제거 전 :"+ address);
@@ -772,11 +783,101 @@ public class HttpClientItem {
             auc_seq = "";
         }
 
-        String URL = "http://221.156.54.210:8989/NFCTEST/auctionprogress.jsp";
+        String URL = "http://183.105.72.65:28989/NFCTEST/auctionprogress.jsp";
         DefaultHttpClient client = new DefaultHttpClient();
         try {
 
             HttpPost post = new HttpPost(URL + "?auc_seq=" + auc_seq + "&msg2=buyer");
+            HttpParams params = client.getParams();
+            HttpConnectionParams.setConnectionTimeout(params, 300000);
+            HttpConnectionParams.setSoTimeout(params, 300000);
+            HttpResponse response = client.execute(post);
+            BufferedReader bufreader = new BufferedReader(
+                    new InputStreamReader(response.getEntity().getContent(),
+                            "utf-8"));
+
+            String line = null;
+            String result = "";
+
+            while ((line = bufreader.readLine()) != null) {
+                result += line;
+
+            }
+            return result;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public static String contractor(String cont) {
+        if (cont == null) {
+            cont = "";
+        }
+
+        String URL = "http://183.105.72.65:28989/NFCTEST/contractor.jsp";
+        DefaultHttpClient client = new DefaultHttpClient();
+        try {
+            cont = cont.replaceAll(" ","%20");
+            cont = cont.replaceAll("<", "%3C");
+            cont = cont.replaceAll(">", "%3E");
+            cont = cont.replaceAll("\\n", "%0A");
+            cont = cont.replaceAll("\\(", "%28");
+            cont = cont.replaceAll("\\)", "%29");
+            cont = cont.replaceAll("\\[", "%5B");
+            cont = cont.replaceAll("\\]", "%5D");
+            cont = cont.replaceAll("\\t", "%09");
+//            cont = cont.replaceAll("!", "%21");
+//            cont = cont.replaceAll("\"", "%23");
+//            cont = cont.replaceAll(">", "%3E");
+//            cont = cont.replaceAll(">", "%3E");
+//            cont = cont.replaceAll(">", "%3E");
+//            cont = cont.replaceAll(">", "%3E");
+//            cont = cont.replaceAll(">", "%3E");
+//            cont = cont.replaceAll(">", "%3E");
+//            cont = cont.replaceAll(">", "%3E");
+//            cont = cont.replaceAll(">", "%3E");
+//            cont = cont.replaceAll(">", "%3E");
+//            cont = cont.replaceAll(">", "%3E");
+//            cont = cont.replaceAll(">", "%3E");
+//            cont = cont.replaceAll(">", "%3E");
+
+            HttpPost post = new HttpPost(URL + "?cont=" + cont);
+            HttpParams params = client.getParams();
+            HttpConnectionParams.setConnectionTimeout(params, 300000);
+            HttpConnectionParams.setSoTimeout(params, 300000);
+            HttpResponse response = client.execute(post);
+            BufferedReader bufreader = new BufferedReader(
+                    new InputStreamReader(response.getEntity().getContent(),
+                            "utf-8"));
+
+            String line = null;
+            String result = "";
+
+            while ((line = bufreader.readLine()) != null) {
+                result += line;
+
+            }
+            return result;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public static String PDFTest(String buyer, String buyerHp, String buyerName, String artist, String artistHp, String artistName, String artName) {
+        if (buyer == null) {
+            buyer = "";
+        }
+
+        String URL = "http://183.105.72.65:28989/NFCTEST/pdftest.jsp";
+        DefaultHttpClient client = new DefaultHttpClient();
+        try {
+            artName = artName.replaceAll(" ","%20");
+
+            HttpPost post = new HttpPost(URL + "?buyer=" + buyer + "&buyerHp=" + buyerHp + "&buyerName=" + buyerName + "&artist=" + artist + "&artistHp=" + artistHp + "&artistName=" + artistName + "&artName=" + artName );
             HttpParams params = client.getParams();
             HttpConnectionParams.setConnectionTimeout(params, 300000);
             HttpConnectionParams.setSoTimeout(params, 300000);

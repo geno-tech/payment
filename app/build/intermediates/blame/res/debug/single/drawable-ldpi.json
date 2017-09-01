@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_fingerprint_success.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_fingerprint_success.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_fingerprint_error.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_fingerprint_error.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_search_black_24dp.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_search_black_24dp.png"
+    }
+]

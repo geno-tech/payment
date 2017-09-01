@@ -53,7 +53,7 @@ public class WebViewAddressDialog extends Activity {
 
         //browser.loadUrl("file:///android_asset/daum.html");
         //browser.loadUrl("http://www.daddyface.com/public/daum.html");
-        browser.loadUrl("http://221.156.54.210:8989/NFCTEST/Sample.html");
+        browser.loadUrl("http://183.105.72.65:28989/NFCTEST/Sample.html");
 
 
 

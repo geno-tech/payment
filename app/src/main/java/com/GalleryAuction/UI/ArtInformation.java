@@ -9,6 +9,8 @@ import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -36,13 +38,13 @@ import static com.GalleryAuction.Item.HttpClientItem.ArtAlbumList;
 import static com.GalleryAuction.Item.HttpClientItem.ArtInfo;
 
 
-public class ArtInformation extends Activity implements View.OnClickListener{
+public class ArtInformation extends AppCompatActivity implements View.OnClickListener{
     Button btn1, btn2;
     String arttitle, arttext, image, artkey, nfcid, artistid, auckey ,aucstatus ,bidkey, aucstart, name, aucend ;
     TextView tv1, tv2;
     ImageView imView;
 
-    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
+    String imgUrl = "http://183.105.72.65:28989/NFCTEST/art_images/";
     Date date;
     SimpleDateFormat sdf;
     Bitmap bmImg;
@@ -62,6 +64,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         task = new back();
         imView = (ImageView) findViewById(R.id.imageView);
         sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
 
         nfcAdapter = NfcAdapter.getDefaultAdapter(this);
         Intent intent2 = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
@@ -95,14 +98,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
             n.printStackTrace();
             Toast.makeText(ArtInformation.this, "다시시도하세요", Toast.LENGTH_SHORT).show();
         }
-        Log.d("@@@@@@", aucstart);
-        try {
-            date = sdf.parse(aucstart);
-            start = date.getTime();
 
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
         tv1.setText(arttitle);
         tv2.setText(arttext);
         tv2.setMovementMethod(new ScrollingMovementMethod());
@@ -124,6 +120,13 @@ public class ArtInformation extends Activity implements View.OnClickListener{
                 }
                 else if (aucstatus.equals("2") ){
                     now = System.currentTimeMillis();
+                    try {
+                        date = sdf.parse(aucstart);
+                        start = date.getTime();
+
+                    } catch (ParseException e) {
+                        e.printStackTrace();
+                    }
                     long en = start-now;
                     if(en < 0){
                         ne = -(en)/1000; dd = ne/86400; nd = ne%86400; HH = nd/3600; nH = nd%3600; mm = nH/60; ss = nH%60;
@@ -136,6 +139,7 @@ public class ArtInformation extends Activity implements View.OnClickListener{
                     }
 //                    Toast.makeText(ArtInformation2.this, "곧 경매가 시작됩니다. 확인해 주세요.", Toast.LENGTH_SHORT).show();
                 }
+
                 else if (aucstatus.equals("3")) {
                     Intent intent = new Intent(ArtInformation.this, BidderInfo.class);
                     intent.putExtra("artimage", image);
@@ -159,18 +163,10 @@ public class ArtInformation extends Activity implements View.OnClickListener{
                 }
                 break;
             case R.id.auctionX_btn:
-//                JSONObject job = null;
-//                try {
-//                    job = new JSONObject(Artinfo(key));
-//                    arttitle = job.get("user_name").toString();
-//                    arttext = job.get("user_join_time").toString();
-//                    image = job.get("image").toString();
-//                } catch (JSONException e) {
-//                    e.printStackTrace();
-//                }
-//
-//                dbHelper.insert(arttext,image, arttitle);
-//                Log.d("aa",dbHelper.getResult());
+                Intent intent1 = new Intent(ArtInformation.this, BidderMainActivity.class);
+                intent1.putExtra("userID", userId);
+                startActivity(intent1);
+                finish();
 
                 finish();
                 break;
@@ -216,27 +212,29 @@ public class ArtInformation extends Activity implements View.OnClickListener{
         }
     }
     @Override
-    protected void onNewIntent(Intent intent) {
+    protected void onNewIntent(final Intent intent) {
         super.onNewIntent(intent);
+
         Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
         if (tag != null) {
             final byte[] tagId = tag.getId();
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    ArtAlbumList(userId, artkey);
                     Intent intent0 = getIntent();
                     String userID = intent0.getStringExtra("userID");
                     Intent intent = new Intent(ArtInformation.this, ArtInformation.class);
-                    intent.putExtra("artinfo",ArtInfo(toHexString(tagId)));
-                    intent.putExtra("userID",userID);
-                    //Log.d("tag",ArtInfo(toHexString(tagId)));
-                    startActivity(intent);
+                    intent.putExtra("tagid", toHexString(tagId));
+                    intent.putExtra("userID", userID);
+                    intent.putExtra("name", name);
 
+                    Log.d("tag",toHexString(tagId));
+                    startActivity(intent);
                     finish();
                 }
             }).start();
 
         }
+
     }
 }

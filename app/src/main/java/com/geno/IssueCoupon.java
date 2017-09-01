@@ -303,7 +303,7 @@ public class IssueCoupon extends Activity {
 				HttpClient httpClient = new DefaultHttpClient();
 				// replace with your url
 				HttpPost httpPost = new HttpPost(
-						"http://221.156.54.210:9999/db_connect.jsp");
+						"http://183.105.72.65:29999/db_connect.jsp");
 
 				// Post Data
 				List<NameValuePair> nameValuePair = new ArrayList<NameValuePair>(

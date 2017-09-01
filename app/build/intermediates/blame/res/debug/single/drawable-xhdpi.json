@@ -80,6 +80,14 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xhdpi\\itemprice.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_fingerprint_success.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_fingerprint_success.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_search_black_24dp.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_search_black_24dp.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\textinput.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-xhdpi\\textinput.png"
     },
@@ -110,6 +118,10 @@
     {
         "merged": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\itemname.png",
         "source": "C:\\Users\\WON\\Desktop\\payment_galleryaction\\app\\src\\main\\res\\drawable-xhdpi\\itemname.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_fingerprint_error.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_fingerprint_error.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",

@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -52,6 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_weight="0.01"
         android:layout_marginBottom="20dp">
 
         <ImageView
@@ -105,76 +107,130 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="bottom|center"
+        android:layout_marginBottom="25dp"
         android:layout_weight="2"
-        android:orientation="vertical"
-        android:layout_marginBottom="25dp">
+        android:gravity="bottom|center"
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="현재 응찰 인원  :  "
                 android:textColor="#447fff"
-                android:textStyle="bold"
-                android:text="현재 응찰 인원  :  "/>
+                android:textStyle="bold" />
+
             <TextView
+                android:id="@+id/bidderinfo_lownum_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="응찰인원/현재몇번째응찰자인지"
-                android:id="@+id/bidderinfo_lownum_txt"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#447fff"
-                android:textStyle="bold"
-                android:text="현재 최고 Bidding : "/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/bestbidding_txt_bidding"
-                android:text="최고 입찰가 확인"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#447fff"
-                android:textStyle="bold"
-                android:text="내 가격  :  "/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="입찰가 입력"
-                android:id="@+id/bidding_edt"
-                android:inputType="number"
-                android:singleLine="true"/>
+                android:text="응찰인원/현재몇번째응찰자인지" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        <Button
-            android:layout_width="wrap_content"
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="현재 최고 Bidding : "
+                android:textColor="#447fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bestbidding_txt_bidding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최고 입찰가 확인" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="내 가격  :  "
+                android:textColor="#447fff"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/bidding_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="입찰가 입력"
+                android:inputType="number"
+                android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:id="@+id/bidding_btn"
-            android:text="응찰하기" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginRight="20dp"
-            android:id="@+id/bidding_x_btn"
-            android:text="취소"/>
-    </LinearLayout>
+            android:gravity="center">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/plus"
+                android:layout_marginLeft="40dp"/>
+            <Button
+                android:id="@+id/bidding_5btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#00B0F0"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="5만" />
+            <Button
+                android:id="@+id/bidding_10btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#00B0F0"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="10만" />
+
+            <Button
+                android:id="@+id/bidding_50btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:background="#00B0F0"
+                android:layout_weight="1"
+                android:text="50만"/>
+            <Button
+                android:id="@+id/bidding_100btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#00B0F0"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:text="100만" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bidding_btn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:text="응찰하기" />
+
+            <Button
+                android:id="@+id/bidding_x_btn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:text="취소" />
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>

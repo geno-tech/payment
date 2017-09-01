@@ -8,6 +8,10 @@
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-mdpi\\itemspiner.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_search_black_24dp.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_search_black_24dp.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\whitebutton.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\src\\main\\res\\drawable-mdpi\\whitebutton.png"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\itemspiner.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\src\\main\\res\\drawable-mdpi\\itemspiner.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_fingerprint_success.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_fingerprint_success.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction (2)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\payment_btn.png",
@@ -238,6 +246,10 @@
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\bluebackgroud.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\src\\main\\res\\drawable-mdpi\\bluebackgroud.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_fingerprint_error.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_fingerprint_error.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\whitebutton.png",

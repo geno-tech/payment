@@ -954,7 +954,7 @@ public class ModifyInformation extends Activity implements OnNFCServiceCallBack 
 		if(msg == null)
 			msg = "";
 
-		String URL = "http://221.156.54.210:9999/change.jsp";
+		String URL = "http://183.105.72.65:29999/change.jsp";
 
 		DefaultHttpClient client = new DefaultHttpClient();
 		try {
@@ -992,7 +992,7 @@ public class ModifyInformation extends Activity implements OnNFCServiceCallBack 
 		if(msg == null)
 			msg = "";
 
-		String URL = "http://221.156.54.210:9999/load_name.jsp";
+		String URL = "http://183.105.72.65:29999/load_name.jsp";
 
 		DefaultHttpClient client = new DefaultHttpClient();
 		try {
@@ -1029,7 +1029,7 @@ public class ModifyInformation extends Activity implements OnNFCServiceCallBack 
 		if(msg == null)
 			msg = "";
 
-		String URL = "http://221.156.54.210:9999/load_pass.jsp";
+		String URL = "http://183.105.72.65:29999/load_pass.jsp";
 
 		DefaultHttpClient client = new DefaultHttpClient();
 		try {
@@ -1066,7 +1066,7 @@ public class ModifyInformation extends Activity implements OnNFCServiceCallBack 
 		if(msg == null)
 			msg = "";
 
-		String URL = "http://221.156.54.210:9999/load_hp.jsp";
+		String URL = "http://183.105.72.65:29999/load_hp.jsp";
 
 		DefaultHttpClient client = new DefaultHttpClient();
 		try {

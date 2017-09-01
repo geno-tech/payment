@@ -947,7 +947,7 @@ public class AddRegister extends Activity implements OnNFCServiceCallBack {
 		if(msg == null)
 			msg = "";
 
-		String URL = "http://221.156.54.210:9999/Confirm.jsp";
+		String URL = "http://183.105.72.65:29999/Confirm.jsp";
 
 		DefaultHttpClient client = new DefaultHttpClient();
 		try {

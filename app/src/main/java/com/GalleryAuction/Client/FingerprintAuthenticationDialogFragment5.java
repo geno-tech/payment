@@ -34,9 +34,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.GalleryAuction.UI.ArtistAuctionCompleteUi;
-import com.GalleryAuction.UI.ArtistAuctionUserWinningBidUi;
-import com.GalleryAuction.UI.WinningBidListActivity;
+import com.GalleryAuction.Dialog.ContractDialog;
+
 import com.geno.payment.R;
 
 /**
@@ -59,7 +58,7 @@ public class FingerprintAuthenticationDialogFragment5 extends DialogFragment
 
     private FingerprintManager.CryptoObject mCryptoObject;
     private FingerprintUiHelper mFingerprintUiHelper;
-    private ArtistAuctionCompleteUi mActivity;
+    private ContractDialog mActivity;
 
     private InputMethodManager mInputMethodManager;
     private SharedPreferences mSharedPreferences;
@@ -141,7 +140,7 @@ public class FingerprintAuthenticationDialogFragment5 extends DialogFragment
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        mActivity = (ArtistAuctionCompleteUi) activity;
+        mActivity = (ContractDialog) activity;
         mInputMethodManager = mActivity.getSystemService(InputMethodManager.class);
         mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(mActivity);
     }
@@ -186,7 +185,7 @@ public class FingerprintAuthenticationDialogFragment5 extends DialogFragment
 
             if (mUseFingerprintFutureCheckBox.isChecked()) {
                 // Re-create the key so that fingerprints including new ones are validated.
-                mActivity.createKey(ArtistAuctionCompleteUi.DEFAULT_KEY_NAME, true);
+                mActivity.createKey(ContractDialog.DEFAULT_KEY_NAME, true);
                 mStage = Stage.FINGERPRINT;
             }
         }

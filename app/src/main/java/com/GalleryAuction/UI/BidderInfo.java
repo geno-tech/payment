@@ -11,6 +11,8 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -19,6 +21,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.GalleryAuction.Service.MyService;
 import com.geno.payment.R;
 
 import org.json.JSONArray;
@@ -43,15 +46,15 @@ import static com.GalleryAuction.Item.HttpClientItem.BiddingCount;
 import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoBest;
 import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoInsert;
 
-public class BidderInfo extends Activity implements View.OnClickListener {
-    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
+public class BidderInfo extends AppCompatActivity implements View.OnClickListener {
+    String imgUrl = "http://183.105.72.65:28989/NFCTEST/art_images/";
     Bitmap bmImg;
-    Button btn1, btn2;
+    Button btn1, btn2, btn_5, btn_10, btn_50, btn_100;
     ImageView iv;
     EditText et ;
     TextView tv, titlename, titletxt, content_txt, time, rownumtxt;
     long bidding, min_bidding;
-    String artimmage, auckey, bidprice, title, name, content, auc_end, bid_count, userID, rownum;
+    String artimmage, auckey, bidprice, title, name, content, auc_end, bid_count, userID, rownum, bidpriceresult;
     NfcAdapter  nfcAdapter;
     PendingIntent pendingIntent;
 
@@ -62,9 +65,15 @@ public class BidderInfo extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gallerybidderinfo);
+        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
+
         back task;
         btn1 = (Button)findViewById(R.id.bidding_btn);
         btn2 = (Button)findViewById(R.id.bidding_x_btn);
+        btn_5 = (Button)findViewById(R.id.bidding_5btn);
+        btn_10 = (Button)findViewById(R.id.bidding_10btn);
+        btn_50 = (Button)findViewById(R.id.bidding_50btn);
+        btn_100 = (Button)findViewById(R.id.bidding_100btn);
         et = (EditText)findViewById(R.id.bidding_edt);
         tv = (TextView)findViewById(R.id.bestbidding_txt_bidding);
         rownumtxt = (TextView)findViewById(R.id.bidderinfo_lownum_txt);
@@ -87,6 +96,7 @@ public class BidderInfo extends Activity implements View.OnClickListener {
         content = intent.getStringExtra("content");
         auc_end = intent.getStringExtra("auc_end");
         userID = intent.getStringExtra("userId");
+        bidpriceresult = intent.getStringExtra("bidpriceresult");
         try {
             date = sdf.parse(auc_end);
             end = date.getTime();
@@ -134,6 +144,10 @@ public class BidderInfo extends Activity implements View.OnClickListener {
         task.execute(imgUrl+artimmage);
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
+        btn_5.setOnClickListener(this);
+        btn_10.setOnClickListener(this);
+        btn_50.setOnClickListener(this);
+        btn_100.setOnClickListener(this);
 
         min_bidding = bidprice==null?0:Long.parseLong(bidprice);
 
@@ -180,8 +194,21 @@ public class BidderInfo extends Activity implements View.OnClickListener {
                     String nowbidding = et.getText().toString();
                     Log.d("aff", userID+"와"+nowbidding);
 //                    BiddingInfo(auckey ,userID, nowbidding);
-                        BiddingInfoInsert(auckey, userID, nowbidding);
+                        try {
+                            JSONObject job = new JSONObject(BiddingInfoInsert(auckey, userID, nowbidding));
+                            bidpriceresult = job.get("result").toString();
 
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                        Log.d("@@@@@@@@@@@@@@@", auckey+ ","+userID + ","+nowbidding + ","+bidpriceresult);
+                        if (bidpriceresult.equals("0")) {
+                            Toast.makeText(this, "최고구매가를 다시 확인해주세요", Toast.LENGTH_SHORT).show();
+                        }
+                        Intent intent2 = new Intent(this, MyService.class);
+
+                        //서비스 시작시키기
+                        startService(intent2);
                     Intent intent = new Intent(BidderInfo.this, BidderInfo.class);
                         intent.putExtra("artimage", artimmage);
                         intent.putExtra("userId", userID);
@@ -207,6 +234,35 @@ public class BidderInfo extends Activity implements View.OnClickListener {
             case R.id.bidding_x_btn :
                 finish();
                 break;
+            case R.id.bidding_5btn :
+                if (et.getText().toString().length() == 0) {
+                    et.setText(String.valueOf(50000));
+                } else {
+                    et.setText(String.valueOf((Integer.parseInt(et.getText().toString()) + 50000)));
+                }
+                break;
+            case R.id.bidding_10btn :
+                if (et.getText().toString().length() == 0) {
+                    et.setText(String.valueOf(100000));
+                } else {
+                    et.setText(String.valueOf((Integer.parseInt(et.getText().toString()) + 100000)));
+                }
+                break;
+            case R.id.bidding_50btn :
+                if (et.getText().toString().length() == 0) {
+                    et.setText(String.valueOf(500000));
+                } else {
+                    et.setText(String.valueOf((Integer.parseInt(et.getText().toString()) + 500000)));
+                }
+                break;
+            case R.id.bidding_100btn :
+                if (et.getText().toString().length() == 0) {
+                    et.setText(String.valueOf(1000000));
+                } else {
+                    et.setText(String.valueOf((Integer.parseInt(et.getText().toString()) + 1000000)));
+                }
+                break;
+
         }
 
     }

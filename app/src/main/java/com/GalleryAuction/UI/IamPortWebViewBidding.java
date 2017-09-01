@@ -19,8 +19,7 @@ import android.widget.Toast;
 import com.GalleryAuction.Client.IamPortWebViewClient;
 import com.geno.payment.R;
 
-import static com.GalleryAuction.Item.HttpClientItem.BiddingInfoInsert;
-import static com.GalleryAuction.Item.HttpClientItem.BiddingWinArtistAgree;
+
 
 public class IamPortWebViewBidding extends Activity {
     private WebView mainWebView;
@@ -36,13 +35,13 @@ public class IamPortWebViewBidding extends Activity {
         setContentView(R.layout.gallery_iamport_webview);
 
         intent = getIntent();
-        title = intent.getStringExtra("title");
+        bidkey = intent.getStringExtra("bidkey");
         image = intent.getStringExtra("image");
         auckey = intent.getStringExtra("auckey");
         artistname = intent.getStringExtra("artistname");
-        bidprice = intent.getStringExtra("bidprice");
         userID = intent.getStringExtra("userID");
-        bidkey = intent.getStringExtra("bidkey");
+        title = intent.getStringExtra("title");
+        bidprice = intent.getStringExtra("bidprice");
         biddername = intent.getStringExtra("biddername");
         bidderhp = intent.getStringExtra("bidderhp");
 
@@ -54,7 +53,7 @@ public class IamPortWebViewBidding extends Activity {
         mainWebView.setWebViewClient(new IamPortWebViewClient(this));
         WebSettings settings = mainWebView.getSettings();
         settings.setJavaScriptEnabled(true);
-        mainWebView.loadUrl("http://221.156.54.210:8989/NFCTEST/iamport.jsp?name=" +biddername + "&art_name=" + title+ "&hp_num=" + bidderhp+ "&price=" + bidprice);
+        mainWebView.loadUrl("http://183.105.72.65:28989/NFCTEST/iamport.jsp?name=" +biddername + "&art_name=" + title+ "&hp_num=" + bidderhp+ "&price=" + bidprice);
 
         mainWebView.setWebChromeClient(new WebChromeClient() {
             @Override

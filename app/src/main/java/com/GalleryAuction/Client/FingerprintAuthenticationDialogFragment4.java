@@ -34,7 +34,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.GalleryAuction.UI.ArtistAuctionUserWinningBidUi;
 import com.GalleryAuction.UI.BidderMainActivity;
 import com.geno.payment.R;
 
@@ -185,7 +184,7 @@ public class FingerprintAuthenticationDialogFragment4 extends DialogFragment
 
             if (mUseFingerprintFutureCheckBox.isChecked()) {
                 // Re-create the key so that fingerprints including new ones are validated.
-                mActivity.createKey(com.GalleryAuction.UI.ArtistAuctionUserWinningBidUi.DEFAULT_KEY_NAME, true);
+                mActivity.createKey(com.GalleryAuction.UI.BidderMainActivity.DEFAULT_KEY_NAME, true);
                 mStage = Stage.FINGERPRINT;
             }
         }

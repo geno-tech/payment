@@ -144,6 +144,10 @@
         "source": "G:\\AndroidStudio\\payment_galleryaction_2\\app\\src\\main\\res\\drawable-xxhdpi\\textinput2.png"
     },
     {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_search_black_24dp.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_search_black_24dp.png"
+    },
+    {
         "merged": "G:\\AndroidStudio\\payment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tab_select_bg.png",
         "source": "G:\\AndroidStudio\\payment\\app\\src\\main\\res\\drawable-xxhdpi\\tab_select_bg.png"
     },
@@ -154,6 +158,10 @@
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\registerbutton.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xxhdpi\\registerbutton.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_fingerprint_success.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_fingerprint_success.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
@@ -186,6 +194,10 @@
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\rigsterbutton.png",
         "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\src\\main\\res\\drawable-xxhdpi\\rigsterbutton.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_fingerprint_error.png",
+        "source": "G:\\AndroidStudio\\payment_galleryaction_3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_fingerprint_error.png"
     },
     {
         "merged": "G:\\AndroidStudio\\payment_galleryaction\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\registerbutton.png",

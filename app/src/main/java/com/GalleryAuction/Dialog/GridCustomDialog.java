@@ -34,7 +34,7 @@ public class GridCustomDialog extends Activity {
     private GridView gridView;
     GridAdapter adapter;
     private String artistID, image, title, artkey, auckey;
-    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
+    String imgUrl = "http://183.105.72.65:28989/NFCTEST/art_images/";
 
     private View.OnClickListener mLeftClickListener;
     private View.OnClickListener mRightClickListener;

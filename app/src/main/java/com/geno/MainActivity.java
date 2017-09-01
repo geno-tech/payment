@@ -13,9 +13,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import com.GalleryAuction.UI.ArtistActivity;
 import com.GalleryAuction.UI.ArtistMainActivity;
-import com.GalleryAuction.UI.BidderActivity;
 import com.GalleryAuction.UI.BidderMainActivity;
 import com.ajantech.nfc_network.ShareData;
 import com.ajantech.nfcpaymentsystem.ClearEditText;
@@ -99,7 +97,17 @@ public class MainActivity extends Activity { //액티비티 정의
 					startActivity(intent2);
 				}
 				break;
+			case R.id.Button6 :
+				AlertDialog.Builder alert2 = new AlertDialog.Builder(MainActivity.this);
+				alert2.setMessage("사업자명 : 제노테크(주) \n 대표 : 차병래 \n  주소 : 61005 광주 광역시 북구 첨단과기로 123 광주과학기술원 창업기술사업화센터 B동 306호 \n 전화 : 070-8269-0591 \n 팩스 : 070-8269-0591 \n 이메일 : genotech2012@daum.net \n 사업자등록번호 : 409-86-29358").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
 
+
+					}
+				});
+				alert2.setCancelable(false);
+				alert2.show();
 		}
 	}
 

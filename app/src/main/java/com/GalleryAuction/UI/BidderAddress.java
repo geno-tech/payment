@@ -8,6 +8,7 @@ import android.graphics.Color;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
@@ -32,13 +33,13 @@ import java.text.DecimalFormatSymbols;
 import static com.GalleryAuction.Item.HttpClientItem.BidBuy;
 import static com.GalleryAuction.Item.HttpClientItem.BiddingWinArtistAgree;
 
-public class BidderAddress extends Activity {
+public class BidderAddress extends AppCompatActivity {
     private static final int SEARCH_ADDRESS_ACTIVITY = 10000;
     Button payment_btn, OK_btn, Exit_btn;
     String title,image,auckey,aucstatus,artistname,bidprice,userID,bidkey, biddername, bidderhp;
     TextView title_name_txt, price_txt;
     ImageView imView;
-    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
+    String imgUrl = "http://183.105.72.65:28989/NFCTEST/art_images/";
     Bitmap bmImg;
     back task;
     private EditText et_address, et_address_detail;
@@ -46,6 +47,8 @@ public class BidderAddress extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gallery_bidderaddress);
+        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
+
         OK_btn = (Button)findViewById(R.id.bidderaddress_Okbtn);
         Exit_btn = (Button)findViewById(R.id.bidderaddress_Exitbtn);
         payment_btn = (Button)findViewById(R.id.bidderaddress_winningbid_payment_btn);

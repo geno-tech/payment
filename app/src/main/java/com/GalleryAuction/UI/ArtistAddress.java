@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -35,13 +36,14 @@ public class ArtistAddress extends AppCompatActivity {
     Bitmap bmImg;
     Button btn;
     back task;
-    String imgUrl = "http://221.156.54.210:8989/NFCTEST/art_images/";
+    String imgUrl = "http://183.105.72.65:28989/NFCTEST/art_images/";
 
     ImageView imView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gallery_artist_address);
+        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
         btn = (Button)findViewById(R.id.artist_address_exitbtn);
         imView = (ImageView)findViewById(R.id.artist_address_img);
         tv_id = (TextView)findViewById(R.id.artist_address_id);

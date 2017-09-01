@@ -16,7 +16,7 @@
             android:id="@+id/Button1"
             android:background="@drawable/mainbutton_1"
             android:onClick="mOnClick"
-            android:layout_marginTop="180dp"
+            android:layout_marginTop="230dp"
             android:layout_height="40dp"
             android:text="전자 결제"
             android:textColor="#FFFFFF"/>
@@ -60,7 +60,14 @@
             android:onClick="mOnClick"
             android:text="갤러리 옥션"
             android:textColor="#FFFFFF" />
-
+        <Button
+            android:id="@+id/Button6"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="#00ff0000"
+            android:onClick="mOnClick"
+            />
     </LinearLayout>
 
 </LinearLayout>
